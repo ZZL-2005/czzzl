@@ -7,6 +7,8 @@ from .arena_client import ArenaClient
 from .plan_agent import PlanAgent
 from .expert_agent import ExpertAgent
 from .feedback_loop import FeedbackLoop
+from .knowledge_retrieval import KnowledgeRetrieval
+from .paper_cache import PaperCache
 from .logger import TaskLogger, SummaryLogger
 from .exceptions import TokenBudgetExceeded, TaskProcessingError
 
@@ -16,7 +18,7 @@ logger = logging.getLogger(__name__)
 class TaskWorker:
     """单任务处理进程：完整的题目处理流水线"""
 
-    def __init__(self, config_loader: ConfigLoader):
+    def __init__(self, config_loader: ConfigLoader, paper_cache: PaperCache | None = None):
         self.config = config_loader
         self.arena = ArenaClient()
         self.plan_agent = PlanAgent(config_loader)
@@ -24,6 +26,10 @@ class TaskWorker:
         self.summary_logger = SummaryLogger(
             config_loader.settings.get("logging", {}).get("log_dir", "logs")
         )
+        # 知识检索（共享 paper_cache 实例）
+        log_dir = config_loader.settings.get("logging", {}).get("log_dir", "logs")
+        self.paper_cache = paper_cache or PaperCache(f"{log_dir}/paper_cache")
+        self.knowledge_retrieval = KnowledgeRetrieval(config_loader, self.paper_cache)
 
     def process_task(self, task_id: str) -> dict:
         """
@@ -69,10 +75,25 @@ class TaskWorker:
             )
             logger.info(f"[Task {task_id[:8]}] Category: {category}")
 
-            # Step 3: Expert Agent 生成答案
+            # Step 3: 知识检索 — 从学术数据库获取相关文献
+            logger.info(f"[Task {task_id[:8]}] Running knowledge retrieval...")
+            retrieval_result = self.knowledge_retrieval.retrieve(
+                title, content, category, task_id=task_id
+            )
+            reference_context = retrieval_result.context_text
+            if reference_context:
+                logger.info(
+                    f"[Task {task_id[:8]}] Retrieved {len(retrieval_result.papers_used)} papers "
+                    f"(cache_hits={retrieval_result.cache_hits}, tokens={retrieval_result.tokens_used})"
+                )
+                task_logger.log_retrieval(retrieval_result)
+            else:
+                logger.info(f"[Task {task_id[:8]}] No relevant papers found")
+
+            # Step 4: Expert Agent 生成答案（注入检索上下文）
             logger.info(f"[Task {task_id[:8]}] Running Expert Agent ({category})...")
             expert = ExpertAgent(category, self.config)
-            answer, expert_response = expert.generate_answer(title, content)
+            answer, expert_response = expert.generate_answer(title, content, reference_context)
 
             task_logger.log_expert_agent(
                 round_num=1,
@@ -111,6 +132,7 @@ class TaskWorker:
                 "score": feedback_result.get("score"),
                 "feedback_text": feedback_result.get("feedback_text", ""),
                 "tokens_used": task_logger.data["token_summary"]["grand_total_tokens"],
+                "papers_used": len(retrieval_result.papers_used),
             }
 
         except TokenBudgetExceeded as e:

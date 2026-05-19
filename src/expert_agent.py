@@ -73,12 +73,12 @@ class ExpertAgent:
             full_prompt += f"\n\n## 注意事项\n{self.guidelines}"
         self.messages = [{"role": "system", "content": full_prompt}]
 
-    def generate_answer(self, title: str, content: str) -> tuple[str, LLMResponse]:
+    def generate_answer(self, title: str, content: str, reference_context: str = "") -> tuple[str, LLMResponse]:
         """
         生成初始答案
         返回 (answer_text, llm_response)
         """
-        user_content = self._build_initial_prompt(title, content)
+        user_content = self._build_initial_prompt(title, content, reference_context)
         self.messages.append({"role": "user", "content": user_content})
 
         response = self.client.chat(self.messages)
@@ -131,8 +131,14 @@ class ExpertAgent:
 
         return refined_prompt, response
 
-    def _build_initial_prompt(self, title: str, content: str) -> str:
+    def _build_initial_prompt(self, title: str, content: str, reference_context: str = "") -> str:
         parts = [f"## 题目\n{title}\n\n{content}"]
+        if reference_context:
+            parts.append(
+                f"\n\n## 参考文献（来自学术检索）\n"
+                f"以下是与本题相关的学术论文信息，请在回答中适当参考和引用：\n\n"
+                f"{reference_context}"
+            )
         parts.append(
             "\n\n## 要求\n"
             "请根据题目内容，给出专业、完整、准确的回答。"

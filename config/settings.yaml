@@ -13,6 +13,19 @@ limits:
   max_token_per_task: 50000
   max_feedback_rounds: 2
 
+retrieval:
+  enabled: true
+  max_results_per_source: 10
+  max_papers_to_use: 5
+  enable_deep_read: true
+  max_context_chars: 4000
+  timeout_seconds: 30
+
+reader:
+  chunk_size_chars: 3000
+  max_chunks: 8
+  context_window_chunks: 2
+
 logging:
   level: "DEBUG"
   log_dir: "logs"

@@ -30,6 +30,7 @@ class TaskLogger:
             "completed_at": None,
             "status": "in_progress",
             "plan_agent": None,
+            "retrieval": None,
             "expert_agent": {"rounds": []},
             "submission": None,
             "scoring": None,
@@ -37,6 +38,7 @@ class TaskLogger:
             "refine_prompt": None,
             "token_summary": {
                 "plan_agent_total": 0,
+                "retrieval_total": 0,
                 "expert_agent_total": 0,
                 "grand_total_tokens": 0,
             },
@@ -87,6 +89,23 @@ class TaskLogger:
         self._console_logger.info(
             f"[Plan Agent] category={output_json.get('category', '?')} "
             f"tokens={total} latency={latency_ms}ms"
+        )
+
+    def log_retrieval(self, retrieval_result):
+        """记录知识检索结果"""
+        self.data["retrieval"] = {
+            "retrieved_at": datetime.now(timezone.utc).isoformat(),
+            "papers_used": retrieval_result.papers_used,
+            "total_papers_found": retrieval_result.total_papers_found,
+            "cache_hits": retrieval_result.cache_hits,
+            "tokens_used": retrieval_result.tokens_used,
+            "context_length": len(retrieval_result.context_text),
+        }
+        self.data["token_summary"]["retrieval_total"] = retrieval_result.tokens_used
+        self._update_grand_total()
+        self._console_logger.info(
+            f"[Retrieval] papers={len(retrieval_result.papers_used)} "
+            f"cache_hits={retrieval_result.cache_hits} tokens={retrieval_result.tokens_used}"
         )
 
     def log_expert_agent(
@@ -224,6 +243,7 @@ class TaskLogger:
     def _update_grand_total(self):
         self.data["token_summary"]["grand_total_tokens"] = (
             self.data["token_summary"]["plan_agent_total"]
+            + self.data["token_summary"].get("retrieval_total", 0)
             + self.data["token_summary"]["expert_agent_total"]
         )
 

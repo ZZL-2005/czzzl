@@ -5,6 +5,9 @@ from .plan_agent import PlanAgent
 from .expert_agent import ExpertAgent
 from .task_worker import TaskWorker
 from .feedback_loop import FeedbackLoop
+from .retriever import AcademicRetriever, Paper
+from .paper_cache import PaperCache
+from .knowledge_retrieval import KnowledgeRetrieval
 from .logger import TaskLogger, SummaryLogger
 from .exceptions import (
     RetryableError,
@@ -24,6 +27,10 @@ __all__ = [
     "ExpertAgent",
     "TaskWorker",
     "FeedbackLoop",
+    "AcademicRetriever",
+    "Paper",
+    "PaperCache",
+    "KnowledgeRetrieval",
     "TaskLogger",
     "SummaryLogger",
     "RetryableError",

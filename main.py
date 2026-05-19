@@ -23,6 +23,7 @@ from src.config_loader import ConfigLoader
 from src.task_worker import TaskWorker
 from src.arena_client import ArenaClient
 from src.expert_agent import ExpertAgent
+from src.paper_cache import PaperCache
 
 
 def setup_logging(level: str = "INFO", log_dir: str = "logs"):
@@ -47,6 +48,7 @@ def cmd_process_task(task_id: str, config: ConfigLoader):
     print(f"Status: {result.get('status')}")
     print(f"Score: {result.get('score', 'N/A')}")
     print(f"Tokens: {result.get('tokens_used', 0)}")
+    print(f"Papers: {result.get('papers_used', 0)}")
     print(f"{'='*60}")
     return result
 
@@ -101,6 +103,9 @@ def cmd_process_all(config: ConfigLoader, concurrency: int = 10):
     tasks = arena.get_tasks()
     log_dir = config.settings.get("logging", {}).get("log_dir", "logs")
 
+    # 全局共享的论文缓存
+    paper_cache = PaperCache(f"{log_dir}/paper_cache")
+
     # 检测中断任务（已提交答案但未完成反馈）
     interrupted = _find_interrupted_tasks(arena, tasks, log_dir)
 
@@ -137,7 +142,7 @@ def cmd_process_all(config: ConfigLoader, concurrency: int = 10):
     refine_count = 0
 
     def process_one(mode: str, task: dict) -> dict:
-        worker = TaskWorker(config)
+        worker = TaskWorker(config, paper_cache=paper_cache)
         if mode == "resume":
             return worker.resume_task(task["task_id"])
         return worker.process_task(task["task_id"])
