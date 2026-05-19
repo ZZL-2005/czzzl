@@ -1,5 +1,46 @@
 # 版本记录
 
+## v3 — `1eb8c86` — Plan Agent DAG分解 + 跨Expert并行执行 + 策略自进化
+
+**核心升级：**
+- Plan Agent 从简单分类器升级为**任务分解模型**，输出 DAG 结构（子问题 + 依赖关系 + synthesis 指令）
+- DAG Executor 引擎：拓扑排序执行，无依赖节点并行，有依赖串行（前驱结果注入 context）
+- 跨 Expert 分配：不同子问题可分配给不同领域专家（如 law + finance 协作）
+- 最终 synthesis 步骤：由 LLM 融合所有子问题结果为统一答案
+- 简单题退化：Plan Agent 判断不需分解时输出单节点 DAG，等价于 v2 流程
+
+**策略自进化系统：**
+- Strategy Learner：每题完成后从 feedback 提取分解教训（LLM 提炼，≤100字）
+- 策略索引 `strategies/index.json`：按 decomposition_mode 聚合，记录平均分+教训
+- Plan Agent 启动时加载索引，注入 system prompt，影响后续分解决策
+- 闭环：执行 → 反馈 → 学习 → 下轮改进分解策略
+
+**其他改动：**
+- 全量并发模式（`--all`）：所有任务一次性提交并行
+- 测试模式（`--test N`）：只处理 N 个任务，快速验证流水线
+- `decomposition_report.json`：记录每题 DAG 图、节点 Expert 分配、得分、category
+- Expert Agent 加载 `logv2/refined/` 已优化的 system prompt（`refined_prompt_dir` 配置）
+- `resume_task` 也返回 plan_result，支持分解信息记录
+
+**分解模式示例：**
+- `single_direct`：单一问题直接回答
+- `multi_step_reasoning`：多步推理，后续依赖前置结论
+- `cross_domain_synthesis`：跨领域协作（如 `A(law) ; B(law) ; C(law) ; A,B,C->D(fin)`）
+- `data_extraction_then_analysis`：先提取数据，再分析推理
+- `multi_perspective_comparison`：多视角对比分析
+
+**运行命令：**
+```bash
+python main.py --all                # 全量并发
+python main.py --test 2             # 测试模式（2题）
+```
+
+**测试结果（2题样本）：**
+- 任务 #262（cross_domain_synthesis）：得分 50
+- 任务 #5001（multi_step_reasoning）：得分 20
+
+---
+
 ## v2 — `238e1bb` — 并发执行 + token优化 + batch refine
 
 **改动要点：**
