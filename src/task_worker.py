@@ -6,6 +6,7 @@ from .llm_client import LLMClient
 from .arena_client import ArenaClient
 from .plan_agent import PlanAgent
 from .expert_agent import ExpertAgent
+from .dag_executor import DAGExecutor
 from .feedback_loop import FeedbackLoop
 from .logger import TaskLogger, SummaryLogger
 from .exceptions import TokenBudgetExceeded, TaskProcessingError
@@ -52,10 +53,10 @@ class TaskWorker:
             task_logger.set_reward_pool(reward_pool)
             logger.info(f"[Task {task_id[:8]}] Title: {title}, Reward: {reward_pool}")
 
-            # Step 2: Plan Agent 分类
+            # Step 2: Plan Agent 分解任务
             logger.info(f"[Task {task_id[:8]}] Running Plan Agent...")
             plan_result, plan_response = self.plan_agent.analyze(title, content)
-            category = plan_result["category"]
+            category = self.plan_agent.get_category(plan_result)
 
             task_logger.set_category(category)
             task_logger.log_plan_agent(
@@ -67,34 +68,44 @@ class TaskWorker:
                 reasoning_tokens=plan_response.reasoning_tokens,
                 latency_ms=plan_response.latency_ms,
             )
-            logger.info(f"[Task {task_id[:8]}] Category: {category}")
+            mode = plan_result.get("decomposition_mode", "single_direct")
+            sub_count = len(plan_result.get("sub_tasks", []))
+            logger.info(f"[Task {task_id[:8]}] Plan: mode={mode}, sub_tasks={sub_count}, category={category}")
 
-            # Step 3: Expert Agent 生成答案
-            logger.info(f"[Task {task_id[:8]}] Running Expert Agent ({category})...")
-            expert = ExpertAgent(category, self.config)
-            answer, expert_response = expert.generate_answer(title, content)
+            # Step 3: DAG Executor 执行子任务
+            logger.info(f"[Task {task_id[:8]}] Executing DAG ({sub_count} sub-tasks)...")
+            dag = DAGExecutor(self.config, title, content)
+            answer, token_records = dag.execute(plan_result)
 
-            task_logger.log_expert_agent(
-                round_num=1,
-                input_tokens=expert_response.input_tokens,
-                output_tokens=expert_response.output_tokens,
-                reasoning_tokens=expert_response.reasoning_tokens,
-                latency_ms=expert_response.latency_ms,
-                answer_preview=answer,
-                reasoning_text=expert_response.reasoning,
-            )
+            # 记录 expert agent token 使用
+            for i, record in enumerate(token_records):
+                task_logger.log_expert_agent(
+                    round_num=i + 1,
+                    input_tokens=record["input_tokens"],
+                    output_tokens=record["output_tokens"],
+                    reasoning_tokens=record["reasoning_tokens"],
+                    latency_ms=record["latency_ms"],
+                    answer_preview=dag.results.get(record["sub_task_id"], "")[:200],
+                    reasoning_text="",
+                )
 
             # Step 4: 提交答案
             logger.info(f"[Task {task_id[:8]}] Submitting answer (length={len(answer)})...")
             submit_result = self.arena.submit_answer(task_id, answer)
             task_logger.log_submission(len(answer))
 
-            # Step 5: 反馈循环
+            # Step 5: 反馈循环（用主 category 的 expert 回复评审）
             logger.info(f"[Task {task_id[:8]}] Starting feedback loop...")
+            reply_expert = ExpertAgent(category, self.config)
+            # 重建对话上下文：user question + our answer
+            user_content = reply_expert._build_initial_prompt(title, content)
+            reply_expert.messages.append({"role": "user", "content": user_content})
+            reply_expert.messages.append({"role": "assistant", "content": answer})
+
             feedback_loop = FeedbackLoop(
                 config_loader=self.config,
                 arena_client=self.arena,
-                expert_agent=expert,
+                expert_agent=reply_expert,
                 task_logger=task_logger,
             )
             feedback_result = feedback_loop.run(task_id, post_id, category)
@@ -111,6 +122,8 @@ class TaskWorker:
                 "score": feedback_result.get("score"),
                 "feedback_text": feedback_result.get("feedback_text", ""),
                 "tokens_used": task_logger.data["token_summary"]["grand_total_tokens"],
+                "decomposition_mode": plan_result.get("decomposition_mode", "single_direct"),
+                "plan_result": plan_result,
             }
 
         except TokenBudgetExceeded as e:
@@ -153,9 +166,9 @@ class TaskWorker:
             task_logger.set_task_detail(task_detail)
             task_logger.set_reward_pool(reward_pool)
 
-            # Plan Agent 分类
+            # Plan Agent 分解
             plan_result, plan_response = self.plan_agent.analyze(title, content)
-            category = plan_result["category"]
+            category = self.plan_agent.get_category(plan_result)
             task_logger.set_category(category)
             task_logger.log_plan_agent(
                 input_text=f"{title}\n{content[:500]}",
@@ -208,6 +221,8 @@ class TaskWorker:
                 "score": feedback_result.get("score"),
                 "feedback_text": feedback_result.get("feedback_text", ""),
                 "tokens_used": task_logger.data["token_summary"]["grand_total_tokens"],
+                "decomposition_mode": plan_result.get("decomposition_mode", "single_direct"),
+                "plan_result": plan_result,
             }
 
         except Exception as e:

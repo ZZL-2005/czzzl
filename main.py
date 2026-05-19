@@ -23,6 +23,7 @@ from src.config_loader import ConfigLoader
 from src.task_worker import TaskWorker
 from src.arena_client import ArenaClient
 from src.expert_agent import ExpertAgent
+from src.strategy_learner import StrategyLearner
 
 
 def setup_logging(level: str = "INFO", log_dir: str = "logs"):
@@ -74,7 +75,28 @@ def _do_batch_refine(config: ConfigLoader, results: list[dict], label: str = "")
                 print(f"  {category}: refine failed - {e}")
 
 
-def _find_interrupted_tasks(arena: ArenaClient, tasks: list[dict], log_dir: str) -> list[dict]:
+def _do_strategy_learning(config: ConfigLoader, results: list[dict]):
+    """从已完成任务的结果中学习分解策略"""
+    learnable = [r for r in results if r.get("status") == "completed" and r.get("feedback_text") and r.get("plan_result")]
+    if not learnable:
+        return
+
+    learner = StrategyLearner(config)
+    learned = 0
+    for r in learnable:
+        try:
+            strategy = learner.learn_from_result(r)
+            if strategy:
+                learned += 1
+        except Exception as e:
+            print(f"  Strategy learning failed for {r['task_id'][:8]}: {e}")
+
+    if learned:
+        learner.update_index()
+        print(f"[Strategy] Learned {learned} strategies, index updated.")
+
+
+def _find_interrupted_tasks(arena: ArenaClient, tasks: list[dict], log_dir: str, limit: int | None = None) -> list[dict]:
     """找出已提交答案但未完成反馈流程的 task"""
     completed_ids = set()
     for f in glob.glob(f"{log_dir}/task_*.json"):
@@ -91,50 +113,66 @@ def _find_interrupted_tasks(arena: ArenaClient, tasks: list[dict], log_dir: str)
         my_answer = arena.get_my_answer(tid)
         if my_answer and my_answer.get("answer"):
             interrupted.append(task)
+            if limit and len(interrupted) >= limit:
+                break
 
     return interrupted
 
 
-def cmd_process_all(config: ConfigLoader, concurrency: int = 10):
-    """并发处理所有未答题目 + 恢复中断任务，每 concurrency 个完成做一次 refine"""
+def cmd_process_all(config: ConfigLoader, concurrency: int | None = None, limit: int | None = None):
+    """并发处理所有未答题目 + 恢复中断任务"""
     arena = ArenaClient()
     tasks = arena.get_tasks()
     log_dir = config.settings.get("logging", {}).get("log_dir", "logs")
 
     # 检测中断任务（已提交答案但未完成反馈）
-    interrupted = _find_interrupted_tasks(arena, tasks, log_dir)
+    interrupted = _find_interrupted_tasks(arena, tasks, log_dir, limit=limit)
 
-    # 找未答题目（排除已完成和已中断的）
-    completed_ids = set()
-    for f in glob.glob(f"{log_dir}/task_*.json"):
-        with open(f) as fh:
-            d = json.load(fh)
-            if d.get("status") == "completed":
-                completed_ids.add(d["task_id"])
-
-    answered_ids = completed_ids | {t["task_id"] for t in interrupted}
-    for task in tasks:
-        tid = task["task_id"]
-        if tid not in answered_ids:
-            my_answer = arena.get_my_answer(tid)
-            if my_answer and my_answer.get("answer"):
-                answered_ids.add(tid)
-
-    unanswered = [t for t in tasks if t["task_id"] not in answered_ids]
-    unanswered.sort(key=lambda t: t.get("reward_pool", 0), reverse=True)
-
-    print(f"Total: {len(tasks)}, Completed: {len(completed_ids)}, Interrupted: {len(interrupted)}, To process: {len(unanswered)}, Concurrency: {concurrency}")
-
-    # 构建工作队列：先恢复中断任务，再处理新任务
+    # 如果 limit 模式且中断任务已经够数，跳过遍历未答题目
     work_items = []
     for t in interrupted:
         work_items.append(("resume", t))
-    for t in unanswered:
-        work_items.append(("new", t))
+
+    remaining = (limit - len(work_items)) if limit else None
+
+    if remaining is None or remaining > 0:
+        # 找未答题目
+        completed_ids = set()
+        for f in glob.glob(f"{log_dir}/task_*.json"):
+            with open(f) as fh:
+                d = json.load(fh)
+                if d.get("status") == "completed":
+                    completed_ids.add(d["task_id"])
+
+        answered_ids = completed_ids | {t["task_id"] for t in interrupted}
+        unanswered = []
+        for task in tasks:
+            tid = task["task_id"]
+            if tid in answered_ids:
+                continue
+            my_answer = arena.get_my_answer(tid)
+            if my_answer and my_answer.get("answer"):
+                answered_ids.add(tid)
+                continue
+            unanswered.append(task)
+            if remaining and len(unanswered) >= remaining:
+                break
+
+        unanswered.sort(key=lambda t: t.get("reward_pool", 0), reverse=True)
+        for t in unanswered:
+            work_items.append(("new", t))
+    else:
+        unanswered = []
+
+    total = len(work_items)
+    workers = concurrency or total
+    print(f"Total: {len(tasks)}, Interrupted: {len(interrupted)}, To process: {total}, Concurrency: {workers}")
+
+    if not work_items:
+        print("Nothing to process.")
+        return
 
     results = []
-    batch_results = []  # 当前 batch 的 results（用于 refine）
-    refine_count = 0
 
     def process_one(mode: str, task: dict) -> dict:
         worker = TaskWorker(config)
@@ -142,9 +180,9 @@ def cmd_process_all(config: ConfigLoader, concurrency: int = 10):
             return worker.resume_task(task["task_id"])
         return worker.process_task(task["task_id"])
 
-    with ThreadPoolExecutor(max_workers=concurrency) as executor:
+    with ThreadPoolExecutor(max_workers=workers) as executor:
         futures = {executor.submit(process_one, mode, t): (mode, t) for mode, t in work_items}
-        with tqdm(total=len(work_items), desc="Tasks", unit="task") as pbar:
+        with tqdm(total=total, desc="Tasks", unit="task") as pbar:
             for future in as_completed(futures):
                 mode, task = futures[future]
                 try:
@@ -152,22 +190,17 @@ def cmd_process_all(config: ConfigLoader, concurrency: int = 10):
                 except Exception as e:
                     result = {"task_id": task["task_id"], "status": "failed", "error": str(e)}
                 results.append(result)
-                batch_results.append(result)
                 score = result.get("score", "N/A")
                 tag = "[R]" if mode == "resume" else ""
                 pbar.set_postfix_str(f"{tag}{task['title'][:28]} → score={score}")
                 pbar.update(1)
 
-                # 每 concurrency 个完成做一次 batch refine
-                if len(batch_results) >= concurrency:
-                    refine_count += 1
-                    _do_batch_refine(config, batch_results, f" #{refine_count}")
-                    batch_results = []
+    # 全部完成后统一做 refine + strategy learning
+    _do_batch_refine(config, results, " (final)")
+    _do_strategy_learning(config, results)
 
-    # 最后剩余的也做一次 refine
-    if batch_results:
-        refine_count += 1
-        _do_batch_refine(config, batch_results, f" #{refine_count} (final)")
+    # 记录分解详情
+    _save_decomposition_report(config, results)
 
     print(f"\n{'='*60}")
     print(f"Processed {len(results)} tasks")
@@ -176,7 +209,57 @@ def cmd_process_all(config: ConfigLoader, concurrency: int = 10):
     print(f"  Failed: {len(results) - succeeded}")
     total_score = sum(r.get("score", 0) or 0 for r in results)
     print(f"  Total score: {total_score}")
-    print(f"  Refine rounds: {refine_count}")
+
+
+def _save_decomposition_report(config: ConfigLoader, results: list[dict]):
+    """保存每个任务的分解详情报告"""
+    log_dir = config.settings.get("logging", {}).get("log_dir", "logs")
+    report_path = Path(log_dir) / "decomposition_report.json"
+
+    report = []
+    for r in results:
+        if r.get("status") != "completed":
+            continue
+        plan_result = r.get("plan_result", {})
+        sub_tasks = plan_result.get("sub_tasks", [])
+        entry = {
+            "task_id": r["task_id"],
+            "title": r.get("title", ""),
+            "category": r.get("category", ""),
+            "score": r.get("score"),
+            "decomposition_mode": r.get("decomposition_mode", ""),
+            "sub_tasks": [
+                {
+                    "id": t["id"],
+                    "question": t["question"][:80],
+                    "expert": t["expert"],
+                    "depends_on": t.get("depends_on", []),
+                }
+                for t in sub_tasks
+            ],
+            "dag_graph": _describe_dag_short(sub_tasks),
+            "final_synthesis": plan_result.get("final_synthesis"),
+        }
+        report.append(entry)
+
+    Path(log_dir).mkdir(parents=True, exist_ok=True)
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[Report] Decomposition report saved: {report_path} ({len(report)} tasks)")
+
+
+def _describe_dag_short(sub_tasks: list[dict]) -> str:
+    """简短描述 DAG 结构"""
+    if not sub_tasks:
+        return "empty"
+    parts = []
+    for t in sub_tasks:
+        deps = t.get("depends_on", [])
+        expert_tag = t["expert"][:3]
+        if deps:
+            parts.append(f"{','.join(deps)}->{t['id']}({expert_tag})")
+        else:
+            parts.append(f"{t['id']}({expert_tag})")
+    return " ; ".join(parts)
 
 
 def cmd_list_tasks(config: ConfigLoader):
@@ -219,6 +302,7 @@ def main():
     parser.add_argument("--output-dir", type=str, default=None, help="统一输出目录（日志、快照、refined prompts 等）")
     parser.add_argument("--log-level", type=str, default=None, help="日志级别覆盖")
     parser.add_argument("--concurrency", type=int, default=10, help="并发数（默认10）")
+    parser.add_argument("--test", type=int, nargs="?", const=2, help="测试模式：只处理N个任务（默认2）")
     args = parser.parse_args()
 
     config = ConfigLoader(args.config_dir)
@@ -234,8 +318,10 @@ def main():
 
     if args.task:
         cmd_process_task(args.task, config)
+    elif args.test is not None:
+        cmd_process_all(config, concurrency=args.test, limit=args.test)
     elif args.all:
-        cmd_process_all(config, concurrency=args.concurrency)
+        cmd_process_all(config)
     elif args.list:
         cmd_list_tasks(config)
     elif args.status:

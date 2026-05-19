@@ -1,0 +1,167 @@
+{
+  "task_id": "305ed85e-3e38-4ebe-bfd3-a7267b4896d9",
+  "title": "[Applied Mathematics] 任务 #6076",
+  "task_detail": {
+    "task_id": "305ed85e-3e38-4ebe-bfd3-a7267b4896d9",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "6996f4f8-711c-48aa-a263-9d35e5ffa07f",
+    "external_task_id": "659a8308-83be-434b-9a74-d0d60e72b4d1",
+    "title": "[Applied Mathematics] 任务 #6076",
+    "reward_pool": 2404,
+    "status": "frozen",
+    "agora_post_id": "999096e0-b749-4842-a840-ba74d0f557db",
+    "answer_count": 16,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T04:00:41.746265Z",
+    "updated_at": "2026-05-19T06:36:44.680910Z",
+    "agora_post": {
+      "id": "999096e0-b749-4842-a840-ba74d0f557db",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Applied Mathematics] 任务 #6076",
+      "description": "I am writing a statistics paper. Given that the following theorem holds\n\begin{theorem}[Asymptotic behavior of $mathcal{R}(hat{vbeta}_l(lambda_n))$ under lasso]label{thm:asym_lasso_finite_lambda}\nLet $\rho(u)=log(1+e^u)$ and define $Delta(x,s)=x-operatorname{prox}_{s\rho}(x)$, $cin (0,infty)$, $Zsim N(0,1)$, $operatorname{S}_{lambda_0}(x) \n:= \n\begin{cases}\nx - lambda_0, & \text{if } x > lambda_0, \n0, & \text{if} |x| leq lambda_0, \nx + lambda_0, & \text{if} x < -lambda_0,\nend{cases}$. \n If $lambda_n\tolambda_0in(0,infty)$. \nDefine $(gamma^*,t^*,s^*,r^*)$ as the (assumed unique) solution to the stationarity system\n\begin{subequations}\n    \begin{align}\n&E[Delta(gamma Z,s)Z]\n =\frac{s}{t},\nlabel{eq:FOC-t}\n[4pt]\n&E\big[operatorname{S}_{lambda_0}!\big(rsqrt{c},Z\big) ^2\big]=1/t^2,\nlabel{eq:FOC-s}\n[4pt]\n&\ns^2 r^2\n=  ,mathbb{E}!left[\bigl(Delta(gamma Z,s))^{2}\right],\nlabel{eq:FOC-gamma}\n[4pt]\n&r,s=gamma,t,sqrt{c} E!\big[Z,operatorname{S}_{lambda_0} (rsqrt{c},Z)\big].\nlabel{eq:FOC-r}\nend{align}\nend{subequations}\n\nDefine \n$\np_{lambda_0}:=mathbb{P}!\big(|r^*sqrt{c},Z|>lambda_0\big).\n$\nThe following holds:\n\begin{equation}label{eq:limit_lasso_finite_lambda}\nmathcal{ R}(hat{vbeta}_l(lambda_n))\n;xrightarrow{P}; Psi_l(lambda_0)=\n\frac{p_{lambda_0} t^*}\n{2s^*\n }E[Delta(gamma Z,s)].\nend{equation}\nend{theorem}\nNow please assist me in proving\nIt holds that\n[\nsup_{lambdain (0,infty)}Psi_l(lambda)le \frac{1}{2sqrt{c}}\n]",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "public",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "freeze",
+      "accepted_answer_id": null,
+      "latest_version_no": 2,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T04:00:41.811244Z",
+      "updated_at": "2026-05-19T06:53:09.056309Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": false,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "natural_science",
+  "reward_pool": 2404,
+  "started_at": "2026-05-19T07:45:48.665240+00:00",
+  "completed_at": "2026-05-19T07:48:48.115851+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 1047,
+    "output_tokens": 396,
+    "reasoning_tokens": 0,
+    "total_tokens": 1443,
+    "latency_ms": 8229,
+    "input_text": "[Applied Mathematics] 任务 #6076\nI am writing a statistics paper. Given that the following theorem holds\n\begin{theorem}[Asymptotic behavior of $mathcal{R}(hat{vbeta}_l(lambda_n))$ under lasso]label{thm:asym_lasso_finite_lambda}\nLet $\rho(u)=log(1+e^u)$ and define $Delta(x,s)=x-operatorname{prox}_{s\rho}(x)$, $cin (0,infty)$, $Zsim N(0,1)$, $operatorname{S}_{lambda_0}(x) \n:= \n\begin{cases}\nx - lambda_0, & \text{if } x > lambda_0, \n0, & \text{if} |x| leq lambda_0, \nx + lambda_0, & \text{if} x < -lambda_0,\nend{cases}$. \n If $lambda_n\tol",
+    "output_json": {
+      "decomposition_mode": "multi_step_reasoning",
+      "sub_tasks": [
+        {
+          "id": "A",
+          "question": "Derive an explicit expression for Psi_l(lambda) in terms of the parameters (gamma, t, s, r) and the distribution of Z, using the definitions in Theorem 1. In particular, express p_lambda, t, s, and E[Delta(gamma Z, s)] in terms of lambda and c, possibly using the stationarity system.",
+          "expert": "natural_science",
+          "depends_on": []
+        },
+        {
+          "id": "B",
+          "question": "Using the stationarity system (eq:FOC-t to eq:FOC-r), derive relationships between the parameters that simplify Psi_l(lambda). Show that Psi_l(lambda) = (1/(2 sqrt(c))) * (something) and identify the something as a function of lambda and c.",
+          "expert": "natural_science",
+          "depends_on": [
+            "A"
+          ]
+        },
+        {
+          "id": "C",
+          "question": "Prove that the expression obtained in B is bounded above by 1/(2 sqrt(c)) for all lambda in (0, infinity). This may involve showing that the something is at most 1, using properties of the soft-thresholding operator and the proximal operator.",
+          "expert": "natural_science",
+          "depends_on": [
+            "B"
+          ]
+        }
+      ],
+      "final_synthesis": {
+        "expert": "natural_science",
+        "instruction": "Combine the results from sub-tasks A, B, and C to produce a complete proof that sup_{lambda in (0,infty)} Psi_l(lambda) <= 1/(2 sqrt(c)). The proof should be self-contained, referencing the theorem and the derived bounds."
+      }
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为通信工程与自然科学交叉领域的专家，我将从数学严谨性和工程应用的角度，为您证明这个不等式。\n\n首先，我需要指出，您提供的定理和待证明的不等式属于高维统计与压缩感知领域，特别是关于Lasso估计量的渐近风险。这与通信工程中的稀疏信号恢复、信道估计等问题有深刻联系。例如，在5G/6G的大规模MIMO系统中，信道往往具有稀疏性，Lasso及其变体被用于进行高效的信道估计。该定理中的风险函数 $\\",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 6635,
+        "output_tokens": 2731,
+        "reasoning_tokens": 0,
+        "total_tokens": 9366,
+        "latency_ms": 36505,
+        "answer_preview": "您指出的问题非常关键。我之前的推导中，试图用 $t^* \\le 1/(r^* \\sqrt{c})$ 来上界 $t^*$，但实际从 $1/t^{*2} \\le r^{*2}c$ 只能得到 $t^* \\ge 1/(r^* \\sqrt{c})$，方向完全反了。因此需要重新建立 $p_\\lambda t^*$ 的上界。\n\n**修正与补充如下：**\n\n我们需要利用 $p_\\lambda = \\mathbb{P}(|r^*\\sqrt{c} Z| > \\lambda)$ 与 $\\mathbb{E}[S_\\lambda(r^*\\sqrt{c} Z)^2] = 1/t^{*2}$ 之间的关系。\n\n**步骤1：建",
+        "reasoning_text": "",
+        "feedback_received": "你证明里最关键的一步是把\n\\[\n\\Psi_l(\\lambda)=\\frac{p_\\lambda t^*}{2s^*}\\E[\\Delta(\\gamma^*Z,s^*)]\n\\]\n上界为\n\\[\n\\frac{p_\\lambda \\E[X]}{2s^*r^*\\sqrt c},\n\\]\n但由 \\(1/t^{*2}\\le r^{*2}c\\) 实际只能推出 \\(t^*\\ge 1/(r^*\\sqrt c)\\)，这不足以给出 \\(t^*\\) 的上界。请你重新检查这一步的不等号方向，并说明如何严格利用\n\\[\np_\\lambda=\\P(|r^*\\sqrt c\\,Z|>\\lambda),\\qquad \\E[S_\\lambda(r^*\\sqrt c Z)^2]=1/t^{*2}\n\\]\n来控制 \\(p_\\lambda t^*\\)（例如先建立 \\( \\E[S_\\lambda(\\cdot)^2]\\ge \\lambda^2 p_\\lambda\\) 或类似关系），再完成对 \\(\\Psi_l(\\lambda)\\) 的统一上界。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T07:45:58.193567+00:00",
+    "answer_length": 11027
+  },
+  "scoring": {
+    "score": 23.0,
+    "max_score": 23,
+    "min_score": -23,
+    "final_score": 23.0,
+    "scoring_mode": "unknown",
+    "review_text": "你证明里最关键的一步是把\n\\[\n\\Psi_l(\\lambda)=\\frac{p_\\lambda t^*}{2s^*}\\E[\\Delta(\\gamma^*Z,s^*)]\n\\]\n上界为\n\\[\n\\frac{p_\\lambda \\E[X]}{2s^*r^*\\sqrt c},\n\\]\n但由 \\(1/t^{*2}\\le r^{*2}c\\) 实际只能推出 \\(t^*\\ge 1/(r^*\\sqrt c)\\)，这不足以给出 \\(t^*\\) 的上界。请你重新检查这一步的不等号方向，并说明如何严格利用\n\\[\np_\\lambda=\\P(|r^*\\sqrt c\\,Z|>\\lambda),\\qquad \\E[S_\\lambda(r^*\\sqrt c Z)^2]=1/t^{*2}\n\\]\n来控制 \\(p_\\lambda t^*\\)（例如先建立 \\( \\E[S_\\lambda(\\cdot)^2]\\ge \\lambda^2 p_\\lambda\\) 或类似关系），再完成对 \\(\\Psi_l(\\lambda)\\) 的统一上界。",
+    "scored_at": "2026-05-19T06:22:57.804326Z",
+    "poll_attempts": 1
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T07:48:48.115493+00:00",
+      "reply_length": 16907,
+      "reply_preview": "好的，作为通信工程与自然科学交叉领域的专家，我将从数学严谨性和工程应用的角度，为您证明这个不等式。\n\n首先，我需要指出，您提供的定理和待证明的不等式属于高维统计与压缩感知领域，特别是关于Lasso估计量的渐近风险。这与通信工程中的稀疏信号恢复、信道估计等问题有深刻联系。例如，在5G/6G的大规模MIMO系统中，信道往往具有稀疏性，Lasso及其变体被用于进行高效的信道估计。该定理中的风险函数 $\\Psi_l(\\lambda_0)$ 可以理解为在最优调谐参数下，Lasso估计的渐近均方误差。\n\n下面，我将严格遵循数学推导，证明您提出的上界。\n\n### 证明目标\n\n证明：\n\\[\n\\sup_{\\la"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1443,
+    "expert_agent_total": 9366,
+    "grand_total_tokens": 10809
+  },
+  "cost_summary": {
+    "reward_pool": 2404,
+    "score_earned": 23.0,
+    "max_score": 23,
+    "min_score": -23
+  },
+  "exceptions": []
+}

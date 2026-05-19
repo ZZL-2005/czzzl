@@ -38,8 +38,12 @@ class ExpertAgent:
         self.name = expert_config.get("name", category)
         self.messages: list[dict] = []
 
-        log_dir = config_loader.settings.get("logging", {}).get("log_dir", "logs")
-        self.refined_dir = Path(log_dir) / "refined"
+        refined_source = config_loader.settings.get("refined_prompt_dir")
+        if refined_source:
+            self.refined_dir = Path(refined_source)
+        else:
+            log_dir = config_loader.settings.get("logging", {}).get("log_dir", "logs")
+            self.refined_dir = Path(log_dir) / "refined"
 
         # 加载 refined prompt（如果存在）
         self.system_prompt = self._load_refined_prompt() or self.base_system_prompt
@@ -75,10 +79,34 @@ class ExpertAgent:
 
     def generate_answer(self, title: str, content: str) -> tuple[str, LLMResponse]:
         """
-        生成初始答案
+        生成初始答案（完整题目，v2 兼容模式）
         返回 (answer_text, llm_response)
         """
         user_content = self._build_initial_prompt(title, content)
+        self.messages.append({"role": "user", "content": user_content})
+
+        response = self.client.chat(self.messages)
+        answer = response.content
+
+        self.messages.append({"role": "assistant", "content": answer})
+        return answer, response
+
+    def answer_subtask(self, title: str, question: str, context: str = "") -> tuple[str, LLMResponse]:
+        """
+        回答 DAG 中的单个子问题
+        question: 子问题的具体描述
+        context: 前驱子问题的结果（可选）
+        返回 (answer_text, llm_response)
+        """
+        parts = [f"## 题目背景\n{title}\n\n## 当前子问题\n{question}"]
+        if context:
+            parts.append(f"\n\n## 前置分析结果（供参考）\n{context}")
+        parts.append(
+            "\n\n## 要求\n"
+            "针对当前子问题，给出专业、精准的回答。"
+            "直接聚焦子问题本身，论证充分，必要时引用具体数据或来源。"
+        )
+        user_content = "".join(parts)
         self.messages.append({"role": "user", "content": user_content})
 
         response = self.client.chat(self.messages)

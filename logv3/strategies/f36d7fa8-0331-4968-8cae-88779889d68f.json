@@ -1,0 +1,13 @@
+{
+  "task_id": "f36d7fa8-0331-4968-8cae-88779889d68f",
+  "title": "[Equities] 任务 #5001",
+  "decomposition_mode": "multi_step_reasoning",
+  "sub_task_count": 3,
+  "dag_structure": "A; B; C",
+  "experts_used": [
+    "finance"
+  ],
+  "score": 20.0,
+  "feedback_summary": "请补上最关键的“数据锚点”和口径校验：你多处使用了约数与推断（如递延收入、SBC、无形资产摊销、FX贡献、ARPPU/付费人数），但题目要求基于FY2025 Q3与FY2024年报披露。请逐项引用财报原文对应表格/附注，给出具体金额与公式，并明确FY2025 Q3归母净利润（约JPY 38.1bn / USD 0.25bn）的来源；同时将你声称的“调整后核心营业利润”“FX-neutral收入增速",
+  "lesson": "分解问题必须锚定原始数据源，逐项引用并校验，避免依赖估算与推断。"
+}

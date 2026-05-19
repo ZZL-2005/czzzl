@@ -1,0 +1,76 @@
+[
+  {
+    "task_id": "2b8b6fa2-3ac9-43e6-a506-a14f61b94a42",
+    "title": "[Restructuring / Financing / M&A] 任务 #262",
+    "category": "law",
+    "score": 50.0,
+    "decomposition_mode": "cross_domain_synthesis",
+    "sub_tasks": [
+      {
+        "id": "A",
+        "question": "Under PRC law, what are the legal limitations or constraints on the creation and",
+        "expert": "law",
+        "depends_on": []
+      },
+      {
+        "id": "B",
+        "question": "Under PRC law, what are the legal limitations or constraints on the creation and",
+        "expert": "law",
+        "depends_on": []
+      },
+      {
+        "id": "C",
+        "question": "Under PRC law, what are the legal limitations or constraints on the creation and",
+        "expert": "law",
+        "depends_on": []
+      },
+      {
+        "id": "D",
+        "question": "What practical impediments or operational difficulties may arise in implementing",
+        "expert": "finance",
+        "depends_on": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "dag_graph": "A(law) ; B(law) ; C(law) ; A,B,C->D(fin)",
+    "final_synthesis": {
+      "expert": "law",
+      "instruction": "Integrate the legal analysis from sub-tasks A, B, and C with the practical impediments from sub-task D to provide a comprehensive legal analysis opinion covering both legal limitations/constraints and practical impediments/operational difficulties under PRC law for the proposed credit enhancement package."
+    }
+  },
+  {
+    "task_id": "f36d7fa8-0331-4968-8cae-88779889d68f",
+    "title": "[Equities] 任务 #5001",
+    "category": "finance",
+    "score": 20.0,
+    "decomposition_mode": "multi_step_reasoning",
+    "sub_tasks": [
+      {
+        "id": "A",
+        "question": "从Nexon FY2025 Q3报告和FY2024年报中提取营业利润和经营性现金流数据，识别导致营业利润增长与经营性现金流增长差异的具体会计科目（如折旧摊销、营",
+        "expert": "finance",
+        "depends_on": []
+      },
+      {
+        "id": "B",
+        "question": "分析日元和韩元兑美元汇率波动对Nexon报告收入和利润的影响，量化汇率折算收益/损失在利润增长中的占比，并计算剔除汇率影响后的中性收入增长率。",
+        "expert": "finance",
+        "depends_on": []
+      },
+      {
+        "id": "C",
+        "question": "比较FY2025 Q3与FY2024年报中IP收入结构，分解经典IP（如DNF、MapleStory）收入变化是由ARPPU还是付费用户数驱动，判断经典IP的生",
+        "expert": "finance",
+        "depends_on": []
+      }
+    ],
+    "dag_graph": "A(fin) ; B(fin) ; C(fin)",
+    "final_synthesis": {
+      "expert": "finance",
+      "instruction": "整合子任务A、B、C的结果：首先基于调整后核心营业利润和汇率中性增长评估利润可持续性；然后结合IP生命周期和收入驱动因素分析未来利润率走势；最后形成综合结论，回答题目中三个任务的所有要求。"
+    }
+  }
+]

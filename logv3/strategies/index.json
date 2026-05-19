@@ -1,0 +1,22 @@
+{
+  "modes": {
+    "multi_step_reasoning": {
+      "description": "多步推理，后续步骤依赖前置结论",
+      "applicable_to": "[Equities] 任务 #5001",
+      "avg_score": 20.0,
+      "count": 1,
+      "lessons": [
+        "分解问题必须锚定原始数据源，逐项引用并校验，避免依赖估算与推断。"
+      ]
+    },
+    "cross_domain_synthesis": {
+      "description": "跨领域协作，不同expert负责不同维度",
+      "applicable_to": "[Restructuring / Financing / M&A] 任务 #262",
+      "avg_score": 50.0,
+      "count": 1,
+      "lessons": [
+        "跨境问题需按“主体属地+资金流向+监管分类”三维交叉分解，避免遗漏跨境合规路径。"
+      ]
+    }
+  }
+}

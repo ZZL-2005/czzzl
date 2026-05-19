@@ -15,8 +15,10 @@ limits:
 
 logging:
   level: "DEBUG"
-  log_dir: "logs"
+  log_dir: "logv3"
   save_full_responses: true
+
+refined_prompt_dir: "logv2/refined"
 
 monitor:
   leaderboard_interval_seconds: 300

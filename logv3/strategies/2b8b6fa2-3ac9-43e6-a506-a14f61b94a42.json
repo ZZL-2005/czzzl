@@ -1,0 +1,14 @@
+{
+  "task_id": "2b8b6fa2-3ac9-43e6-a506-a14f61b94a42",
+  "title": "[Restructuring / Financing / M&A] 任务 #262",
+  "decomposition_mode": "cross_domain_synthesis",
+  "sub_task_count": 4,
+  "dag_structure": "A; B; C; A,B,C->D",
+  "experts_used": [
+    "law",
+    "finance"
+  ],
+  "score": 50.0,
+  "feedback_summary": "你对各担保的单项分析已较完整，但最关键的缺口是**跨境担保/跨境放款项下“谁是担保人、谁是受益人、资金如何跨境收付”对应的SAFE分类与路径**。请你进一步按“个人保证、A股质押、境内不动产抵押、离岸账户质押”分别明确：  \n1）各自属于哪一类跨境担保或外债/担保结构；  \n2）是否需事前审批、事后登记或无需办理；  \n3）未办理的后果是影响合同效力、登记设立，还是仅影响资金汇出/执行；  \n4）",
+  "lesson": "跨境问题需按“主体属地+资金流向+监管分类”三维交叉分解，避免遗漏跨境合规路径。"
+}
