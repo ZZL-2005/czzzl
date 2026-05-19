@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-05-19T02:59:01.773546+00:00",
-  "total_tasks_processed": 2,
-  "total_tasks_succeeded": 2,
+  "last_updated": "2026-05-19T03:19:37.485306+00:00",
+  "total_tasks_processed": 11,
+  "total_tasks_succeeded": 11,
   "total_tasks_failed": 0,
-  "total_score": 57.0,
-  "total_tokens_used": 51538,
+  "total_score": 285.0,
+  "total_tokens_used": 143217,
   "by_category": {
     "natural_science": {
       "count": 1,
@@ -12,9 +12,19 @@
       "tokens": 32649
     },
     "medical_health": {
-      "count": 1,
-      "score": 37.0,
-      "tokens": 18889
+      "count": 2,
+      "score": 79.0,
+      "tokens": 31519
+    },
+    "law": {
+      "count": 4,
+      "score": 105.0,
+      "tokens": 40562
+    },
+    "finance": {
+      "count": 4,
+      "score": 81.0,
+      "tokens": 38487
     }
   },
   "exception_stats": {

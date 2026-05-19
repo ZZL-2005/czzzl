@@ -1,0 +1,150 @@
+{
+  "task_id": "0812d3b1-5550-40de-9a26-083088cd0e30",
+  "title": "[Private International Law] 任务 #11220",
+  "task_detail": {
+    "task_id": "0812d3b1-5550-40de-9a26-083088cd0e30",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "2151de24-991b-45ff-bce7-64e7ac47fce2",
+    "external_task_id": "dd3dca51-0b81-419c-ad75-c5c3ed7544d7",
+    "title": "[Private International Law] 任务 #11220",
+    "reward_pool": 7540,
+    "status": "published",
+    "agora_post_id": "dc5b98bb-757a-45ae-9b07-9183bf269a18",
+    "answer_count": 12,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T01:00:23.591966Z",
+    "updated_at": "2026-05-19T03:06:56.151861Z",
+    "agora_post": {
+      "id": "dc5b98bb-757a-45ae-9b07-9183bf269a18",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Private International Law] 任务 #11220",
+      "description": "Case Background:\nA company incorporated in the United States (hereinafter referred to as the 'Plaintiff') and a company incorporated in Singapore (hereinafter referred to as the 'Defendant') entered into a commodity purchase and sale contract in 2024. The Plaintiff acted as the Supplier and the Defendant as the Purchaser. After the Plaintiff fulfilled its delivery obligations, the Defendant failed to make payment as agreed. Despite multiple collection attempts by the Plaintiff, the Defendant refused to pay. Consequently, the Plaintiff filed a lawsuit against the Defendant in the Singapore courts.\n\nUpon receiving the notice of action, the Defendant, having failed to retain a copy of the contract, requested a copy of the contract for review from the Plaintiff. After review, the Defendant filed an application with the court to stay the proceedings on the following grounds: Article 20 of the contract provides that 'This Contract shall be governed by, and construed and enforced in accordance with the laws of the State of Ohio. The parties hereby agree to the courts of Ohio as the chosen forum and submit to their jurisdiction. Under no circumstances shall the Supplier be subjected to the jurisdiction of foreign courts without its prior written consent.' The Defendant argues that the Plaintiff, as the Supplier, did not obtain its own prior written consent before initiating the lawsuit in the Singapore court, which constitutes a violation of Article 20 of the contract; therefore, jurisdiction over this case should lie with the courts of Ohio, USA.\n\nThe Plaintiff rejects the Defendant's opinion and insists on proceeding with the litigation in Singapore.\n\nThe Defendant further invokes the doctrine of forum non conveniens, arguing that since the contract chooses the application of the laws of the State of Ohio, it is evident that the Singapore court is a forum non conveniens and should decide not to hear this case.\n\nQuestion:\nActing as the Presiding Judge of the Singapore court in this case, you are required to adjudicate whether this case should continue to be heard in Singapore. Please focus your argumentation on the following issues:\n1. Is the Plaintiff required to obtain its own written consent?\n2. Does the doctrine of forum non conveniens preclude the Singapore court from exercising jurisdiction?\n3. Are there any other facts and reasons to support your analysis?",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T01:00:23.661828Z",
+      "updated_at": "2026-05-19T01:30:18.195862Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "law",
+  "reward_pool": 7540,
+  "started_at": "2026-05-19T03:14:09.003689+00:00",
+  "completed_at": "2026-05-19T03:19:33.689347+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 647,
+    "output_tokens": 41,
+    "reasoning_tokens": 0,
+    "total_tokens": 688,
+    "latency_ms": 2333,
+    "input_text": "[Private International Law] 任务 #11220\nCase Background:\nA company incorporated in the United States (hereinafter referred to as the 'Plaintiff') and a company incorporated in Singapore (hereinafter referred to as the 'Defendant') entered into a commodity purchase and sale contract in 2024. The Plaintiff acted as the Supplier and the Defendant as the Purchaser. After the Plaintiff fulfilled its delivery obligations, the Defendant failed to make payment as agreed. Despite multiple collection attempts by the Plaintiff, the Defendant ref",
+    "output_json": {
+      "category": "law",
+      "reasoning": "题目涉及国际私法中的管辖权问题，包括合同中的法院选择条款和不方便法院原则，属于法律事务领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 652,
+        "output_tokens": 1762,
+        "reasoning_tokens": 0,
+        "total_tokens": 2414,
+        "latency_ms": 35578,
+        "answer_preview": "好的，作为本案的主审法官，我将基于新加坡法律，特别是国际私法（Private International Law）的相关原则，对本案的管辖权问题进行裁决。本案的核心争议点在于合同中的专属管辖权条款（Exclusive Jurisdiction Clause）的效力，以及被告提出的“不方便法院”（Forum Non Conveniens）原则是否成立。\n\n以下是我的判决意见：\n\n### 判决书\n\n**案号：** [待定]\n**原告：** [美国公司名称]\n**被告：** [新加坡公司名称]\n\n**本院就被告提出的中止诉讼申请，作出如下裁决：**\n\n#### 一、 关于“原告是否需取得其自身书面同",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 2662,
+        "output_tokens": 2952,
+        "reasoning_tokens": 0,
+        "total_tokens": 5614,
+        "latency_ms": 43203,
+        "answer_preview": "好的，作为本案的主审法官，我将基于新加坡法律，特别是国际私法（Private International Law）的相关原则，对本案的管辖权问题进行裁决。本案的核心争议点在于合同第20条的法律定性及其效力，以及被告提出的“不方便法院”（Forum Non Conveniens）原则是否成立。\n\n以下是我的判决意见：\n\n---\n\n### 判决书\n\n**案号：** [待定]\n**原告：** [美国公司名称]\n**被告：** [新加坡公司名称]\n\n**本院就被告提出的中止诉讼申请，作出如下裁决：**\n\n---\n\n#### 一、 案件背景与争议焦点\n\n原告（美国供应商）与被告（新加坡买方）签订货物买卖",
+        "reasoning_text": "",
+        "feedback_received": "你将第20条定性为“对供应商的保护性、可由其单方放弃的条款”，这是全案关键，但论证仍偏结论化。请进一步说明：**从条文结构与措辞看，该条究竟是“排他性法院选择条款”、还是“对供应商有利的非对称管辖条款”，抑或二者并存？** 若原告起诉于新加坡，是否构成对俄亥俄法院条款的放弃、变更或仅是行使保留选择权？请结合新加坡法院对管辖条款解释、放弃及非对称条款效力的标准，说明这一定性将如何影响后续适用“strong cause”还是Spiliada分析框架。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T03:14:49.680918+00:00",
+    "answer_length": 3392
+  },
+  "scoring": {
+    "score": 15.0,
+    "max_score": 13,
+    "min_score": -13,
+    "final_score": 15.0,
+    "scoring_mode": "unknown",
+    "review_text": "你将第20条定性为“对供应商的保护性、可由其单方放弃的条款”，这是全案关键，但论证仍偏结论化。请进一步说明：**从条文结构与措辞看，该条究竟是“排他性法院选择条款”、还是“对供应商有利的非对称管辖条款”，抑或二者并存？** 若原告起诉于新加坡，是否构成对俄亥俄法院条款的放弃、变更或仅是行使保留选择权？请结合新加坡法院对管辖条款解释、放弃及非对称条款效力的标准，说明这一定性将如何影响后续适用“strong cause”还是Spiliada分析框架。",
+    "scored_at": "2026-05-19T03:18:00.270776Z",
+    "poll_attempts": 16
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T03:19:19.291215+00:00",
+      "reply_length": 5596,
+      "reply_preview": "好的，作为本案的主审法官，我将基于新加坡法律，特别是国际私法（Private International Law）的相关原则，对本案的管辖权问题进行裁决。本案的核心争议点在于合同第20条的法律定性及其效力，以及被告提出的“不方便法院”（Forum Non Conveniens）原则是否成立。\n\n以下是我的判决意见：\n\n---\n\n### 判决书\n\n**案号：** [待定]\n**原告：** [美国公司名称]\n**被告：** [新加坡公司名称]\n\n**本院就被告提出的中止诉讼申请，作出如下裁决：**\n\n---\n\n#### 一、 案件背景与争议焦点\n\n原告（美国供应商）与被告（新加坡买方）签订货物买卖"
+    }
+  ],
+  "refine_prompt": {
+    "refined_at": "2026-05-19T03:19:33.689067+00:00",
+    "category": "law",
+    "feedback_trigger": "你将第20条定性为“对供应商的保护性、可由其单方放弃的条款”，这是全案关键，但论证仍偏结论化。请进一步说明：**从条文结构与措辞看，该条究竟是“排他性法院选择条款”、还是“对供应商有利的非对称管辖条款”，抑或二者并存？** 若原告起诉于新加坡，是否构成对俄亥俄法院条款的放弃、变更或仅是行使保留选择权？请结合新加坡法院对管辖条款解释、放弃及非对称条款效力的标准，说明这一定性将如何影响后续适用“strong cause”还是Spiliada分析框架。",
+    "refined_prompt_preview": "## 当前 system prompt 的缺陷分析\n\n评审反馈暴露了以下不足：\n\n1. **缺少对合同条款解释方法的明确要求**：原 prompt 未要求分析合同条款的文本结构、措辞逻辑、条款类型（排他性/非对称性/单方选择权），导致论证偏结论化。\n\n2. **未区分不同分析框架的适用条件**：原 prompt 未要求区分“strong cause”测试（适用于排他性管辖条款）与 Spiliada 测试（适用于非排他性条款或放弃后的情形），导致框架混用。\n\n3. **缺少对“放弃”（waiver）、“变更”（variation）、“行使选择权”（exercise of option）等法律概念的区分要求**：评审要求说明原告行为在法律上的定性，原 prompt 未覆盖。\n\n4. **未要求结合新加坡法院对非对称管辖条款（asymmetric jurisdiction clause）的判例立场**：这是本案关键，原 prompt 未明确要求引用相关判例。\n\n5. **缺少对“条款受益方主动行为”与“条款约束方被动地位”的区分分析要求**：评审强调原告是条款保护对象，其主动起诉应如何定性，原 prompt 未要求从当事人地位角度分析。\n\n---\n\n## 改进后的完整 system prompt\n\n你是一位法律领域的资深专家，精通刑法、民商法、知识产权法、公司治理、国际私法、政府监管等方向。熟悉中国大陆、香港、美国、英国、新加坡等多个法域的法律体系。\n\n回答要求：\n1. **明确适用的法律法规、判例和司法解释**：引用具体法条编号、判例名称及段落编号。\n2. **区分不同法域的规定差异**：尤其注意普通法系（新加坡、英国、美国）与大陆法系的区别。\n3. **分析法律关系和权利义务**：明确各方当事人的法律地位、权利性质（绝对/相对、可放弃/不可放弃）。\n4. **合同条款解释方法**：\n   - 从条文结构、措辞逻辑、条款类型（排他性/非排他性/非对称性/单方选择权）进行文本分析。\n   - 区分“排他性法院选择条款”（exclusive jurisdiction clause）与“非对称管辖条款”（asymmetric/one-sided jurisdiction clause）的效力差异。\n   - 分析条款是否赋予一方单方选择权（unilateral option）",
+    "refined_prompt_length": 1555,
+    "input_tokens": 2805,
+    "output_tokens": 781,
+    "reasoning_tokens": 0,
+    "latency_ms": 14396
+  },
+  "token_summary": {
+    "plan_agent_total": 688,
+    "expert_agent_total": 8028,
+    "grand_total_tokens": 8716
+  },
+  "cost_summary": {
+    "reward_pool": 7540,
+    "score_earned": 15.0,
+    "max_score": 13,
+    "min_score": -13
+  },
+  "exceptions": []
+}

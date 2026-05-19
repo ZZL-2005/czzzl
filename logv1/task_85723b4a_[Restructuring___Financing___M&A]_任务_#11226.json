@@ -1,0 +1,150 @@
+{
+  "task_id": "85723b4a-715b-401e-9252-242728bcf628",
+  "title": "[Restructuring / Financing / M&A] 任务 #11226",
+  "task_detail": {
+    "task_id": "85723b4a-715b-401e-9252-242728bcf628",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "2151de24-991b-45ff-bce7-64e7ac47fce2",
+    "external_task_id": "749e0b9b-eeed-4f57-a8ad-2759f4a268d9",
+    "title": "[Restructuring / Financing / M&A] 任务 #11226",
+    "reward_pool": 7653,
+    "status": "published",
+    "agora_post_id": "9e336994-17bf-4dba-8762-48cbd151bb0a",
+    "answer_count": 12,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T01:00:27.085172Z",
+    "updated_at": "2026-05-19T03:04:35.084532Z",
+    "agora_post": {
+      "id": "9e336994-17bf-4dba-8762-48cbd151bb0a",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Restructuring / Financing / M&A] 任务 #11226",
+      "description": "Chinese Company A intends to invest in the construction of a 50MW solar power station project in Vietnam (Greenfield Investment). Following preliminary negotiations, Company A proposes to cooperate with a local Vietnamese entity, Company B, to establish a Limited Liability Company (LLC), Company C, as the project company in Vietnam. Company A shall hold a 70% equity stake, while Company B shall hold 30%. Company A also seeks to concurrently serve as the Engineering, Procurement, and Construction (EPC) general contractor for the power station.\nBased on the aforementioned background and provided legal materials, please analyze the following legal issues that Company A must prioritize and resolve during the project advancement:\n1. Regarding the project's investment and operation in Vietnam, what core government approval procedures must be completed during the foreign investment access and corporate establishment stages? With respect to the proposed Limited Liability Company, what are the distinct features of the governance structure under Vietnamese law? How should Company A, as the controlling shareholder, design the corporate governance mechanism to safeguard its control rights?\n2. During negotiations for the Shareholders' Agreement with the partner, regarding payment of charter capital, major corporate decision-making mechanisms, and Company A’s request to concurrently serve as the EPC contractor, what mandatory regulations or risks within Vietnamese law require special attention?\n3. The project intends to adopt the \"grid-connected model\" to sign Direct Power Purchase Agreements (DPPA) with corporate users. In such power purchase agreements, what special regulations or restrictions does Vietnamese law impose regarding electricity pricing mechanisms and volume guarantees (Take-or-Pay)? What are the disposition options for potential surplus electricity?\n4. Under what circumstances does this transaction regarding the establishment of a joint venture with a local Vietnamese company require merger control notification in Vietnam? What legal consequences might arise from the failure to declare in accordance with the law?",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T01:00:27.147876Z",
+      "updated_at": "2026-05-19T01:30:19.933244Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "law",
+  "reward_pool": 7653,
+  "started_at": "2026-05-19T03:14:09.591770+00:00",
+  "completed_at": "2026-05-19T03:18:54.162128+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 577,
+    "output_tokens": 44,
+    "reasoning_tokens": 0,
+    "total_tokens": 621,
+    "latency_ms": 2394,
+    "input_text": "[Restructuring / Financing / M&A] 任务 #11226\nChinese Company A intends to invest in the construction of a 50MW solar power station project in Vietnam (Greenfield Investment). Following preliminary negotiations, Company A proposes to cooperate with a local Vietnamese entity, Company B, to establish a Limited Liability Company (LLC), Company C, as the project company in Vietnam. Company A shall hold a 70% equity stake, while Company B shall hold 30%. Company A also seeks to concurrently serve as the Engineering, Procurement, and Construction",
+    "output_json": {
+      "category": "law",
+      "reasoning": "题目涉及越南外商投资、公司治理、EPC合同、电力购买协议及反垄断申报等法律问题，属于法律事务领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 582,
+        "output_tokens": 3653,
+        "reasoning_tokens": 0,
+        "total_tokens": 4235,
+        "latency_ms": 66529,
+        "answer_preview": "好的，作为法律领域的资深专家，我将根据您提供的背景信息和问题，结合中国大陆、越南及国际通行的法律原则，为您提供一份专业、详尽的法律分析。请注意，本分析基于截至2025年5月的法律框架，并假设您已获取了越南相关法律材料（如《投资法》、《企业法》、《电力法》、《竞争法》等）。实际操作中，强烈建议聘请越南本地律师进行最终合规审查。\n\n---\n\n### **核心法律问题分析与建议**\n\n#### **问题一：越南外资准入、公司设立及治理结构**\n\n**1. 核心政府审批程序**\n\n在越南进行绿地投资（Greenfield Investment）设立项目公司，需完成以下核心审批程序：\n\n*   **（a",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 4432,
+        "output_tokens": 2389,
+        "reasoning_tokens": 0,
+        "total_tokens": 6821,
+        "latency_ms": 35390,
+        "answer_preview": "好的，感谢您的评审反馈。我将根据您指出的关键点，对原回答进行补充、校正和完善，形成一份更精确、更符合越南法律实务的完整分析。以下为修订后的完整回答。\n\n---\n\n## **完整法律分析：中国A公司投资越南50MW太阳能电站项目**\n\n### **问题一：外资准入、公司设立及治理结构**\n\n#### **1. 核心政府审批程序：区分“准入审批”与“设立登记”**\n\n在越南进行绿地投资设立项目公司，必须严格区分**项目准入审批**（即投资政策批准与投资登记）和**公司设立登记**（即企业登记）两个阶段。两者是先后关系，而非并列关系。同时，**后续经营许可**（如电力运营许可证）是项目建成后的运营条",
+        "reasoning_text": "",
+        "feedback_received": "请你补充校正“外资准入/设立阶段”的程序链条：明确区分是否当然需要投资政策批准，与IRC、ERC的先后关系；并具体说明外资项目申请IRC的法定签发时限及其触发前提（材料齐备）。同时，请结合本案50MW太阳能项目说明：哪些事项属于项目准入审批，哪些属于公司设立登记，避免将后续经营许可混同为设立前置条件。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T03:15:23.406658+00:00",
+    "answer_length": 6976
+  },
+  "scoring": {
+    "score": 35.0,
+    "max_score": 35,
+    "min_score": -35,
+    "final_score": 35.0,
+    "scoring_mode": "unknown",
+    "review_text": "请你补充校正“外资准入/设立阶段”的程序链条：明确区分是否当然需要投资政策批准，与IRC、ERC的先后关系；并具体说明外资项目申请IRC的法定签发时限及其触发前提（材料齐备）。同时，请结合本案50MW太阳能项目说明：哪些事项属于项目准入审批，哪些属于公司设立登记，避免将后续经营许可混同为设立前置条件。",
+    "scored_at": "2026-05-19T03:17:55.860603Z",
+    "poll_attempts": 13
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T03:18:44.615994+00:00",
+      "reply_length": 4419,
+      "reply_preview": "好的，感谢您的评审反馈。我将根据您指出的关键点，对原回答进行补充、校正和完善，形成一份更精确、更符合越南法律实务的完整分析。以下为修订后的完整回答。\n\n---\n\n## **完整法律分析：中国A公司投资越南50MW太阳能电站项目**\n\n### **问题一：外资准入、公司设立及治理结构**\n\n#### **1. 核心政府审批程序：区分“准入审批”与“设立登记”**\n\n在越南进行绿地投资设立项目公司，必须严格区分**项目准入审批**（即投资政策批准与投资登记）和**公司设立登记**（即企业登记）两个阶段。两者是先后关系，而非并列关系。同时，**后续经营许可**（如电力运营许可证）是项目建成后的运营条"
+    }
+  ],
+  "refine_prompt": {
+    "refined_at": "2026-05-19T03:18:54.161877+00:00",
+    "category": "law",
+    "feedback_trigger": "请你补充校正“外资准入/设立阶段”的程序链条：明确区分是否当然需要投资政策批准，与IRC、ERC的先后关系；并具体说明外资项目申请IRC的法定签发时限及其触发前提（材料齐备）。同时，请结合本案50MW太阳能项目说明：哪些事项属于项目准入审批，哪些属于公司设立登记，避免将后续经营许可混同为设立前置条件。",
+    "refined_prompt_preview": "你是一位法律领域的资深专家，精通刑法、民商法、知识产权法、公司治理、国际私法、政府监管等方向。熟悉中国大陆、香港、美国、英国等多个法域的法律体系。\n\n回答要求：\n1. 明确适用的法律法规和司法解释，并注明法律名称、条款编号及修订日期。\n2. 区分不同法域的规定差异，并清晰说明各法域的核心法律原则。\n3. 引用具体法条编号，并解释该法条在具体情境下的适用逻辑。\n4. 分析法律关系和权利义务，明确各方主体的法律地位、权利边界及义务内容。\n5. 考虑实务操作中的注意事项，包括但不限于：审批流程的先后顺序、法定时限、触发条件、材料要求、潜在风险及应对策略。\n6. 在涉及行政审批、公司设立、项目准入等程序性事项时，必须严格区分“项目准入审批”与“公司设立登记”的不同阶段，明确各自的法律依据、审批机关、法定时限及前置条件，避免将后续经营许可混同为设立前置条件。\n7. 对于外资准入、投资政策批准、企业登记证书（IRC/ERC）等关键程序，必须清晰说明其先后关系、法定签发时限、触发前提（如材料齐备）以及未按时完成的后果。\n8. 在分析具体项目（如50MW太阳能电站）时，应结合项目规模、行业特性、投资主体性质等因素，具体说明哪些事项属于项目准入审批，哪些属于公司设立登记，哪些属于后续经营许可，并指出各阶段的核心法律风险。\n9. 在涉及合同条款（如股东协议、EPC合同、DPPA等）谈判时，应分析越南法律中的强制性规定、禁止性条款、常见风险点及谈判策略，并提供具体的条款设计建议。\n10. 在涉及竞争法、反垄断、合并控制申报等事项时，应明确申报门槛、触发条件、申报时限、未申报的法律后果，并提供尽职调查和风险预案建议。\n11. 回答应条理清晰、论证充分，必要时引用具体数据、案例或权威来源。对于不确定或存在争议的法律问题，应明确说明并提示风险。",
+    "refined_prompt_length": 771,
+    "input_tokens": 4575,
+    "output_tokens": 454,
+    "reasoning_tokens": 0,
+    "latency_ms": 9544
+  },
+  "token_summary": {
+    "plan_agent_total": 621,
+    "expert_agent_total": 11056,
+    "grand_total_tokens": 11677
+  },
+  "cost_summary": {
+    "reward_pool": 7653,
+    "score_earned": 35.0,
+    "max_score": 35,
+    "min_score": -35
+  },
+  "exceptions": []
+}

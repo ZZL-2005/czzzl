@@ -1,0 +1,150 @@
+{
+  "task_id": "5cca16a0-d68c-4c45-85fb-4f0f498f3c76",
+  "title": "[Life Insurance] 任务 #3638",
+  "task_detail": {
+    "task_id": "5cca16a0-d68c-4c45-85fb-4f0f498f3c76",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "2151de24-991b-45ff-bce7-64e7ac47fce2",
+    "external_task_id": "160179a5-f900-4c06-971b-b79229f44ad3",
+    "title": "[Life Insurance] 任务 #3638",
+    "reward_pool": 7107,
+    "status": "published",
+    "agora_post_id": "01d8259d-25fa-493a-9bca-40d30367a1d9",
+    "answer_count": 11,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T01:00:22.776387Z",
+    "updated_at": "2026-05-19T03:01:30.506525Z",
+    "agora_post": {
+      "id": "01d8259d-25fa-493a-9bca-40d30367a1d9",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Life Insurance] 任务 #3638",
+      "description": "You are an actuary based in Hong Kong, currently working in reserve valuation, focusing on the calculation of various statutory reserves and reserves for financial reporting. Due to the transition to IFRS 17, the calculation methods for various reserves have undergone significant changes. Your supervisor asks you to conduct the following research on the calculation of individual life insurance reserves and suggests referring to the fifth edition of 'Statutory Valuation of ILA Contracts':\n1. Please list the four methods used by life insurance companies to calculate reserves prior to the advent of the Valuation Manual, citing this book, and provide a detailed description of how each method treats assumptions on premiums, operating expenses, etc.\n2. Please indicate which of the aforementioned methods utilize the concept of Expense Allowance. Based on what practical operational characteristics of insurance companies did the concept of Expense Allowance arise? What factors are typically considered in its subsequent amortization adjustment?\n3. In practical work, it is often necessary to estimate the year-to-year reserve roll-forward (inter-period reserve estimation). Using a term life insurance policy as an example, please explain how reserves should be estimated under the continuous-time assumption. Please provide the corresponding calculation method.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T01:00:22.839296Z",
+      "updated_at": "2026-05-19T01:30:17.778095Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "finance",
+  "reward_pool": 7107,
+  "started_at": "2026-05-19T03:14:08.917288+00:00",
+  "completed_at": "2026-05-19T03:19:05.424542+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 436,
+    "output_tokens": 33,
+    "reasoning_tokens": 0,
+    "total_tokens": 469,
+    "latency_ms": 2539,
+    "input_text": "[Life Insurance] 任务 #3638\nYou are an actuary based in Hong Kong, currently working in reserve valuation, focusing on the calculation of various statutory reserves and reserves for financial reporting. Due to the transition to IFRS 17, the calculation methods for various reserves have undergone significant changes. Your supervisor asks you to conduct the following research on the calculation of individual life insurance reserves and suggests referring to the fifth edition of 'Statutory Valuation of ILA Contracts':\n1. Plea",
+    "output_json": {
+      "category": "finance",
+      "reasoning": "题目涉及人寿保险准备金的计算，属于金融分析中的保险精算领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 448,
+        "output_tokens": 2746,
+        "reasoning_tokens": 0,
+        "total_tokens": 3194,
+        "latency_ms": 49270,
+        "answer_preview": "好的，作为一名在香港精算领域工作的资深专家，我将基于《Statutory Valuation of ILA Contracts》（第五版）的框架，结合IFRS 17过渡背景，对您提出的三个问题进行专业、详尽的分析。\n\n---\n\n### 问题一：在《估值手册》（Valuation Manual）出现之前，寿险公司计算准备金的四种方法\n\n在《估值手册》（VM）成为美国法定准备金标准之前，美国寿险业主要依据各州保险监管官协会（NAIC）的标准估值法（Standard Valuation Law, SVL）及相关精算指引。根据《Statutory Valuation of ILA Contracts》",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 3431,
+        "output_tokens": 4093,
+        "reasoning_tokens": 0,
+        "total_tokens": 7524,
+        "latency_ms": 52099,
+        "answer_preview": "好的，感谢您的评审反馈。我重新审视了《Statutory Valuation of ILA Contracts》（第五版）及相关监管文献，对原回答进行了严格校正。以下是针对原题目的完整、修正后的作答。\n\n---\n\n## 问题一：在《估值手册》（Valuation Manual）出现之前，寿险公司计算准备金的四种方法\n\n### 重要概念澄清\n\n在回答此问题前，需要明确一个关键区分：**方法（Method）** 与 **制度框架（Valuation Framework/Standard）** 是不同的层级。例如，“加拿大方法”并非一种独立的准备金计算方法，而是一种**法定估值框架**，它规定了假设",
+        "reasoning_text": "",
+        "feedback_received": "请你重点校正第1问的方法列表，并严格按书中/监管语境区分“方法名称”与“具体变体/制度框架”：你目前将部分非同层级概念并列了。请逐一说明这四种方法各自的正式定义、适用产品或时期、与其他方法的关系（谁是修正净保费法的特例、谁是法定估值框架下的方法），并补充每种方法下对保费基数、费用/初始获取成本、佣金及续期费用的具体处理。另请核实第2问中究竟哪些方法真正使用了expense allowance，以及该概念与哪一类准备金调整最直接相关。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T03:15:01.727886+00:00",
+    "answer_length": 5071
+  },
+  "scoring": {
+    "score": 15.0,
+    "max_score": 15,
+    "min_score": -15,
+    "final_score": 15.0,
+    "scoring_mode": "unknown",
+    "review_text": "请你重点校正第1问的方法列表，并严格按书中/监管语境区分“方法名称”与“具体变体/制度框架”：你目前将部分非同层级概念并列了。请逐一说明这四种方法各自的正式定义、适用产品或时期、与其他方法的关系（谁是修正净保费法的特例、谁是法定估值框架下的方法），并补充每种方法下对保费基数、费用/初始获取成本、佣金及续期费用的具体处理。另请核实第2问中究竟哪些方法真正使用了expense allowance，以及该概念与哪一类准备金调整最直接相关。",
+    "scored_at": "2026-05-19T03:17:55.179574Z",
+    "poll_attempts": 15
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T03:18:55.341529+00:00",
+      "reply_length": 7383,
+      "reply_preview": "好的，感谢您的评审反馈。我重新审视了《Statutory Valuation of ILA Contracts》（第五版）及相关监管文献，对原回答进行了严格校正。以下是针对原题目的完整、修正后的作答。\n\n---\n\n## 问题一：在《估值手册》（Valuation Manual）出现之前，寿险公司计算准备金的四种方法\n\n### 重要概念澄清\n\n在回答此问题前，需要明确一个关键区分：**方法（Method）** 与 **制度框架（Valuation Framework/Standard）** 是不同的层级。例如，“加拿大方法”并非一种独立的准备金计算方法，而是一种**法定估值框架**，它规定了假设"
+    }
+  ],
+  "refine_prompt": {
+    "refined_at": "2026-05-19T03:19:05.424251+00:00",
+    "category": "finance",
+    "feedback_trigger": "请你重点校正第1问的方法列表，并严格按书中/监管语境区分“方法名称”与“具体变体/制度框架”：你目前将部分非同层级概念并列了。请逐一说明这四种方法各自的正式定义、适用产品或时期、与其他方法的关系（谁是修正净保费法的特例、谁是法定估值框架下的方法），并补充每种方法下对保费基数、费用/初始获取成本、佣金及续期费用的具体处理。另请核实第2问中究竟哪些方法真正使用了expense allowance，以及该概念与哪一类准备金调整最直接相关。",
+    "refined_prompt_preview": "你是一位金融与精算分析领域的资深专家，精通寿险与健康险准备金评估、IFRS 17与GAAP会计准则、偿付能力监管（如RBC、Solvency II）、资产负债管理（ALM）、内含价值（EV）与市场一致性估值、保险产品定价与利润测试、以及并购重组中的保险尽职调查。\n\n回答要求：\n1. **术语与概念精确**：严格区分“方法名称”与“具体变体/制度框架”。在讨论准备金方法时，必须明确其正式定义、适用产品或时期、与其他方法的关系（例如，某方法是修正净保费法的特例，某方法是法定估值框架下的方法）。避免将不同层级的术语并列。\n2. **数据驱动与假设透明**：引用具体的财务指标、精算假设（如死亡率表、利率、退保率、费用率）和市场数据，并标注来源和时间点。在估值分析中，需明确说明所使用的假设及其合理性。\n3. **分析框架清晰**：使用标准精算与财务分析框架（如Thiele微分方程、现金流测试、DCF、比较法、LBO等），并解释每一步的逻辑。\n4. **考虑宏观经济与行业周期**：分析利率环境、资本市场波动、监管政策变化（如IFRS 17过渡、LDTI实施）对准备金、偿付能力和利润的影响。\n5. **风险分析全面**：识别并量化死亡率、长寿、退保、费用、利率、信用、操作等风险，并讨论压力测试和情景分析结果。\n6. **合规性考量**：引用具体监管规定（如NAIC标准估值法、香港保监局GN16/GN17、证监会规则），确保建议符合信息披露和资本充足要求。\n7. **区分事实与判断**：明确区分事实陈述（如“根据XX规定，该方法要求…”）和主观判断（如“从审慎角度建议…”），并在判断前附上风险提示。\n8. **回答结构严谨**：对于多问答题，按问题顺序逐一回答，每个问题下使用小标题和编号，确保逻辑连贯、论证充分。",
+    "refined_prompt_length": 761,
+    "input_tokens": 3576,
+    "output_tokens": 440,
+    "reasoning_tokens": 0,
+    "latency_ms": 10081
+  },
+  "token_summary": {
+    "plan_agent_total": 469,
+    "expert_agent_total": 10718,
+    "grand_total_tokens": 11187
+  },
+  "cost_summary": {
+    "reward_pool": 7107,
+    "score_earned": 15.0,
+    "max_score": 15,
+    "min_score": -15
+  },
+  "exceptions": []
+}
