@@ -90,7 +90,7 @@ def main():
     parser.add_argument("--task", type=str, help="处理指定 task_id")
     parser.add_argument("--all", action="store_true", help="处理所有未提交题目")
     parser.add_argument("--test", type=int, nargs="?", const=2, help="测试模式（默认2个）")
-    parser.add_argument("--concurrency", type=int, default=5, help="并发数（默认5）")
+    parser.add_argument("--concurrency", type=int, default=None, help="并发数（默认全并发）")
     parser.add_argument("--config-dir", type=str, default="config", help="配置目录")
     parser.add_argument("--output-dir", type=str, default="logs_submit", help="输出目录")
     args = parser.parse_args()
@@ -109,10 +109,12 @@ def main():
 
     # 获取所有任务，排除已提交的
     arena = ArenaClient()
+    print("Fetching task list...")
     tasks = arena.get_tasks()
+    print(f"Found {len(tasks)} tasks. Checking submission status...")
 
     unanswered = []
-    for task in tasks:
+    for task in tqdm(tasks, desc="Scanning", unit="task"):
         my_answer = arena.get_my_answer(task["task_id"])
         if not my_answer or not my_answer.get("answer"):
             unanswered.append(task)
@@ -127,7 +129,7 @@ def main():
         return
 
     total = len(unanswered)
-    workers = min(args.concurrency, total) if total else 1
+    workers = args.concurrency or total
     print(f"Tasks to submit: {total}, Concurrency: {workers}")
 
     if not unanswered:
