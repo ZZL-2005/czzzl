@@ -56,7 +56,7 @@ class FeedbackLoop:
         if self.task_logger.data.get("scoring"):
             self.task_logger.data["scoring"]["review_text"] = feedback_text
 
-        # Step 4: 生成改进回复并回复评审
+        # Step 4: 生成针对性补充，拼接原始答案后回复评审
         try:
             reply, reply_response = self.expert.generate_reply(feedback_text)
 
@@ -72,30 +72,18 @@ class FeedbackLoop:
                 feedback_received=feedback_text,
             )
 
-            self.arena.reply_to_comment(post_id, comment_id, reply)
-            self.task_logger.log_reply(reply, 1)
+            # 拼接：原始答案 + 补充修正
+            original_answer = self.expert.messages[2]["content"]
+            full_reply = f"{original_answer}\n\n---\n\n## 补充与修正\n\n{reply}"
+
+            self.arena.reply_to_comment(post_id, comment_id, full_reply)
+            self.task_logger.log_reply(full_reply, 1)
         except Exception as e:
             self.task_logger.log_exception(
                 type(e).__name__, str(e), "skip_reply",
                 stage="feedback_reply"
             )
             logger.error(f"Feedback reply failed: {e}")
-
-        # Step 5: refine prompt（落盘，优化下次同类任务的 prompt）
-        try:
-            refined, refine_response = self.expert.refine_prompt(feedback_text)
-            self.task_logger.log_refine_prompt(
-                category=self.expert.category,
-                feedback_text=feedback_text,
-                refined_prompt=refined,
-                input_tokens=refine_response.input_tokens,
-                output_tokens=refine_response.output_tokens,
-                reasoning_tokens=refine_response.reasoning_tokens,
-                latency_ms=refine_response.latency_ms,
-            )
-            logger.info(f"Refined prompt saved for {self.expert.category} ({len(refined)} chars)")
-        except Exception as e:
-            logger.warning(f"Refine prompt failed (non-critical): {e}")
 
         return {"status": "completed", "score": score, "feedback_text": feedback_text}
 

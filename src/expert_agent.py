@@ -16,11 +16,12 @@ REFINE_PROMPT_INSTRUCTION = """## 任务
 {current_prompt}
 
 ## 要求
-1. 分析评审反馈暴露了 system prompt 的哪些缺陷（比如：缺少某类要求、某个领域覆盖不足、回答风格不符合评审期望等）
+1. 分析评审反馈暴露了 system prompt 的哪些缺陷
 2. 输出改进后的**完整 system prompt**（不是 diff，是完整替换版本）
 3. 保留原 prompt 中仍然有效的部分，只针对性地补充和修正
 4. 改进应当是通用性的（适用于该领域的所有题目），而非仅针对当前这一道题
-5. 直接输出改进后的 system prompt 内容，不要加任何前缀说明
+5. **严格控制长度在500字以内**，提炼核心规则，删除冗余描述
+6. 直接输出改进后的 system prompt 内容，不要加任何前缀说明
 """
 
 
@@ -67,7 +68,8 @@ class ExpertAgent:
     def _init_system_message(self):
         """初始化 system message"""
         full_prompt = self.system_prompt
-        if self.guidelines:
+        # 仅在使用原始 prompt 时拼接 guidelines，refined 版本已包含
+        if not self._load_refined_prompt() and self.guidelines:
             full_prompt += f"\n\n## 注意事项\n{self.guidelines}"
         self.messages = [{"role": "system", "content": full_prompt}]
 
@@ -87,18 +89,17 @@ class ExpertAgent:
 
     def generate_reply(self, feedback_text: str) -> tuple[str, LLMResponse]:
         """
-        根据评审反馈生成改进回复（请求1）
-        共享前缀：system + 原题 + 原答案
+        根据评审反馈生成针对性补充回复
+        不重写完整答案，只针对反馈点进行补充修正
         """
         reply_prompt = (
             f"## 评审反馈\n{feedback_text}\n\n"
             "## 要求\n"
-            "评审对你之前的回答提出了补充要求或修正意见。请重新生成一份**针对原题目的完整作答**：\n"
-            "1. 保留初次回答中正确的部分\n"
-            "2. 针对评审指出的不足进行补充和完善\n"
-            "3. 如果评审指出了事实性错误，在新的完整回答中修正\n"
-            "4. 最终输出应该是一份独立可读的、完整的题目解答（不是简短的补充说明）\n"
-            "5. 保持专业水准和详细程度，涵盖评审要求的所有要点"
+            "针对评审反馈，给出精准的补充或修正：\n"
+            "1. 只回应评审指出的具体问题，不要重复已有内容\n"
+            "2. 如有事实性错误，直接给出修正后的正确内容\n"
+            "3. 如需补充，直接给出补充内容\n"
+            "4. 保持专业严谨，言简意赅"
         )
         self.messages.append({"role": "user", "content": reply_prompt})
 
@@ -110,24 +111,21 @@ class ExpertAgent:
 
     def refine_prompt(self, feedback_text: str) -> tuple[str, LLMResponse]:
         """
-        根据评审反馈优化 Expert system prompt（请求2）
-        共享前缀：system + 原题 + 原答案
-        结果落盘，下次同类任务使用改进后的 prompt
+        根据评审反馈优化 Expert system prompt
+        读取磁盘最新版本作为输入，生成改进版并落盘
         """
-        # 使用共享前缀（不包含 generate_reply 追加的内容）
-        # 从 messages 中取前缀：system + user(题目) + assistant(答案)
-        prefix_messages = self.messages[:3]
+        current_prompt = self._load_refined_prompt() or self.base_system_prompt
 
+        prefix_messages = self.messages[:3]
         refine_content = REFINE_PROMPT_INSTRUCTION.format(
             feedback_text=feedback_text,
-            current_prompt=self.system_prompt,
+            current_prompt=current_prompt,
         )
         messages = prefix_messages + [{"role": "user", "content": refine_content}]
 
         response = self.client.chat(messages)
         refined_prompt = response.content.strip()
 
-        # 落盘
         self._save_refined_prompt(refined_prompt)
         self.system_prompt = refined_prompt
 

@@ -20,6 +20,7 @@ from tqdm import tqdm
 from src.config_loader import ConfigLoader
 from src.task_worker import TaskWorker
 from src.arena_client import ArenaClient
+from src.expert_agent import ExpertAgent
 
 
 def setup_logging(level: str = "INFO", log_dir: str = "logs"):
@@ -92,6 +93,27 @@ def cmd_process_all(config: ConfigLoader, concurrency: int = 10):
     print(f"  Failed: {len(results) - succeeded}")
     total_score = sum(r.get("score", 0) or 0 for r in results)
     print(f"  Total score: {total_score}")
+
+    # 批次结束后，按 category 汇总反馈，做一次综合 refine
+    feedback_by_category: dict[str, list[str]] = {}
+    for r in results:
+        cat = r.get("category")
+        fb = r.get("feedback_text", "")
+        if cat and fb:
+            feedback_by_category.setdefault(cat, []).append(fb)
+
+    if feedback_by_category:
+        print(f"\nRefining prompts for {len(feedback_by_category)} categories...")
+        for category, feedbacks in feedback_by_category.items():
+            combined_feedback = "\n\n---\n\n".join(
+                f"[Feedback {i+1}]\n{fb}" for i, fb in enumerate(feedbacks)
+            )
+            try:
+                expert = ExpertAgent(category, config)
+                expert.refine_prompt(combined_feedback)
+                print(f"  {category}: refined with {len(feedbacks)} feedback(s)")
+            except Exception as e:
+                print(f"  {category}: refine failed - {e}")
 
 
 def cmd_list_tasks(config: ConfigLoader):

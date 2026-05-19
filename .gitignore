@@ -1,6 +1,6 @@
 # Logs
 logs/
-
+logv1
 # Refined prompts (runtime generated)
 config/refined/
 

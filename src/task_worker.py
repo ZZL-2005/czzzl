@@ -109,6 +109,7 @@ class TaskWorker:
                 "category": category,
                 "status": "completed",
                 "score": feedback_result.get("score"),
+                "feedback_text": feedback_result.get("feedback_text", ""),
                 "tokens_used": task_logger.data["token_summary"]["grand_total_tokens"],
             }
 
