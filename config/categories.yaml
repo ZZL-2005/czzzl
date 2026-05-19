@@ -1,0 +1,12 @@
+# 五大领域定义（供 Plan Agent 参考和代码校验用）
+# 分类完全由 Plan Agent 决定，这里只定义合法的 category 列表
+
+valid_categories:
+  - natural_science
+  - law
+  - finance
+  - industrial_engineering
+  - medical_health
+
+# Plan Agent 分类失败时的默认值
+default_category: "natural_science"

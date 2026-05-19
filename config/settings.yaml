@@ -1,0 +1,23 @@
+retry:
+  max_retries: 3
+  backoff_strategy: "exponential"
+  initial_delay_seconds: 2
+  max_delay_seconds: 60
+  retry_on_status_codes: [429, 500, 502, 503, 504]
+
+polling:
+  score_check_interval_seconds: 10
+  score_check_timeout_seconds: 600
+
+limits:
+  max_token_per_task: 50000
+  max_feedback_rounds: 2
+
+logging:
+  level: "DEBUG"
+  log_dir: "logs"
+  save_full_responses: true
+
+monitor:
+  leaderboard_interval_seconds: 300
+  bounty_check_interval_seconds: 60

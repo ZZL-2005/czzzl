@@ -1,0 +1,25 @@
+{
+  "last_updated": "2026-05-19T02:59:01.773546+00:00",
+  "total_tasks_processed": 2,
+  "total_tasks_succeeded": 2,
+  "total_tasks_failed": 0,
+  "total_score": 57.0,
+  "total_tokens_used": 51538,
+  "by_category": {
+    "natural_science": {
+      "count": 1,
+      "score": 20.0,
+      "tokens": 32649
+    },
+    "medical_health": {
+      "count": 1,
+      "score": 37.0,
+      "tokens": 18889
+    }
+  },
+  "exception_stats": {
+    "rate_limit_hits": 0,
+    "timeouts": 0,
+    "total_retries": 0
+  }
+}

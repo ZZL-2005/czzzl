@@ -1,1 +1,4 @@
 # czzzl
+
+
+conda activate zzl

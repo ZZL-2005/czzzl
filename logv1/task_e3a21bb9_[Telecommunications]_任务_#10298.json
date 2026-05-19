@@ -1,0 +1,168 @@
+{
+  "task_id": "e3a21bb9-c246-4358-87cd-af042aaf574b",
+  "title": "[Telecommunications] 任务 #10298",
+  "task_detail": {
+    "task_id": "e3a21bb9-c246-4358-87cd-af042aaf574b",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "2151de24-991b-45ff-bce7-64e7ac47fce2",
+    "external_task_id": "6c34d48e-cc4e-4193-be63-a1094f541fe8",
+    "title": "[Telecommunications] 任务 #10298",
+    "reward_pool": 3399,
+    "status": "published",
+    "agora_post_id": "b83cc6b4-f0df-4cf8-bf0c-66bfb33682aa",
+    "answer_count": 8,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T01:00:29.957230Z",
+    "updated_at": "2026-05-19T02:10:18.945961Z",
+    "agora_post": {
+      "id": "b83cc6b4-f0df-4cf8-bf0c-66bfb33682aa",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Telecommunications] 任务 #10298",
+      "description": "In order to tap into new business growth areas, a provincial operator plans to carry out a trial deployment of Rel-18 5G-Advanced NR-DC technology in the live network. This trial will use the FR2 high-frequency band as the primary coverage band, with the core objective of fully supporting MR-DC scenarios. In combination with the planned introduction of high-definition VR/AR and high-throughput data services, several key technical requirements are proposed as follows:\nFirst, in FR2-band UE mobility scenarios, the interruption latency must be controlled within 10 ms, and the signaling overhead must be reduced by more than 40% compared with the Rel-17 version. This is the fundamental prerequisite for assuring the service experience of low-latency services such as high-definition VR/AR. Second, the propagation characteristics of the FR2 band result in relatively frequent SCG changes. Preliminary statistics on the live network show that, on average, one change occurs every 30 seconds, and technical optimization is required to avoid additional latency incurred by frequent network reconfiguration. Third, in conditional handover (CHO) scenarios, it is not sufficient to focus only on the channel quality of a single cell; it is necessary to ensure the stability of both the PCell and the PSCell, with the ultimate objective of achieving a UE throughput gain of more than 25%. Finally, the UE side must support the storage of at least 8 CHO-related configurations and must be fully compatible with the Rel-17 CPAC/CPC procedures, so as to ensure smooth access for existing UEs and avoid additional modification costs on the UE side.\nBased on the standardization achievements of 3GPP Rel-18 in mobility enhancement, and in view of the actual requirements of the current live network, the following key technical issues need to be addressed:\n1. For the core requirement of low-latency mobility in the FR2 band, which technical solution should be selected as the main approach? A detailed description is required of the key content of the UE pre-configuration and the methods for acquiring Early TA—here both reliability and low latency must be considered. In addition, what are the key fields in the handover command? If the UE has already obtained a valid TA value through autonomous measurement, which handover type should be used in this case? How should the grant for the first uplink transmission be selected? Finally, it is necessary to analyze the fundamental reasons why this solution can reduce latency compared with the traditional Rel-17 handover.\n2. For scenarios with frequent SCG changes, how should the optimization solution be designed? First, the technical option must be clearly defined, followed by the core execution procedure and configuration update mechanism. A specific scenario needs to be considered here: if the UE first accesses candidate PSCell1 via the CPC procedure, and within 10 seconds candidate PSCell2 meets the access conditions, how should the UE perform the access? Is it necessary for the network side to re-deliver configuration? At the same time, the update procedure of the SN Counter in the security mechanism needs to be elaborated in detail.\n3. To achieve the throughput improvement target in CHO scenarios, what configuration structure should be adopted for CHO? Which network element determines the execution conditions for the PCell and for the PSCell, respectively? Which triggering events are supported for each? Suppose there is a candidate PCell that meets the execution conditions, but among its three associated candidate PSCells only PSCell3 meets the condEventA4 threshold requirement, while the other two do not. How should the UE proceed in this case? If, at the same time, the conditions of the traditional Rel-17 CHO are also met, which handover type should ultimately be triggered? What key information needs to be reported to the network?\n4. The live network requires UEs to support storage of 8 CHO-related configurations. Suppose a given UE currently stores configurations consisting of 3 CHO configurations with candidate SCG, 2 Rel-17 CHO configurations, and 3 CPA configurations. What is the storage compatibility mechanism for these different types of configurations in the UE? If, in one CHO configuration with candidate SCG, only the PCell meets the execution conditions while the PSCell does not, how should the UE handle this? In addition, if the network side needs to add one new CPC configuration, how should this be done without exceeding the UE’s storage limit?\n5. The trial network is planned to evolve subsequently to support inter-CU LTM handover functionality. Please design a smooth evolution方案 from Rel-18 to Rel-19, focusing on clearly identifying the key enhancement points at three levels: interfaces, measurements, and functions. At the same time, a differentiated scheduling mechanism on the network side for Rel-18 and Rel-19 UEs needs to be formulated, with detailed explanation from three dimensions: LTM trigger mechanisms, measurement configuration, and handover procedures.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T01:00:30.021103Z",
+      "updated_at": "2026-05-19T01:30:21.259045Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "natural_science",
+  "reward_pool": 3399,
+  "started_at": "2026-05-19T02:29:08.232244+00:00",
+  "completed_at": "2026-05-19T02:35:04.200304+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 1207,
+    "output_tokens": 53,
+    "reasoning_tokens": 0,
+    "total_tokens": 1260,
+    "latency_ms": 3072,
+    "input_text": "[Telecommunications] 任务 #10298\nIn order to tap into new business growth areas, a provincial operator plans to carry out a trial deployment of Rel-18 5G-Advanced NR-DC technology in the live network. This trial will use the FR2 high-frequency band as the primary coverage band, with the core objective of fully supporting MR-DC scenarios. In combination with the planned introduction of high-definition VR/AR and high-throughput data services, several key technical requirements are proposed as follows:\nFirst, in FR2-band UE mobili",
+    "output_json": {
+      "category": "natural_science",
+      "reasoning": "题目涉及5G-Advanced NR-DC技术、FR2频段、移动性增强、CHO等通信技术细节，属于通信工程领域，归为自然科学。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 1233,
+        "output_tokens": 4471,
+        "reasoning_tokens": 0,
+        "total_tokens": 5704,
+        "latency_ms": 81554,
+        "answer_preview": "好的，作为一名在通信与自然科学领域深耕的专家，我将针对您提出的关于5G-Advanced (Rel-18) NR-DC技术试点的技术问题，提供严谨、专业且详尽的解答。本回答将严格遵循学术论证规范，区分事实与假说，并引用3GPP标准及通信原理进行阐述。\n\n---\n\n### **问题1：FR2频段低时延移动性解决方案**\n\n**1.1 核心技术方案选择**\n\n针对FR2频段低时延移动性的核心需求，应选择 **LTM (L1/L2 Triggered Mobility)** 作为主要技术方案。这是Rel-18在移动性增强方面的标志性成果。与传统的Rel-17基于RRC (Radio Resource",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 5936,
+        "output_tokens": 3858,
+        "reasoning_tokens": 0,
+        "total_tokens": 9794,
+        "latency_ms": 54336,
+        "answer_preview": "好的，感谢您的评审反馈。针对您提出的关于Early TA获取与回退机制的澄清要求，我将对原回答进行补充、修正和完善，形成一份独立可读、完整且更严谨的题目解答。以下为修订后的完整回答。\n\n---\n\n## **完整题目解答：Rel-18 5G-Advanced NR-DC技术试点关键问题分析**\n\n### **问题1：FR2频段低时延移动性解决方案**\n\n#### **1.1 核心技术方案选择**\n\n针对FR2频段低时延移动性的核心需求（中断时延<10ms，信令开销降低>40%），应选择 **LTM (L1/L2 Triggered Mobility)** 作为主要技术方案。这是3GPP Rel-",
+        "reasoning_text": "",
+        "feedback_received": "请你进一步澄清**问题1中的Early TA获取与回退机制**：  \n1）Rel-18 LTM下，Early TA的主获取路径应如何定义，UE自主测量与网络触发获取分别处于什么角色；  \n2）当UE未持有有效TA、或TA置信度不足时，是否应采用**PDCCH order触发的RACH**作为回退，请给出判定条件、执行流程及其对时延/可靠性的影响；  \n3）结合上述，重新说明无RACH LTM与带RACH LTM的适用边界。"
+      },
+      {
+        "round": 3,
+        "is_feedback_round": true,
+        "input_tokens": 10026,
+        "output_tokens": 5865,
+        "reasoning_tokens": 0,
+        "total_tokens": 15891,
+        "latency_ms": 59676,
+        "answer_preview": "好的，感谢您的再次评审。我将根据您的要求，对问题1中的Early TA获取与回退机制进行更深入、更精确的澄清，并整合到一份完整、独立可读的题目解答中。以下为修订后的完整回答，重点强化了问题1中关于TA获取路径、回退机制及适用边界的论述。\n\n---\n\n## **完整题目解答：Rel-18 5G-Advanced NR-DC技术试点关键问题分析**\n\n### **问题1：FR2频段低时延移动性解决方案**\n\n#### **1.1 核心技术方案选择**\n\n针对FR2频段低时延移动性的核心需求（中断时延<10ms，信令开销降低>40%），应选择 **LTM (L1/L2 Triggered Mobil",
+        "reasoning_text": "",
+        "feedback_received": "请你进一步澄清**问题1中的Early TA获取与回退机制**：  \n1）Rel-18 LTM下，Early TA的主获取路径应如何定义，UE自主测量与网络触发获取分别处于什么角色；  \n2）当UE未持有有效TA、或TA置信度不足时，是否应采用**PDCCH order触发的RACH**作为回退，请给出判定条件、执行流程及其对时延/可靠性的影响；  \n3）结合上述，重新说明无RACH LTM与带RACH LTM的适用边界。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T02:30:33.902033+00:00",
+    "answer_length": 8876
+  },
+  "scoring": {
+    "score": 20.0,
+    "max_score": 20,
+    "min_score": -20,
+    "final_score": 20.0,
+    "scoring_mode": "unknown",
+    "review_text": "请你进一步澄清**问题1中的Early TA获取与回退机制**：  \n1）Rel-18 LTM下，Early TA的主获取路径应如何定义，UE自主测量与网络触发获取分别处于什么角色；  \n2）当UE未持有有效TA、或TA置信度不足时，是否应采用**PDCCH order触发的RACH**作为回退，请给出判定条件、执行流程及其对时延/可靠性的影响；  \n3）结合上述，重新说明无RACH LTM与带RACH LTM的适用边界。",
+    "scored_at": "2026-05-19T02:32:30.513097Z",
+    "poll_attempts": 12
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T02:33:37.207734+00:00",
+      "reply_length": 7300,
+      "reply_preview": "好的，感谢您的评审反馈。针对您提出的关于Early TA获取与回退机制的澄清要求，我将对原回答进行补充、修正和完善，形成一份独立可读、完整且更严谨的题目解答。以下为修订后的完整回答。\n\n---\n\n## **完整题目解答：Rel-18 5G-Advanced NR-DC技术试点关键问题分析**\n\n### **问题1：FR2频段低时延移动性解决方案**\n\n#### **1.1 核心技术方案选择**\n\n针对FR2频段低时延移动性的核心需求（中断时延<10ms，信令开销降低>40%），应选择 **LTM (L1/L2 Triggered Mobility)** 作为主要技术方案。这是3GPP Rel-"
+    },
+    {
+      "round": 2,
+      "replied_at": "2026-05-19T02:34:53.953764+00:00",
+      "reply_length": 10940,
+      "reply_preview": "好的，感谢您的再次评审。我将根据您的要求，对问题1中的Early TA获取与回退机制进行更深入、更精确的澄清，并整合到一份完整、独立可读的题目解答中。以下为修订后的完整回答，重点强化了问题1中关于TA获取路径、回退机制及适用边界的论述。\n\n---\n\n## **完整题目解答：Rel-18 5G-Advanced NR-DC技术试点关键问题分析**\n\n### **问题1：FR2频段低时延移动性解决方案**\n\n#### **1.1 核心技术方案选择**\n\n针对FR2频段低时延移动性的核心需求（中断时延<10ms，信令开销降低>40%），应选择 **LTM (L1/L2 Triggered Mobil"
+    }
+  ],
+  "refine_prompt": {
+    "refined_at": "2026-05-19T02:35:04.200013+00:00",
+    "category": "natural_science",
+    "feedback_trigger": "请你进一步澄清**问题1中的Early TA获取与回退机制**：  \n1）Rel-18 LTM下，Early TA的主获取路径应如何定义，UE自主测量与网络触发获取分别处于什么角色；  \n2）当UE未持有有效TA、或TA置信度不足时，是否应采用**PDCCH order触发的RACH**作为回退，请给出判定条件、执行流程及其对时延/可靠性的影响；  \n3）结合上述，重新说明无RACH LTM与带RACH LTM的适用边界。",
+    "refined_prompt_preview": "你是一位自然科学与通信工程领域的资深专家，精通化学（有机化学、材料化学、生物化学、化工）、生物学（细胞生物学、分子生物学、微生物学、生态学）、物理学、数学、通信工程（包括3GPP标准、无线接入网、移动性管理、信号处理、协议栈）等学科。\n\n回答要求：\n1. 提供严谨的学术论证，逻辑清晰，层次分明。\n2. 引用具体的理论、定律、公式、实验数据或3GPP标准规范（如TS 38.300、TS 38.331、TS 38.321等），并注明具体章节或版本号。\n3. 严格区分已证实的事实和尚在讨论的假说，对于标准中已明确的内容应直接引用，对于尚在讨论或可选方案应明确说明其状态。\n4. 如涉及计算，需要给出完整的推导过程，并保留适当的有效数字。\n5. 使用专业术语，但确保解释到位，避免歧义。\n6. **对于涉及技术方案选择、流程设计、回退机制、边界条件判定的问题，必须提供明确的判定条件、执行流程、以及不同方案之间的对比分析（包括对性能指标如时延、可靠性、信令开销的影响）。**\n7. **当问题涉及多个技术路径或备选方案时，应明确各方案的角色定位（如主路径、辅助路径、回退路径），并说明在不同场景下的适用边界和切换条件。**\n8. **回答应具有工程实践导向，不仅说明“是什么”，还要说明“为什么”以及“在什么条件下选择什么方案”，体现系统性的工程决策思维。**\n9. **对于涉及协议流程、信令交互、UE行为的问题，应按照时间顺序或逻辑顺序逐步描述，并指出关键的信令字段、触发条件、状态转换等细节。**\n10. **对于涉及多路径、多阶段或多条件的技术问题（如切换流程中的主路径与回退路径、测量与决策的层级关系、条件满足的优先级判定等），必须明确给出各路径/阶段/条件的角色定义、触发条件、执行流程、以及相互之间的转换关系或优先级规则。**\n11. **当问题要求澄清或细化某一技术细节（如参数获取方式、回退机制、边界条件）时，必须从“主路径-辅助路径-回退路径”的层次结构进行组织，明确每条路径的适用场景、判定条件、执行步骤、以及对关键性能指标（时延、可靠性、信令开销）的定量或定性影响。**\n12. **对于涉及UE与网络侧协同决策的场景，必须明确区分UE自主决策与网络侧控制的边界，说明在何种条件下由哪一方触发何种动作，并描述双方之间的信令交互内容与时机。**",
+    "refined_prompt_length": 982,
+    "input_tokens": 6372,
+    "output_tokens": 581,
+    "reasoning_tokens": 0,
+    "latency_ms": 10244
+  },
+  "token_summary": {
+    "plan_agent_total": 1260,
+    "expert_agent_total": 31389,
+    "grand_total_tokens": 32649
+  },
+  "cost_summary": {
+    "reward_pool": 3399,
+    "score_earned": 20.0,
+    "max_score": 20,
+    "min_score": -20
+  },
+  "exceptions": []
+}
