@@ -128,3 +128,92 @@ class TaskWorker:
                 task_logger.finish("failed")
                 self.summary_logger.update_from_task_log(task_logger)
             return {"task_id": task_id, "status": "failed", "error": str(e)}
+
+    def resume_task(self, task_id: str) -> dict:
+        """
+        恢复已提交但未完成反馈流程的任务
+        跳过答案生成和提交，直接进入 feedback loop
+        """
+        task_logger = None
+        try:
+            task_detail = self.arena.get_task_detail(task_id)
+            title = task_detail.get("title", "")
+            content = ""
+            agora_post = task_detail.get("agora_post", {})
+            if agora_post:
+                content = agora_post.get("description", "") or agora_post.get("content", "")
+            post_id = task_detail.get("agora_post_id", "")
+            reward_pool = task_detail.get("reward_pool", 0)
+
+            task_logger = TaskLogger(
+                task_id=task_id,
+                title=title,
+                log_dir=self.config.settings.get("logging", {}).get("log_dir", "logs"),
+            )
+            task_logger.set_task_detail(task_detail)
+            task_logger.set_reward_pool(reward_pool)
+
+            # Plan Agent 分类
+            plan_result, plan_response = self.plan_agent.analyze(title, content)
+            category = plan_result["category"]
+            task_logger.set_category(category)
+            task_logger.log_plan_agent(
+                input_text=f"{title}\n{content[:500]}",
+                output_json=plan_result,
+                reasoning_text=plan_response.reasoning,
+                input_tokens=plan_response.input_tokens,
+                output_tokens=plan_response.output_tokens,
+                reasoning_tokens=plan_response.reasoning_tokens,
+                latency_ms=plan_response.latency_ms,
+            )
+
+            # 获取已提交的答案，重建 Expert Agent 上下文
+            my_answer_result = self.arena.get_my_answer(task_id)
+            existing_answer = my_answer_result.get("content", "")
+
+            expert = ExpertAgent(category, self.config)
+            # 重建对话历史：system + user question + assistant answer
+            user_content = expert._build_initial_prompt(title, content)
+            expert.messages.append({"role": "user", "content": user_content})
+            expert.messages.append({"role": "assistant", "content": existing_answer})
+
+            task_logger.log_expert_agent(
+                round_num=1,
+                input_tokens=0,
+                output_tokens=0,
+                reasoning_tokens=0,
+                latency_ms=0,
+                answer_preview=existing_answer[:200],
+                reasoning_text="",
+            )
+            task_logger.log_submission(len(existing_answer))
+
+            logger.info(f"[Task {task_id[:8]}] Resuming feedback loop...")
+            feedback_loop = FeedbackLoop(
+                config_loader=self.config,
+                arena_client=self.arena,
+                expert_agent=expert,
+                task_logger=task_logger,
+            )
+            feedback_result = feedback_loop.run(task_id, post_id, category)
+
+            task_logger.finish("completed")
+            self.summary_logger.update_from_task_log(task_logger)
+
+            return {
+                "task_id": task_id,
+                "title": title,
+                "category": category,
+                "status": "completed",
+                "score": feedback_result.get("score"),
+                "feedback_text": feedback_result.get("feedback_text", ""),
+                "tokens_used": task_logger.data["token_summary"]["grand_total_tokens"],
+            }
+
+        except Exception as e:
+            logger.error(f"[Task {task_id[:8]}] Resume failed: {type(e).__name__}: {e}")
+            if task_logger:
+                task_logger.log_exception(type(e).__name__, str(e), "abort", stage="resume")
+                task_logger.finish("failed")
+                self.summary_logger.update_from_task_log(task_logger)
+            return {"task_id": task_id, "status": "failed", "error": str(e)}

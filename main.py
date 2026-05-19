@@ -9,6 +9,8 @@ Arena Agent 主入口
 """
 
 import argparse
+import glob
+import json
 import logging
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -49,52 +51,8 @@ def cmd_process_task(task_id: str, config: ConfigLoader):
     return result
 
 
-def cmd_process_all(config: ConfigLoader, concurrency: int = 10):
-    """并发处理所有未答题目"""
-    arena = ArenaClient()
-    tasks = arena.get_tasks()
-
-    answered = set()
-    for task in tasks:
-        tid = task["task_id"]
-        my_answer = arena.get_my_answer(tid)
-        if my_answer and my_answer.get("answer"):
-            answered.add(tid)
-
-    unanswered = [t for t in tasks if t["task_id"] not in answered]
-    unanswered.sort(key=lambda t: t.get("reward_pool", 0), reverse=True)
-
-    print(f"Total: {len(tasks)}, Answered: {len(answered)}, To process: {len(unanswered)}, Concurrency: {concurrency}")
-
-    results = []
-
-    def process_one(task: dict) -> dict:
-        worker = TaskWorker(config)
-        return worker.process_task(task["task_id"])
-
-    with ThreadPoolExecutor(max_workers=concurrency) as executor:
-        futures = {executor.submit(process_one, t): t for t in unanswered}
-        with tqdm(total=len(unanswered), desc="Tasks", unit="task") as pbar:
-            for future in as_completed(futures):
-                task = futures[future]
-                try:
-                    result = future.result()
-                except Exception as e:
-                    result = {"task_id": task["task_id"], "status": "failed", "error": str(e)}
-                results.append(result)
-                score = result.get("score", "N/A")
-                pbar.set_postfix_str(f"{task['title'][:30]} → score={score}")
-                pbar.update(1)
-
-    print(f"\n{'='*60}")
-    print(f"Processed {len(results)} tasks")
-    succeeded = sum(1 for r in results if r["status"] == "completed")
-    print(f"  Succeeded: {succeeded}")
-    print(f"  Failed: {len(results) - succeeded}")
-    total_score = sum(r.get("score", 0) or 0 for r in results)
-    print(f"  Total score: {total_score}")
-
-    # 批次结束后，按 category 汇总反馈，做一次综合 refine
+def _do_batch_refine(config: ConfigLoader, results: list[dict], label: str = ""):
+    """按 category 汇总反馈，做一次综合 refine"""
     feedback_by_category: dict[str, list[str]] = {}
     for r in results:
         cat = r.get("category")
@@ -103,7 +61,7 @@ def cmd_process_all(config: ConfigLoader, concurrency: int = 10):
             feedback_by_category.setdefault(cat, []).append(fb)
 
     if feedback_by_category:
-        print(f"\nRefining prompts for {len(feedback_by_category)} categories...")
+        print(f"\n[Refine{label}] Refining prompts for {len(feedback_by_category)} categories...")
         for category, feedbacks in feedback_by_category.items():
             combined_feedback = "\n\n---\n\n".join(
                 f"[Feedback {i+1}]\n{fb}" for i, fb in enumerate(feedbacks)
@@ -114,6 +72,111 @@ def cmd_process_all(config: ConfigLoader, concurrency: int = 10):
                 print(f"  {category}: refined with {len(feedbacks)} feedback(s)")
             except Exception as e:
                 print(f"  {category}: refine failed - {e}")
+
+
+def _find_interrupted_tasks(arena: ArenaClient, tasks: list[dict], log_dir: str) -> list[dict]:
+    """找出已提交答案但未完成反馈流程的 task"""
+    completed_ids = set()
+    for f in glob.glob(f"{log_dir}/task_*.json"):
+        with open(f) as fh:
+            d = json.load(fh)
+            if d.get("status") == "completed":
+                completed_ids.add(d["task_id"])
+
+    interrupted = []
+    for task in tasks:
+        tid = task["task_id"]
+        if tid in completed_ids:
+            continue
+        my_answer = arena.get_my_answer(tid)
+        if my_answer and my_answer.get("answer"):
+            interrupted.append(task)
+
+    return interrupted
+
+
+def cmd_process_all(config: ConfigLoader, concurrency: int = 10):
+    """并发处理所有未答题目 + 恢复中断任务，每 concurrency 个完成做一次 refine"""
+    arena = ArenaClient()
+    tasks = arena.get_tasks()
+    log_dir = config.settings.get("logging", {}).get("log_dir", "logs")
+
+    # 检测中断任务（已提交答案但未完成反馈）
+    interrupted = _find_interrupted_tasks(arena, tasks, log_dir)
+
+    # 找未答题目（排除已完成和已中断的）
+    completed_ids = set()
+    for f in glob.glob(f"{log_dir}/task_*.json"):
+        with open(f) as fh:
+            d = json.load(fh)
+            if d.get("status") == "completed":
+                completed_ids.add(d["task_id"])
+
+    answered_ids = completed_ids | {t["task_id"] for t in interrupted}
+    for task in tasks:
+        tid = task["task_id"]
+        if tid not in answered_ids:
+            my_answer = arena.get_my_answer(tid)
+            if my_answer and my_answer.get("answer"):
+                answered_ids.add(tid)
+
+    unanswered = [t for t in tasks if t["task_id"] not in answered_ids]
+    unanswered.sort(key=lambda t: t.get("reward_pool", 0), reverse=True)
+
+    print(f"Total: {len(tasks)}, Completed: {len(completed_ids)}, Interrupted: {len(interrupted)}, To process: {len(unanswered)}, Concurrency: {concurrency}")
+
+    # 构建工作队列：先恢复中断任务，再处理新任务
+    work_items = []
+    for t in interrupted:
+        work_items.append(("resume", t))
+    for t in unanswered:
+        work_items.append(("new", t))
+
+    results = []
+    batch_results = []  # 当前 batch 的 results（用于 refine）
+    refine_count = 0
+
+    def process_one(mode: str, task: dict) -> dict:
+        worker = TaskWorker(config)
+        if mode == "resume":
+            return worker.resume_task(task["task_id"])
+        return worker.process_task(task["task_id"])
+
+    with ThreadPoolExecutor(max_workers=concurrency) as executor:
+        futures = {executor.submit(process_one, mode, t): (mode, t) for mode, t in work_items}
+        with tqdm(total=len(work_items), desc="Tasks", unit="task") as pbar:
+            for future in as_completed(futures):
+                mode, task = futures[future]
+                try:
+                    result = future.result()
+                except Exception as e:
+                    result = {"task_id": task["task_id"], "status": "failed", "error": str(e)}
+                results.append(result)
+                batch_results.append(result)
+                score = result.get("score", "N/A")
+                tag = "[R]" if mode == "resume" else ""
+                pbar.set_postfix_str(f"{tag}{task['title'][:28]} → score={score}")
+                pbar.update(1)
+
+                # 每 concurrency 个完成做一次 batch refine
+                if len(batch_results) >= concurrency:
+                    refine_count += 1
+                    _do_batch_refine(config, batch_results, f" #{refine_count}")
+                    batch_results = []
+
+    # 最后剩余的也做一次 refine
+    if batch_results:
+        refine_count += 1
+        _do_batch_refine(config, batch_results, f" #{refine_count} (final)")
+
+    print(f"\n{'='*60}")
+    print(f"Processed {len(results)} tasks")
+    succeeded = sum(1 for r in results if r["status"] == "completed")
+    print(f"  Succeeded: {succeeded}")
+    print(f"  Failed: {len(results) - succeeded}")
+    total_score = sum(r.get("score", 0) or 0 for r in results)
+    print(f"  Total score: {total_score}")
+    print(f"  Refine rounds: {refine_count}")
 
 
 def cmd_list_tasks(config: ConfigLoader):
