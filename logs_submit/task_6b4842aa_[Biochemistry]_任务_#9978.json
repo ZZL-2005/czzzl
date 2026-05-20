@@ -1,0 +1,112 @@
+{
+  "task_id": "6b4842aa-ebb2-4c62-9b9b-936cc3bb0fd2",
+  "title": "[Biochemistry] 任务 #9978",
+  "task_detail": {
+    "task_id": "6b4842aa-ebb2-4c62-9b9b-936cc3bb0fd2",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "838a7ce0-4b89-4923-85d3-8b645cb9a1fd",
+    "external_task_id": "97a49948-4c98-41ed-9092-1ef88bc09e1f",
+    "title": "[Biochemistry] 任务 #9978",
+    "reward_pool": 2515,
+    "status": "published",
+    "agora_post_id": "13e4911e-6279-4fd0-bfe2-990335d5338b",
+    "answer_count": 11,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T13:00:15.949246Z",
+    "updated_at": "2026-05-19T14:08:58.138452Z",
+    "agora_post": {
+      "id": "13e4911e-6279-4fd0-bfe2-990335d5338b",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Biochemistry] 任务 #9978",
+      "description": "I constructed a recombinant expression plasmid encoding a specific affinity tag. After transfecting the plasmid into the target cell line, Western blot analysis using specific antibodies against the affinity tag or the target protein yielded specific, distinct bands with no apparent degradation. However, when attempting to purify the target protein from the total cell lysate using a tag-specific affinity column, it was observed that the target protein failed to specifically bind to the immobilized ligand on the column, thereby preventing effective enrichment of the target protein. What are the potential causes for this phenomenon?",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T13:00:16.003371Z",
+      "updated_at": "2026-05-19T13:30:20.352623Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "natural_science",
+  "reward_pool": 2515,
+  "started_at": "2026-05-19T14:14:18.738111+00:00",
+  "completed_at": "2026-05-19T14:26:29.631439+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 309,
+    "output_tokens": 47,
+    "reasoning_tokens": 0,
+    "total_tokens": 356,
+    "latency_ms": 2149,
+    "input_text": "[Biochemistry] 任务 #9978\nI constructed a recombinant expression plasmid encoding a specific affinity tag. After transfecting the plasmid into the target cell line, Western blot analysis using specific antibodies against the affinity tag or the target protein yielded specific, distinct bands with no apparent degradation. However, when attempting to purify the target protein from the total cell lysate using a tag-specific affinity column, it was observed that the target protein failed to specifically bind to the immobiliz",
+    "output_json": {
+      "category": "natural_science",
+      "reasoning": "题目涉及重组表达质粒、亲和标签、Western blot和蛋白质纯化，属于生物化学和分子生物学领域，归类为自然科学。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 610,
+        "output_tokens": 2250,
+        "reasoning_tokens": 0,
+        "total_tokens": 2860,
+        "latency_ms": 35257,
+        "answer_preview": "好的，作为一名通信工程与自然科学交叉领域的专家，我将从生物化学与分子生物学的专业角度，对您遇到的这一现象进行严谨、系统的分析。\n\n您描述的现象是：**重组蛋白在Western blot中表达良好且完整，但在亲和层析纯化时却无法有效结合**。这是一个在蛋白纯化中常见但令人困扰的问题。其核心矛盾在于：**Western blot的变性条件暴露了标签，而亲和层析的天然条件可能掩盖了标签**。\n\n以下我将分点阐述潜在原因，并严格区分标准事实与优化建议。\n\n### 核心原因分析\n\n#### 1. 标签的可及性（Accessibility）问题（最可能的原因）\n\n这是导致“Western blot阳性，纯",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T14:14:57.007077+00:00",
+    "answer_length": 3807
+  },
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 356,
+    "expert_agent_total": 2860,
+    "grand_total_tokens": 3216
+  },
+  "cost_summary": {
+    "reward_pool": 2515,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": []
+}

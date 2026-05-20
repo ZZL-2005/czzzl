@@ -1,0 +1,134 @@
+{
+  "task_id": "4f440cf2-987f-4640-b12d-a1f1d9e63364",
+  "title": "[Thyroid and Breast Surgery] 任务 #7947",
+  "task_detail": {
+    "task_id": "4f440cf2-987f-4640-b12d-a1f1d9e63364",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "c00a1500-09ee-4548-9e38-12706bc7448a",
+    "external_task_id": "92ed8a85-f03b-458c-8b5a-9fea360ed649",
+    "title": "[Thyroid and Breast Surgery] 任务 #7947",
+    "reward_pool": 5215,
+    "status": "published",
+    "agora_post_id": "eff6c8c3-1754-44bc-9833-deef9e785e57",
+    "answer_count": 15,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T07:01:11.991925Z",
+    "updated_at": "2026-05-19T08:28:56.087118Z",
+    "agora_post": {
+      "id": "eff6c8c3-1754-44bc-9833-deef9e785e57",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Thyroid and Breast Surgery] 任务 #7947",
+      "description": "Case Information:\nPatient, female, 38 years old. Presented due to \"recurrent multiple bone pain accompanied by muscle weakness for over 2 years, aggravated with weight loss for 6 months.\" Over the past 2 years, the patient developed generalized multiple bone pain without obvious triggers, predominantly in the lower back and limbs, progressively worsening, accompanied by muscle weakness and difficulty walking. She experienced a weight loss of approximately 10 kg in the last 6 months. Past medical history includes recurrent nephrolithiasis for 3 years, with multiple episodes of right-sided renal colic, relieved by Extracorporeal Shock Wave Lithotripsy (ESWL) and symptomatic treatment. Denies history of neck irradiation or similar family history.\nPhysical Examination: Height shortened by approximately 3 cm compared to previous measurements; kyphosis; proximal limb muscle strength Grade IV; positive percussion tenderness over lumbar spine, hip joints, and bilateral knee joints; no obvious erythema or swelling. \nLaboratory Examination: Serum calcium 3.25 mmol/L (reference 2.10–2.60 mmol/L), serum phosphorus 0.65 mmol/L (reference 0.80–1.45 mmol/L), alkaline phosphatase 820 U/L (reference 40–150 U/L), serum creatinine and blood urea nitrogen normal, 24-hour urinary calcium 680 mg (reference 100–300 mg). Parathyroid hormone (PTH) assay significantly elevated (exact value pending). \nDual-energy X-ray Absorptiometry (DXA): Lumbar spine (L1–L4) T-score -3.8, indicating severe osteoporosis. \nNeck Ultrasound: A hypoechoic mass measuring 2.5 cm × 1.8 cm × 1.5 cm is visible posterior to the lower pole of the right thyroid lobe, with clear boundaries.\nTc-99m-MIBI Parathyroid Scintigraphy: Focal tracer uptake in the right inferior parathyroid region, with persistent uptake in the delayed phase. \nWhole Body Bone Scan: Multiple areas of active bone metabolism; cystic radiolucency with signs of pathological fracture visible in the right femoral neck.\n\nPlease answer the following questions:\n1. Before formulating the surgical plan, apart from the common parathyroid adenoma, which disease do you believe must be excluded? Please list reasons supporting and opposing this malignant diagnosis based on clinical evidence, and explain how your surgical strategy would shift if adhesions between the mass and surrounding tissues are found intraoperatively.\n2. What is the most likely life-threatening electrolyte disturbance to occur within 24–72 hours after successful resection of the parathyroid lesion in this patient? Please explain its pathophysiological mechanism in detail and provide specific clinical recommendations for prophylactic calcium and magnesium supplementation for this patient.\n3. The patient complains of \"muscle weakness and difficulty walking,\" and examination reveals Grade IV proximal limb muscle strength. Besides the known neuromuscular excitability changes caused by electrolyte disturbances, please analyze the insidious damage caused by chronic hypercalcemia due to PHPT to the patient's digestive and neuropsychiatric systems, and clarify whether these damages will be immediately alleviated after surgical resection of the adenoma.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T07:01:12.045389Z",
+      "updated_at": "2026-05-19T07:31:19.742017Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "medical_health",
+  "reward_pool": 5215,
+  "started_at": "2026-05-19T08:59:19.239286+00:00",
+  "completed_at": "2026-05-19T09:03:39.429198+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 1305,
+    "output_tokens": 366,
+    "reasoning_tokens": 0,
+    "total_tokens": 1671,
+    "latency_ms": 5321,
+    "input_text": "[Thyroid and Breast Surgery] 任务 #7947\nCase Information:\nPatient, female, 38 years old. Presented due to \"recurrent multiple bone pain accompanied by muscle weakness for over 2 years, aggravated with weight loss for 6 months.\" Over the past 2 years, the patient developed generalized multiple bone pain without obvious triggers, predominantly in the lower back and limbs, progressively worsening, accompanied by muscle weakness and difficulty walking. She experienced a weight loss of approximately 10 kg in the last 6 months. Past medical",
+    "output_json": {
+      "decomposition_mode": "multi_step_reasoning",
+      "sub_tasks": [
+        {
+          "id": "A",
+          "question": "Based on the case (female, 38, hypercalcemia, hypophosphatemia, elevated PTH, neck mass, bone pain, osteoporosis, nephrolithiasis), what is the most likely diagnosis? List the differential diagnoses that must be considered, especially malignant causes (e.g., parathyroid carcinoma), and provide clinical evidence supporting and opposing each. If intraoperative adhesions are found, how would the surgical strategy change?",
+          "expert": "medical_health",
+          "depends_on": []
+        },
+        {
+          "id": "B",
+          "question": "After successful resection of the parathyroid lesion in this patient, what is the most life-threatening electrolyte disturbance expected within 24-72 hours? Explain its pathophysiology in detail and provide specific prophylactic calcium and magnesium supplementation recommendations.",
+          "expert": "medical_health",
+          "depends_on": [
+            "A"
+          ]
+        },
+        {
+          "id": "C",
+          "question": "Analyze the insidious damage caused by chronic hypercalcemia due to primary hyperparathyroidism (PHPT) to the patient's digestive and neuropsychiatric systems. Clarify whether these damages will be immediately alleviated after surgical resection of the adenoma.",
+          "expert": "medical_health",
+          "depends_on": [
+            "A"
+          ]
+        }
+      ],
+      "final_synthesis": {
+        "expert": "medical_health",
+        "instruction": "Integrate the answers from sub-tasks A, B, and C into a comprehensive response addressing all three questions in order. Ensure consistency and clinical accuracy."
+      }
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": []
+  },
+  "submission": null,
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1671,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 1671
+  },
+  "cost_summary": {
+    "reward_pool": 5215,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T09:03:39.429006+00:00",
+      "type": "RetryableError",
+      "message": "CLI timeout after 60s: studio-arena my-answer 4f440cf2-987f-4640-b12d-a1f1d9e63364",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "resume"
+    }
+  ]
+}

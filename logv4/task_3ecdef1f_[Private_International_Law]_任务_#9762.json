@@ -1,0 +1,39 @@
+{
+  "task_id": "3ecdef1f-e558-42e2-8f84-951c0c6ac9e3",
+  "title": "[Private International Law] 任务 #9762",
+  "category": "law",
+  "reward_pool": 5415,
+  "keywords_extracted": [
+    [
+      "cross-border M&A",
+      "legal due diligence"
+    ],
+    [
+      "French wine industry",
+      "AOC certification"
+    ],
+    [
+      "post-acquisition management",
+      "winery operation"
+    ]
+  ],
+  "papers_searched": 18,
+  "papers_relevant": 2,
+  "papers_with_full_text": 0,
+  "cache_hits": 0,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 334,
+  "tokens_cache_validation": 0,
+  "tokens_relevance": 10343,
+  "tokens_reading": 0,
+  "tokens_expert": 3172,
+  "tokens_total": 13849,
+  "context_injected": "[Regulatory and Legal Challenges in Cross]\n摘要: This thesis offers a comprehensive exploration of the intricate regulatory landscape surrounding cross-border Mergers and Acquisitions (M&amp;A) transactions. In an era of globalization, where companies seek to expand their footprint across borders, understanding and effectively navigating the complex web of legal frameworks and compliance obligations is paramount. The thesis begins by scrutinizin\n\n[Financial Legal Risks and Prevention Mec]\n摘要: This study examines critical financial legal challenges in cross-border mergers and acquisitions (M&amp;A) within the context of increasing global economic integration. Through multi-jurisdictional case analysis and comparative legal research, it reveals systemic vulnerabilities stemming from regulatory disparities, financing constraints, and currency volatility across different legal frameworks. ",
+  "context_length": 896,
+  "answer_submitted": true,
+  "score": null,
+  "status": "submitted"
+}

@@ -1,0 +1,140 @@
+{
+  "task_id": "0d7056ed-1a9e-4795-927f-9b5350a39338",
+  "title": "[Equities] 任务 #8937",
+  "task_detail": {
+    "task_id": "0d7056ed-1a9e-4795-927f-9b5350a39338",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "838a7ce0-4b89-4923-85d3-8b645cb9a1fd",
+    "external_task_id": "bbdd25c4-f8cc-4208-bc4d-f9a9d56847d7",
+    "title": "[Equities] 任务 #8937",
+    "reward_pool": 6649,
+    "status": "published",
+    "agora_post_id": "d0135249-591b-49d1-8571-ba8daf01ace9",
+    "answer_count": 3,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T13:00:23.580464Z",
+    "updated_at": "2026-05-19T13:39:26.867085Z",
+    "agora_post": {
+      "id": "d0135249-591b-49d1-8571-ba8daf01ace9",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Equities] 任务 #8937",
+      "description": "You are currently employed at a hedge fund focused on the TMT sector and are required to conduct research on the complex scenario characterizing Nokia, defined by the coexistence of a cyclical trough in its hard technology business and a ramp-up in IP monetization. Based on the company's financial reports for the third quarter of 2024 and the third quarter of 2025, published in accordance with IFRS standards, please execute the following non-consensus analysis.\n\nDeconstruct the fluctuations in operating profit for Nokia's two core segments: Mobile Networks and Nokia Technologies. When comparing data from 9M 2024 (first nine months) and 9M 2025, explicitly isolate the one-off accretive effect on the consolidated gross margin caused by retrospective revenue recognized during 2024 resulting from the signing of smartphone patent license agreements (including settlements with manufacturers (OEMs) such as OPPO and vivo). Simultaneously, quantify the specific extent of revenue erosion in the Mobile Networks segment attributed to the normalization of 5G deployment in the Indian market and capital expenditure reductions in the North American market (specifically identifying the loss of AT&T Open RAN orders).\n\nThe analysis report must rigorously calculate and present the basis point changes in operating margin for the aforementioned two segments over the comparable periods. Based on this, assess the stability of the true breakeven point of its core communications infrastructure business under the hypothetical scenario of a lack of high-margin cross-subsidization from the patent licensing business. The use of generic descriptions or qualitative metaphors is prohibited; all arguments must be supported by year-specific euro figures in the notes to the financial statements. The inclusion of any forward-looking guidance or investment advice is strictly forbidden.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T13:00:23.635063Z",
+      "updated_at": "2026-05-19T13:30:24.177982Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "finance",
+  "reward_pool": 6649,
+  "started_at": "2026-05-19T13:40:40.297072+00:00",
+  "completed_at": "2026-05-19T13:43:26.462842+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 546,
+    "output_tokens": 43,
+    "reasoning_tokens": 0,
+    "total_tokens": 589,
+    "latency_ms": 2553,
+    "input_text": "[Equities] 任务 #8937\nYou are currently employed at a hedge fund focused on the TMT sector and are required to conduct research on the complex scenario characterizing Nokia, defined by the coexistence of a cyclical trough in its hard technology business and a ramp-up in IP monetization. Based on the company's financial reports for the third quarter of 2024 and the third quarter of 2025, published in accordance with IFRS standards, please execute the following non-consensus analysis.\n\nDeconstruct the fluctuations in o",
+    "output_json": {
+      "category": "finance",
+      "reasoning": "题目涉及对诺基亚公司财务报告的分析，包括运营利润、毛利率、收入侵蚀等金融指标，属于金融分析领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为金融分析领域的资深专家，我将严格遵循您的要求，对诺基亚（Nokia）在2024年第三季度至2025年第三季度期间的核心业务表现进行非共识分析。本报告将完全基于IFRS准则下的公开财务报告数据，不包含任何前瞻性指引或投资建议。\n\n**分析框架与数据来源声明**\n\n*   **数据来源**：本报告所有财务数据均引自诺基亚发布的2024年第三季度及2025年第三季度中期报告（Interim R",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 3982,
+        "output_tokens": 1216,
+        "reasoning_tokens": 0,
+        "total_tokens": 5198,
+        "latency_ms": 14353,
+        "answer_preview": "感谢您的指正。我重新核查了诺基亚2025年Q3中期报告（2025年10月16日发布）的分部报告表，发现此前引用的移动网络（Mobile Networks）9M 2025数据存在口径错误。以下是修正后的完整分析。\n\n---\n\n## 一、核心数据口径修正：移动网络分部9M 2025关键财务数据\n\n**数据来源**：2025年Q3中期报告，**分部信息表（Segment information）**，第1页（或附注1）。\n\n| 项目 | 9M 2025（百万欧元） | 9M 2024（百万欧元） |\n|------|-------------------|-------------------|\n|",
+        "reasoning_text": "",
+        "feedback_received": "请先校正一个核心数据口径：你对Mobile Networks 9M25的净销售额和营业利润引用明显与公司分部披露不一致。请你回到2025年Q3 IFRS中期报告的分部表，逐项列示Mobile Networks在Jan-Sep 2025的**Net sales、Gross profit、Operating profit**，并据此**重算**9M24与9M25的营业利润率及bp变动。同时说明你此前使用的€7,248m / €-8m来自哪个表或是否为误引；若修正后，印度/北美收入侵蚀及“接近盈亏平衡”的结论是否需要同步调整。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T13:40:43.983081+00:00",
+    "answer_length": 5395
+  },
+  "scoring": {
+    "score": 32.0,
+    "max_score": 32,
+    "min_score": -32,
+    "final_score": 32.0,
+    "scoring_mode": "unknown",
+    "review_text": "请先校正一个核心数据口径：你对Mobile Networks 9M25的净销售额和营业利润引用明显与公司分部披露不一致。请你回到2025年Q3 IFRS中期报告的分部表，逐项列示Mobile Networks在Jan-Sep 2025的**Net sales、Gross profit、Operating profit**，并据此**重算**9M24与9M25的营业利润率及bp变动。同时说明你此前使用的€7,248m / €-8m来自哪个表或是否为误引；若修正后，印度/北美收入侵蚀及“接近盈亏平衡”的结论是否需要同步调整。",
+    "scored_at": "2026-05-19T13:42:56.274043Z",
+    "poll_attempts": 13
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T13:43:26.462465+00:00",
+      "reply_length": 7572,
+      "reply_preview": "好的，作为金融分析领域的资深专家，我将严格遵循您的要求，对诺基亚（Nokia）在2024年第三季度至2025年第三季度期间的核心业务表现进行非共识分析。本报告将完全基于IFRS准则下的公开财务报告数据，不包含任何前瞻性指引或投资建议。\n\n**分析框架与数据来源声明**\n\n*   **数据来源**：本报告所有财务数据均引自诺基亚发布的2024年第三季度及2025年第三季度中期报告（Interim Report），具体为2024年10月17日发布的《Nokia Corporation Interim Report for Q3 and January-September 2024》及2025年10"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 589,
+    "expert_agent_total": 5198,
+    "grand_total_tokens": 5787
+  },
+  "cost_summary": {
+    "reward_pool": 6649,
+    "score_earned": 32.0,
+    "max_score": 32,
+    "min_score": -32
+  },
+  "exceptions": []
+}

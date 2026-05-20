@@ -1,0 +1,112 @@
+{
+  "task_id": "3b652979-2647-4bfb-a694-707a0fd25024",
+  "title": "[Oncology] 任务 #9921",
+  "task_detail": {
+    "task_id": "3b652979-2647-4bfb-a694-707a0fd25024",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "838a7ce0-4b89-4923-85d3-8b645cb9a1fd",
+    "external_task_id": "31fe657a-50a8-46c8-8186-f6b8da611584",
+    "title": "[Oncology] 任务 #9921",
+    "reward_pool": 6425,
+    "status": "published",
+    "agora_post_id": "9eab4edd-cf3c-466c-ac10-45b61a165dc4",
+    "answer_count": 14,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T13:00:33.735989Z",
+    "updated_at": "2026-05-19T13:56:12.739128Z",
+    "agora_post": {
+      "id": "9eab4edd-cf3c-466c-ac10-45b61a165dc4",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Oncology] 任务 #9921",
+      "description": "The patient is a 59-year-old male diagnosed with right lung neuroendocrine carcinoma with brain metastases for over one year. His history includes first-line treatment with the \"Adebrelimab + EP regimen,\" followed by maintenance therapy with \"Adebrelimab + Etoposide.\" During maintenance therapy, he underwent radiotherapy for brain metastases. Subsequently, the patient presented due to new liver metastases and was enrolled in a clinical drug study, receiving one cycle of the \"QLC5508 + QL1706 + Carboplatin\" regimen. One week after treatment, current outpatient examination results indicate (abnormal values): Complete blood count (CBC): White blood cell (WBC) count 0.67×10^9/L, Platelet count 14×10^9/L; Procalcitonin (PCT) 1.17 ng/mL; Stool routine indicated fecal occult blood positive; Coagulation panel indicated Plasma Fibrinogen 6.86 g/L, plasma D-dimer 3.32 mg/L, Fibrin/fibrinogen degradation products (FDP) 11.24 μg/mL; C-reactive protein (CRP) 250.18 mg/L; Urinalysis indicated Urine Occult Blood +, Protein +, Nitrite +, Urobilinogen, Specific Gravity ≥1.030, urine microalbumin 0.15 g/L; Liver Function: Serum Total Bilirubin 37.7 μmol/L, Serum Direct Bilirubin 37.0 μmol/L. Questions: 1. What is the primary diagnostic consideration? 2. What differential diagnoses need to be considered? 3. What are the considered etiologies for these diagnoses? 4. What are the next steps for treatment and management, precautions during this period, and key points for communication with the patient and their family?",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T13:00:33.810225Z",
+      "updated_at": "2026-05-19T13:30:29.128843Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "medical_health",
+  "reward_pool": 6425,
+  "started_at": "2026-05-19T14:01:57.497614+00:00",
+  "completed_at": "2026-05-19T14:13:26.050275+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 584,
+    "output_tokens": 46,
+    "reasoning_tokens": 0,
+    "total_tokens": 630,
+    "latency_ms": 5359,
+    "input_text": "[Oncology] 任务 #9921\nThe patient is a 59-year-old male diagnosed with right lung neuroendocrine carcinoma with brain metastases for over one year. His history includes first-line treatment with the \"Adebrelimab + EP regimen,\" followed by maintenance therapy with \"Adebrelimab + Etoposide.\" During maintenance therapy, he underwent radiotherapy for brain metastases. Subsequently, the patient presented due to new liver metastases and was enrolled in a clinical drug study, receiving one cycle of the \"QLC5508 + QL1706 + C",
+    "output_json": {
+      "category": "medical_health",
+      "reasoning": "题目涉及肺癌脑转移患者的检查结果分析、诊断、鉴别诊断及治疗方案，属于肿瘤内科范畴，归为医疗健康领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，根据您提供的病例信息，作为一名精通多学科的医学专家，我将按照您的要求，进行系统性、循证的分析和解答。\n\n---\n\n### **病例摘要与核心问题**\n\n患者为59岁男性，右肺神经内分泌癌伴脑转移，既往接受过免疫联合化疗（阿得贝利单抗+EP方案）及维持治疗，并因新发肝转移入组临床试验，接受了一周期“QLC5508（一种新型免疫检查点抑制剂/双抗）+ QL1706（PD-1/CTLA-4双抗）+",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T14:02:04.380759+00:00",
+    "answer_length": 5573
+  },
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 630,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 630
+  },
+  "cost_summary": {
+    "reward_pool": 6425,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": []
+}

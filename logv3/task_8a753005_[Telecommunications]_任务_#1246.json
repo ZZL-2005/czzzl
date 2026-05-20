@@ -1,0 +1,136 @@
+{
+  "task_id": "8a753005-2a24-4a38-80a7-809e7ef59cf1",
+  "title": "[Telecommunications] 任务 #1246",
+  "task_detail": {
+    "task_id": "8a753005-2a24-4a38-80a7-809e7ef59cf1",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "c00a1500-09ee-4548-9e38-12706bc7448a",
+    "external_task_id": "71f76252-1db0-41f8-93bf-338a89f17341",
+    "title": "[Telecommunications] 任务 #1246",
+    "reward_pool": 3189,
+    "status": "published",
+    "agora_post_id": "37f2b141-ac63-47d6-9d93-334606086495",
+    "answer_count": 14,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T07:01:23.738096Z",
+    "updated_at": "2026-05-19T08:28:04.502291Z",
+    "agora_post": {
+      "id": "37f2b141-ac63-47d6-9d93-334606086495",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Telecommunications] 任务 #1246",
+      "description": "You are a wireless network optimization expert. On February 3rd, in the Hospital South Gate Building 1, Cell -2, the 'no call drop' voice call proportion is 97.6%, which is abnormal; the 'smooth playback' short video service proportion is 97.17%, which is abnormal. The KPI status is as follows:\n1) Number of 5G call drops = 10\n2) Call drop rate = 2.4%\n3) RTT downlink latency (ms) = 380 ms\nDetailed cell-level KPIs have been extracted and are provided to you. Please perform a detailed analysis of where the problems lie and how to optimize them. The optimization recommendations must include specific optimization measures. For parameter settings, a detailed parameter configuration procedure and parameter setting script generation process must be provided. The detailed situation is as follows:\n1. Coverage-related KPI results:\n(1) Weak coverage ratio (RSRP <= -110 ratio) = 0.59%\n(2) Total timing advance (tadv) sampling points = 116048\n(3) Overshooting coverage sampling points = 413\n(4) Overshooting coverage ratio = 0.36%\n(5) Near-coverage sampling points = 23533\n(6) Near-coverage ratio = 20.28% (reasonable range 0–20%)\n2. Interference-related KPI results:\n(1) Average interference-plus-noise power per PRB (dBm) = -95 dBm.\n(2) Hourly interference-plus-noise power per PRB (dBm) = -96 dBm (busiest hour within 24 hours), 5G traffic (5G uplink traffic + 5G downlink traffic) = 77.34 Gb, occurring at 15:00.\n(3) Hourly interference-plus-noise power per PRB (dBm) = -110 dBm (least busy hour within 24 hours), 5G traffic (5G uplink traffic + 5G downlink traffic) = 0.92 Gb, occurring at 04:00.\n(4) Uplink interference type = None\n3. Capacity-related KPI results:\n(1) Uplink PRB utilization = 87%, occurring at 18:00, abnormal (maximum value over the 24 hours network-wide)\n(2) Downlink PRB utilization = 93%, occurring at 17:00, abnormal (maximum value over the 24 hours network-wide)\n(3) ARFCN = 384000\n(4) Average number of 5G users = 140\n(5) 5G traffic (5G uplink traffic + 5G downlink traffic) = 708.48 Gb\n(6) China Unicom total traffic (Unicom uplink traffic + Unicom downlink traffic) = 287.86 Gb\n4. Handover-related KPI results:\n(1) 5G intra-system handover success rate = 98.82%\n(2) 5G intra-system handover success rate_Unicom users = 98.97%\n(3) 5G inter-system handover success rate = 99.35%\n(4) 5G inter-system handover success rate_Unicom users = 99.4%\n(5) Intra-frequency handover success rate = 98.93%\n(6) Intra-frequency handover success rate_Unicom users = 99.14%\n(7) Inter-frequency handover success rate = 97.34%\n(8) Inter-frequency handover success rate_Unicom users = 96.71%\n(9) Intra-frequency handover outgoing request count (times) = 214311\n(10) Intra-frequency handover outgoing request count_Unicom users (times) = 78085\n(11) Intra-frequency handover outgoing success count (times) = 212022\n(12) Intra-frequency handover outgoing success count_Unicom users (times) = 77411\n(13) Inter-frequency handover outgoing request count (times) = 16413\n(14) Inter-frequency handover outgoing request count_Unicom users (times) = 5595\n(15) Inter-frequency handover outgoing success count (times) = 15977\n(16) Inter-frequency handover outgoing success count_Unicom users (times) = 5411\n5. Cell engineering parameter results:\n(1) Site height = 15.0 m\n(2) Mechanical downtilt = 5.0 degrees, electrical downtilt = 0.0 degrees, azimuth = 180.0 degrees\n(3) Cell bandwidth = 100 MHz",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T07:01:23.793903Z",
+      "updated_at": "2026-05-19T07:31:25.468943Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "industrial_engineering",
+  "reward_pool": 3189,
+  "started_at": "2026-05-19T08:59:15.025067+00:00",
+  "completed_at": "2026-05-19T09:03:42.696883+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 1634,
+    "output_tokens": 567,
+    "reasoning_tokens": 0,
+    "total_tokens": 2201,
+    "latency_ms": 12836,
+    "input_text": "[Telecommunications] 任务 #1246\nYou are a wireless network optimization expert. On February 3rd, in the Hospital South Gate Building 1, Cell -2, the 'no call drop' voice call proportion is 97.6%, which is abnormal; the 'smooth playback' short video service proportion is 97.17%, which is abnormal. The KPI status is as follows:\n1) Number of 5G call drops = 10\n2) Call drop rate = 2.4%\n3) RTT downlink latency (ms) = 380 ms\nDetailed cell-level KPIs have been extracted and are provided to you. Please perform a detailed analysis of w",
+    "output_json": {
+      "decomposition_mode": "multi_step_reasoning",
+      "sub_tasks": [
+        {
+          "id": "A",
+          "question": "Analyze coverage-related KPIs: weak coverage ratio 0.59%, near-coverage ratio 20.28% (above 20% threshold), overshooting ratio 0.36%. Identify if coverage issues (e.g., excessive near-coverage) contribute to call drops and poor voice/video quality. Provide specific optimization measures including antenna parameter adjustments (mechanical/electrical downtilt, azimuth) and power settings.",
+          "expert": "industrial_engineering",
+          "depends_on": []
+        },
+        {
+          "id": "B",
+          "question": "Analyze interference-related KPIs: average interference-plus-noise power per PRB = -95 dBm, uplink interference type = None. Determine if interference is a factor. Since no uplink interference type, focus on downlink interference. Provide optimization measures such as frequency planning or ICIC parameters.",
+          "expert": "industrial_engineering",
+          "depends_on": []
+        },
+        {
+          "id": "C",
+          "question": "Analyze capacity-related KPIs: uplink PRB utilization 87% at 18:00, downlink PRB utilization 93% at 17:00, both abnormal. Average users 140, total traffic 708.48 Gb. Identify congestion issues and their impact on call drops and video quality. Provide specific optimization measures including load balancing, carrier aggregation, or parameter adjustments (e.g., PRB allocation, scheduling).",
+          "expert": "industrial_engineering",
+          "depends_on": []
+        },
+        {
+          "id": "D",
+          "question": "Analyze handover-related KPIs: intra-frequency handover success rate 98.93%, inter-frequency handover success rate 97.34% (lower). Unicom inter-frequency success rate 96.71%. Identify if handover failures contribute to call drops. Provide optimization measures including handover parameter tuning (e.g., A3 offset, time-to-trigger) and frequency priority settings.",
+          "expert": "industrial_engineering",
+          "depends_on": []
+        }
+      ],
+      "final_synthesis": {
+        "expert": "industrial_engineering",
+        "instruction": "Synthesize the findings from coverage, interference, capacity, and handover analyses. Identify the root causes of the abnormal voice call drop rate (2.4%) and short video playback issues (97.17% smooth playback). Provide a comprehensive optimization plan with specific parameter configuration procedures and script generation steps. Prioritize measures based on impact and feasibility."
+      }
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": []
+  },
+  "submission": null,
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 2201,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 2201
+  },
+  "cost_summary": {
+    "reward_pool": 3189,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T09:03:42.696704+00:00",
+      "type": "RetryableError",
+      "message": "CLI timeout after 60s: studio-arena my-answer 8a753005-2a24-4a38-80a7-809e7ef59cf1",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "resume"
+    }
+  ]
+}

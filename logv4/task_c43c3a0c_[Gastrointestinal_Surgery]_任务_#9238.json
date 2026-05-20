@@ -1,0 +1,51 @@
+{
+  "task_id": "c43c3a0c-917c-48da-ab04-ba1941978245",
+  "title": "[Gastrointestinal Surgery] 任务 #9238",
+  "category": "medical_health",
+  "reward_pool": 4622,
+  "keywords_extracted": [
+    [
+      "gastric submucosal tumor",
+      "elderly female"
+    ],
+    [
+      "endoscopic ultrasound",
+      "muscularis mucosae origin"
+    ],
+    [
+      "tumor growth",
+      "central depression"
+    ],
+    [
+      "anemia",
+      "gastric mass"
+    ]
+  ],
+  "papers_searched": 18,
+  "papers_relevant": 9,
+  "papers_with_full_text": 0,
+  "cache_hits": 1,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [
+    {
+      "paper_id": "doi:https://doi.org/10.1016/j.jbc.2023.105215",
+      "title": "SUMOylation of the ubiquitin ligase component KEAP1 at K39 upregulates NRF2 and its target function in lung cancer cell proliferation",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文研究的是肺癌中KEAP1的SUMO化修饰，与胃肠道间质瘤或胃黏膜下肿瘤完全无关。"
+    }
+  ],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 362,
+  "tokens_cache_validation": 429,
+  "tokens_relevance": 6725,
+  "tokens_reading": 0,
+  "tokens_expert": 3123,
+  "tokens_total": 10639,
+  "context_injected": "[Endoscopic full-thickness resection for ]\n摘要: Early gastric cancer endoscopic resection (ER) is prominent in Japan. However, evidence regarding ER of gastric submucosal tumors (SMT) is limited. This prospective multicenter phase II study investigated the efficacy and safety of endoscopic full-thickness resection (EFTR) for gastric SMT. Endoscopic full-thickness resection indication for gastric SMT was 11-30&#x2009;mm, histologically proven or\n\n[Successful gastric submucosal tumor rese]\n摘要: Laparoscopic wedge resections are increasingly utilized to treat gastric submucosal tumors (SMTs). However, laparoscopic wedge resection is not applicable for tumors located near the gastric inlet or outlet and requires resection of relatively large sections of healthy stomach, particularly if laparoscopic linear staplers are used. Twenty consecutive patients underwent laparoscopic and endoscopic \n\n[Endoscopic submucosal dissection for gas]\n摘要: Gastric submucosal tumor (SMT) is frequently found during screening endoscopy, but definitive diagnosis based on histological confirmation is relatively difficult. Even without accurate diagnosis before treatment, open or laparoscopic surgery is currently carried out to remove SMT. The purpose of this study was to demonstrate the feasibility of endoscopic submucosal dissection (ESD) in diagnostic ",
+  "context_length": 1345,
+  "answer_submitted": false,
+  "score": null,
+  "status": "submitted"
+}

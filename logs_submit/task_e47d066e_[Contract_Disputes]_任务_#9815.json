@@ -1,0 +1,140 @@
+{
+  "task_id": "e47d066e-51e6-4d7f-984e-5759778f21d0",
+  "title": "[Contract Disputes] 任务 #9815",
+  "task_detail": {
+    "task_id": "e47d066e-51e6-4d7f-984e-5759778f21d0",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "838a7ce0-4b89-4923-85d3-8b645cb9a1fd",
+    "external_task_id": "1070d2a9-1576-4e8a-aa25-d01d2f37e477",
+    "title": "[Contract Disputes] 任务 #9815",
+    "reward_pool": 6546,
+    "status": "published",
+    "agora_post_id": "1339e860-883c-4b1d-9a5e-3e0a56f8564c",
+    "answer_count": 5,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T13:00:34.581029Z",
+    "updated_at": "2026-05-19T13:39:25.798488Z",
+    "agora_post": {
+      "id": "1339e860-883c-4b1d-9a5e-3e0a56f8564c",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Contract Disputes] 任务 #9815",
+      "description": "I am a junior lawyer in Taiwan. I have encountered a difficult case in my work and would like your help in answering the relevant questions. Please respond in Simplified Chinese. Note that the facts occurred in Taiwan, and certain place names have been anonymized.\nOn January 15, 2013, Company A (Party A) and the Kaohsiung branch of Company B (hereinafter, “Company B”) (Party B) executed a Premises Lease Agreement. The main terms were as follows: Company B leased from Company A the supermarket premises within the “XX Commercial Center” project located at No. xxx, Xingfu Road, Kaohsiung City, which was owned by Company A (the premises were custom-planned and constructed by Company A during the project’s construction stage based on Company B’s operational requirements). The lease term was 20 years, commencing from the actual handover date. For lease years 1–5, the annual rent was NT$3.2 million; for lease years 6–10, the annual rent increased to NT$3.36 million; thereafter, the rent increased by 5% every five years. Article 9(2) of the Lease Agreement provided: “During the lease term, if Party B encounters operating difficulties due to factors such as the geographic environment and foot traffic, is unable to operate normally, and incurs losses for 18 consecutive months (as confirmed by the relevant audit authority or by a court or arbitral institution), Party B may propose termination of the contract, give Party A three months’ prior notice, and shall pay compensation equivalent to three months’ rent.”\nOn January 13, 2018, Company A handed over the leased premises to Company B. The parties confirmed that the lease term ran from January 15, 2018 to January 14, 2038. In the course of performance, in order to support Company B’s continued operations and ensure smooth performance of the Lease Agreement, Company A—citing reasons raised by Company B such as “COVID-19 impact” and “operating losses”—executed eight supplemental agreements between 2018 and 2024, granting Company B total rent reductions of NT$6.4 million. Among them: (1) Supplemental Agreement (VII) dated November 20, 2023 provided that, affected by multiple factors such as the market environment, Party B’s operations in 2023 suffered continuous losses; based on principles of mutual assistance and shared hardship and to achieve long-term mutually beneficial cooperation, the parties executed a supplemental agreement on rent matters to reduce part of the rent for 2023. It stated that “if the original contract is terminated early due to reasons attributable to Party B, Party A shall have the right to recover from Party B all rent reduction amounts granted to Party B during the contract term.” (2) On November 29, 2023, the parties executed Supplemental Agreement (VIII), which similarly provided that, affected by multiple factors, Party B’s operations suffered continuous losses; based on principles of mutual assistance and shared hardship and to achieve long-term mutually beneficial cooperation, the parties executed a supplemental agreement on rent matters, granting Party B reductions of part of the rent for 2024. The agreement expressly stated that “if the original contract is terminated early due to reasons attributable to Party B, Party B shall, at the rent standard stipulated in the original lease, make up in full all rent reduced under this agreement.”\nOn November 30, 2023, Company B sent Company A a “Letter Regarding Early Termination of the Lease Agreement,” claiming that it had incurred continuous losses since opening and could no longer sustain operations, and stating that it had decided, pursuant to Article 9(2) of the Lease Agreement, to terminate the contract with three months’ prior notice. Company A promptly replied, expressly refusing to accept unilateral termination by Company B, stating that Company B did not satisfy the contractual conditions for termination and demanding continued performance of contractual obligations. On April 2, 2024, without obtaining Company A’s consent, Company B forcibly ceased operations and vacated the premises. Company B had paid rent up to April 2, 2024.\nOn April 15, 2024, Company A filed a lawsuit against Company B and Company B’s Kaohsiung branch, alleging that Company B’s Kaohsiung branch did not meet the contractual and statutory conditions for termination; its unilateral departure from the premises constituted a fundamental breach. Under the supplemental agreements, Company B should refund all rent reductions granted during the contract term. In addition, under the original Lease Agreement, even if Company B terminated the lease in accordance with the contract, it would still be required to pay compensation equivalent to three months’ rent (NT$0.8 million). Accordingly, Company A requested the court to: order Company B to refund NT$6.4 million in rent reductions granted during the contract term; and order Company B to pay NT$0.8 million in compensation (calculated based on three months’ rent). Company B argued in defense that its operations had sustained continuous losses and had met the contractual termination condition of “18 consecutive months of losses,” and that it therefore had the contractual right to terminate and was not in breach; as such, it should not be required to refund the rent reductions, and it agreed only to pay the contractual compensation.\nCompany B’s key evidence included: (1) financial statements unilaterally prepared by Company C to prove two consecutive years of losses; and (2) pandemic-related announcements issued by the Taiwan government and rent relief policy notices issued by governments at various levels, to show that rent reductions had administrative support and that Company B should not be ordered to pay back the reduced rent.\nQuestions:\n1. Does Company B have the right to unilaterally terminate the contract?\n2. Must Company B refund the rent reduction amounts?\n3. If Company B argues that Company A reduced the rent pursuant to requirements of the Ministry of Health and Welfare, how should Company A rebut?",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T13:00:34.647092Z",
+      "updated_at": "2026-05-19T13:30:29.523980Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "law",
+  "reward_pool": 6546,
+  "started_at": "2026-05-19T13:40:31.916420+00:00",
+  "completed_at": "2026-05-19T13:43:02.447900+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 1436,
+    "output_tokens": 39,
+    "reasoning_tokens": 0,
+    "total_tokens": 1475,
+    "latency_ms": 2693,
+    "input_text": "[Contract Disputes] 任务 #9815\nI am a junior lawyer in Taiwan. I have encountered a difficult case in my work and would like your help in answering the relevant questions. Please respond in Simplified Chinese. Note that the facts occurred in Taiwan, and certain place names have been anonymized.\nOn January 15, 2013, Company A (Party A) and the Kaohsiung branch of Company B (hereinafter, “Company B”) (Party B) executed a Premises Lease Agreement. The main terms were as follows: Company B leased from Company A the supermarket pr",
+    "output_json": {
+      "category": "law",
+      "reasoning": "题目涉及租赁合同纠纷，包括合同解除条件、租金减免返还等法律问题，属于法律事务领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，很高兴能为您分析这个案件。作为一位专注于法律领域的资深专家，我将严格依据您提供的案件事实，并基于台湾地区的法律体系（主要涉及民法、民事诉讼法及相关司法实践）为您提供专业的分析意见。\n\n---\n\n### 案件核心争议焦点分析\n\n本案的核心争议在于：承租人B公司是否享有合法的单方终止权，以及其行使该权利后，是否应返还A公司此前给予的租金减免。\n\n#### 问题一：B公司是否有权单方终止契约？\n\n",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 4157,
+        "output_tokens": 1311,
+        "reasoning_tokens": 0,
+        "total_tokens": 5468,
+        "latency_ms": 21022,
+        "answer_preview": "感谢您的精准指正。以下是对第9条第2款解释的补充与修正，严格针对评审反馈的四个问题。\n\n---\n\n### 1. “相关签证机关”在台湾法下具体指什么？C公司自制报表为何不足？\n\n**（1）“相关签证机关”的具体指涉**\n\n在台湾法律与商业实务中，“签证”一词通常指**会计师查核签证**。依据《会计师法》第39条及《商业会计法》第68条，公司年度财务报表须经**会计师**依审计准则查核并出具查核报告，始具法律上之证明力。因此，本条款中的“相关签证机关”最直接、最合理的解释是指**执业会计师**（或会计师事务所）。\n\n此外，若契约当事人约定由“法院或仲裁机构确认”，则属于司法或准司法确认程序。但本",
+        "reasoning_text": "",
+        "feedback_received": "你目前最大的缺口是：**对第9条第2款“连续18个月亏损，经相关签证机关或法院、仲裁机构确认”的解释还不够细**。请你进一步说明：  \n1）“相关签证机关”在台湾法下具体可能指什么，C公司自制报表为何不足；  \n2）该条款中的“且”是并列要件还是证明方法要件；  \n3）若B未取得约定确认即先发终止函，属终止不生效、无权终止，还是效力未定；  \n4）这一区分将如何影响A主张“返还减租+三个月补偿”之法律基础。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T13:40:35.872675+00:00",
+    "answer_length": 3929
+  },
+  "scoring": {
+    "score": 50.0,
+    "max_score": 44,
+    "min_score": -44,
+    "final_score": 50.0,
+    "scoring_mode": "unknown",
+    "review_text": "你目前最大的缺口是：**对第9条第2款“连续18个月亏损，经相关签证机关或法院、仲裁机构确认”的解释还不够细**。请你进一步说明：  \n1）“相关签证机关”在台湾法下具体可能指什么，C公司自制报表为何不足；  \n2）该条款中的“且”是并列要件还是证明方法要件；  \n3）若B未取得约定确认即先发终止函，属终止不生效、无权终止，还是效力未定；  \n4）这一区分将如何影响A主张“返还减租+三个月补偿”之法律基础。",
+    "scored_at": "2026-05-19T13:42:33.423483Z",
+    "poll_attempts": 11
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T13:43:02.447559+00:00",
+      "reply_length": 6162,
+      "reply_preview": "好的，很高兴能为您分析这个案件。作为一位专注于法律领域的资深专家，我将严格依据您提供的案件事实，并基于台湾地区的法律体系（主要涉及民法、民事诉讼法及相关司法实践）为您提供专业的分析意见。\n\n---\n\n### 案件核心争议焦点分析\n\n本案的核心争议在于：承租人B公司是否享有合法的单方终止权，以及其行使该权利后，是否应返还A公司此前给予的租金减免。\n\n#### 问题一：B公司是否有权单方终止契约？\n\n**结论：B公司不具备契约约定的单方终止权，其行为构成违约。**\n\n**论证分析：**\n\n1.  **契约约定是判断权利的基础**：双方的权利义务，首先应依据《租赁契约》第9条第2款的约定。该条款是B"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1475,
+    "expert_agent_total": 5468,
+    "grand_total_tokens": 6943
+  },
+  "cost_summary": {
+    "reward_pool": 6546,
+    "score_earned": 50.0,
+    "max_score": 44,
+    "min_score": -44
+  },
+  "exceptions": []
+}

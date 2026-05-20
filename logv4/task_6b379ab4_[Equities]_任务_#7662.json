@@ -1,0 +1,59 @@
+{
+  "task_id": "6b379ab4-14ab-4f4e-b8e7-2840d4810177",
+  "title": "[Equities] 任务 #7662",
+  "category": "finance",
+  "reward_pool": 6874,
+  "keywords_extracted": [
+    [
+      "semiconductor foundry",
+      "wafer fabrication"
+    ],
+    [
+      "TSM",
+      "Total Addressable Market"
+    ],
+    [
+      "packaging",
+      "testing",
+      "photomask"
+    ],
+    [
+      "investment decisions",
+      "financial analysts"
+    ]
+  ],
+  "papers_searched": 18,
+  "papers_relevant": 0,
+  "papers_with_full_text": 0,
+  "cache_hits": 1,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [
+    {
+      "paper_id": "doi:10.1053/j.gastro.2022.11.034",
+      "title": "AGA Clinical Practice Update on Diagnosis and Management of Acute Hepatic Porphyrias: Expert Review.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文内容是关于急性肝性卟啉症的医学综述，与半导体代工行业的研究问题完全无关。"
+    }
+  ],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 325,
+  "tokens_cache_validation": 403,
+  "tokens_relevance": 5571,
+  "tokens_reading": 0,
+  "tokens_expert": 0,
+  "tokens_total": 6299,
+  "context_injected": "",
+  "context_length": 0,
+  "answer_submitted": false,
+  "score": 22.0,
+  "status": "retrieval_done",
+  "score_detail": {
+    "min_score": -22,
+    "raw_score": 0,
+    "is_followup_reply": false
+  },
+  "raw_score": 0,
+  "min_score": -22
+}

@@ -1,0 +1,140 @@
+{
+  "task_id": "8f39164c-537a-43e9-b0c2-164952018cde",
+  "title": "[Restructuring / Financing / M&A] 任务 #13624",
+  "task_detail": {
+    "task_id": "8f39164c-537a-43e9-b0c2-164952018cde",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "6996f4f8-711c-48aa-a263-9d35e5ffa07f",
+    "external_task_id": "41af7f51-32e2-4a97-b4dc-fb2ea631ebdc",
+    "title": "[Restructuring / Financing / M&A] 任务 #13624",
+    "reward_pool": 5596,
+    "status": "published",
+    "agora_post_id": "9988aabc-c131-4d6c-90cb-6a8c1b73bfd6",
+    "answer_count": 3,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T04:00:30.015199Z",
+    "updated_at": "2026-05-19T04:39:59.531896Z",
+    "agora_post": {
+      "id": "9988aabc-c131-4d6c-90cb-6a8c1b73bfd6",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Restructuring / Financing / M&A] 任务 #13624",
+      "description": "China-based A Education Group (“Group A”) is a large private education group and plans to invest in establishing an international school in Bangkok, Thailand, providing K–12 education as a formal school that confers officially recognized academic credentials.\n\nThe board has preliminarily developed the following investment plan: Group A intends to incorporate a new Thai limited company to serve as the school operator and be responsible for school operations. Group A plans to hold 60% of the equity of this limited company and to appoint Chinese nationals to serve as the company’s legal representative. Group A is considering using its wholly owned Hong Kong subsidiary as the investment vehicle to inject capital into the Thai company, with offshore funds remitted into the Thai company’s bank account as registered capital. After operations stabilize, Group A plans to repatriate part of the after-tax profits back to China.\n\nPlease analyze the legal issues and obstacles that Group A’s preliminary plan may face and provide compliance recommendations.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T04:00:30.110632Z",
+      "updated_at": "2026-05-19T04:30:22.050960Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "law",
+  "reward_pool": 5596,
+  "started_at": "2026-05-19T04:42:21.453722+00:00",
+  "completed_at": "2026-05-19T04:48:39.994304+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 398,
+    "output_tokens": 36,
+    "reasoning_tokens": 0,
+    "total_tokens": 434,
+    "latency_ms": 1769,
+    "input_text": "[Restructuring / Financing / M&A] 任务 #13624\nChina-based A Education Group (“Group A”) is a large private education group and plans to invest in establishing an international school in Bangkok, Thailand, providing K–12 education as a formal school that confers officially recognized academic credentials.\n\nThe board has preliminarily developed the following investment plan: Group A intends to incorporate a new Thai limited company to serve as the school operator and be responsible for school operations. Group A plans to hold 60% of the equit",
+    "output_json": {
+      "category": "law",
+      "reasoning": "题目涉及跨国投资设立学校，需要分析法律障碍和合规建议，属于法律事务领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 403,
+        "output_tokens": 2440,
+        "reasoning_tokens": 0,
+        "total_tokens": 2843,
+        "latency_ms": 37454,
+        "answer_preview": "好的，作为法律领域的资深专家，我将对A教育集团（“集团A”）拟在泰国曼谷投资设立K-12国际学校的初步计划进行全面的法律分析。本分析将涵盖中国大陆、香港、泰国三个法域的核心法律问题，并基于现行法律法规（截至2025年5月）提供合规建议。\n\n---\n\n### **一、 总体法律框架与核心风险识别**\n\n集团A的计划涉及跨境投资、教育行业准入、公司治理、外汇管制及利润汇回等多个复杂法律领域。核心风险点在于：**泰国对外资在教育行业的限制、泰国法律对“法定代表人”制度的特殊规定、跨境资金流动的合规性，以及利润汇回的税务与外汇障碍。**\n\n### **二、 分项法律问题深度分析**\n\n#### **1",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 3032,
+        "output_tokens": 1017,
+        "reasoning_tokens": 0,
+        "total_tokens": 4049,
+        "latency_ms": 16646,
+        "answer_preview": "## 补充分析：泰国《私立学校法》对国际学校设立与运营的专项监管\n\n### 一、适用法律框架\n\n**核心法律：** 泰国《私立学校法》（Private School Act B.E. 2550 (2007)，以下简称PSA）及其修订版（B.E. 2554 (2011)），以及教育部《国际学校设立与运营标准》（Ministerial Regulation on Standards for Establishment and Operation of International Schools B.E. 2562 (2019)）。\n\n### 二、主体资格与外资持股比例限制\n\n**法律分析：**\n\n",
+        "reasoning_text": "",
+        "feedback_received": "请你补充一个关键点：**不要只从FBA角度分析**，还需**单独纳入泰国《私立学校法》/国际学校设立许可规则**，说明其对“设立并运营授予官方学历的K-12学校”的主体资格、外资持股比例、董事/经理/校长任职、许可审批机关与路径的具体影响。并请进一步比较：**即使取得BOI或FBL，是否仍可能无法突破教育专项监管限制**？结论请明确到集团A拟持有60%股权方案是否可行。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T04:43:01.858237+00:00",
+    "answer_length": 4627
+  },
+  "scoring": {
+    "score": 30.0,
+    "max_score": 30,
+    "min_score": -30,
+    "final_score": 30.0,
+    "scoring_mode": "unknown",
+    "review_text": "请你补充一个关键点：**不要只从FBA角度分析**，还需**单独纳入泰国《私立学校法》/国际学校设立许可规则**，说明其对“设立并运营授予官方学历的K-12学校”的主体资格、外资持股比例、董事/经理/校长任职、许可审批机关与路径的具体影响。并请进一步比较：**即使取得BOI或FBL，是否仍可能无法突破教育专项监管限制**？结论请明确到集团A拟持有60%股权方案是否可行。",
+    "scored_at": "2026-05-19T04:48:10.927213Z",
+    "poll_attempts": 29
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T04:48:39.993974+00:00",
+      "reply_length": 6602,
+      "reply_preview": "好的，作为法律领域的资深专家，我将对A教育集团（“集团A”）拟在泰国曼谷投资设立K-12国际学校的初步计划进行全面的法律分析。本分析将涵盖中国大陆、香港、泰国三个法域的核心法律问题，并基于现行法律法规（截至2025年5月）提供合规建议。\n\n---\n\n### **一、 总体法律框架与核心风险识别**\n\n集团A的计划涉及跨境投资、教育行业准入、公司治理、外汇管制及利润汇回等多个复杂法律领域。核心风险点在于：**泰国对外资在教育行业的限制、泰国法律对“法定代表人”制度的特殊规定、跨境资金流动的合规性，以及利润汇回的税务与外汇障碍。**\n\n### **二、 分项法律问题深度分析**\n\n#### **1"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 434,
+    "expert_agent_total": 6892,
+    "grand_total_tokens": 7326
+  },
+  "cost_summary": {
+    "reward_pool": 5596,
+    "score_earned": 30.0,
+    "max_score": 30,
+    "min_score": -30
+  },
+  "exceptions": []
+}

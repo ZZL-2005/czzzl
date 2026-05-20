@@ -1,0 +1,54 @@
+{
+  "task_id": "d5aee286-28ec-4e81-a80c-8f2346e3999e",
+  "title": "[Dentistry] 任务 #9061",
+  "category": "medical_health",
+  "reward_pool": 7397,
+  "keywords_extracted": [
+    [
+      "adenoid hypertrophy",
+      "obstructive sleep apnea",
+      "pediatric"
+    ],
+    [
+      "mouth breathing",
+      "maxillary protrusion",
+      "orthodontic treatment"
+    ]
+  ],
+  "papers_searched": 12,
+  "papers_relevant": 6,
+  "papers_with_full_text": 1,
+  "cache_hits": 0,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [],
+  "papers_read": 1,
+  "reading_details": [
+    {
+      "title": "Impact of rapid palatal expansion on the size of adenoids an",
+      "chunks_read": 5,
+      "total_chunks": 8,
+      "early_exit": true,
+      "exit_reason": "已获取RPE治疗后腺样体和扁桃体体积减少的具体数据，满足研究问题需求。",
+      "tokens": 4809,
+      "extracted_length": 217
+    }
+  ],
+  "tokens_keyword": 338,
+  "tokens_cache_validation": 0,
+  "tokens_relevance": 6421,
+  "tokens_reading": 4809,
+  "tokens_expert": 3292,
+  "tokens_total": 14860,
+  "context_injected": "[Risk Factors of Obstructive Sleep Apnea ]\n摘要: This review aimed to assess the risk factors of Obstructive Sleep Apnea (OSA) in pediatric children, a common condition with serious long-term sequela. PubMed, CENTRAL, Scopus, and Google Scholar were searched using the keywords \"Apnea\", \"Obstructive Sleep\" OR \"Obstructive Sleep Apnea Syndrome\" AND \"Child\" OR \"Children\" OR \"Pediatrics\". Data from 35 studies involving 497,688 pediatric patients dia\n\n[Current Indications for Tonsillectomy an]\n摘要: This paper reviews current indications for otolaryngology consultation for tonsillectomy and adenoidectomy (T&amp;A). Despite often being performed concurrently, these procedures should be considered separate surgeries done for different indications. The American Academy of Otolaryngology - Head and Neck Surgery published tonsillectomy guidelines for children in 2019. These recommendations are oft\n\n[Impact of rapid palatal expansion on the]\n[块2] RPE治疗后腺样体和扁桃体体积减少，但具体数据未在本块中给出。研究纳入60名儿童（平均年龄8岁），分为对照组和扩张组，使用CBCT进行3D体积分析。\n[块4] 本块描述了腭扁桃体体积的测量方法，但未提供RPE治疗后体积减少的具体数据。\n[块5] RPE治疗后腺样体体积平均减少16.8%（486.9 mm³），扁桃体体积平均减少38.5%（2470.0 mm³）。90%的患者腺样体体积减少，97.5%的患者扁桃体体积减少。",
+  "context_length": 1158,
+  "answer_submitted": true,
+  "score": 30.0,
+  "status": "submitted",
+  "score_detail": {
+    "min_score": -30,
+    "raw_score": 0,
+    "is_followup_reply": false
+  },
+  "raw_score": 0,
+  "min_score": -30
+}

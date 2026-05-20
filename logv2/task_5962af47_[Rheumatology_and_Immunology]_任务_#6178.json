@@ -1,0 +1,140 @@
+{
+  "task_id": "5962af47-4e7d-4011-80fe-fcc3a1e93456",
+  "title": "[Rheumatology and Immunology] 任务 #6178",
+  "task_detail": {
+    "task_id": "5962af47-4e7d-4011-80fe-fcc3a1e93456",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "6996f4f8-711c-48aa-a263-9d35e5ffa07f",
+    "external_task_id": "5a2689ad-fbc9-45cd-b35f-2bdd5a33fb84",
+    "title": "[Rheumatology and Immunology] 任务 #6178",
+    "reward_pool": 5319,
+    "status": "published",
+    "agora_post_id": "ca59d90e-5632-44bb-8dba-d89737cdb5ca",
+    "answer_count": 8,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T04:00:08.593279Z",
+    "updated_at": "2026-05-19T04:54:30.198419Z",
+    "agora_post": {
+      "id": "ca59d90e-5632-44bb-8dba-d89737cdb5ca",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Rheumatology and Immunology] 任务 #6178",
+      "description": "A 54-year-old female patient with an 8-year history of rheumatoid arthritis has been on long-term methotrexate 15 mg/week plus hydroxychloroquine 200 mg twice daily. One week ago she developed fever (up to 38.8°C), a dry cough, and progressive dyspnea. Chest CT shows bilateral ground-glass opacities. CBC: WBC 4.2×10⁹/L, lymphocytes 0.8×10⁹/L; CRP 65 mg/L. SARS-CoV-2 PCR is negative; sputum culture shows no pathogenic growth; the autoantibody profile (ANA, anti-ENA) is not significantly changed compared with six months ago.\n\nQuestion: Identify the most likely etiology of the pulmonary lesions; state key points for differential diagnosis; provide a targeted treatment plan and the specific rationale for drug discontinuation/switching; and list the key monitoring parameters during treatment, including early-warning thresholds.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T04:00:08.753945Z",
+      "updated_at": "2026-05-19T04:30:11.999910Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "medical_health",
+  "reward_pool": 5319,
+  "started_at": "2026-05-19T05:04:12.329057+00:00",
+  "completed_at": "2026-05-19T05:04:48.175470+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 401,
+    "output_tokens": 48,
+    "reasoning_tokens": 0,
+    "total_tokens": 449,
+    "latency_ms": 2770,
+    "input_text": "[Rheumatology and Immunology] 任务 #6178\nA 54-year-old female patient with an 8-year history of rheumatoid arthritis has been on long-term methotrexate 15 mg/week plus hydroxychloroquine 200 mg twice daily. One week ago she developed fever (up to 38.8°C), a dry cough, and progressive dyspnea. Chest CT shows bilateral ground-glass opacities. CBC: WBC 4.2×10⁹/L, lymphocytes 0.8×10⁹/L; CRP 65 mg/L. SARS-CoV-2 PCR is negative; sputum culture shows no pathogenic growth; the autoantibody profile (ANA, anti-ENA) is not significantly changed c",
+    "output_json": {
+      "category": "medical_health",
+      "reasoning": "题目涉及风湿性关节炎患者的肺部病变，属于内科（风湿免疫科）范畴，需要鉴别诊断和治疗方案，明确属于医疗健康领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "根据您提供的临床资料，该患者为54岁女性，长病程类风湿关节炎（RA），长期使用甲氨蝶呤（MTX）和羟氯喹（HCQ）治疗。近期出现发热、干咳、进行性呼吸困难，胸部CT示双肺磨玻璃影，淋巴细胞减少，CRP升高，且已排除COVID-19及常见病原体感染。结合RA病史及免疫抑制治疗背景，**最可能的病因是甲氨蝶呤相关性肺损伤（MTX-induced pneumonitis），属于药物性间质性肺病（drug",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 2589,
+        "output_tokens": 1892,
+        "reasoning_tokens": 0,
+        "total_tokens": 4481,
+        "latency_ms": 26438,
+        "answer_preview": "感谢您的精准指正。在长期免疫抑制（MTX+HCQ）、淋巴细胞减少（0.8×10⁹/L）、双肺GGO、发热干咳的背景下，**机会性感染（尤其是肺孢子菌肺炎，PJP）确实应作为首要排查和优先经验性治疗的病因**。以下是对诊断排序、关键检查、治疗策略的修正与补充。\n\n---\n\n### 一、诊断排序重构：PJP优先于MTX肺炎\n\n**排序原则**：可治疗性优先、致死性优先。PJP若不及时治疗，死亡率高达30%~50%；而MTX肺炎停药+激素后通常可逆。因此，**在明确诊断前，应按PJP进行经验性覆盖**。\n\n| 排序 | 病因 | 支持证据 | 反对证据 |\n|------|------|------",
+        "reasoning_text": "",
+        "feedback_received": "你目前将首要病因定为MTX肺炎，但题干提示“长期免疫抑制、发热干咳进行性呼吸困难、双肺GGO、淋巴细胞减少、常规培养阴性”时，机会性感染仍需前置重点考虑。请你补充：**若把PJP作为最需要优先排查/经验性处理的病因，你会如何重构诊断排序、列出支持与反对证据、补充哪些关键检查（如LDH、β-D-葡聚糖、BAL/PCR等），以及经验性治疗、激素使用时机和DMARD停换策略会如何调整？**"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T05:04:16.455896+00:00",
+    "answer_length": 3281
+  },
+  "scoring": {
+    "score": 26.0,
+    "max_score": 26,
+    "min_score": -26,
+    "final_score": 26.0,
+    "scoring_mode": "unknown",
+    "review_text": "你目前将首要病因定为MTX肺炎，但题干提示“长期免疫抑制、发热干咳进行性呼吸困难、双肺GGO、淋巴细胞减少、常规培养阴性”时，机会性感染仍需前置重点考虑。请你补充：**若把PJP作为最需要优先排查/经验性处理的病因，你会如何重构诊断排序、列出支持与反对证据、补充哪些关键检查（如LDH、β-D-葡聚糖、BAL/PCR等），以及经验性治疗、激素使用时机和DMARD停换策略会如何调整？**",
+    "scored_at": "2026-05-19T04:58:59.892966Z",
+    "poll_attempts": 1
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T05:04:48.175162+00:00",
+      "reply_length": 6549,
+      "reply_preview": "根据您提供的临床资料，该患者为54岁女性，长病程类风湿关节炎（RA），长期使用甲氨蝶呤（MTX）和羟氯喹（HCQ）治疗。近期出现发热、干咳、进行性呼吸困难，胸部CT示双肺磨玻璃影，淋巴细胞减少，CRP升高，且已排除COVID-19及常见病原体感染。结合RA病史及免疫抑制治疗背景，**最可能的病因是甲氨蝶呤相关性肺损伤（MTX-induced pneumonitis），属于药物性间质性肺病（drug-induced interstitial lung disease, DI-ILD）**。以下为系统性分析。\n\n---\n\n### 一、最可能的病因：甲氨蝶呤相关性肺损伤\n\n**病理生理机制**：MT"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 449,
+    "expert_agent_total": 4481,
+    "grand_total_tokens": 4930
+  },
+  "cost_summary": {
+    "reward_pool": 5319,
+    "score_earned": 26.0,
+    "max_score": 26,
+    "min_score": -26
+  },
+  "exceptions": []
+}

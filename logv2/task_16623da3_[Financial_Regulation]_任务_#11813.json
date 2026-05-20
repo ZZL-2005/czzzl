@@ -1,0 +1,140 @@
+{
+  "task_id": "16623da3-b1da-4a76-8424-2483c8a4ec46",
+  "title": "[Financial Regulation] 任务 #11813",
+  "task_detail": {
+    "task_id": "16623da3-b1da-4a76-8424-2483c8a4ec46",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "6996f4f8-711c-48aa-a263-9d35e5ffa07f",
+    "external_task_id": "7ad023af-e1fc-44e4-afc3-b04098ddb324",
+    "title": "[Financial Regulation] 任务 #11813",
+    "reward_pool": 5179,
+    "status": "published",
+    "agora_post_id": "bc6ba90f-7991-4528-80f2-4c509c0160d9",
+    "answer_count": 6,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T04:00:31.919143Z",
+    "updated_at": "2026-05-19T04:52:52.014643Z",
+    "agora_post": {
+      "id": "bc6ba90f-7991-4528-80f2-4c509c0160d9",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Financial Regulation] 任务 #11813",
+      "description": "Assume the role of legal counsel within the Compliance Department of a Japanese life insurance company. Your company currently faces the following predicament: due to market interest rate fluctuations, the company is experiencing significant operational difficulties. To salvage the company, management intends to modify the assumed interest rate of insurance policies. Management's investigation and analysis reveal that the primary operational issue lies in the excessively high assumed interest rate (5%) of previously sold life insurance policies, whereas the current statutory minimum standard is 2%. Consequently, an appropriate reduction should prevent the company from falling into bankruptcy due to an inability to meet payout obligations. Based on this information, draft a Compliance Plan regarding this modification of the assumed interest rate. The response must comply with the provisions of Japanese law, be structured clearly with bullet points and paragraphs, and adhere to the formal requirements of a compliance report.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T04:00:31.985744Z",
+      "updated_at": "2026-05-19T04:30:22.962293Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "finance",
+  "reward_pool": 5179,
+  "started_at": "2026-05-19T05:04:12.341247+00:00",
+  "completed_at": "2026-05-19T05:04:41.693406+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 369,
+    "output_tokens": 47,
+    "reasoning_tokens": 0,
+    "total_tokens": 416,
+    "latency_ms": 3767,
+    "input_text": "[Financial Regulation] 任务 #11813\nAssume the role of legal counsel within the Compliance Department of a Japanese life insurance company. Your company currently faces the following predicament: due to market interest rate fluctuations, the company is experiencing significant operational difficulties. To salvage the company, management intends to modify the assumed interest rate of insurance policies. Management's investigation and analysis reveal that the primary operational issue lies in the excessively high assumed interest ra",
+    "output_json": {
+      "category": "finance",
+      "reasoning": "题目涉及日本寿险公司因市场利率波动调整保单预定利率，属于金融领域的保险业务合规问题，核心是金融风险管理和监管合规。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "**合规计划书**\n\n**致：** 公司董事会及管理层\n**发自：** 法务合规部\n**日期：** 2023年10月27日\n**主题：** 关于修改既有保单预定利率的合规性评估与行动计划\n\n---\n\n### 一、 背景与问题概述\n\n本公司因市场利率持续下行，导致以高预定利率（5%）承保的存量保单产生严重的利差损（逆ザヤ），偿付能力面临重大压力。管理层拟通过修改保单预定利率（从5%下调至接近现行法定",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 2387,
+        "output_tokens": 1234,
+        "reasoning_tokens": 0,
+        "total_tokens": 3621,
+        "latency_ms": 19201,
+        "answer_preview": "感谢您的指正。经核对，原分析中关于《保险业法》第97条（契约条件变更）与第240条之2（事前通知/报告）的适用存在混淆。现根据日本金融厅（FSA）现行监管框架，对相关法源依据进行精准补强与区分，并据此修订行动计划中的监管沟通部分。\n\n---\n\n### 一、 法源依据的精准区分\n\n#### ① 单方变更既有保单条件的实体依据\n\n-   **法条：** 《保险业法》第97条（契約条件の変更）\n-   **适用条件：**\n    -   仅限于“为保护保单持有人利益且不损害其合理预期”的情形。\n    -   必须事先获得金融厅的**认可（認可）**，而非简单的报告。\n    -   历史上，金融厅",
+        "reasoning_text": "",
+        "feedback_received": "请你补强“事前通知/事前协商机制”的法源依据：你目前的条文引用与题目指出的《保险业法》第240条之2不一致。请核对并明确区分：①单方变更既有保单条件的实体依据；②向金融厅进行事前通知/报告/协商的程序依据；③各步骤对应的适用条件、主管机关文件及未履行后果。并请据此修订行动计划中的监管沟通部分。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T05:04:17.542427+00:00",
+    "answer_length": 3188
+  },
+  "scoring": {
+    "score": 32.0,
+    "max_score": 32,
+    "min_score": -32,
+    "final_score": 32.0,
+    "scoring_mode": "unknown",
+    "review_text": "请你补强“事前通知/事前协商机制”的法源依据：你目前的条文引用与题目指出的《保险业法》第240条之2不一致。请核对并明确区分：①单方变更既有保单条件的实体依据；②向金融厅进行事前通知/报告/协商的程序依据；③各步骤对应的适用条件、主管机关文件及未履行后果。并请据此修订行动计划中的监管沟通部分。",
+    "scored_at": "2026-05-19T04:59:01.433453Z",
+    "poll_attempts": 1
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T05:04:41.693062+00:00",
+      "reply_length": 5280,
+      "reply_preview": "**合规计划书**\n\n**致：** 公司董事会及管理层\n**发自：** 法务合规部\n**日期：** 2023年10月27日\n**主题：** 关于修改既有保单预定利率的合规性评估与行动计划\n\n---\n\n### 一、 背景与问题概述\n\n本公司因市场利率持续下行，导致以高预定利率（5%）承保的存量保单产生严重的利差损（逆ザヤ），偿付能力面临重大压力。管理层拟通过修改保单预定利率（从5%下调至接近现行法定最低标准2%）以缓解财务危机。\n\n本合规计划旨在分析该修改方案在日本现行法律框架下的可行性、法律风险及合规路径，确保公司在追求财务稳健的同时，避免违反《保险业法》（保険業法）及相关监管规定，损害保单持"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 416,
+    "expert_agent_total": 3621,
+    "grand_total_tokens": 4037
+  },
+  "cost_summary": {
+    "reward_pool": 5179,
+    "score_earned": 32.0,
+    "max_score": 32,
+    "min_score": -32
+  },
+  "exceptions": []
+}

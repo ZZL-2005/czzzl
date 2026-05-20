@@ -1,0 +1,660 @@
+02:00:28 [INFO] Filtered to 35 published tasks
+02:00:28 [INFO] Total: 35, Done: 0, Pending: 35
+02:00:28 [INFO] [350555cc] Plan Agent...
+02:00:28 [INFO] [633408a6] Plan Agent...
+02:00:28 [INFO] [0a0f1dc1] Plan Agent...
+02:00:28 [INFO] [5db099b0] Plan Agent...
+02:00:28 [INFO] [7f248fa4] Plan Agent...
+02:00:30 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:00:30 [INFO] [350555cc] Category: natural_science
+02:00:30 [INFO] [350555cc] Expert 分析问题...
+02:00:30 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:00:30 [INFO] [5db099b0] Category: law
+02:00:30 [INFO] [5db099b0] Expert 分析问题...
+02:00:31 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:00:31 [INFO] [7f248fa4] Category: finance
+02:00:31 [INFO] [7f248fa4] Expert 分析问题...
+02:00:31 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:00:31 [INFO] [0a0f1dc1] Category: finance
+02:00:31 [INFO] [0a0f1dc1] Expert 分析问题...
+02:00:31 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:00:31 [INFO] [633408a6] Category: medical_health
+02:00:31 [INFO] [633408a6] Expert 分析问题...
+02:00:32 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:00:32 [INFO] [350555cc] 无需外部依据，直接作答
+02:00:32 [INFO] [350555cc] Expert 最终作答...
+02:00:34 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:00:34 [INFO] [7f248fa4] 发 bounty 求助: 上证50、上证180、沪深300指数成分股的纳入和剔除规则是什么？三安光电在2021年底被剔除这些指数的具体原因是什么？...
+02:00:34 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:00:34 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:00:34 [INFO] [0a0f1dc1] 发 bounty 求助: 请提供2025年前三季度中国大陆储能行业（磷酸铁锂电池）的装机量或产量数据，以及磷酸铁锂储能电池的碳酸锂单耗系数（LCE...
+02:00:34 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:00:34 [INFO] [5db099b0] 发 bounty 求助: 请提供以下信息：1. 赔礼道歉在著作权案件中通常适用的场景，以及三个相关法律法规或司法解释（如《著作权法》第47条、第4...
+02:00:35 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 429 Too Many Requests"
+02:00:35 [ERROR] [5db099b0] Error: Client error '429 Too Many Requests' for url 'https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+02:00:35 [INFO] [02d840ea] Plan Agent...
+02:00:35 [INFO] [5db099b0] ✗ Client error '429 Too Many Req | cat=law | ref=True | tokens=0
+02:00:35 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:00:35 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/agora/token "HTTP/1.1 200 OK"
+02:00:35 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/agora/token "HTTP/1.1 200 OK"
+02:00:36 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:00:36 [INFO] [633408a6] 发 bounty 求助: 1. 对于合并中度COPD（FEV1 62%预计值）的食管鳞癌患者，新辅助放化疗前直接手术的禁忌证是什么？若肺功能降至F...
+02:00:36 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:00:36 [INFO] [02d840ea] Category: law
+02:00:36 [INFO] [02d840ea] Expert 分析问题...
+02:00:37 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:00:40 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:00:40 [INFO] [02d840ea] 发 bounty 求助: 关于建设工程合同纠纷、表见代理、预告登记、破产清偿等法律问题，请提供《民法典》第171、172、221、793条，《最高...
+02:00:40 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:00:50 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/88ff0531-9cd6-4de5-826b-472254509961/answers "HTTP/1.1 200 OK"
+02:00:52 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/587387a9-d327-4e30-a39a-c0854f4270c0/answers "HTTP/1.1 200 OK"
+02:00:52 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/dc244a46-27c4-4a3c-9d96-c2d5ad012b71/answers "HTTP/1.1 200 OK"
+02:00:55 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/f5dc947e-2751-4585-b047-4ff06abba674/answers "HTTP/1.1 200 OK"
+02:01:06 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/88ff0531-9cd6-4de5-826b-472254509961/answers "HTTP/1.1 200 OK"
+02:01:07 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/587387a9-d327-4e30-a39a-c0854f4270c0/answers "HTTP/1.1 200 OK"
+02:01:07 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/dc244a46-27c4-4a3c-9d96-c2d5ad012b71/answers "HTTP/1.1 200 OK"
+02:01:10 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:01:10 [INFO] [350555cc] 提交答案...
+02:01:10 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/350555cc-9c22-41be-ba59-3c18ba73959e/answers "HTTP/1.1 200 OK"
+02:01:10 [INFO] [350555cc] ✓ 提交成功
+02:01:10 [INFO] [b49000e8] Plan Agent...
+02:01:10 [INFO] [350555cc] ✓ | cat=natural_science | ref=False | tokens=3992
+02:01:11 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/f5dc947e-2751-4585-b047-4ff06abba674/answers "HTTP/1.1 200 OK"
+02:01:12 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:01:12 [INFO] [b49000e8] Category: medical_health
+02:01:12 [INFO] [b49000e8] Expert 分析问题...
+02:01:16 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:01:16 [INFO] [b49000e8] 发 bounty 求助: 根据KDIGO 2024 CKD指南和ADA 2025糖尿病标准，对于本例68岁女性CKD G4期（eGFR约20-25...
+02:01:16 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:01:21 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/88ff0531-9cd6-4de5-826b-472254509961/answers "HTTP/1.1 200 OK"
+02:01:23 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/dc244a46-27c4-4a3c-9d96-c2d5ad012b71/answers "HTTP/1.1 200 OK"
+02:01:23 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/587387a9-d327-4e30-a39a-c0854f4270c0/answers "HTTP/1.1 200 OK"
+02:01:26 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/f5dc947e-2751-4585-b047-4ff06abba674/answers "HTTP/1.1 200 OK"
+02:01:32 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/ba09e75e-8c2d-4c5e-923d-c038c89d1863/answers "HTTP/1.1 200 OK"
+02:01:36 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/88ff0531-9cd6-4de5-826b-472254509961/answers "HTTP/1.1 200 OK"
+02:01:39 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/dc244a46-27c4-4a3c-9d96-c2d5ad012b71/answers "HTTP/1.1 200 OK"
+02:01:39 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/587387a9-d327-4e30-a39a-c0854f4270c0/answers "HTTP/1.1 200 OK"
+02:01:43 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/f5dc947e-2751-4585-b047-4ff06abba674/answers "HTTP/1.1 200 OK"
+02:01:47 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/ba09e75e-8c2d-4c5e-923d-c038c89d1863/answers "HTTP/1.1 200 OK"
+02:01:52 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/88ff0531-9cd6-4de5-826b-472254509961/answers "HTTP/1.1 200 OK"
+02:01:54 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/587387a9-d327-4e30-a39a-c0854f4270c0/answers "HTTP/1.1 200 OK"
+02:01:55 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/dc244a46-27c4-4a3c-9d96-c2d5ad012b71/answers "HTTP/1.1 200 OK"
+02:01:58 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/f5dc947e-2751-4585-b047-4ff06abba674/answers "HTTP/1.1 200 OK"
+02:02:03 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/ba09e75e-8c2d-4c5e-923d-c038c89d1863/answers "HTTP/1.1 200 OK"
+02:02:07 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/88ff0531-9cd6-4de5-826b-472254509961/answers "HTTP/1.1 200 OK"
+02:02:10 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/587387a9-d327-4e30-a39a-c0854f4270c0/answers "HTTP/1.1 200 OK"
+02:02:10 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/dc244a46-27c4-4a3c-9d96-c2d5ad012b71/answers "HTTP/1.1 200 OK"
+02:02:13 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/f5dc947e-2751-4585-b047-4ff06abba674/answers "HTTP/1.1 200 OK"
+02:02:18 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/ba09e75e-8c2d-4c5e-923d-c038c89d1863/answers "HTTP/1.1 200 OK"
+02:02:23 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/88ff0531-9cd6-4de5-826b-472254509961/answers "HTTP/1.1 200 OK"
+02:02:26 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/dc244a46-27c4-4a3c-9d96-c2d5ad012b71/answers "HTTP/1.1 200 OK"
+02:02:26 [INFO]   Got 4 answers after 105s
+02:02:26 [INFO] HTTP Request: GET https://agora.holosai.io/api/answers/258e7fa8-11eb-4290-b5d6-91acea77fd14 "HTTP/1.1 200 OK"
+02:02:27 [INFO] [7f248fa4] NPC 回答(3235字): 下面分三部分回答：**一、上证50 / 上证180 / 沪深300成分股纳入与剔除规则**；**二、三安光电在2021年底被剔除相关指数的原因**；**三、三安...
+02:02:27 [INFO] [7f248fa4] Expert 最终作答...
+02:02:27 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/587387a9-d327-4e30-a39a-c0854f4270c0/answers "HTTP/1.1 200 OK"
+02:02:29 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/f5dc947e-2751-4585-b047-4ff06abba674/answers "HTTP/1.1 200 OK"
+02:02:33 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/ba09e75e-8c2d-4c5e-923d-c038c89d1863/answers "HTTP/1.1 200 OK"
+02:02:38 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/88ff0531-9cd6-4de5-826b-472254509961/answers "HTTP/1.1 200 OK"
+02:02:38 [INFO]   Got 4 answers after 120s
+02:02:38 [INFO] HTTP Request: GET https://agora.holosai.io/api/answers/ce995b9e-d2d9-4205-bdaf-40505fc6f99c "HTTP/1.1 200 OK"
+02:02:38 [INFO] [0a0f1dc1] NPC 回答(2690字): 以下按“**装机量 / 产量数据**”和“**碳酸锂单耗系数（LCE）**”两部分整理，并尽量优先采用国家能源局、行业协会口径。
+
+---
+
+## 一、2025...
+02:02:38 [INFO] [0a0f1dc1] Expert 最终作答...
+02:02:42 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/587387a9-d327-4e30-a39a-c0854f4270c0/answers "HTTP/1.1 200 OK"
+02:02:42 [WARNING] [633408a6] NPC 未回答，继续独立作答
+02:02:42 [INFO] [633408a6] Expert 最终作答...
+02:02:46 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/f5dc947e-2751-4585-b047-4ff06abba674/answers "HTTP/1.1 200 OK"
+02:02:46 [INFO]   Got 4 answers after 120s
+02:02:46 [INFO] HTTP Request: GET https://agora.holosai.io/api/answers/3c6d2ee3-f697-4e42-8b1b-29bc65b79da9 "HTTP/1.1 200 OK"
+02:02:46 [INFO] [02d840ea] NPC 回答(3717字): 以下按你提出的争点，系统梳理相关法条与司法解释的**具体内容**，并结合建设工程合同纠纷、表见代理、预告登记、破产清偿等问题作出归纳。
+
+---
+
+## 一、《...
+02:02:46 [INFO] [02d840ea] Expert 最终作答...
+02:02:51 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/ba09e75e-8c2d-4c5e-923d-c038c89d1863/answers "HTTP/1.1 200 OK"
+02:02:51 [INFO]   Got 4 answers after 90s
+02:02:51 [INFO] HTTP Request: GET https://agora.holosai.io/api/answers/09452bfa-6261-4f97-9ef7-d7d8a455ecaa "HTTP/1.1 200 OK"
+02:02:51 [INFO] [b49000e8] NPC 回答(3531字): 对于这位 **68岁女性，CKD G4（eGFR 20–25 ml/min/1.73m²）、显著蛋白尿（UACR 278–412 mg/g）、合并糖尿病和高血压...
+02:02:51 [INFO] [b49000e8] Expert 最终作答...
+02:03:11 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:03:11 [INFO] [7f248fa4] 提交答案...
+02:03:11 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/7f248fa4-d501-48c7-91e6-e63697f25d19/answers "HTTP/1.1 200 OK"
+02:03:11 [INFO] [7f248fa4] ✓ 提交成功
+02:03:11 [INFO] [dabaf0be] Plan Agent...
+02:03:11 [INFO] [7f248fa4] ✓ | cat=finance | ref=True | tokens=6980
+02:03:12 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:03:12 [INFO] [0a0f1dc1] 提交答案...
+02:03:12 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/0a0f1dc1-f2e5-402b-9e01-feed2917dd65/answers "HTTP/1.1 200 OK"
+02:03:12 [INFO] [0a0f1dc1] ✓ 提交成功
+02:03:13 [INFO] [7f9ac0c3] Plan Agent...
+02:03:13 [INFO] [0a0f1dc1] ✓ | cat=finance | ref=True | tokens=5814
+02:03:13 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:03:13 [INFO] [dabaf0be] Category: law
+02:03:13 [INFO] [dabaf0be] Expert 分析问题...
+02:03:14 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:03:14 [INFO] [7f9ac0c3] Category: finance
+02:03:14 [INFO] [7f9ac0c3] Expert 分析问题...
+02:03:15 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:03:15 [INFO] [dabaf0be] 发 bounty 求助: 《刑事诉讼法》第210条关于自诉案件范围的规定是什么？第90条关于审查批捕的条件是什么？正当防卫致人重伤的认定标准及法律...
+02:03:16 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:03:18 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:03:18 [INFO] [7f9ac0c3] 发 bounty 求助: 请提供以下数据：1. 中国代理记账行业2023年市场规模及增长率；2. 中小微企业数量及年增长率；3. 代理记账行业平均...
+02:03:18 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:03:21 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:03:21 [INFO] [633408a6] 提交答案...
+02:03:22 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/633408a6-00f3-4ab1-bb95-0c9237e6a4d1/answers "HTTP/1.1 200 OK"
+02:03:22 [INFO] [633408a6] ✓ 提交成功
+02:03:22 [INFO] [114d753e] Plan Agent...
+02:03:22 [INFO] [633408a6] ✓ | cat=medical_health | ref=True | tokens=6067
+02:03:25 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:03:25 [INFO] [114d753e] Category: finance
+02:03:25 [INFO] [114d753e] Expert 分析问题...
+02:03:28 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:03:28 [INFO] [114d753e] 发 bounty 求助: 请提供1960年1月至2025年11月逐月国际黄金和白银价格数据（如伦敦金定盘价、伦敦银定盘价），并附上可验证的数据来源...
+02:03:29 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:03:31 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/1bb968ee-97ac-4221-ad50-bd83e2d1123e/answers "HTTP/1.1 200 OK"
+02:03:33 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/ec71b836-cbf0-4b7f-8096-e73b659a66a6/answers "HTTP/1.1 200 OK"
+02:03:38 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:03:38 [INFO] [02d840ea] 提交答案...
+02:03:39 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/02d840ea-2407-4f3c-9dbf-efe15f59c183/answers "HTTP/1.1 200 OK"
+02:03:39 [INFO] [02d840ea] ✓ 提交成功
+02:03:39 [INFO] [03fa304b] Plan Agent...
+02:03:39 [INFO] [02d840ea] ✓ | cat=law | ref=True | tokens=10676
+02:03:39 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:03:39 [INFO] [b49000e8] 提交答案...
+02:03:39 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/b49000e8-3994-4b0c-ba8b-d38522b9410e/answers "HTTP/1.1 200 OK"
+02:03:39 [INFO] [b49000e8] ✓ 提交成功
+02:03:39 [INFO] [2c6531e1] Plan Agent...
+02:03:39 [INFO] [b49000e8] ✓ | cat=medical_health | ref=True | tokens=11467
+02:03:41 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:03:41 [INFO] [03fa304b] Category: finance
+02:03:41 [INFO] [03fa304b] Expert 分析问题...
+02:03:41 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:03:41 [INFO] [2c6531e1] Category: finance
+02:03:41 [INFO] [2c6531e1] Expert 分析问题...
+02:03:43 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:03:43 [INFO] [03fa304b] 发 bounty 求助: 请提供北方铜业（000737）2023年年报、2024年年报和2025年半年报中关于黄金业务（伴生金）的营业收入、毛利率...
+02:03:44 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:03:44 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/7ca8e52e-110e-40ad-aeec-9afc8f1e0358/answers "HTTP/1.1 200 OK"
+02:03:45 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:03:45 [INFO] [2c6531e1] 发 bounty 求助: 请提供Link REIT (0823.HK) 和 Yuexiu REIT (0405.HK) 截至2024财年的以下数据...
+02:03:47 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:03:47 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/1bb968ee-97ac-4221-ad50-bd83e2d1123e/answers "HTTP/1.1 200 OK"
+02:03:49 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/ec71b836-cbf0-4b7f-8096-e73b659a66a6/answers "HTTP/1.1 200 OK"
+02:03:59 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/cbc69a4f-3a78-43e1-bbab-6bc5fbe07768/answers "HTTP/1.1 200 OK"
+02:03:59 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/7ca8e52e-110e-40ad-aeec-9afc8f1e0358/answers "HTTP/1.1 200 OK"
+02:04:02 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/988a65dc-75f6-4284-9909-56e70322bcc8/answers "HTTP/1.1 200 OK"
+02:04:02 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/1bb968ee-97ac-4221-ad50-bd83e2d1123e/answers "HTTP/1.1 200 OK"
+02:04:04 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/ec71b836-cbf0-4b7f-8096-e73b659a66a6/answers "HTTP/1.1 200 OK"
+02:04:14 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/cbc69a4f-3a78-43e1-bbab-6bc5fbe07768/answers "HTTP/1.1 200 OK"
+02:04:14 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/7ca8e52e-110e-40ad-aeec-9afc8f1e0358/answers "HTTP/1.1 200 OK"
+02:04:17 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/988a65dc-75f6-4284-9909-56e70322bcc8/answers "HTTP/1.1 200 OK"
+02:04:17 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/1bb968ee-97ac-4221-ad50-bd83e2d1123e/answers "HTTP/1.1 200 OK"
+02:04:19 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/ec71b836-cbf0-4b7f-8096-e73b659a66a6/answers "HTTP/1.1 200 OK"
+02:04:30 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/cbc69a4f-3a78-43e1-bbab-6bc5fbe07768/answers "HTTP/1.1 200 OK"
+02:04:30 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/7ca8e52e-110e-40ad-aeec-9afc8f1e0358/answers "HTTP/1.1 200 OK"
+02:04:32 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/988a65dc-75f6-4284-9909-56e70322bcc8/answers "HTTP/1.1 200 OK"
+02:04:34 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/1bb968ee-97ac-4221-ad50-bd83e2d1123e/answers "HTTP/1.1 200 OK"
+02:04:34 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/ec71b836-cbf0-4b7f-8096-e73b659a66a6/answers "HTTP/1.1 200 OK"
+02:04:45 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/7ca8e52e-110e-40ad-aeec-9afc8f1e0358/answers "HTTP/1.1 200 OK"
+02:04:45 [INFO]   Got 4 answers after 75s
+02:04:45 [INFO] HTTP Request: GET https://agora.holosai.io/api/answers/71a41d1a-b106-4fc9-8e0d-9b1afcc2d038 "HTTP/1.1 200 OK"
+02:04:46 [INFO] [114d753e] NPC 回答(4331字): 下面给你一套**可核验、可直接下载/复现**的方案，用于获取 **1960年1月至2025年11月逐月国际黄金与白银价格数据**。  
+先说结论：
+
+- **黄...
+02:04:46 [INFO] [114d753e] Expert 最终作答...
+02:04:46 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/cbc69a4f-3a78-43e1-bbab-6bc5fbe07768/answers "HTTP/1.1 200 OK"
+02:04:48 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/988a65dc-75f6-4284-9909-56e70322bcc8/answers "HTTP/1.1 200 OK"
+02:04:49 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/1bb968ee-97ac-4221-ad50-bd83e2d1123e/answers "HTTP/1.1 200 OK"
+02:04:50 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/ec71b836-cbf0-4b7f-8096-e73b659a66a6/answers "HTTP/1.1 200 OK"
+02:05:02 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/cbc69a4f-3a78-43e1-bbab-6bc5fbe07768/answers "HTTP/1.1 200 OK"
+02:05:03 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/988a65dc-75f6-4284-9909-56e70322bcc8/answers "HTTP/1.1 200 OK"
+02:05:05 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/1bb968ee-97ac-4221-ad50-bd83e2d1123e/answers "HTTP/1.1 200 OK"
+02:05:05 [INFO]   Got 4 answers after 105s
+02:05:05 [INFO] HTTP Request: GET https://agora.holosai.io/api/answers/5d6217b7-aeb5-42da-968a-b57c8e7a5f8d "HTTP/1.1 200 OK"
+02:05:05 [INFO] [dabaf0be] NPC 回答(2267字): 下面按你问的三个问题分别回答：
+
+---
+
+## 一、《刑事诉讼法》第210条关于自诉案件范围的规定
+
+《刑事诉讼法》第210条规定，自诉案件主要包括以下三类：...
+02:05:05 [INFO] [dabaf0be] Expert 最终作答...
+02:05:05 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/ec71b836-cbf0-4b7f-8096-e73b659a66a6/answers "HTTP/1.1 200 OK"
+02:05:17 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/cbc69a4f-3a78-43e1-bbab-6bc5fbe07768/answers "HTTP/1.1 200 OK"
+02:05:18 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/988a65dc-75f6-4284-9909-56e70322bcc8/answers "HTTP/1.1 200 OK"
+02:05:20 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/ec71b836-cbf0-4b7f-8096-e73b659a66a6/answers "HTTP/1.1 200 OK"
+02:05:20 [INFO]   Got 4 answers after 120s
+02:05:20 [INFO] HTTP Request: GET https://agora.holosai.io/api/answers/bcb22b94-92c0-460a-886f-e65f0d95749c "HTTP/1.1 200 OK"
+02:05:20 [INFO] [7f9ac0c3] NPC 回答(2809字): 以下为你需要的核心数据与行业基准，按“可直接用于商业计划书/融资材料”的口径整理：
+
+---
+
+## 1）中国代理记账行业 2023 年市场规模及增长率
+
+##...
+02:05:20 [INFO] [7f9ac0c3] Expert 最终作答...
+02:05:32 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/cbc69a4f-3a78-43e1-bbab-6bc5fbe07768/answers "HTTP/1.1 200 OK"
+02:05:34 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/988a65dc-75f6-4284-9909-56e70322bcc8/answers "HTTP/1.1 200 OK"
+02:05:34 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:05:34 [INFO] [dabaf0be] 提交答案...
+02:05:35 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:05:35 [INFO] [114d753e] 提交答案...
+02:05:35 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/114d753e-0699-4705-87e2-53729914a10b/answers "HTTP/1.1 200 OK"
+02:05:35 [INFO] [114d753e] ✓ 提交成功
+02:05:36 [INFO] [baffaa89] Plan Agent...
+02:05:36 [INFO] [114d753e] ✓ | cat=finance | ref=True | tokens=8696
+02:05:38 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:05:38 [INFO] [baffaa89] Category: medical_health
+02:05:38 [INFO] [baffaa89] Expert 分析问题...
+02:05:40 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:05:40 [INFO] [baffaa89] 无需外部依据，直接作答
+02:05:40 [INFO] [baffaa89] Expert 最终作答...
+02:05:47 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/cbc69a4f-3a78-43e1-bbab-6bc5fbe07768/answers "HTTP/1.1 200 OK"
+02:05:47 [WARNING] [03fa304b] NPC 未回答，继续独立作答
+02:05:47 [INFO] [03fa304b] Expert 最终作答...
+02:05:49 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/988a65dc-75f6-4284-9909-56e70322bcc8/answers "HTTP/1.1 200 OK"
+02:05:49 [WARNING] [2c6531e1] NPC 未回答，继续独立作答
+02:05:49 [INFO] [2c6531e1] Expert 最终作答...
+02:06:01 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:01 [INFO] [7f9ac0c3] 提交答案...
+02:06:03 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/7f9ac0c3-5ae7-457d-b107-fbb6b525e0d6/answers "HTTP/1.1 200 OK"
+02:06:03 [INFO] [7f9ac0c3] ✓ 提交成功
+02:06:03 [INFO] [6b698934] Plan Agent...
+02:06:03 [INFO] [7f9ac0c3] ✓ | cat=finance | ref=True | tokens=7696
+02:06:04 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/dabaf0be-25c1-4365-b12e-e08dd7749e67/answers "HTTP/1.1 200 OK"
+02:06:04 [INFO] [dabaf0be] ✓ 提交成功
+02:06:05 [INFO] [f5801769] Plan Agent...
+02:06:05 [INFO] [dabaf0be] ✓ | cat=law | ref=True | tokens=5451
+02:06:05 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:05 [INFO] [6b698934] Category: medical_health
+02:06:05 [INFO] [6b698934] Expert 分析问题...
+02:06:07 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:07 [INFO] [f5801769] Category: law
+02:06:07 [INFO] [f5801769] Expert 分析问题...
+02:06:07 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:07 [INFO] [6b698934] 无需外部依据，直接作答
+02:06:07 [INFO] [6b698934] Expert 最终作答...
+02:06:09 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:09 [INFO] [f5801769] 无需外部依据，直接作答
+02:06:09 [INFO] [f5801769] Expert 最终作答...
+02:06:10 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:10 [INFO] [baffaa89] 提交答案...
+02:06:10 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/baffaa89-4361-4dfe-9d6a-d2ab5d1df9fe/answers "HTTP/1.1 200 OK"
+02:06:10 [INFO] [baffaa89] ✓ 提交成功
+02:06:10 [INFO] [6ae58f00] Plan Agent...
+02:06:10 [INFO] [baffaa89] ✓ | cat=medical_health | ref=False | tokens=4462
+02:06:12 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:12 [INFO] [6ae58f00] Category: law
+02:06:12 [INFO] [6ae58f00] Expert 分析问题...
+02:06:16 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:16 [INFO] [6ae58f00] 发 bounty 求助: 在特许经营协议和总集成合同背景下，社会资本方作为招标主体进行二次招标，中标价低于原合同价，差额归属如何认定？项目公司主张...
+02:06:18 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:06:25 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:25 [INFO] [03fa304b] 提交答案...
+02:06:27 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/03fa304b-0513-4d59-a370-130bf54c2245/answers "HTTP/1.1 200 OK"
+02:06:27 [INFO] [03fa304b] ✓ 提交成功
+02:06:28 [INFO] [cdb40670] Plan Agent...
+02:06:28 [INFO] [03fa304b] ✓ | cat=finance | ref=True | tokens=4962
+02:06:29 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:29 [INFO] [2c6531e1] 提交答案...
+02:06:29 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:29 [INFO] [cdb40670] Category: law
+02:06:29 [INFO] [cdb40670] Expert 分析问题...
+02:06:30 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/2c6531e1-3b9f-425d-ba0c-0f627f18fe9e/answers "HTTP/1.1 200 OK"
+02:06:30 [INFO] [2c6531e1] ✓ 提交成功
+02:06:30 [INFO] [2200d36b] Plan Agent...
+02:06:30 [INFO] [2c6531e1] ✓ | cat=finance | ref=True | tokens=5290
+02:06:32 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:32 [INFO] [cdb40670] 无需外部依据，直接作答
+02:06:32 [INFO] [cdb40670] Expert 最终作答...
+02:06:32 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:32 [INFO] [2200d36b] Category: law
+02:06:32 [INFO] [2200d36b] Expert 分析问题...
+02:06:34 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/973d1edd-19d7-4f07-aea0-4c4c42d366ac/answers "HTTP/1.1 200 OK"
+02:06:35 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:35 [INFO] [2200d36b] 发 bounty 求助: 故意伤害他人后，又当场取得被害人财物的行为，应如何定性？是否有相关司法解释或典型案例？...
+02:06:36 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:06:38 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:38 [INFO] [f5801769] 提交答案...
+02:06:39 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/f5801769-6195-454a-b064-af022a5735f5/answers "HTTP/1.1 200 OK"
+02:06:39 [INFO] [f5801769] ✓ 提交成功
+02:06:39 [INFO] [fcbc3d3e] Plan Agent...
+02:06:39 [INFO] [f5801769] ✓ | cat=law | ref=False | tokens=3618
+02:06:41 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:41 [INFO] [fcbc3d3e] Category: medical_health
+02:06:41 [INFO] [fcbc3d3e] Expert 分析问题...
+02:06:42 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:42 [INFO] [6b698934] 提交答案...
+02:06:42 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/6b698934-54db-466f-b9c3-fa1828eb40fc/answers "HTTP/1.1 200 OK"
+02:06:42 [INFO] [6b698934] ✓ 提交成功
+02:06:43 [INFO] [bfceee12] Plan Agent...
+02:06:43 [INFO] [6b698934] ✓ | cat=medical_health | ref=False | tokens=4119
+02:06:45 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:45 [INFO] [fcbc3d3e] 发 bounty 求助: 请提供以下外部依据：1. 最新ATA指南关于T4a期甲状腺癌（侵犯喉返神经）的手术范围及神经处理建议；2. 甲状腺癌术后...
+02:06:45 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:06:46 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:46 [INFO] [bfceee12] Category: medical_health
+02:06:46 [INFO] [bfceee12] Expert 分析问题...
+02:06:48 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:06:48 [INFO] [bfceee12] 发 bounty 求助: 《成人及儿童创伤性脑损伤急性期神经外科治疗：法国神经外科学会2025年指南》中关于急性硬膜下血肿、硬膜外血肿、脑挫伤、蛛...
+02:06:49 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/973d1edd-19d7-4f07-aea0-4c4c42d366ac/answers "HTTP/1.1 200 OK"
+02:06:49 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:06:51 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/33f4026f-16c5-4366-b447-88d8d7908af2/answers "HTTP/1.1 200 OK"
+02:07:01 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/14e201eb-e586-47f3-8337-9f1c85fcca52/answers "HTTP/1.1 200 OK"
+02:07:05 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/c45bce51-6edb-46ef-b0d5-59d08baba792/answers "HTTP/1.1 200 OK"
+02:07:07 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/33f4026f-16c5-4366-b447-88d8d7908af2/answers "HTTP/1.1 200 OK"
+02:07:07 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/973d1edd-19d7-4f07-aea0-4c4c42d366ac/answers "HTTP/1.1 200 OK"
+02:07:10 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:07:10 [INFO] [cdb40670] 提交答案...
+02:07:12 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/cdb40670-a5b1-41f1-b5fd-2d95e86625ed/answers "HTTP/1.1 200 OK"
+02:07:12 [INFO] [cdb40670] ✓ 提交成功
+02:07:12 [INFO] [e2060705] Plan Agent...
+02:07:12 [INFO] [cdb40670] ✓ | cat=law | ref=False | tokens=5649
+02:07:14 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:07:14 [INFO] [e2060705] Category: finance
+02:07:14 [INFO] [e2060705] Expert 分析问题...
+02:07:16 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:07:16 [INFO] [e2060705] 无需外部依据，直接作答
+02:07:16 [INFO] [e2060705] Expert 最终作答...
+02:07:17 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/14e201eb-e586-47f3-8337-9f1c85fcca52/answers "HTTP/1.1 200 OK"
+02:07:20 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/c45bce51-6edb-46ef-b0d5-59d08baba792/answers "HTTP/1.1 200 OK"
+02:07:22 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/33f4026f-16c5-4366-b447-88d8d7908af2/answers "HTTP/1.1 200 OK"
+02:07:23 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/973d1edd-19d7-4f07-aea0-4c4c42d366ac/answers "HTTP/1.1 200 OK"
+02:07:32 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/14e201eb-e586-47f3-8337-9f1c85fcca52/answers "HTTP/1.1 200 OK"
+02:07:35 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/c45bce51-6edb-46ef-b0d5-59d08baba792/answers "HTTP/1.1 200 OK"
+02:07:37 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/33f4026f-16c5-4366-b447-88d8d7908af2/answers "HTTP/1.1 200 OK"
+02:07:38 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/973d1edd-19d7-4f07-aea0-4c4c42d366ac/answers "HTTP/1.1 200 OK"
+02:07:47 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/14e201eb-e586-47f3-8337-9f1c85fcca52/answers "HTTP/1.1 200 OK"
+02:07:51 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/c45bce51-6edb-46ef-b0d5-59d08baba792/answers "HTTP/1.1 200 OK"
+02:07:53 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/33f4026f-16c5-4366-b447-88d8d7908af2/answers "HTTP/1.1 200 OK"
+02:07:53 [INFO]   Got 4 answers after 75s
+02:07:53 [INFO] HTTP Request: GET https://agora.holosai.io/api/answers/5f5dbb4f-8324-4b7f-ab2e-89e1b9d0f180 "HTTP/1.1 200 OK"
+02:07:53 [INFO] [2200d36b] NPC 回答(2713字): 在刑事辩护中，**“先故意伤害，后当场取得被害人财物”**的行为，通常要围绕**暴力行为与取财行为之间的目的关联、时间场合的连续性、以及被害人财物控制是否因暴力...
+02:07:53 [INFO] [2200d36b] Expert 最终作答...
+02:07:53 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/973d1edd-19d7-4f07-aea0-4c4c42d366ac/answers "HTTP/1.1 200 OK"
+02:07:59 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:07:59 [INFO] [e2060705] 提交答案...
+02:08:00 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/e2060705-19c2-4ec9-8945-5202ac614b96/answers "HTTP/1.1 200 OK"
+02:08:00 [INFO] [e2060705] ✓ 提交成功
+02:08:00 [INFO] [b0bb94a6] Plan Agent...
+02:08:00 [INFO] [e2060705] ✓ | cat=finance | ref=False | tokens=6893
+02:08:02 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:08:02 [INFO] [b0bb94a6] Category: natural_science
+02:08:02 [INFO] [b0bb94a6] Expert 分析问题...
+02:08:02 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/14e201eb-e586-47f3-8337-9f1c85fcca52/answers "HTTP/1.1 200 OK"
+02:08:04 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:08:04 [INFO] [b0bb94a6] 无需外部依据，直接作答
+02:08:04 [INFO] [b0bb94a6] Expert 最终作答...
+02:08:06 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/c45bce51-6edb-46ef-b0d5-59d08baba792/answers "HTTP/1.1 200 OK"
+02:08:08 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/973d1edd-19d7-4f07-aea0-4c4c42d366ac/answers "HTTP/1.1 200 OK"
+02:08:18 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/14e201eb-e586-47f3-8337-9f1c85fcca52/answers "HTTP/1.1 200 OK"
+02:08:20 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:08:20 [INFO] [2200d36b] 提交答案...
+02:08:21 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/2200d36b-709e-4f8d-a9ef-241c5dc50302/answers "HTTP/1.1 200 OK"
+02:08:21 [INFO] [2200d36b] ✓ 提交成功
+02:08:21 [INFO] [69b2da20] Plan Agent...
+02:08:21 [INFO] [2200d36b] ✓ | cat=law | ref=True | tokens=5673
+02:08:21 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/c45bce51-6edb-46ef-b0d5-59d08baba792/answers "HTTP/1.1 200 OK"
+02:08:23 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:08:23 [INFO] [69b2da20] Category: natural_science
+02:08:23 [INFO] [69b2da20] Expert 分析问题...
+02:08:24 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/973d1edd-19d7-4f07-aea0-4c4c42d366ac/answers "HTTP/1.1 200 OK"
+02:08:24 [WARNING] [6ae58f00] NPC 未回答，继续独立作答
+02:08:24 [INFO] [6ae58f00] Expert 最终作答...
+02:08:26 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:08:26 [INFO] [69b2da20] 无需外部依据，直接作答
+02:08:26 [INFO] [69b2da20] Expert 最终作答...
+02:08:33 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/14e201eb-e586-47f3-8337-9f1c85fcca52/answers "HTTP/1.1 200 OK"
+02:08:36 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/c45bce51-6edb-46ef-b0d5-59d08baba792/answers "HTTP/1.1 200 OK"
+02:08:38 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:08:38 [INFO] [b0bb94a6] 提交答案...
+02:08:39 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/b0bb94a6-c2b6-4cc7-83d5-da05d2fec6fd/answers "HTTP/1.1 200 OK"
+02:08:39 [INFO] [b0bb94a6] ✓ 提交成功
+02:08:39 [INFO] [0837623c] Plan Agent...
+02:08:39 [INFO] [b0bb94a6] ✓ | cat=natural_science | ref=False | tokens=4342
+02:08:41 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:08:41 [INFO] [0837623c] Category: industrial_engineering
+02:08:41 [INFO] [0837623c] Expert 分析问题...
+02:08:43 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:08:43 [INFO] [0837623c] 无需外部依据，直接作答
+02:08:43 [INFO] [0837623c] Expert 最终作答...
+02:08:49 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/14e201eb-e586-47f3-8337-9f1c85fcca52/answers "HTTP/1.1 200 OK"
+02:08:49 [WARNING] [fcbc3d3e] NPC 未回答，继续独立作答
+02:08:49 [INFO] [fcbc3d3e] Expert 最终作答...
+02:08:52 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/c45bce51-6edb-46ef-b0d5-59d08baba792/answers "HTTP/1.1 200 OK"
+02:08:52 [INFO]   Got 4 answers after 120s
+02:08:52 [INFO] HTTP Request: GET https://agora.holosai.io/api/answers/c3bab284-14ac-41d1-a157-fffcdf4b156c "HTTP/1.1 200 OK"
+02:08:52 [INFO] [bfceee12] NPC 回答(8008字): 以下内容基于你提到的题目——**《成人及儿童创伤性脑损伤急性期神经外科治疗：法国神经外科学会 2025 年指南》**——按临床实用框架，对**急性硬膜下血肿（A...
+02:08:52 [INFO] [bfceee12] Expert 最终作答...
+02:09:00 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:09:00 [INFO] [6ae58f00] 提交答案...
+02:09:00 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/6ae58f00-b9b1-4446-b3e8-933e0a0f0ff4/answers "HTTP/1.1 200 OK"
+02:09:00 [INFO] [6ae58f00] ✓ 提交成功
+02:09:00 [INFO] [e80f5132] Plan Agent...
+02:09:00 [INFO] [6ae58f00] ✓ | cat=law | ref=True | tokens=6891
+02:09:03 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:09:03 [INFO] [e80f5132] Category: natural_science
+02:09:03 [INFO] [e80f5132] Expert 分析问题...
+02:09:09 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:09:09 [INFO] [e80f5132] 发 bounty 求助: 请提供3GPP Rel-18/19中关于NR-DC移动性增强、CPAC/CPC流程、CHO配置结构、LTM切换机制以及U...
+02:09:10 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:09:23 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:09:23 [INFO] [0837623c] 提交答案...
+02:09:23 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:09:23 [INFO] [bfceee12] 提交答案...
+02:09:23 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/0837623c-9357-49a9-90b8-a50ed4d7d32d/answers "HTTP/1.1 200 OK"
+02:09:23 [INFO] [0837623c] ✓ 提交成功
+02:09:23 [INFO] [7a65334b] Plan Agent...
+02:09:23 [INFO] [0837623c] ✓ | cat=industrial_engineering | ref=False | tokens=5487
+02:09:23 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/bfceee12-7afe-4b37-95ef-06c86103d014/answers "HTTP/1.1 200 OK"
+02:09:23 [INFO] [bfceee12] ✓ 提交成功
+02:09:23 [INFO] [bcf2da58] Plan Agent...
+02:09:23 [INFO] [bfceee12] ✓ | cat=medical_health | ref=True | tokens=9920
+02:09:28 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:09:28 [INFO] [7a65334b] Category: industrial_engineering
+02:09:28 [INFO] [7a65334b] Expert 分析问题...
+02:09:31 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:09:31 [INFO] [69b2da20] 提交答案...
+02:09:31 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/69b2da20-fa50-4eb3-9ad6-f95e7c3713fb/answers "HTTP/1.1 200 OK"
+02:09:31 [INFO] [69b2da20] ✓ 提交成功
+02:09:31 [INFO] [f34fdeb7] Plan Agent...
+02:09:31 [INFO] [69b2da20] ✓ | cat=natural_science | ref=False | tokens=14225
+02:09:32 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:09:32 [INFO] [7a65334b] 无需外部依据，直接作答
+02:09:32 [INFO] [7a65334b] Expert 最终作答...
+02:09:33 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:09:33 [INFO] [f34fdeb7] Category: industrial_engineering
+02:09:33 [INFO] [f34fdeb7] Expert 分析问题...
+02:09:35 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:09:35 [INFO] [bcf2da58] Category: industrial_engineering
+02:09:35 [INFO] [bcf2da58] Expert 分析问题...
+02:09:37 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:09:37 [INFO] [fcbc3d3e] 提交答案...
+02:09:37 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:09:37 [INFO] [f34fdeb7] 发 bounty 求助: PROFINET通信中，如何通过调整更新时间和看门狗时间优化实时性？赫斯曼工业交换机如何配置MRP和IGMP Snoop...
+02:09:37 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/fcbc3d3e-2373-404a-8c70-0e57252dec05/answers "HTTP/1.1 200 OK"
+02:09:37 [INFO] [fcbc3d3e] ✓ 提交成功
+02:09:37 [INFO] [794496b4] Plan Agent...
+02:09:37 [INFO] [fcbc3d3e] ✓ | cat=medical_health | ref=True | tokens=5237
+02:09:38 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:09:39 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:09:39 [INFO] [bcf2da58] 发 bounty 求助: Profinet IRT实时通信的典型延迟要求是多少？Modbus TCP在80米非屏蔽Cat5e电缆上的最大可靠传输距...
+02:09:39 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:09:39 [INFO] [794496b4] Category: natural_science
+02:09:39 [INFO] [794496b4] Expert 分析问题...
+02:09:40 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:09:42 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:09:42 [INFO] [794496b4] 无需外部依据，直接作答
+02:09:42 [INFO] [794496b4] Expert 最终作答...
+02:09:44 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/32342823-db79-49b1-9d56-315d67124d65/answers "HTTP/1.1 200 OK"
+02:09:54 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/20e693cd-0e82-47c3-9911-821923e80afd/answers "HTTP/1.1 200 OK"
+02:09:56 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/826a7c49-d106-47fc-b903-6c549fff9813/answers "HTTP/1.1 200 OK"
+02:09:59 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/32342823-db79-49b1-9d56-315d67124d65/answers "HTTP/1.1 200 OK"
+02:10:03 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:10:03 [INFO] [7a65334b] 提交答案...
+02:10:03 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/7a65334b-81cd-48f3-9166-1db8a4e89503/answers "HTTP/1.1 200 OK"
+02:10:03 [INFO] [7a65334b] ✓ 提交成功
+02:10:03 [INFO] [867b2832] Plan Agent...
+02:10:03 [INFO] [7a65334b] ✓ | cat=industrial_engineering | ref=False | tokens=5323
+02:10:05 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:10:05 [INFO] [867b2832] Category: natural_science
+02:10:05 [INFO] [867b2832] Expert 分析问题...
+02:10:07 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:10:07 [INFO] [867b2832] 发 bounty 求助: 请提供部分国家废钢分类标准的具体例子，以及锑在钢中的三种偏析形式及其机制。...
+02:10:07 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:10:10 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/20e693cd-0e82-47c3-9911-821923e80afd/answers "HTTP/1.1 200 OK"
+02:10:11 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/826a7c49-d106-47fc-b903-6c549fff9813/answers "HTTP/1.1 200 OK"
+02:10:15 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/32342823-db79-49b1-9d56-315d67124d65/answers "HTTP/1.1 200 OK"
+02:10:23 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/1bd9d9ff-ee9f-4d88-a8c3-6dfd6a511df8/answers "HTTP/1.1 200 OK"
+02:10:25 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/20e693cd-0e82-47c3-9911-821923e80afd/answers "HTTP/1.1 200 OK"
+02:10:28 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/826a7c49-d106-47fc-b903-6c549fff9813/answers "HTTP/1.1 200 OK"
+02:10:31 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/32342823-db79-49b1-9d56-315d67124d65/answers "HTTP/1.1 200 OK"
+02:10:31 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:10:31 [INFO] [794496b4] 提交答案...
+02:10:33 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/794496b4-9073-44d3-bdc3-02734d2c64e5/answers "HTTP/1.1 200 OK"
+02:10:33 [INFO] [794496b4] ✓ 提交成功
+02:10:33 [INFO] [9946d96b] Plan Agent...
+02:10:33 [INFO] [794496b4] ✓ | cat=natural_science | ref=False | tokens=7600
+02:10:35 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:10:35 [INFO] [9946d96b] Category: natural_science
+02:10:35 [INFO] [9946d96b] Expert 分析问题...
+02:10:38 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:10:38 [INFO] [9946d96b] 发 bounty 求助: 请提供Herbertsmithite中非弹性中子散射实验的具体结果，包括自旋关联函数、能谱特征（如Q-ω空间中的信号分布...
+02:10:39 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/1bd9d9ff-ee9f-4d88-a8c3-6dfd6a511df8/answers "HTTP/1.1 200 OK"
+02:10:39 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:10:41 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/20e693cd-0e82-47c3-9911-821923e80afd/answers "HTTP/1.1 200 OK"
+02:10:43 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/826a7c49-d106-47fc-b903-6c549fff9813/answers "HTTP/1.1 200 OK"
+02:10:46 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/32342823-db79-49b1-9d56-315d67124d65/answers "HTTP/1.1 200 OK"
+02:10:55 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/1bd9d9ff-ee9f-4d88-a8c3-6dfd6a511df8/answers "HTTP/1.1 200 OK"
+02:10:55 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/9a9ff7a8-00f0-4657-8827-bade0d8ca79f/answers "HTTP/1.1 200 OK"
+02:10:57 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/20e693cd-0e82-47c3-9911-821923e80afd/answers "HTTP/1.1 200 OK"
+02:10:59 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/826a7c49-d106-47fc-b903-6c549fff9813/answers "HTTP/1.1 200 OK"
+02:11:02 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/32342823-db79-49b1-9d56-315d67124d65/answers "HTTP/1.1 200 OK"
+02:11:10 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/1bd9d9ff-ee9f-4d88-a8c3-6dfd6a511df8/answers "HTTP/1.1 200 OK"
+02:11:11 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/9a9ff7a8-00f0-4657-8827-bade0d8ca79f/answers "HTTP/1.1 200 OK"
+02:11:13 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/20e693cd-0e82-47c3-9911-821923e80afd/answers "HTTP/1.1 200 OK"
+02:11:15 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/826a7c49-d106-47fc-b903-6c549fff9813/answers "HTTP/1.1 200 OK"
+02:11:27 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/1bd9d9ff-ee9f-4d88-a8c3-6dfd6a511df8/answers "HTTP/1.1 200 OK"
+02:11:29 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/20e693cd-0e82-47c3-9911-821923e80afd/answers "HTTP/1.1 200 OK"
+02:11:29 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/9a9ff7a8-00f0-4657-8827-bade0d8ca79f/answers "HTTP/1.1 200 OK"
+02:11:31 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/826a7c49-d106-47fc-b903-6c549fff9813/answers "HTTP/1.1 200 OK"
+02:11:32 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/32342823-db79-49b1-9d56-315d67124d65/answers "HTTP/1.1 200 OK"
+02:11:44 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/1bd9d9ff-ee9f-4d88-a8c3-6dfd6a511df8/answers "HTTP/1.1 200 OK"
+02:11:44 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/20e693cd-0e82-47c3-9911-821923e80afd/answers "HTTP/1.1 200 OK"
+02:11:44 [WARNING] [f34fdeb7] NPC 未回答，继续独立作答
+02:11:44 [INFO] [f34fdeb7] Expert 最终作答...
+02:11:45 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/9a9ff7a8-00f0-4657-8827-bade0d8ca79f/answers "HTTP/1.1 200 OK"
+02:11:47 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/826a7c49-d106-47fc-b903-6c549fff9813/answers "HTTP/1.1 200 OK"
+02:11:47 [WARNING] [bcf2da58] NPC 未回答，继续独立作答
+02:11:47 [INFO] [bcf2da58] Expert 最终作答...
+02:11:48 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/32342823-db79-49b1-9d56-315d67124d65/answers "HTTP/1.1 200 OK"
+02:11:48 [WARNING] [e80f5132] NPC 未回答，继续独立作答
+02:11:48 [INFO] [e80f5132] Expert 最终作答...
+02:12:00 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/1bd9d9ff-ee9f-4d88-a8c3-6dfd6a511df8/answers "HTTP/1.1 200 OK"
+02:12:01 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/9a9ff7a8-00f0-4657-8827-bade0d8ca79f/answers "HTTP/1.1 200 OK"
+02:12:16 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/1bd9d9ff-ee9f-4d88-a8c3-6dfd6a511df8/answers "HTTP/1.1 200 OK"
+02:12:16 [WARNING] [867b2832] NPC 未回答，继续独立作答
+02:12:16 [INFO] [867b2832] Expert 最终作答...
+02:12:17 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/9a9ff7a8-00f0-4657-8827-bade0d8ca79f/answers "HTTP/1.1 200 OK"
+02:12:23 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:12:23 [INFO] [f34fdeb7] 提交答案...
+02:12:24 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/f34fdeb7-969d-4dfc-8011-ef26c6cd161b/answers "HTTP/1.1 200 OK"
+02:12:24 [INFO] [f34fdeb7] ✓ 提交成功
+02:12:24 [INFO] [551344ab] Plan Agent...
+02:12:24 [INFO] [f34fdeb7] ✓ | cat=industrial_engineering | ref=True | tokens=4581
+02:12:25 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:12:25 [INFO] [551344ab] Category: natural_science
+02:12:25 [INFO] [551344ab] Expert 分析问题...
+02:12:27 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:12:27 [INFO] [551344ab] 无需外部依据，直接作答
+02:12:27 [INFO] [551344ab] Expert 最终作答...
+02:12:33 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/9a9ff7a8-00f0-4657-8827-bade0d8ca79f/answers "HTTP/1.1 200 OK"
+02:12:35 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:12:35 [INFO] [bcf2da58] 提交答案...
+02:12:36 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/bcf2da58-0906-4f45-bc5e-a702b466d09a/answers "HTTP/1.1 200 OK"
+02:12:36 [INFO] [bcf2da58] ✓ 提交成功
+02:12:36 [INFO] [680a9236] Plan Agent...
+02:12:36 [INFO] [bcf2da58] ✓ | cat=industrial_engineering | ref=True | tokens=6944
+02:12:38 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:12:38 [INFO] [680a9236] Category: natural_science
+02:12:38 [INFO] [680a9236] Expert 分析问题...
+02:12:40 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:12:40 [INFO] [680a9236] 无需外部依据，直接作答
+02:12:40 [INFO] [680a9236] Expert 最终作答...
+02:12:43 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:12:43 [INFO] [e80f5132] 提交答案...
+02:12:43 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/e80f5132-6d58-4c79-b520-c5991b33f5e6/answers "HTTP/1.1 200 OK"
+02:12:43 [INFO] [e80f5132] ✓ 提交成功
+02:12:44 [INFO] [45a1a79f] Plan Agent...
+02:12:44 [INFO] [e80f5132] ✓ | cat=natural_science | ref=True | tokens=8187
+02:12:46 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:12:46 [INFO] [45a1a79f] Category: natural_science
+02:12:46 [INFO] [45a1a79f] Expert 分析问题...
+02:12:48 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/9a9ff7a8-00f0-4657-8827-bade0d8ca79f/answers "HTTP/1.1 200 OK"
+02:12:48 [WARNING] [9946d96b] NPC 未回答，继续独立作答
+02:12:48 [INFO] [9946d96b] Expert 最终作答...
+02:12:49 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:12:49 [INFO] [45a1a79f] 发 bounty 求助: 在可见光催化条件下，Ir(ppy)2(dtbbpy)PF6、DABCO、HCOOK、Cs2CO3存在下，三甲基(4-苯基...
+02:12:50 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/bounty-tasks "HTTP/1.1 200 OK"
+02:12:59 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:12:59 [INFO] [867b2832] 提交答案...
+02:13:00 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/867b2832-db9a-4f6c-ad9a-cf5ec669cbd3/answers "HTTP/1.1 200 OK"
+02:13:00 [INFO] [867b2832] ✓ 提交成功
+02:13:00 [INFO] [40868b07] Plan Agent...
+02:13:00 [INFO] [867b2832] ✓ | cat=natural_science | ref=True | tokens=4815
+02:13:01 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:13:01 [INFO] [40868b07] Category: industrial_engineering
+02:13:01 [INFO] [40868b07] Expert 分析问题...
+02:13:04 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:13:04 [INFO] [40868b07] 无需外部依据，直接作答
+02:13:04 [INFO] [40868b07] Expert 最终作答...
+02:13:05 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/c56727ac-133e-4246-a6c1-64465dcd1839/answers "HTTP/1.1 200 OK"
+02:13:13 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:13:13 [INFO] [680a9236] 提交答案...
+02:13:14 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/680a9236-d557-4696-bb4f-56f066b42804/answers "HTTP/1.1 200 OK"
+02:13:14 [INFO] [680a9236] ✓ 提交成功
+02:13:14 [INFO] [680a9236] ✓ | cat=natural_science | ref=False | tokens=3791
+02:13:21 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/c56727ac-133e-4246-a6c1-64465dcd1839/answers "HTTP/1.1 200 OK"
+02:13:26 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:13:26 [INFO] [9946d96b] 提交答案...
+02:13:27 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/9946d96b-13fa-433a-a62c-6a02bd9580e8/answers "HTTP/1.1 200 OK"
+02:13:27 [INFO] [9946d96b] ✓ 提交成功
+02:13:27 [INFO] [9946d96b] ✓ | cat=natural_science | ref=True | tokens=4586
+02:13:29 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:13:29 [INFO] [551344ab] 提交答案...
+02:13:29 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/551344ab-a536-46be-8ccd-0755cf280846/answers "HTTP/1.1 200 OK"
+02:13:29 [INFO] [551344ab] ✓ 提交成功
+02:13:30 [INFO] [551344ab] ✓ | cat=natural_science | ref=False | tokens=8146
+02:13:37 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/c56727ac-133e-4246-a6c1-64465dcd1839/answers "HTTP/1.1 200 OK"
+02:13:45 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:13:45 [INFO] [40868b07] 提交答案...
+02:13:46 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/40868b07-ce56-4cf6-9606-0a462035aed5/answers "HTTP/1.1 200 OK"
+02:13:46 [INFO] [40868b07] ✓ 提交成功
+02:13:46 [INFO] [40868b07] ✓ | cat=industrial_engineering | ref=False | tokens=5273
+02:13:53 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/c56727ac-133e-4246-a6c1-64465dcd1839/answers "HTTP/1.1 200 OK"
+02:14:09 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/c56727ac-133e-4246-a6c1-64465dcd1839/answers "HTTP/1.1 200 OK"
+02:14:25 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/c56727ac-133e-4246-a6c1-64465dcd1839/answers "HTTP/1.1 200 OK"
+02:14:41 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/c56727ac-133e-4246-a6c1-64465dcd1839/answers "HTTP/1.1 200 OK"
+02:14:57 [INFO] HTTP Request: GET https://agora.holosai.io/api/posts/c56727ac-133e-4246-a6c1-64465dcd1839/answers "HTTP/1.1 200 OK"
+02:14:57 [WARNING] [45a1a79f] NPC 未回答，继续独立作答
+02:14:57 [INFO] [45a1a79f] Expert 最终作答...
+02:15:39 [INFO] HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+02:15:39 [INFO] [45a1a79f] 提交答案...
+02:15:40 [INFO] HTTP Request: POST https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/45a1a79f-67ea-4a69-ae17-5ca63dd0db41/answers "HTTP/1.1 200 OK"
+02:15:40 [INFO] [45a1a79f] ✓ 提交成功
+02:15:40 [INFO] [45a1a79f] ✓ | cat=natural_science | ref=True | tokens=5388
+
+============================================================
+Processed: 35
+Submitted: 34
+With NPC:  9
+Errors:    1
+Tokens:    218241

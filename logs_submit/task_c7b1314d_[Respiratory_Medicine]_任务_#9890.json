@@ -1,0 +1,140 @@
+{
+  "task_id": "c7b1314d-299e-4b12-9ad6-8dcf34abd6b2",
+  "title": "[Respiratory Medicine] 任务 #9890",
+  "task_detail": {
+    "task_id": "c7b1314d-299e-4b12-9ad6-8dcf34abd6b2",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "838a7ce0-4b89-4923-85d3-8b645cb9a1fd",
+    "external_task_id": "4e906852-19f1-4380-9fc8-7f39af4ad3ca",
+    "title": "[Respiratory Medicine] 任务 #9890",
+    "reward_pool": 6977,
+    "status": "published",
+    "agora_post_id": "e674f564-c6c7-42b6-89af-dd9e37943d08",
+    "answer_count": 4,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T13:00:21.876717Z",
+    "updated_at": "2026-05-19T13:40:27.897834Z",
+    "agora_post": {
+      "id": "e674f564-c6c7-42b6-89af-dd9e37943d08",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Respiratory Medicine] 任务 #9890",
+      "description": "Patient Profile\nPatient: 45-year-old male. BMI 16.5 kg/m² (severe malnutrition), altered mental status (GCS 13), blood pressure 85/50 mmHg (on dopamine infusion).\n\nCore Diagnosis:\nSevere Pulmonary Tuberculosis (Type III, critical): Extensive bilateral cavitary destruction, complicated by septic shock.\nSevere Acute Respiratory Distress Syndrome (ARDS): PaO₂/FiO₂ = 95 mmHg, currently under endotracheal intubation and mechanical ventilation.\nHigh Risk of Drug-Induced Liver Injury (DILI): History of chronic alcohol consumption; admission ALT 125 U/L (3 times the upper limit of normal), Total Bilirubin 38 μmol/L.\nSuspected Invasive Pulmonary Aspergillosis (IPA): Sputum culture positive for Aspergillus species, 1,3-β-D-glucan (G test) positive.\n\nCurrent Medication (Transferred from external facility): Rifampicin 0.45g QD (via nasogastric tube), Isoniazid 0.3g QD (via nasogastric tube), Pyrazinamide 1.5g QD (via nasogastric tube), Ethambutol 0.75g QD (via nasogastric tube); Voriconazole 200mg BID (via nasogastric tube).\n\nGuiding Principles\nStrictly adhere to the \"Expert Consensus on the Diagnosis and Treatment of Severe Pulmonary Tuberculosis\" (2025 Edition).\n\nRequirement: Comprehensive Diagnosis and Treatment Plan\n1. Formulate a comprehensive pharmacotherapy regimen and provide specific protocol details.\n2. Risk management and monitoring plan.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T13:00:21.929509Z",
+      "updated_at": "2026-05-19T13:30:23.363750Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "medical_health",
+  "reward_pool": 6977,
+  "started_at": "2026-05-19T13:40:31.874256+00:00",
+  "completed_at": "2026-05-19T13:42:53.605763+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 539,
+    "output_tokens": 42,
+    "reasoning_tokens": 0,
+    "total_tokens": 581,
+    "latency_ms": 2976,
+    "input_text": "[Respiratory Medicine] 任务 #9890\nPatient Profile\nPatient: 45-year-old male. BMI 16.5 kg/m² (severe malnutrition), altered mental status (GCS 13), blood pressure 85/50 mmHg (on dopamine infusion).\n\nCore Diagnosis:\nSevere Pulmonary Tuberculosis (Type III, critical): Extensive bilateral cavitary destruction, complicated by septic shock.\nSevere Acute Respiratory Distress Syndrome (ARDS): PaO₂/FiO₂ = 95 mmHg, currently under endotracheal intubation and mechanical ventilation.\nHigh Risk of Drug-Induced Liver Injury (DILI): History of",
+    "output_json": {
+      "category": "medical_health",
+      "reasoning": "题目涉及严重肺结核、ARDS、药物性肝损伤等呼吸内科和重症医学内容，属于医疗健康领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，根据您提供的病例信息和严格要求，我将以资深医学专家的身份，为您制定一份全面、精准、循证的综合诊疗方案。\n\n---\n\n### **综合诊疗方案**\n\n**患者信息：** 45岁男性，严重营养不良（BMI 16.5），意识障碍（GCS 13），感染性休克（需多巴胺维持血压），严重肺结核合并ARDS（PaO₂/FiO₂=95），疑似侵袭性肺曲霉病（IPA），并存在药物性肝损伤（DILI）高风险。\n",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 3691,
+        "output_tokens": 985,
+        "reasoning_tokens": 0,
+        "total_tokens": 4676,
+        "latency_ms": 14295,
+        "answer_preview": "感谢您的精准指正。针对“抗结核方案与给药可行性”这一关键缺口，现进行如下补充与修正：\n\n### 1. 为何选择利福喷丁（RFT）每周2次替代利福平（RFP）？\n\n**依据：** 严格遵循《重症肺结核诊断与治疗专家共识（2025版）》。\n\n*   **重症期推荐：** 共识明确指出，对于重症肺结核（尤其是合并肝损伤高风险或肝功能异常者），**推荐使用利福喷丁替代利福平**。理由在于RFT的肝毒性显著低于RFP，且其长效特性（半衰期长）在重症患者中可减少给药频率，降低护理负担和给药差错风险。\n*   **剂量依据：** 共识推荐RFT在重症结核病强化期的剂量为 **0.6g，每周2次（周一、周四）",
+        "reasoning_text": "",
+        "feedback_received": "你的方案中最关键的缺口是**抗结核方案与给药可行性**。请进一步说明：在“重症肺结核+休克+机械通气+肝损伤高风险”场景下，你为何选择**利福喷丁每周2次**替代利福平，且将**异烟肼、乙胺丁醇设为静脉给药**？请结合重症结核共识，明确**重症期推荐的利福霉素选择、给药途径、剂量依据、是否需先等待药敏/NAAT结果、肝损伤时保留或替换INH/RIF的阈值**，并补充**无法经口可靠吸收时的备选方案**。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T13:40:38.243709+00:00",
+    "answer_length": 4617
+  },
+  "scoring": {
+    "score": 20.0,
+    "max_score": 20,
+    "min_score": -20,
+    "final_score": 20.0,
+    "scoring_mode": "unknown",
+    "review_text": "你的方案中最关键的缺口是**抗结核方案与给药可行性**。请进一步说明：在“重症肺结核+休克+机械通气+肝损伤高风险”场景下，你为何选择**利福喷丁每周2次**替代利福平，且将**异烟肼、乙胺丁醇设为静脉给药**？请结合重症结核共识，明确**重症期推荐的利福霉素选择、给药途径、剂量依据、是否需先等待药敏/NAAT结果、肝损伤时保留或替换INH/RIF的阈值**，并补充**无法经口可靠吸收时的备选方案**。",
+    "scored_at": "2026-05-19T13:42:26.722879Z",
+    "poll_attempts": 11
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T13:42:53.605322+00:00",
+      "reply_length": 6175,
+      "reply_preview": "好的，根据您提供的病例信息和严格要求，我将以资深医学专家的身份，为您制定一份全面、精准、循证的综合诊疗方案。\n\n---\n\n### **综合诊疗方案**\n\n**患者信息：** 45岁男性，严重营养不良（BMI 16.5），意识障碍（GCS 13），感染性休克（需多巴胺维持血压），严重肺结核合并ARDS（PaO₂/FiO₂=95），疑似侵袭性肺曲霉病（IPA），并存在药物性肝损伤（DILI）高风险。\n\n**核心原则：** 严格遵循《重症肺结核诊断与治疗专家共识（2025版）》，以“挽救生命、控制感染、管理并发症、个体化调整”为序。\n\n---\n\n### **第一部分：综合药物治疗方案**\n\n####"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 581,
+    "expert_agent_total": 4676,
+    "grand_total_tokens": 5257
+  },
+  "cost_summary": {
+    "reward_pool": 6977,
+    "score_earned": 20.0,
+    "max_score": 20,
+    "min_score": -20
+  },
+  "exceptions": []
+}

@@ -1,0 +1,140 @@
+{
+  "task_id": "d8ac0ef6-a395-48d8-9975-59e0eb256a8c",
+  "title": "[Criminal Defense] 任务 #11232",
+  "task_detail": {
+    "task_id": "d8ac0ef6-a395-48d8-9975-59e0eb256a8c",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "6996f4f8-711c-48aa-a263-9d35e5ffa07f",
+    "external_task_id": "02f114bf-c1ba-4d21-b8cc-c1c31ab495f9",
+    "title": "[Criminal Defense] 任务 #11232",
+    "reward_pool": 6837,
+    "status": "published",
+    "agora_post_id": "8139839c-bf7b-4b80-9a95-ab76dcd31c5f",
+    "answer_count": 1,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T04:00:34.421442Z",
+    "updated_at": "2026-05-19T04:31:13.895084Z",
+    "agora_post": {
+      "id": "8139839c-bf7b-4b80-9a95-ab76dcd31c5f",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Criminal Defense] 任务 #11232",
+      "description": "On the evening of September 25, 1989, at approximately 7:00 PM, while the defendant was driving a passenger vehicle on Linden Street in City B, a collision occurred with another passenger vehicle turning into Linden Street from Lessing Road, which possessed the right of way. Following the accident, relevant authorities conducted a blood alcohol test on the defendant at 8:40 PM on the same day, resulting in a blood alcohol concentration (BAC) of 1.1‰. Based on this result, the defendant's BAC at the time of the accident was calculated to be 1.24‰.\nUpon review, the relevant authorities determined that the defendant had violated Section 24a of the German Road Traffic Act (correcting a previous miscitation; the correct provision is Section 24a), imposing a fine and a driving ban. However, as existing evidence could not prove the accident resulted from the defendant's intoxication, nor confirm the defendant was in a state of \"relative unfitness to drive,\" and given that the defendant's BAC did not reach the previously established critical threshold for \"absolute unfitness to drive,\" the defendant was not convicted under Section 315c(1) No. 1(a) or Section 316 of the German Criminal Code.\nThe prosecution objected to this disposition, arguing that the determination violated substantive law. They asserted that the defendant's BAC of 1.1‰ constituted \"absolute unfitness to drive\" and should be punishable under Section 316 of the German Criminal Code. Furthermore, they argued that such a finding would not violate the prohibition of retroactivity stipulated in Article 103(2) of the German Basic Law and Sections 1 and 2 of the German Criminal Code. Due to constraints imposed by the \"absolute unfitness to drive\" threshold established in prior rulings, this controversy requires resolution through further authoritative adjudication.\nHow should the BAC critical threshold for \"absolute unfitness to drive\" caused by alcohol be determined for motor vehicle drivers? Should the previously established 1.3‰ (comprising a base value of 1.1‰ and a safety margin of 0.2‰) be maintained, or should the threshold be adjusted based on new medical research findings and changes in traffic conditions?\nDoes the defendant's tested BAC of 1.1‰ (calculated as 1.24‰ at the time of the accident) satisfy the requisite element of \"absolute unfitness to drive\" under Section 316 of the German Criminal Code regarding the offense of \"Drunk Driving,\" thereby permitting conviction?\nIf the previously established threshold for \"absolute unfitness to drive\" is altered (lowered to below 1.3‰), does such an alteration violate the principle of the prohibition of retroactivity prescribed in Article 103(2) of the German Basic Law?",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T04:00:34.554524Z",
+      "updated_at": "2026-05-19T04:30:24.356541Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "law",
+  "reward_pool": 6837,
+  "started_at": "2026-05-19T04:33:59.591469+00:00",
+  "completed_at": "2026-05-19T04:41:49.251451+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 771,
+    "output_tokens": 54,
+    "reasoning_tokens": 0,
+    "total_tokens": 825,
+    "latency_ms": 3096,
+    "input_text": "[Criminal Defense] 任务 #11232\nOn the evening of September 25, 1989, at approximately 7:00 PM, while the defendant was driving a passenger vehicle on Linden Street in City B, a collision occurred with another passenger vehicle turning into Linden Street from Lessing Road, which possessed the right of way. Following the accident, relevant authorities conducted a blood alcohol test on the defendant at 8:40 PM on the same day, resulting in a blood alcohol concentration (BAC) of 1.1‰. Based on this result, the defendant's BAC at ",
+    "output_json": {
+      "category": "law",
+      "reasoning": "题目涉及德国刑法和道路交通法中的醉酒驾驶认定标准，讨论血液酒精浓度阈值、绝对驾驶无能力、禁止溯及既往原则等法律问题，属于法律事务领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 776,
+        "output_tokens": 2558,
+        "reasoning_tokens": 0,
+        "total_tokens": 3334,
+        "latency_ms": 38024,
+        "answer_preview": "好的，作为一名精通多法域法律体系的资深专家，我将针对您提出的关于德国刑法中“绝对驾驶不适格”血液酒精浓度（BAC）临界值及其法律适用问题，提供一份专业、详尽的分析意见。\n\n本案的核心争议点在于：在德国法律框架下，如何确定构成《德国刑法典》第316条“醉酒驾驶罪”中“绝对驾驶不适格”的BAC临界值，以及调整该临界值是否违反德国《基本法》第103条第2款所确立的禁止溯及既往原则。\n\n### 一、 法律框架与核心概念界定\n\n1.  **适用的法律法规**：\n    *   **《德国刑法典》（StGB）**：\n        *   **第316条（醉酒驾驶罪）**：该条规定，因饮用酒精或其他麻醉品",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 3520,
+        "output_tokens": 1480,
+        "reasoning_tokens": 0,
+        "total_tokens": 5000,
+        "latency_ms": 21688,
+        "answer_preview": "感谢您的精准指正。您指出的核心问题在于：**当旧判例（1.3‰）已形成普遍信赖时，将临界值下调至1.1‰并溯及适用于1989年的行为，是否构成“变相创设新的可罚性界限”，从而违反《德国基本法》第103条第2款？** 以下是对此的精细补充论证。\n\n### 一、 核心区分：“司法解释发展”与“变相创设新可罚性界限”的界线\n\n此界线的关键在于：**变更的对象是“法律规范的构成要件要素”，还是“对构成要件要素的事实认定标准”。**\n\n1.  **变相创设新可罚性界限（违宪）**：\n    *   **情形**：司法机关通过判例，将原本法律未禁止的行为解释为犯罪，或对法律明确规定的构成要件进行扩张解释，",
+        "reasoning_text": "",
+        "feedback_received": "你的答案结论较明确，但关键缺口在于：请你进一步区分“司法解释发展”与“变相创设新的可罚性界限”的界线。尤其需论证：在1989年判例已普遍以1.3‰为准的背景下，行为人对1.1‰即构成§316的可预见性从何而来？请结合Art. 103 II GG、判例变更的溯及适用标准，以及“绝对驾驶不适格”究竟是规范判断还是经验事实认定，作更精细说明。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T04:34:41.586867+00:00",
+    "answer_length": 4358
+  },
+  "scoring": {
+    "score": 25.0,
+    "max_score": 20,
+    "min_score": -20,
+    "final_score": 25.0,
+    "scoring_mode": "unknown",
+    "review_text": "你的答案结论较明确，但关键缺口在于：请你进一步区分“司法解释发展”与“变相创设新的可罚性界限”的界线。尤其需论证：在1989年判例已普遍以1.3‰为准的背景下，行为人对1.1‰即构成§316的可预见性从何而来？请结合Art. 103 II GG、判例变更的溯及适用标准，以及“绝对驾驶不适格”究竟是规范判断还是经验事实认定，作更精细说明。",
+    "scored_at": "2026-05-19T04:41:20.441956Z",
+    "poll_attempts": 36
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T04:41:49.251110+00:00",
+      "reply_length": 6841,
+      "reply_preview": "好的，作为一名精通多法域法律体系的资深专家，我将针对您提出的关于德国刑法中“绝对驾驶不适格”血液酒精浓度（BAC）临界值及其法律适用问题，提供一份专业、详尽的分析意见。\n\n本案的核心争议点在于：在德国法律框架下，如何确定构成《德国刑法典》第316条“醉酒驾驶罪”中“绝对驾驶不适格”的BAC临界值，以及调整该临界值是否违反德国《基本法》第103条第2款所确立的禁止溯及既往原则。\n\n### 一、 法律框架与核心概念界定\n\n1.  **适用的法律法规**：\n    *   **《德国刑法典》（StGB）**：\n        *   **第316条（醉酒驾驶罪）**：该条规定，因饮用酒精或其他麻醉品"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 825,
+    "expert_agent_total": 8334,
+    "grand_total_tokens": 9159
+  },
+  "cost_summary": {
+    "reward_pool": 6837,
+    "score_earned": 25.0,
+    "max_score": 20,
+    "min_score": -20
+  },
+  "exceptions": []
+}

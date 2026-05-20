@@ -1,0 +1,82 @@
+{
+  "task_id": "bdee97c3-ddc6-4886-a497-fb930600c555",
+  "title": "[Gastrointestinal Surgery] 任务 #9257",
+  "category": "medical_health",
+  "reward_pool": 5834,
+  "keywords_extracted": [
+    [
+      "upper abdominal distension",
+      "pain"
+    ],
+    [
+      "gastritis",
+      "nausea",
+      "vomiting"
+    ]
+  ],
+  "papers_searched": 12,
+  "papers_relevant": 5,
+  "papers_with_full_text": 1,
+  "cache_hits": 6,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [
+    {
+      "paper_id": "doi:10.1016/j.emc.2021.07.003",
+      "title": "Abdominal Pain Mimics.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文讨论的是28岁女性腹痛，与60岁女性上腹胀痛症状不符，且未涉及胃肠手术相关鉴别。"
+    },
+    {
+      "paper_id": "doi:10.1182/hematology.2024000663",
+      "title": "Givosiran: a targeted treatment for acute intermittent porphyria.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文讨论的是急性间歇性卟啉症的治疗，与患者描述的胃部症状和可能的胃炎诊断无关。"
+    },
+    {
+      "paper_id": "doi:10.1055/s-2007-1007136",
+      "title": "Acute intermittent porphyria.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文讨论的是急性间歇性卟啉病，与患者描述的胃部症状和诊断不符，不相关。"
+    },
+    {
+      "paper_id": "doi:10.1053/j.gastro.2022.11.034",
+      "title": "AGA Clinical Practice Update on Diagnosis and Management of Acute Hepatic Porphyrias: Expert Review.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文讨论急性肝性卟啉症，与患者上腹胀痛、恶心呕吐等症状及胃炎诊断无关。"
+    },
+    {
+      "paper_id": "doi:10.1016/j.jemermed.2015.04.034",
+      "title": "Acute Porphyrias.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文讨论急性卟啉症，与患者上腹胀痛、恶心呕吐等症状及胃炎诊断无关。"
+    }
+  ],
+  "papers_read": 1,
+  "reading_details": [
+    {
+      "title": "Association between different GLP-1 receptor agonists and ga",
+      "chunks_read": 1,
+      "total_chunks": 8,
+      "early_exit": true,
+      "exit_reason": "已获取不同GLP-1受体激动剂导致胃肠道不良反应的风险差异，足以评估患者症状是否与用药相关。",
+      "tokens": 1155,
+      "extracted_length": 103
+    }
+  ],
+  "tokens_keyword": 325,
+  "tokens_cache_validation": 2078,
+  "tokens_relevance": 6482,
+  "tokens_reading": 1155,
+  "tokens_expert": 3689,
+  "tokens_total": 13729,
+  "context_injected": "[Dyspepsia: organic versus functional.]\n摘要: Dyspepsia is the medical term for difficult digestion. It consists of various symptoms in the upper abdomen, such as fullness, discomfort, early satiation, bloating, heartburn, belching, nausea, vomiting, or pain. The prevalence of dyspepsia in the western world is approximately 20% to 25%. Dyspepsia can be divided into 2 main categories: \"organic\" and \"functional dyspepsia\" (FD). Organic causes o\n\n[Functional dyspepsia.]\n摘要: Functional dyspepsia is defined as persistent or recurrent upper abdominal pain or discomfort not explained by structural or biochemical abnormalities. In about half of the patients who present to their practitioner with chronic dyspepsia, no underlying disease is established after clinical investigation. Many clinical trials have been performed to demonstrate a certain relationship between functi\n\n[Association between different GLP-1 rece]\n[块1] GLP-1受体激动剂（如利拉鲁肽、度拉糖肽、司美格鲁肽）与胃肠道不良反应显著相关。司美格鲁肽对恶心、腹泻、呕吐、便秘风险最高；利拉鲁肽对上腹痛和胰腺炎风险最高。大多数胃肠道不良反应发生在1个月内。",
+  "context_length": 1022,
+  "answer_submitted": true,
+  "score": null,
+  "status": "submitted"
+}

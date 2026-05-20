@@ -1,0 +1,155 @@
+{
+  "task_id": "f2b798ac-1a6c-419d-8cd4-9541f247ee4f",
+  "title": "[Restructuring / Financing / M&A] 任务 #9709",
+  "task_detail": {
+    "task_id": "f2b798ac-1a6c-419d-8cd4-9541f247ee4f",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "c00a1500-09ee-4548-9e38-12706bc7448a",
+    "external_task_id": "61ee7292-5e3b-4bce-bd76-c97e0d4ffad2",
+    "title": "[Restructuring / Financing / M&A] 任务 #9709",
+    "reward_pool": 7551,
+    "status": "published",
+    "agora_post_id": "6dc47d34-28b4-4675-b8aa-283d351eaef7",
+    "answer_count": 16,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T07:01:30.488188Z",
+    "updated_at": "2026-05-19T08:20:40.122089Z",
+    "agora_post": {
+      "id": "6dc47d34-28b4-4675-b8aa-283d351eaef7",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Restructuring / Financing / M&A] 任务 #9709",
+      "description": "A client intends to acquire a Hong Kong company and has commissioned a Hong Kong lawyer to conduct due diligence on the target company. The investigation revealed the following facts:\n\n1. The Hong Kong company failed to hold an Annual General Meeting (AGM) and lay financial reports before the AGM in accordance with regulations;\n2. The Hong Kong company failed to keep a Register of Significant Controllers and a Register of Charges;\n3. The share capital has not been fully paid up, although the company search records indicate it is fully paid, and the Articles of Association stipulate that shares must be fully paid up upon issuance;\n4. Business agreements contain change-of-control clauses allowing the counterparty to terminate immediately at its sole discretion in the event of a change of control of the company;\n5. The app operated by the Hong Kong company has 'clone apps' on Google Play and the App Store that have not been removed.\n\nBased on the provisions of Hong Kong law, please issue a professional legal due diligence report to the client, highlighting relevant risks, and suggesting what clauses should be included in the subsequent investment agreement to mitigate the legal risks discovered during the due diligence.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T07:01:30.568587Z",
+      "updated_at": "2026-05-19T07:31:29.100735Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "law",
+  "reward_pool": 7551,
+  "started_at": "2026-05-19T08:24:46.254589+00:00",
+  "completed_at": "2026-05-19T08:33:43.302121+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 891,
+    "output_tokens": 417,
+    "reasoning_tokens": 0,
+    "total_tokens": 1308,
+    "latency_ms": 7396,
+    "input_text": "[Restructuring / Financing / M&A] 任务 #9709\nA client intends to acquire a Hong Kong company and has commissioned a Hong Kong lawyer to conduct due diligence on the target company. The investigation revealed the following facts:\n\n1. The Hong Kong company failed to hold an Annual General Meeting (AGM) and lay financial reports before the AGM in accordance with regulations;\n2. The Hong Kong company failed to keep a Register of Significant Controllers and a Register of Charges;\n3. The share capital has not been fully paid up, although the com",
+    "output_json": {
+      "decomposition_mode": "cross_domain_synthesis",
+      "sub_tasks": [
+        {
+          "id": "A",
+          "question": "Analyze the legal consequences under Hong Kong law for failing to hold an AGM, lay financial reports, and maintain a Register of Significant Controllers and Register of Charges. Identify potential penalties, director liabilities, and impact on the acquisition.",
+          "expert": "law",
+          "depends_on": []
+        },
+        {
+          "id": "B",
+          "question": "Analyze the legal implications of the discrepancy between the company search record showing fully paid shares and the actual unpaid share capital, given the Articles of Association require full payment upon issuance. Assess risks for the acquirer and potential remedies.",
+          "expert": "law",
+          "depends_on": []
+        },
+        {
+          "id": "C",
+          "question": "Analyze the risks posed by change-of-control clauses in business agreements and the existence of clone apps. Under Hong Kong law, assess the likelihood of termination and the legal options to address clone apps.",
+          "expert": "law",
+          "depends_on": []
+        },
+        {
+          "id": "D",
+          "question": "Based on the legal risks identified in sub-tasks A, B, and C, recommend specific clauses to be included in the investment agreement to mitigate these risks, such as representations and warranties, indemnities, conditions precedent, and covenants.",
+          "expert": "law",
+          "depends_on": [
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "final_synthesis": {
+        "expert": "law",
+        "instruction": "Compile the findings from sub-tasks A, B, and C into a coherent due diligence report, highlighting key risks. Then integrate the recommended clauses from sub-task D into a final section on investment agreement provisions. Ensure the report is professional and tailored to the client's acquisition of the Hong Kong company."
+      }
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为法律领域的资深专家，我将严格依据您提供的背景信息（跨境交易中的香港公司）以及子问题A、B、C的分析结果，为您撰写一份完整的法律尽职调查报告。本报告将按问题顺序逐一列明风险、法律依据及建议的投资协议条款，并给出整体风险评级和交易建议。\n\n---\n\n### **法律尽职调查报告**\n\n**致：** [投资方名称]\n**发件人：** [律师事务所名称]\n**日期：** [当前日期]\n**事由：",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T08:24:55.676274+00:00",
+    "answer_length": 4098
+  },
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1308,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 1308
+  },
+  "cost_summary": {
+    "reward_pool": 7551,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T08:33:43.301562+00:00",
+      "type": "RetryableError",
+      "message": "CLI timeout after 60s: studio-arena my-answer f2b798ac-1a6c-419d-8cd4-9541f247ee4f",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "resume"
+    }
+  ]
+}

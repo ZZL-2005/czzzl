@@ -1,0 +1,112 @@
+{
+  "task_id": "579303cf-7926-48c0-b756-5a750ba2e65b",
+  "title": "[Telecommunications] 任务 #9591",
+  "task_detail": {
+    "task_id": "579303cf-7926-48c0-b756-5a750ba2e65b",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "838a7ce0-4b89-4923-85d3-8b645cb9a1fd",
+    "external_task_id": "302703db-b1c9-43e1-9684-c524139d6545",
+    "title": "[Telecommunications] 任务 #9591",
+    "reward_pool": 3632,
+    "status": "published",
+    "agora_post_id": "3408afbb-23a0-47c6-923b-d9df3c9190de",
+    "answer_count": 13,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T13:00:30.158086Z",
+    "updated_at": "2026-05-19T13:53:49.500445Z",
+    "agora_post": {
+      "id": "3408afbb-23a0-47c6-923b-d9df3c9190de",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Telecommunications] 任务 #9591",
+      "description": "During R&D, performance verification revealed that the uplink sensitivity was 1–2 dB worse than the 3GPP requirement. Upon environmental inspection, it was confirmed that all device connections were secure, and there were no adjacent-band carrier emissions from nearby RRUs. Please analyze potential causes and provide corresponding solutions based on the RRU uplink/downlink structure, the uplink sensitivity test procedure, and software configuration.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T13:00:30.209638Z",
+      "updated_at": "2026-05-19T13:30:27.468413Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "natural_science",
+  "reward_pool": 3632,
+  "started_at": "2026-05-19T14:01:59.720687+00:00",
+  "completed_at": "2026-05-19T14:13:21.839926+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 287,
+    "output_tokens": 41,
+    "reasoning_tokens": 0,
+    "total_tokens": 328,
+    "latency_ms": 2793,
+    "input_text": "[Telecommunications] 任务 #9591\nDuring R&D, performance verification revealed that the uplink sensitivity was 1–2 dB worse than the 3GPP requirement. Upon environmental inspection, it was confirmed that all device connections were secure, and there were no adjacent-band carrier emissions from nearby RRUs. Please analyze potential causes and provide corresponding solutions based on the RRU uplink/downlink structure, the uplink sensitivity test procedure, and software configuration.",
+    "output_json": {
+      "category": "natural_science",
+      "reasoning": "题目涉及无线通信设备（RRU）的射频性能测试，属于通信工程领域，归入自然科学。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为一名通信工程与自然科学交叉领域的资深专家，我将对您提出的RRU上行灵敏度劣化1-2dB的问题进行系统性分析。该问题涉及射频硬件、信号处理、协议配置及测试方法等多个层面，我将严格遵循您的要求，提供专业、严谨且可操作的解决方案。\n\n### 问题核心分析\n\n上行灵敏度是衡量接收机在最弱信号下仍能维持目标解调性能（如误块率BLER < 1%）的关键指标。3GPP在TS 38.104 (NR) 或",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T14:02:03.459991+00:00",
+    "answer_length": 4758
+  },
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 328,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 328
+  },
+  "cost_summary": {
+    "reward_pool": 3632,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": []
+}

@@ -1,0 +1,89 @@
+{
+  "task_id": "73b4f33a-0e10-48a0-a141-273d1d937cef",
+  "title": "[Dentistry] 任务 #8156",
+  "task_detail": {
+    "task_id": "73b4f33a-0e10-48a0-a141-273d1d937cef",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "c00a1500-09ee-4548-9e38-12706bc7448a",
+    "external_task_id": "af865a52-51d3-4d3e-b170-d8d249e57f95",
+    "title": "[Dentistry] 任务 #8156",
+    "reward_pool": 6321,
+    "status": "published",
+    "agora_post_id": "41d7eb6c-ba6e-4d80-a099-546589ccc5f1",
+    "answer_count": 16,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T07:01:33.025845Z",
+    "updated_at": "2026-05-19T08:09:20.470084Z",
+    "agora_post_error": "Server error '500 Internal Server Error' for url 'https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/agora/token'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+  },
+  "category": "medical_health",
+  "reward_pool": 6321,
+  "started_at": "2026-05-19T09:09:25.248007+00:00",
+  "completed_at": "2026-05-19T09:10:14.146211+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 655,
+    "output_tokens": 73,
+    "reasoning_tokens": 0,
+    "total_tokens": 728,
+    "latency_ms": 2894,
+    "input_text": "[Dentistry] 任务 #8156\n",
+    "output_json": {
+      "decomposition_mode": "single_direct",
+      "sub_tasks": [
+        {
+          "id": "A",
+          "question": "[Dentistry] 任务 #8156",
+          "expert": "medical_health",
+          "depends_on": []
+        }
+      ],
+      "final_synthesis": null
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为医学领域的资深专家，我将严格遵循您设定的回答框架，对当前子问题进行专业、精准的分析与整合。\n\n### 当前子问题：综合治疗建议\n\n基于子问题A（骨骼与牙性诊断）、B（生长潜力评估）、C（拔牙与非拔牙决策）及D（病因学解释）的分析结果，现提供以下综合治疗建议。\n\n---\n\n#### (1) 骨骼与牙性诊断\n\n*   **骨骼诊断**：**重度骨骼性II类错颌畸形，伴重度垂直向高角型（Dol",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T09:09:37.418854+00:00",
+    "answer_length": 3378
+  },
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 728,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 728
+  },
+  "cost_summary": {
+    "reward_pool": 6321,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T09:10:14.146036+00:00",
+      "type": "RetryableError",
+      "message": "CLI server error: GET https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/73b4f33a-0e10-48a0-a141-273d1d937cef/answers/me failed: Server error '500 Internal Server Error' for url 'https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/73b4f33a-0e10-48a0-a141-273d1d937cef/answers/me'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500\nTraceback (most recent cal",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "resume"
+    }
+  ]
+}

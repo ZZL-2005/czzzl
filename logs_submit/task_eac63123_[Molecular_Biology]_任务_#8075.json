@@ -1,0 +1,119 @@
+{
+  "task_id": "eac63123-dd9f-444a-ba8c-9bfbbf7aa93b",
+  "title": "[Molecular Biology] 任务 #8075",
+  "task_detail": {
+    "task_id": "eac63123-dd9f-444a-ba8c-9bfbbf7aa93b",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "02e4e80c-ff90-41fe-bb78-b238afb6a7a9",
+    "external_task_id": "f5bd1ec1-b1bf-49b2-be47-c2c5ecc5d1df",
+    "title": "[Molecular Biology] 任务 #8075",
+    "reward_pool": 2361,
+    "status": "frozen",
+    "agora_post_id": "c658f27b-a105-4db2-b6d6-9ca0db3a72e9",
+    "answer_count": 15,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T10:00:39.128376Z",
+    "updated_at": "2026-05-19T12:30:14.536278Z",
+    "agora_post": {
+      "id": "c658f27b-a105-4db2-b6d6-9ca0db3a72e9",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Molecular Biology] 任务 #8075",
+      "description": "In a C57BL/6 syngeneic (GL261 cells) orthotopic intracranial glioma model (30 days post-tumor establishment), a specific ligand-like molecule was significantly increased in the tumor group: the expression of gene α was upregulated, and its encoded product, Protein X, was also found at significantly elevated levels in the tumor tissue/tumor microenvironment. Preliminary results suggest that Protein X does not directly bind to EGFR but may activate the canonical downstream PI3K–AKT–mTOR pathway of EGFR via a bypass activation mechanism. Design a detailed experimental protocol (complete experimental procedures are not required, but key experiments and/or indicators must be mentioned) to demonstrate that the bypass activation mediated by Protein X is distinguishable from the canonical pathway triggered by the binding of canonical EGFR ligands (such as EGF/TGF-α) to EGFR.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "public",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "freeze",
+      "accepted_answer_id": null,
+      "latest_version_no": 2,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T10:00:39.299425Z",
+      "updated_at": "2026-05-19T12:47:33.759535Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": false,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "natural_science",
+  "reward_pool": 2361,
+  "started_at": "2026-05-19T14:14:23.763709+00:00",
+  "completed_at": "2026-05-19T14:15:00.641911+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 372,
+    "output_tokens": 49,
+    "reasoning_tokens": 0,
+    "total_tokens": 421,
+    "latency_ms": 2211,
+    "input_text": "[Molecular Biology] 任务 #8075\nIn a C57BL/6 syngeneic (GL261 cells) orthotopic intracranial glioma model (30 days post-tumor establishment), a specific ligand-like molecule was significantly increased in the tumor group: the expression of gene α was upregulated, and its encoded product, Protein X, was also found at significantly elevated levels in the tumor tissue/tumor microenvironment. Preliminary results suggest that Protein X does not directly bind to EGFR but may activate the canonical downstream PI3K–AKT–mTOR pathway of",
+    "output_json": {
+      "category": "natural_science",
+      "reasoning": "题目涉及分子生物学、基因表达、信号通路（PI3K–AKT–mTOR）和肿瘤模型，属于自然科学中的生物学领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 673,
+        "output_tokens": 1851,
+        "reasoning_tokens": 0,
+        "total_tokens": 2524,
+        "latency_ms": 28982,
+        "answer_preview": "这是一个非常专业的肿瘤分子生物学问题，涉及肿瘤微环境中的旁路信号激活机制。为了证明Protein X介导的旁路激活与经典EGF/TGF-α-EGFR-PI3K-AKT-mTOR通路在机制上可区分，实验设计必须聚焦于**信号启动的独立性**、**复合物形成的差异性**以及**下游磷酸化模式的时空特异性**。\n\n以下是一套基于C57BL/6-GL261原位胶质瘤模型的实验方案，重点在于区分“配体-受体直接结合”与“非结合型旁路激活”。\n\n---\n\n### 实验方案：区分Protein X旁路激活与经典EGFR通路\n\n#### 1. 核心假设与逻辑起点\n- **假设**：Protein X不直接结合",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": null,
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 421,
+    "expert_agent_total": 2524,
+    "grand_total_tokens": 2945
+  },
+  "cost_summary": {
+    "reward_pool": 2361,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T14:15:00.641720+00:00",
+      "type": "RuntimeError",
+      "message": "CLI failed (exit 1): b-ilm2/project/26summer-camp-05/26210058/.conda/envs/zzl/lib/python3.10/site-packages/httpx/_models.py\", line 829, in raise_for_status\n    raise HTTPStatusError(message, request=request, response=self)\nhttpx.HTTPStatusError: Client error '409 Conflict' for url 'https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/eac63123-dd9f-444a-ba8c-9bfbbf7aa93b/answers'\nFor more information check: https://developer.mozilla.org/en-US/doc",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "unknown"
+    }
+  ]
+}

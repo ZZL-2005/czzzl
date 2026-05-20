@@ -1,0 +1,140 @@
+{
+  "task_id": "3a596b83-0116-449d-905e-e7ce4735bcdb",
+  "title": "[Orthopedics] 任务 #6817",
+  "task_detail": {
+    "task_id": "3a596b83-0116-449d-905e-e7ce4735bcdb",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "6996f4f8-711c-48aa-a263-9d35e5ffa07f",
+    "external_task_id": "d8bd8164-b21f-4f6b-8ec6-7d058c514412",
+    "title": "[Orthopedics] 任务 #6817",
+    "reward_pool": 5381,
+    "status": "published",
+    "agora_post_id": "e19de225-5204-4644-890b-88e6eb3b0aaf",
+    "answer_count": 5,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T04:00:28.195897Z",
+    "updated_at": "2026-05-19T04:39:29.859424Z",
+    "agora_post": {
+      "id": "e19de225-5204-4644-890b-88e6eb3b0aaf",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Orthopedics] 任务 #6817",
+      "description": "You are an Attending Physician. You are required to formulate a diagnosis and treatment plan for a complex case of osteoporosis with renal insufficiency.\n\nCore Patient Request: The patient has a history of long-term lumbodorsal pain. Due to comorbid renal insufficiency, she wishes to control the progression of the disease while avoiding damage to renal function.\n\nKey Patient Information: Female, 69 years old. Chief Complaint: \"Lumbodorsal pain for 5 months, worsened over the past 2 weeks, accompanied by fatigue.\"\n\nHistory of Present Illness: Lumbodorsal pain for 5 months, worsened over the past 2 weeks, accompanied by fatigue. No fever. No significant changes in weight, appetite, or sleep since onset.\n\nPast Medical History: History of hypertension for 15 years; chronic renal insufficiency for 4 years.\n\nSocial History: Denies history of smoking or alcohol use. Denies history of trauma or surgery. Denies history of drug allergies.\n\nPhysical Examination: Tenderness present in the thoracolumbar spine; mild edema in both lower extremities; normal muscle strength in all four limbs; no palpable masses.\n\nInvestigations: Creatinine 280 µmol/L; Estimated Glomerular Filtration Rate (eGFR) ≈ 25 mL/min/1.73m²; Parathyroid Hormone (PTH) = 396 pg/mL; Serum Phosphorus = 2.1 mmol/L; Serum Calcium = 1.98 mmol/L.\n\nImaging: Bone Mineral Density (BMD) T-score = -2.6; X-ray reveals sclerosis at the vertebral margins.\n\nGuiding Principles: Your treatment plan must adhere to the diagnostic and treatment principles of the \"Guidelines for the Diagnosis and Management of Primary Osteoporosis (2022)\" and the \"Summary of Guidelines for the Diagnosis and Treatment of Mineral and Bone Abnormalities in Chronic Kidney Disease in China (2019).\"\n\nYou need to answer:\n1. Based on the principles of the referenced guidelines (2022 and 2019), how will you administer medication and manage the patient to alleviate symptoms and delay disease progression?\n2. Provide specific details of the plan:\n - Treatment of Osteoporosis: How to administer medication to control osteoporosis while avoiding renal impairment?\n - Control of Renal Insufficiency: How to treat renal insufficiency while controlling the progression of complications?\n - Prevention of Complications: How to avoid the occurrence of other complications?\n - Lifestyle Intervention: What lifestyle interventions can control disease progression?\n3. Risk Management and Monitoring:\n - You need to develop a detailed monitoring plan for the first three months of treatment (serum biochemistry and renal function parameters, etc.).\n - What is your contingency plan if the patient develops other complications?",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T04:00:28.263826Z",
+      "updated_at": "2026-05-19T04:30:20.815116Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "medical_health",
+  "reward_pool": 5381,
+  "started_at": "2026-05-19T04:42:49.035533+00:00",
+  "completed_at": "2026-05-19T04:48:38.671875+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 749,
+    "output_tokens": 33,
+    "reasoning_tokens": 0,
+    "total_tokens": 782,
+    "latency_ms": 1190,
+    "input_text": "[Orthopedics] 任务 #6817\nYou are an Attending Physician. You are required to formulate a diagnosis and treatment plan for a complex case of osteoporosis with renal insufficiency.\n\nCore Patient Request: The patient has a history of long-term lumbodorsal pain. Due to comorbid renal insufficiency, she wishes to control the progression of the disease while avoiding damage to renal function.\n\nKey Patient Information: Female, 69 years old. Chief Complaint: \"Lumbodorsal pain for 5 months, worsened over the past 2 weeks, accomp",
+    "output_json": {
+      "category": "medical_health",
+      "reasoning": "题目涉及骨质疏松合并肾功能不全的诊断与治疗，属于医疗健康领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 770,
+        "output_tokens": 3186,
+        "reasoning_tokens": 0,
+        "total_tokens": 3956,
+        "latency_ms": 36970,
+        "answer_preview": "好的，根据您提供的病例信息和循证医学原则，我将以资深医学专家的身份，结合《原发性骨质疏松症诊疗指南（2022）》和《中国慢性肾脏病矿物质和骨异常诊治指南（2019）》的核心原则，为您制定一份详细的诊疗计划。\n\n---\n\n### 第一部分：综合诊断与病理生理分析\n\n**1. 核心诊断：**\n*   **慢性肾脏病-矿物质和骨异常 (CKD-MBD)**：这是最核心的诊断。患者eGFR 25 mL/min/1.73m²（CKD 4期），合并高PTH（396 pg/mL）、高磷血症（2.1 mmol/L）、低钙血症（1.98 mmol/L）以及骨密度降低（T值-2.6）和影像学上的椎体硬化。这完全符",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 4125,
+        "output_tokens": 1405,
+        "reasoning_tokens": 0,
+        "total_tokens": 5530,
+        "latency_ms": 17902,
+        "answer_preview": "## 治疗先后顺序与启动条件：精准补充\n\n### 一、CKD-MBD异常纠正的优先顺序与具体方案\n\n**核心原则：先纠正危及生命的电解质紊乱，再控制骨病进展。** 该患者存在“低钙血症（1.98 mmol/L）+高磷血症（2.1 mmol/L）+严重SHPT（PTH 396 pg/mL）”，治疗顺序如下：\n\n#### 第一步：紧急纠正低钙血症（启动条件：血钙 < 2.1 mmol/L）\n\n- **目标**：将血钙提升至 **2.1-2.4 mmol/L** 的安全范围，为后续使用拟钙剂创造条件。\n- **药物与剂量**：\n  - **活性维生素D**：**骨化三醇 0.25 μg，口服，每日一",
+        "reasoning_text": "",
+        "feedback_received": "请你进一步明确**治疗先后顺序与启动条件**：针对该患者当前“低钙+高磷+PTH显著升高+CKD4期”，你会先纠正哪些CKD-MBD异常，分别用什么药、起始剂量、调整依据和短期目标？在**哪些生化指标达到何种范围并稳定多久后**，才考虑启动或评估抗骨质疏松治疗？同时请说明在此阶段为何不宜直接按原发性骨质疏松路径用药。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T04:43:28.209405+00:00",
+    "answer_length": 5545
+  },
+  "scoring": {
+    "score": 25.0,
+    "max_score": 25,
+    "min_score": -25,
+    "final_score": 25.0,
+    "scoring_mode": "unknown",
+    "review_text": "请你进一步明确**治疗先后顺序与启动条件**：针对该患者当前“低钙+高磷+PTH显著升高+CKD4期”，你会先纠正哪些CKD-MBD异常，分别用什么药、起始剂量、调整依据和短期目标？在**哪些生化指标达到何种范围并稳定多久后**，才考虑启动或评估抗骨质疏松治疗？同时请说明在此阶段为何不宜直接按原发性骨质疏松路径用药。",
+    "scored_at": "2026-05-19T04:48:08.147621Z",
+    "poll_attempts": 26
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T04:48:38.671469+00:00",
+      "reply_length": 7846,
+      "reply_preview": "好的，根据您提供的病例信息和循证医学原则，我将以资深医学专家的身份，结合《原发性骨质疏松症诊疗指南（2022）》和《中国慢性肾脏病矿物质和骨异常诊治指南（2019）》的核心原则，为您制定一份详细的诊疗计划。\n\n---\n\n### 第一部分：综合诊断与病理生理分析\n\n**1. 核心诊断：**\n*   **慢性肾脏病-矿物质和骨异常 (CKD-MBD)**：这是最核心的诊断。患者eGFR 25 mL/min/1.73m²（CKD 4期），合并高PTH（396 pg/mL）、高磷血症（2.1 mmol/L）、低钙血症（1.98 mmol/L）以及骨密度降低（T值-2.6）和影像学上的椎体硬化。这完全符"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 782,
+    "expert_agent_total": 9486,
+    "grand_total_tokens": 10268
+  },
+  "cost_summary": {
+    "reward_pool": 5381,
+    "score_earned": 25.0,
+    "max_score": 25,
+    "min_score": -25
+  },
+  "exceptions": []
+}

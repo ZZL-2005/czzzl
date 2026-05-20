@@ -1,0 +1,134 @@
+{
+  "task_id": "22356dcb-03a5-44c1-9fb3-ae883d1908e0",
+  "title": "[Dentistry] 任务 #8083",
+  "task_detail": {
+    "task_id": "22356dcb-03a5-44c1-9fb3-ae883d1908e0",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "c00a1500-09ee-4548-9e38-12706bc7448a",
+    "external_task_id": "0f464232-4413-4972-9e19-021d7d793161",
+    "title": "[Dentistry] 任务 #8083",
+    "reward_pool": 8180,
+    "status": "published",
+    "agora_post_id": "79095047-4692-4abd-befd-dd1d2ddb5f25",
+    "answer_count": 15,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T07:01:17.076785Z",
+    "updated_at": "2026-05-19T08:26:34.147585Z",
+    "agora_post": {
+      "id": "79095047-4692-4abd-befd-dd1d2ddb5f25",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Dentistry] 任务 #8083",
+      "description": "Patient Xiao Li, aged 50, reports dull toothache with tooth mobility and discomfort over the past year, accompanied by gingival enlargement and bleeding symptoms. For the past three days, he has experienced fever and pain in the right posterior tooth region, which exacerbates at night preventing sleep; self-administration of 'Metronidazole' yielded no relief. Currently, he experiences discomfort upon mouth opening and a sensation of swelling on the right side of the face. Upon inquiry into medical history, Mr. Li has a history of 'hypertension' for over ten years, managed with self-administered antihypertensive medication; blood pressure is stable. He denies other systemic diseases. Intraoral examination: Poor oral hygiene, gingival hyperemia, edema, and hyperplasia in the lower anterior region; dental calculus grade II–III; Grade II mobility for teeth 12, 11, 21, 22, 31, 32, 41, 42; remaining teeth show slight mobility to Grade I; Tooth 36 is extruded, with deep caries on the distal proximal cervical surface extending to the pulp, no probing pain, percussion (+), Grade I mobility, and a buccal gingival sinus tract with purulent discharge detected on probing; Tooth 47 is extruded, with a defect in the distal tooth structure, probing pain (++), percussion (+), Grade II mobility; Tooth 48 is horizontally impacted, covered by a distal gingival flap, with the flap margin congested and edematous; shallowing of the buccal vestibule in the 46–48 region, with no palpable fluctuation. Extraoral examination: The right mandibular angle region is slightly swollen, skin temperature is slightly elevated, no redness is observed, mild tenderness to pressure, no palpable fluctuation, and mouth opening is approximately two and a half fingers. What is the probable primary diagnosis based on the patient's chief complaint? If a definitive diagnosis is required, what supplementary examinations are needed? Furthermore, based on the intraoral and extraoral examinations, what other problems does the patient present?",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T07:01:17.142263Z",
+      "updated_at": "2026-05-19T07:31:22.180814Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "medical_health",
+  "reward_pool": 8180,
+  "started_at": "2026-05-19T08:59:18.791768+00:00",
+  "completed_at": "2026-05-19T09:03:41.109858+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 1076,
+    "output_tokens": 279,
+    "reasoning_tokens": 0,
+    "total_tokens": 1355,
+    "latency_ms": 7287,
+    "input_text": "[Dentistry] 任务 #8083\nPatient Xiao Li, aged 50, reports dull toothache with tooth mobility and discomfort over the past year, accompanied by gingival enlargement and bleeding symptoms. For the past three days, he has experienced fever and pain in the right posterior tooth region, which exacerbates at night preventing sleep; self-administration of 'Metronidazole' yielded no relief. Currently, he experiences discomfort upon mouth opening and a sensation of swelling on the right side of the face. Upon inquiry into medic",
+    "output_json": {
+      "decomposition_mode": "multi_step_reasoning",
+      "sub_tasks": [
+        {
+          "id": "A",
+          "question": "基于患者主诉（发热、右侧后牙区疼痛、夜间加剧、张口不适、右侧面部肿胀感）和病史（高血压），分析最可能的初步诊断是什么？",
+          "expert": "medical_health",
+          "depends_on": []
+        },
+        {
+          "id": "B",
+          "question": "为明确诊断，需要哪些补充检查？请列出具体检查项目及其目的。",
+          "expert": "medical_health",
+          "depends_on": [
+            "A"
+          ]
+        },
+        {
+          "id": "C",
+          "question": "根据口内检查（牙周状况、牙体缺损、阻生牙等）和口外检查（下颌角肿胀、开口度等），患者还存在哪些其他口腔问题？请逐一列出。",
+          "expert": "medical_health",
+          "depends_on": [
+            "A"
+          ]
+        }
+      ],
+      "final_synthesis": {
+        "expert": "medical_health",
+        "instruction": "综合子任务A的初步诊断、子任务B的补充检查建议以及子任务C的其他口腔问题，形成完整的临床分析报告。"
+      }
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": []
+  },
+  "submission": null,
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1355,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 1355
+  },
+  "cost_summary": {
+    "reward_pool": 8180,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T09:03:41.109686+00:00",
+      "type": "RetryableError",
+      "message": "CLI timeout after 60s: studio-arena my-answer 22356dcb-03a5-44c1-9fb3-ae883d1908e0",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "resume"
+    }
+  ]
+}

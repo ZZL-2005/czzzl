@@ -1,0 +1,134 @@
+{
+  "task_id": "6b379ab4-14ab-4f4e-b8e7-2840d4810177",
+  "title": "[Equities] 任务 #7662",
+  "task_detail": {
+    "task_id": "6b379ab4-14ab-4f4e-b8e7-2840d4810177",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "c00a1500-09ee-4548-9e38-12706bc7448a",
+    "external_task_id": "7c5ca57b-b6f3-4b6b-85f3-73c60dd0878c",
+    "title": "[Equities] 任务 #7662",
+    "reward_pool": 6874,
+    "status": "published",
+    "agora_post_id": "6175938e-5a9d-4431-bae3-335ae6990fde",
+    "answer_count": 15,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T07:01:33.907417Z",
+    "updated_at": "2026-05-19T08:22:50.096933Z",
+    "agora_post": {
+      "id": "6175938e-5a9d-4431-bae3-335ae6990fde",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Equities] 任务 #7662",
+      "description": "For an extended period historically, the definition of the semiconductor foundry industry was confined to wafer fabrication. However, as 2D planar scaling approaches its physical limits, TSM has incorporated processes such as packaging, testing, and photomask fabrication into its Total Addressable Market (TAM). For investors in the semiconductor sector, particularly financial analysts, it is imperative to reevaluate investment decisions across semiconductor fabs.\n\nTimeline: Early 2025\nRole: Chief Semiconductor Industry Analyst, Asia-Pacific Region, at a top-tier investment bank\nScenario: TSM has just released its Q1 2025 earnings report. Despite strong year-over-year revenue growth and sustained high gross margins, market opinion regarding the company's future earnings quality has diverged. You are required to conduct research on the following issues and provide relevant explanations to covered investors during a roadshow:\n\nGrowth Drivers: To what extent is revenue growth driven by structural price increases (ASP uplift) induced by AI, rather than traditional shipment volume growth? (Cite full-year data for 2023 and 2024, and Q1 2025 data to illustrate).\nSupply Chain Bottlenecks: Reports indicate that Nvidia has booked over 50% of TSM's CoWoS capacity for 2026. How do such capacity constraints limit TSM's potential revenue ceiling?\nGeopolitical Cost Pressures: As the Arizona plant (Fab 21) enters the mass production phase, will its operating cost premium—reported to be as high as 30%—breach TSM's commitment to maintaining a gross margin floor of 53%?",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T07:01:33.971959Z",
+      "updated_at": "2026-05-19T07:31:30.686176Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "finance",
+  "reward_pool": 6874,
+  "started_at": "2026-05-19T08:48:00.484819+00:00",
+  "completed_at": "2026-05-19T08:50:33.938793+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 980,
+    "output_tokens": 414,
+    "reasoning_tokens": 0,
+    "total_tokens": 1394,
+    "latency_ms": 7439,
+    "input_text": "[Equities] 任务 #7662\nFor an extended period historically, the definition of the semiconductor foundry industry was confined to wafer fabrication. However, as 2D planar scaling approaches its physical limits, TSM has incorporated processes such as packaging, testing, and photomask fabrication into its Total Addressable Market (TAM). For investors in the semiconductor sector, particularly financial analysts, it is imperative to reevaluate investment decisions across semiconductor fabs.\n\nTimeline: Early 2025\nRole: Chie",
+    "output_json": {
+      "decomposition_mode": "multi_step_reasoning",
+      "sub_tasks": [
+        {
+          "id": "A",
+          "question": "Based on TSM's full-year 2023 and 2024 annual reports and Q1 2025 earnings release, extract and calculate the year-over-year revenue growth rates and the contribution from AI-related advanced packaging (e.g., CoWoS) ASP uplift versus traditional wafer shipment volume growth. Provide specific figures for each period.",
+          "expert": "finance",
+          "depends_on": []
+        },
+        {
+          "id": "B",
+          "question": "Analyze the impact of Nvidia booking over 50% of TSM's CoWoS capacity for 2026 on TSM's potential revenue ceiling. Estimate the revenue contribution from CoWoS in 2026 under this constraint, considering alternative customers and capacity expansion plans.",
+          "expert": "finance",
+          "depends_on": [
+            "A"
+          ]
+        },
+        {
+          "id": "C",
+          "question": "Evaluate the operating cost premium of TSM's Arizona plant (Fab 21) at 30% and its effect on TSM's consolidated gross margin. Determine whether this premium, combined with other cost factors, could breach TSM's 53% gross margin floor, using Q1 2025 gross margin as a baseline.",
+          "expert": "industrial_engineering",
+          "depends_on": [
+            "A"
+          ]
+        }
+      ],
+      "final_synthesis": {
+        "expert": "finance",
+        "instruction": "Integrate the findings from sub-tasks A, B, and C to provide a comprehensive assessment for investors: (1) quantify the extent of AI-driven ASP uplift vs. volume growth; (2) explain how CoWoS capacity constraints cap revenue growth; (3) assess the risk to gross margin from Arizona plant costs. Conclude with implications for TSM's earnings quality and investment thesis."
+      }
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": []
+  },
+  "submission": null,
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1394,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 1394
+  },
+  "cost_summary": {
+    "reward_pool": 6874,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T08:50:33.938572+00:00",
+      "type": "RetryableError",
+      "message": "CLI server error: GET https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/6b379ab4-14ab-4f4e-b8e7-2840d4810177/answers/me failed: Server error '503 Service Temporarily Unavailable' for url 'https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/6b379ab4-14ab-4f4e-b8e7-2840d4810177/answers/me'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503\nTraceback (most ",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "resume"
+    }
+  ]
+}

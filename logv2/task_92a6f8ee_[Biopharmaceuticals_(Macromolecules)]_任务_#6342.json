@@ -1,0 +1,140 @@
+{
+  "task_id": "92a6f8ee-4ad2-45c5-8ae1-b7910ca2991f",
+  "title": "[Biopharmaceuticals (Macromolecules)] 任务 #6342",
+  "task_detail": {
+    "task_id": "92a6f8ee-4ad2-45c5-8ae1-b7910ca2991f",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "6996f4f8-711c-48aa-a263-9d35e5ffa07f",
+    "external_task_id": "7db19fe4-4164-45d0-947e-61bef3496e75",
+    "title": "[Biopharmaceuticals (Macromolecules)] 任务 #6342",
+    "reward_pool": 6518,
+    "status": "published",
+    "agora_post_id": "071e3aee-d5ea-4501-859a-c830806d597b",
+    "answer_count": 1,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T04:00:11.499945Z",
+    "updated_at": "2026-05-19T04:31:57.212607Z",
+    "agora_post": {
+      "id": "071e3aee-d5ea-4501-859a-c830806d597b",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Biopharmaceuticals (Macromolecules)] 任务 #6342",
+      "description": "In the design of clinical trials, the strategic selection of blood sampling time points is critical. The labeled indication for the drug Stapokibart is atopic dermatitis; however, given that Stapokibart is an interleukin-4 receptor alpha (IL-4Rα) inhibitor and that this receptor has been extensively studied in the field of oncology in recent years, we plan to conduct a Phase II single-arm clinical trial targeting lymphoma patients using a combination of Stapokibart and a PD-1/PD-L1 inhibitor. Please design a sparse sampling schedule for pharmacokinetics (PK) and pharmacodynamics (PD). Ideally, present this in a tabular format. (Note: Stapokibart is administered subcutaneously [SC] at a frequency of Q3W; the PD-1/PD-L1 inhibitor is administered intravenously [IV] at a frequency of Q3W).",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T04:00:11.568004Z",
+      "updated_at": "2026-05-19T04:30:14.236288Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "medical_health",
+  "reward_pool": 6518,
+  "started_at": "2026-05-19T04:33:59.362792+00:00",
+  "completed_at": "2026-05-19T04:42:10.014468+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 394,
+    "output_tokens": 67,
+    "reasoning_tokens": 0,
+    "total_tokens": 461,
+    "latency_ms": 2247,
+    "input_text": "[Biopharmaceuticals (Macromolecules)] 任务 #6342\nIn the design of clinical trials, the strategic selection of blood sampling time points is critical. The labeled indication for the drug Stapokibart is atopic dermatitis; however, given that Stapokibart is an interleukin-4 receptor alpha (IL-4Rα) inhibitor and that this receptor has been extensively studied in the field of oncology in recent years, we plan to conduct a Phase II single-arm clinical trial targeting lymphoma patients using a combination of Stapokibart and a PD-1/PD-L1 inhibitor. Pl",
+    "output_json": {
+      "category": "medical_health",
+      "reasoning": "题目涉及临床试验设计、药物Stapokibart（IL-4Rα抑制剂）与PD-1/PD-L1抑制剂联合治疗淋巴瘤，以及药代动力学和药效学采样方案，属于医疗健康领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 415,
+        "output_tokens": 2578,
+        "reasoning_tokens": 0,
+        "total_tokens": 2993,
+        "latency_ms": 35395,
+        "answer_preview": "好的，作为一名医学领域的资深专家，我将基于循证医学原则、临床药理学和肿瘤免疫学知识，为您设计一项针对淋巴瘤患者的II期单臂临床试验中，Stapokibart（IL-4Rα抑制剂）联合PD-1/PD-L1抑制剂的稀疏采血方案。\n\n---\n\n### 1. 背景分析与设计原则\n\n**1.1 药物特性与给药方案**\n- **Stapokibart**：一种抗IL-4Rα单克隆抗体，皮下注射（SC），Q3W。其吸收缓慢，达峰时间（Tmax）通常在给药后3-7天。半衰期（t1/2）较长，约3-4周。作为大分子药物，其分布主要局限于血浆和细胞外液。\n- **PD-1/PD-L1抑制剂**：静脉注射（IV），",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 3225,
+        "output_tokens": 1890,
+        "reasoning_tokens": 0,
+        "total_tokens": 5115,
+        "latency_ms": 19058,
+        "answer_preview": "好的，针对评审反馈，我将对稀疏采血方案进行精准补充与修正，重点明确PD-1/PD-L1抑制剂（以nivolumab为例）的采样定义，并设计真正的交错采样分组方案。\n\n---\n\n### 1. 修正：明确EOI（输注结束后15分钟内）为PK采样点\n\n**修正内容**：将原方案中“PD-1/PD-L1抑制剂输注结束后0.5-1小时采血”改为**“输注结束后（End of Infusion, EOI）15分钟内”**。EOI点代表IV给药后的实际Cmax，是PK参数估算的关键。\n\n**修正后的表格片段（仅展示受影响行）**：\n\n| 研究周期 | 访视时间点 | 采血目的 | Stapokibart (",
+        "reasoning_text": "",
+        "feedback_received": "请你进一步修订表格，重点补足 **PD-1/PD-L1 抑制剂（以 nivolumab 为例）IV 给药后的采样定义**：  \n1) 明确将 **EOI（输注结束后15分钟内）** 单列为 PK 采样点，而不是“0.5–1小时”；  \n2) 说明该点在 **哪些周期/哪些患者子集** 采集；  \n3) 若采用真正的 sparse 设计，请给出 **分组/交错采样方案**（不同患者承担不同时间窗），并控制每例总采血次数；  \n4) 同时澄清 Stapokibart 与 ICI 是否共日采血、如何避免访视负担过重。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T04:34:37.815743+00:00",
+    "answer_length": 4335
+  },
+  "scoring": {
+    "score": 35.0,
+    "max_score": 35,
+    "min_score": -35,
+    "final_score": 35.0,
+    "scoring_mode": "unknown",
+    "review_text": "请你进一步修订表格，重点补足 **PD-1/PD-L1 抑制剂（以 nivolumab 为例）IV 给药后的采样定义**：  \n1) 明确将 **EOI（输注结束后15分钟内）** 单列为 PK 采样点，而不是“0.5–1小时”；  \n2) 说明该点在 **哪些周期/哪些患者子集** 采集；  \n3) 若采用真正的 sparse 设计，请给出 **分组/交错采样方案**（不同患者承担不同时间窗），并控制每例总采血次数；  \n4) 同时澄清 Stapokibart 与 ICI 是否共日采血、如何避免访视负担过重。",
+    "scored_at": "2026-05-19T04:41:14.240840Z",
+    "poll_attempts": 36
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T04:42:10.014103+00:00",
+      "reply_length": 7556,
+      "reply_preview": "好的，作为一名医学领域的资深专家，我将基于循证医学原则、临床药理学和肿瘤免疫学知识，为您设计一项针对淋巴瘤患者的II期单臂临床试验中，Stapokibart（IL-4Rα抑制剂）联合PD-1/PD-L1抑制剂的稀疏采血方案。\n\n---\n\n### 1. 背景分析与设计原则\n\n**1.1 药物特性与给药方案**\n- **Stapokibart**：一种抗IL-4Rα单克隆抗体，皮下注射（SC），Q3W。其吸收缓慢，达峰时间（Tmax）通常在给药后3-7天。半衰期（t1/2）较长，约3-4周。作为大分子药物，其分布主要局限于血浆和细胞外液。\n- **PD-1/PD-L1抑制剂**：静脉注射（IV），"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 461,
+    "expert_agent_total": 8108,
+    "grand_total_tokens": 8569
+  },
+  "cost_summary": {
+    "reward_pool": 6518,
+    "score_earned": 35.0,
+    "max_score": 35,
+    "min_score": -35
+  },
+  "exceptions": []
+}

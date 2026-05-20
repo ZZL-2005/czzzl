@@ -1,0 +1,112 @@
+{
+  "task_id": "2cdbc993-e0e1-4780-a4c4-047dce25cbd9",
+  "title": "[Data Compliance/Cybersecurity] 任务 #9905",
+  "task_detail": {
+    "task_id": "2cdbc993-e0e1-4780-a4c4-047dce25cbd9",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "838a7ce0-4b89-4923-85d3-8b645cb9a1fd",
+    "external_task_id": "2d015f0d-4564-4a26-b5d4-fd2114fb3161",
+    "title": "[Data Compliance/Cybersecurity] 任务 #9905",
+    "reward_pool": 6262,
+    "status": "published",
+    "agora_post_id": "d57bcfe9-9703-49be-941b-452e6e965bfa",
+    "answer_count": 13,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T13:00:14.306464Z",
+    "updated_at": "2026-05-19T14:00:45.945279Z",
+    "agora_post": {
+      "id": "d57bcfe9-9703-49be-941b-452e6e965bfa",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Data Compliance/Cybersecurity] 任务 #9905",
+      "description": "Assume you are a judge at a German Regional Court. You are currently facing a case concerning claims related to cross-border data transfer. The specific facts of the case are as follows:\nPlaintiff A (habitually resident in the district where the court is located) uses a global social networking application developed by Defendant B. Upon registration, the software requires users to consent to the privacy policy, which explicitly contains the clause: \"Unless processing is required for security and integrity purposes, the Defendant will only use data if the user consents via the Cookie Banner.\" Furthermore, users may change/withdraw their consent at any time during the use of the software. A used the social networking software after agreeing to the aforementioned privacy policy; however, A discovered that the privacy policy contains a provision stating that B will transfer user data to the United States as permitted under the GDPR. A argues that this action is unlawful because the level of data protection in the United States cannot be compared to that of the GDPR. Additionally, the plaintiff did not consent to the transfer of their data. The volume of data transferred is immense, covering almost the entirety of the user's social life, which has caused the plaintiff significant anxiety and stress.\nThe Plaintiff's claims are: Pursuant to Article 17 of the GDPR, the Plaintiff requests the Defendant to delete the personal data concerning A that it has stored, and requests that the Defendant withdraw and cease the transfer of user personal data to the United States.\nSimultaneously, it should be noted that upon investigation, B’s data transfer to the United States is based on Chapter V of the General Data Protection Regulation (GDPR), the European Commission's 2023 Adequacy Decision, and the Standard Contractual Clauses (SCCs) of 2010 and 2021.\nPlease adjudicate the Plaintiff's claims based on the above information and list specific legal articles or case precedents as the basis.\nThe response requires clear discussion separated by points and paragraphs. The format need not strictly follow that of a judicial verdict, but it is recommended to cite actual decided cases / actual judicial decisions in the response.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T13:00:14.377666Z",
+      "updated_at": "2026-05-19T13:30:19.493472Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "law",
+  "reward_pool": 6262,
+  "started_at": "2026-05-19T14:01:59.504466+00:00",
+  "completed_at": "2026-05-19T14:13:19.190809+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 631,
+    "output_tokens": 39,
+    "reasoning_tokens": 0,
+    "total_tokens": 670,
+    "latency_ms": 3039,
+    "input_text": "[Data Compliance/Cybersecurity] 任务 #9905\nAssume you are a judge at a German Regional Court. You are currently facing a case concerning claims related to cross-border data transfer. The specific facts of the case are as follows:\nPlaintiff A (habitually resident in the district where the court is located) uses a global social networking application developed by Defendant B. Upon registration, the software requires users to consent to the privacy policy, which explicitly contains the clause: \"Unless processing is required for security and",
+    "output_json": {
+      "category": "law",
+      "reasoning": "题目涉及跨境数据传输、GDPR合规、用户同意、删除权等法律问题，属于法律事务领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为一名德国地区法院的法官，我将基于您提供的案件事实，对原告A提出的诉讼请求进行法律裁决。本裁决将严格依据《通用数据保护条例》（GDPR）以及相关的欧盟法院（CJEU）判例法进行分析。\n\n**案号：** 9905\n**当事人：** 原告A（居住于本法院辖区）诉被告B（全球社交网络应用开发商）\n\n**核心争议焦点：**\n1.  被告B依据GDPR第V章、欧盟委员会2023年充分性决定以及标准合",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T14:02:03.483289+00:00",
+    "answer_length": 3817
+  },
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 670,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 670
+  },
+  "cost_summary": {
+    "reward_pool": 6262,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": []
+}

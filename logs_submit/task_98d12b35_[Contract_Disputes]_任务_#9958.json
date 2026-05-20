@@ -1,0 +1,112 @@
+{
+  "task_id": "98d12b35-863d-40da-9dd7-e2ee678a97ba",
+  "title": "[Contract Disputes] 任务 #9958",
+  "task_detail": {
+    "task_id": "98d12b35-863d-40da-9dd7-e2ee678a97ba",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "838a7ce0-4b89-4923-85d3-8b645cb9a1fd",
+    "external_task_id": "926c1afb-e115-4e4d-831a-f857afc6a5c1",
+    "title": "[Contract Disputes] 任务 #9958",
+    "reward_pool": 5324,
+    "status": "published",
+    "agora_post_id": "9d7c85a9-ff91-4647-a605-761bb6090889",
+    "answer_count": 12,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T13:00:39.404487Z",
+    "updated_at": "2026-05-19T13:59:04.958592Z",
+    "agora_post": {
+      "id": "9d7c85a9-ff91-4647-a605-761bb6090889",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Contract Disputes] 任务 #9958",
+      "description": "Case Facts:\nM and F are married. Both are gainfully employed with good income; they reside in a spacious house in City A. The house originally belonged to the deceased E (M's father). E, having been a widower for a long time, made a formally valid will in 2005. Part of its content reads as follows: \"My testamentary wish... my eldest son M, currently 35 years old, shall enjoy my estate until my second son S, born on February 1, 1992, reaches the age of 18. Once S turns 18, M shall surrender the estate to S.\" E's property mainly consists of the house and land, as well as a collection of old paintings within the house. As soon as E passed away, M and F moved into the house and designated it as their joint matrimonial home (Ehewohnung); S, who was still a minor, lived with his brother and sister-in-law.\nIn mid-January 2010, while F was away on a business trip for a few days and M was alone at home on leave, F's washing machine ceased to function. As the washing machine was already dilapidated, of little value, and unable to adequately meet the household needs, M immediately decided to take this opportunity to buy a new one. He took a painting he never particularly liked directly to the city and sold it to an antique shop for 1,000 Euros. He then went to a large department store owned by V and selected a new model from the dazzling array of washing machines on display, priced at 1,000 Euros. M immediately paid V the purchase price of the washing machine in cash; for this, M used the proceeds from the sale of the painting. The next day, the new washing machine was delivered and installed, and the old one was hauled away. On the same day, after F returned home, M presented the new washing machine as a surprise for F: the washing machine was a gift from M to F, and therefore belonged to F; F was free to dispose of it. F gladly accepted this gift. When F asked M where he got the money to buy such an expensive washing machine, M replied that he withdrew the money from his own account.\nThe next day, while F was out, M discovered a malfunction in the drainage outlet while testing the laundry cycle. Consequently, M telephoned the installer I to commission a repair. I arrived at M's home immediately and repaired the drainage outlet, for which I charged M a fee of 100 Euros. However, due to clumsiness, I heavily scratched the paint coating of the washing machine; not until after I left did M notice the damage to the washing machine. After F returned home, M informed her of the repair. M was unwilling to make a fuss over \"a few scratches,\" but F was furious about the damage to the new washing machine. The cost to remove the scratches would be 200 Euros.\n\nPlease answer the following question as a German lawyer using the claim-based approach (Anspruchsgrundlage).\nQuestion: Can F request payment of said costs from I based on the claim grounds of Section 280(1), Section 631, Section 241(2), and Section 1357?",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T13:00:39.459996Z",
+      "updated_at": "2026-05-19T13:30:32.017348Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "law",
+  "reward_pool": 5324,
+  "started_at": "2026-05-19T14:01:59.566032+00:00",
+  "completed_at": "2026-05-19T14:13:24.767545+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 873,
+    "output_tokens": 41,
+    "reasoning_tokens": 0,
+    "total_tokens": 914,
+    "latency_ms": 3949,
+    "input_text": "[Contract Disputes] 任务 #9958\nCase Facts:\nM and F are married. Both are gainfully employed with good income; they reside in a spacious house in City A. The house originally belonged to the deceased E (M's father). E, having been a widower for a long time, made a formally valid will in 2005. Part of its content reads as follows: \"My testamentary wish... my eldest son M, currently 35 years old, shall enjoy my estate until my second son S, born on February 1, 1992, reaches the age of 18. Once S turns 18, M shall surrender the e",
+    "output_json": {
+      "category": "law",
+      "reasoning": "题目涉及合同纠纷、损害赔偿等法律问题，要求以德国律师身份基于民法典条款分析，属于法律事务领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为一名精通德国法律的专家，我将严格依据您提供的案件事实，采用请求权基础分析法（Anspruchsgrundlage），对F能否依据《德国民法典》（BGB）第280条第1款、第631条、第241条第2款以及第1357条，向I请求支付200欧元的划痕修复费用这一问题，进行专业、详尽的分析。\n\n### 核心争议焦点分析\n\n本案的核心争议焦点在于，F（妻子）与I（安装工）之间是否存在直接的合同关系",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T14:02:04.502552+00:00",
+    "answer_length": 2796
+  },
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 914,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 914
+  },
+  "cost_summary": {
+    "reward_pool": 5324,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": []
+}

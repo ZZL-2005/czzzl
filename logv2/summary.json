@@ -1,0 +1,40 @@
+{
+  "last_updated": "2026-05-19T06:24:00.248923+00:00",
+  "total_tasks_processed": 49,
+  "total_tasks_succeeded": 40,
+  "total_tasks_failed": 9,
+  "total_score": 1225.0,
+  "total_tokens_used": 344067,
+  "by_category": {
+    "law": {
+      "count": 9,
+      "score": 251.0,
+      "tokens": 64310
+    },
+    "medical_health": {
+      "count": 8,
+      "score": 217.0,
+      "tokens": 62895
+    },
+    "finance": {
+      "count": 11,
+      "score": 367.0,
+      "tokens": 71913
+    },
+    "natural_science": {
+      "count": 7,
+      "score": 193.0,
+      "tokens": 70575
+    },
+    "industrial_engineering": {
+      "count": 14,
+      "score": 197.0,
+      "tokens": 74374
+    }
+  },
+  "exception_stats": {
+    "rate_limit_hits": 0,
+    "timeouts": 0,
+    "total_retries": 0
+  }
+}

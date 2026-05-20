@@ -1,0 +1,97 @@
+{
+  "task_id": "0bce4f1d-0d4a-4271-b62a-454be6089954",
+  "title": "[Neurology] 任务 #8710",
+  "category": "medical_health",
+  "reward_pool": 6770,
+  "keywords_extracted": [
+    [
+      "acute intermittent porphyria",
+      "abdominal pain"
+    ],
+    [
+      "neurologic manifestations",
+      "autonomic dysfunction"
+    ]
+  ],
+  "papers_searched": 12,
+  "papers_relevant": 7,
+  "papers_with_full_text": 2,
+  "cache_hits": 6,
+  "cache_hits_validated": 5,
+  "cache_hit_details": [
+    {
+      "paper_id": "doi:10.1055/s-2007-1007136",
+      "title": "Acute intermittent porphyria.",
+      "helpful": true,
+      "usefulness_score": 5,
+      "reason": "论文直接对应患者症状（腹痛、呕吐、肢体无力）和诱因（节食、经期），是急性间歇性卟啉病的典型表现。"
+    },
+    {
+      "paper_id": "doi:10.1182/hematology.2024000663",
+      "title": "Givosiran: a targeted treatment for acute intermittent porphyria.",
+      "helpful": true,
+      "usefulness_score": 5,
+      "reason": "论文针对急性间歇性卟啉症，其症状与患者表现高度吻合，直接相关研究问题。"
+    },
+    {
+      "paper_id": "doi:10.1016/j.emc.2021.07.003",
+      "title": "Abdominal Pain Mimics.",
+      "helpful": true,
+      "usefulness_score": 5,
+      "reason": "论文中急性间歇性卟啉病（AIP）的病因与患者饮食和月经周期诱因高度吻合，且症状描述匹配，直接支持诊断方向。"
+    },
+    {
+      "paper_id": "doi:10.1053/j.gastro.2022.11.034",
+      "title": "AGA Clinical Practice Update on Diagnosis and Management of Acute Hepatic Porphyrias: Expert Review.",
+      "helpful": true,
+      "usefulness_score": 5,
+      "reason": "论文讨论急性肝性卟啉症，其症状（腹痛、呕吐、肢体无力）与患者表现高度吻合，且诱因（节食、经期）典型，直接相关于鉴别诊断。"
+    },
+    {
+      "paper_id": "doi:10.1016/j.jemermed.2015.04.034",
+      "title": "Acute Porphyrias.",
+      "helpful": true,
+      "usefulness_score": 5,
+      "reason": "论文标题和摘要直接指向急性卟啉症，与患者症状（腹痛、呕吐、肢体无力、诱发因素）高度相关，有助于鉴别诊断。"
+    }
+  ],
+  "papers_read": 2,
+  "reading_details": [
+    {
+      "title": "Abdominal Pain Mimics.",
+      "chunks_read": 8,
+      "total_chunks": 8,
+      "early_exit": true,
+      "exit_reason": "当前块已提供与病例高度匹配的鉴别诊断（AIP），且已覆盖研究问题所需的关键线索。",
+      "tokens": 9368,
+      "extracted_length": 435
+    },
+    {
+      "title": "[Porphyria].",
+      "chunks_read": 2,
+      "total_chunks": 8,
+      "early_exit": true,
+      "exit_reason": "本块提供了完整的病例，包含诊断、治疗和转归，与之前信息互补，已足够回答研究问题。",
+      "tokens": 2500,
+      "extracted_length": 482
+    }
+  ],
+  "tokens_keyword": 344,
+  "tokens_cache_validation": 2166,
+  "tokens_relevance": 6838,
+  "tokens_reading": 11868,
+  "tokens_expert": 5562,
+  "tokens_total": 26778,
+  "context_injected": "[缓存] Acute intermittent porphyria.\n[摘要] Acute intermittent porphyria (AIP) is transmitted as an autosomal dominant disorder with incomplete penetrance. Recent population studies suggest that the prevalence of asymptomatic heterozygotes for a mutant AIP gene may be in the range of 1 in 2,000. Clinical manifestations include abdominal pain and neurological dysfunctions. These symptoms occur during acute attacks, which are often precipitat\n\n[缓存] Givosiran: a targeted treatment for acute intermittent porphyria.\nThe acute hepatic porphyrias (AHPs) are a family of rare genetic diseases associated with attacks of abdominal pain, vomiting, weakness, neuropathy, and other neurovisceral symptoms. Pathogenic variants in 1 of 4 enzymes of heme synthesis are necessary for the development of AHP, and the onset of acute attacks also requires the induction of &#x3b4;-aminolevulinic acid synthase 1 (ALAS1), the first\n\n[缓存] Abdominal Pain Mimics.\n[块1] 本文讨论了腹痛的鉴别诊断，包括非胃肠道来源的模拟病（如急性冠脉综合征），但未提及与饮食或月经周期相关的罕见病因。\n[块3] 本块讨论了异位妊娠和卵巢扭转，但未提及与饮食或月经周期相关的罕见病因。\n[块7] 本块讨论了甲状腺毒症和尿毒症作为腹痛的罕见病因，但未提及与饮食或月经周期相关的罕见病因。\n[块8] 急性间歇性卟啉病（AIP）是一种与饮食（如禁食）和月经周期（如经前期）相关的罕见病因，表现为严重绞痛性腹痛、呕吐、便秘，可伴有周围神经病变和自主神经病变。\n\n[缓存] AGA Clinical Practice Update on Diagnosis and Management of Acute Hepatic Porphyrias: Expert Review.\nThe acute hepatic porphyrias (AHP) are rare, inborn errors of heme-metabolism and include acute intermittent porphyria, hereditary coproporphyria, variegate porphyria, and porphyria due to severe deficiency of 5-aminolevulinic acid dehydratase. Acute intermittent porphyria is the most common type of AHP, with an estimated prevalence of patients with symptoms of approximately 1 in 100,000. The majo\n\n[缓存] Acute Porphyrias.\nPorphyrias are a group of eight metabolic disorders characterized by defects in heme biosynthesis. Porphyrias are classified into two major categories: 1) the acute or inducible porphyrias and 2) the chronic cutaneous porphyrias. The acute hepatic porphyrias are further classified into acute intermittent porphyria (AIP), hereditary coproporphyria, variegate porphyria, and porphyria due to severe d\n\n[Abdominal Pain Mimics.]\n根据论文《Abdominal Pain Mimics》及病例信息，该28岁女性患者表现为严重绞痛性腹痛、呕吐、肢体无力，既往有类似发作史，由节食或经前期诱发，剖腹探查阴性，曾被诊断为“肠功能紊乱”。关键鉴别诊断包括：急性间歇性卟啉病（AIP），其特征为严重绞痛性上腹痛、呕吐、便秘，常由禁食（如节食减肥）诱发，可伴心动过速、高血压及周围神经病变，易被误诊为功能性胃肠病，与患者病史高度吻合。此外，需排除糖尿病酮症酸中毒（DKA）及高血糖高渗状态（HHS），两者均可表现为腹痛、恶心、呕吐；肾上腺危象可致发热、下腹痛及急腹症体征。主动脉夹层（B型）及肺栓塞（约6.7%以胃肠道症状为首发）亦需考虑。妇科急症如异位妊娠及卵巢扭转可能性较低，因患者有反复发作史及阴性剖腹探查史。镰状细胞病血管闭塞危象及甲状腺毒症也可模拟急腹症。方法论上，强调对反复发作、有明确诱因（如禁食）的腹痛患者，应优先筛查AIP（如尿卟胆原检测），并评估血压、心率及神经系统体征，避免不必要的手术干预。\n\n[[Porphyria].]\n[块1] 急性卟啉症是血红素生物合成障碍，分为急性与非急性、肝性与红细胞生成性。急性肝性卟啉症由限速步骤酶缺陷导致，受血红素反馈抑制调控，易在代谢应激（如节食、经前期）下诱发。临床表现包括腹痛、呕吐、肢体无力、高血压、心动过速等。诊断基于症状、尿卟啉前体（ALA、PBG）升高。治疗包括避免诱因、输注血红素、葡萄糖负荷等。\n[块2] 病例描述：28岁女性，周期性腹痛，节食后加重，出现大腿痛性感觉异常、恶心、便秘、呕吐，双手伸肌麻痹，严重低钠血症（105 mmol/L），幻觉。尿液呈红色，ALA和PBG浓度显著升高，诊断为急性肝性卟啉症。治疗：静脉注射血红素（Hämarginat 3 mg/kg in 100 ml 20%白蛋白溶液，30分钟，共4天）；因呕吐需肠外营养，急性期热量24 kcal/kg/天；监测血磷和血糖以防再喂养综合征；低钠血症用150 ml 3%高渗盐水20分钟输注，重复至血钠升高5 mmol/L，随后用0.9%等渗盐水，首24小时血钠升高不超过10 mmol/L，后续每天不超过8 mmol/L。患者迅速恢复，麻痹消退，恢复肠内营养。\n\n[Acute intermittent porphyria.]\n摘要: Acute intermittent porphyria (AIP) is transmitted as an autosomal dominant disorder with incomplete penetrance. Recent population studies suggest that the prevalence of asymptomatic heterozygotes for a mutant AIP gene may be in the range of 1 in 2,000. Clinical manifestations include abdominal pain and neurological dysfunctions. These symptoms occur during acute attacks, which are often precipitat",
+  "context_length": 3510,
+  "answer_submitted": true,
+  "score": 60.0,
+  "status": "submitted",
+  "score_detail": {
+    "min_score": -50,
+    "raw_score": 10,
+    "is_followup_reply": false
+  },
+  "raw_score": 10,
+  "min_score": -50
+}

@@ -1,0 +1,112 @@
+{
+  "task_id": "26362488-ff62-48d1-951a-160026f814bb",
+  "title": "[Telecommunications] 任务 #5768",
+  "task_detail": {
+    "task_id": "26362488-ff62-48d1-951a-160026f814bb",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "838a7ce0-4b89-4923-85d3-8b645cb9a1fd",
+    "external_task_id": "64b0f439-36d8-4fa1-8e81-81d37447cccf",
+    "title": "[Telecommunications] 任务 #5768",
+    "reward_pool": 3420,
+    "status": "published",
+    "agora_post_id": "65447e99-29a6-45aa-a641-45a50089bde3",
+    "answer_count": 12,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T13:00:26.031685Z",
+    "updated_at": "2026-05-19T14:04:55.098901Z",
+    "agora_post": {
+      "id": "65447e99-29a6-45aa-a641-45a50089bde3",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Telecommunications] 任务 #5768",
+      "description": "A government–enterprise leased line customer reports that their 1000M bandwidth service delivered over GPON experiences severe web page response latency and frequent video conferencing freezes every day between 14:00 and 16:00. However, when a single-thread Speedtest is performed, the downstream rate exceeds 900 Mbps.\n\nCurrent network environment and measured indicators:\n1. Topology:\n   OLT (MA5800) -> Optical splitter (1:64) -> ONU\n2. Optical path indicators:\n   ONU receive optical power: -24.5dBm; OLT-side receive optical power: -21.0dBm.\n3. ONU status:\n   `display ont info` shows the ONT state is Up.\n   `display ont optical-info` shows the upstream transmit optical power is 2.5dBm.\n   `display ont error-statistics` shows that the BIP error counter increases slowly but continuously during the affected time window.\n4. Bandwidth configuration:\n   DBA profile type is Type 4 (maximum bandwidth 1000M); the service flow uses priority 5.\n5. User-side observations:\n   Wireshark packet captures taken by the user show that the stuttering is accompanied by a large number of TCP Retransmissions and high one-way jitter.\n\nYour tasks are:\n1. Fault localization:\n   Analyze why the user experiences service stuttering even though the speed test result meets the bandwidth specification, and determine the most probable root cause based on the provided indicators.\n2. In-depth analysis:\n   Explain how the specific optical power levels and BIP error counts are correlated with service performance.\n   Explain why a single-thread download speed test can pass while the user experience of interactive services is extremely poor.\n3. Optimization recommendations:\n   Propose concrete troubleshooting and remediation schemes, including physical-layer adjustment suggestions and OLT-side parameter inspection commands or script logic.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T13:00:26.107040Z",
+      "updated_at": "2026-05-19T13:30:25.432688Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "natural_science",
+  "reward_pool": 3420,
+  "started_at": "2026-05-19T14:13:28.288501+00:00",
+  "completed_at": "2026-05-19T14:26:11.499363+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 593,
+    "output_tokens": 34,
+    "reasoning_tokens": 0,
+    "total_tokens": 627,
+    "latency_ms": 2064,
+    "input_text": "[Telecommunications] 任务 #5768\nA government–enterprise leased line customer reports that their 1000M bandwidth service delivered over GPON experiences severe web page response latency and frequent video conferencing freezes every day between 14:00 and 16:00. However, when a single-thread Speedtest is performed, the downstream rate exceeds 900 Mbps.\n\nCurrent network environment and measured indicators:\n1. Topology:\n   OLT (MA5800) -> Optical splitter (1:64) -> ONU\n2. Optical path indicators:\n   ONU receive optical power: -24.5",
+    "output_json": {
+      "category": "natural_science",
+      "reasoning": "题目涉及GPON网络故障诊断，属于通信领域，归为自然科学。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 894,
+        "output_tokens": 3338,
+        "reasoning_tokens": 0,
+        "total_tokens": 4232,
+        "latency_ms": 52277,
+        "answer_preview": "好的，作为一名通信工程与自然科学交叉领域的资深专家，我将对您提出的GPON网络故障案例进行深入分析，并提供专业、严谨的解决方案。\n\n### 1. 故障定位：为什么测速达标但体验极差？\n\n**核心结论：** 最可能的根本原因是**上行方向存在严重的、间歇性的物理层误码（高BER），导致TCP拥塞控制机制失效，从而引发交互式业务体验劣化。** 单线程测速的“成功”掩盖了问题的本质。\n\n**论证过程：**\n\n1.  **现象与指标的矛盾分析：**\n    *   **测速达标（>900Mbps）：** 单线程Speedtest通常使用TCP协议，并采用大窗口、长流量的方式下载。这种模式对瞬间的丢包和",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T14:14:23.586402+00:00",
+    "answer_length": 6124
+  },
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 627,
+    "expert_agent_total": 4232,
+    "grand_total_tokens": 4859
+  },
+  "cost_summary": {
+    "reward_pool": 3420,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": []
+}

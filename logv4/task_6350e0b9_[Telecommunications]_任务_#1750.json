@@ -1,0 +1,43 @@
+{
+  "task_id": "6350e0b9-8576-4517-b7c9-3189e28d21e6",
+  "title": "[Telecommunications] 任务 #1750",
+  "category": "natural_science",
+  "reward_pool": 3706,
+  "keywords_extracted": [
+    [
+      "4G/5G NSA",
+      "network quality"
+    ],
+    [
+      "live streaming",
+      "uplink rate"
+    ],
+    [
+      "indoor coverage",
+      "commercial complex"
+    ],
+    [
+      "peak hours",
+      "user experience"
+    ]
+  ],
+  "papers_searched": 17,
+  "papers_relevant": 4,
+  "papers_with_full_text": 0,
+  "cache_hits": 0,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 345,
+  "tokens_cache_validation": 0,
+  "tokens_relevance": 5624,
+  "tokens_reading": 0,
+  "tokens_expert": 6275,
+  "tokens_total": 12244,
+  "context_injected": "[A variegated look at 5G in the wild]\n摘要: Motivated by the rapid deployment of 5G, we carry out an indepth measurement study of the performance, power consumption, and application quality-of-experience (QoE) of commercial 5G networks in the wild. We examine different 5G carriers, deployment schemes (Non-Standalone, NSA vs. Standalone, SA), radio bands (mmWave and sub 6-GHz), protocol configurations (e.g., Radio Resource Control state tran\n\n[Understanding 5G performance for real-wo]\n摘要: 5G has seen rapid growth recently, attracting several measurement studies on its coverage, connectivity and quality of service. However, there is still a lack of understanding of 5G's capabilities and potential impacts from a content provider (CP)'s perspective. This paper fills in this gap by studying 5G networks used by over 23 million users in one year in Kuaishou, a popular crowdsourced live s\n\n[Comparison of 4G and 5G NR NSA QoE measu]\n摘要: The first 5G networks in Croatia are NSA (non-standalone) versions of 5G concentrated mainly on eMBB (enhanced Mobile Broadband) deployment. This paper analyzes how the introduction of the 5G network in Croatian cities affects the quality of the user experience (QoE) by measuring the data transfer rate (throughput) and ping (round trip time). The comparison of 4G and 5G network measurements is als",
+  "context_length": 1340,
+  "answer_submitted": false,
+  "score": null,
+  "status": "submitted"
+}

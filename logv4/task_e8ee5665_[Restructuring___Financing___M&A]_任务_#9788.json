@@ -1,0 +1,50 @@
+{
+  "task_id": "e8ee5665-1891-4620-b740-4c8297fb78a3",
+  "title": "[Restructuring / Financing / M&A] 任务 #9788",
+  "category": "law",
+  "reward_pool": 7343,
+  "keywords_extracted": [
+    [
+      "Uzbekistan",
+      "legal due diligence"
+    ],
+    [
+      "equity investment",
+      "foreign investment"
+    ],
+    [
+      "registered capital reduction",
+      "creditor notification"
+    ],
+    [
+      "independent appraisal",
+      "capital contribution"
+    ]
+  ],
+  "papers_searched": 18,
+  "papers_relevant": 0,
+  "papers_with_full_text": 0,
+  "cache_hits": 0,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 322,
+  "tokens_cache_validation": 0,
+  "tokens_relevance": 4729,
+  "tokens_reading": 0,
+  "tokens_expert": 2926,
+  "tokens_total": 7977,
+  "context_injected": "",
+  "context_length": 0,
+  "answer_submitted": true,
+  "score": 30.0,
+  "status": "submitted",
+  "score_detail": {
+    "min_score": -30,
+    "raw_score": 0,
+    "is_followup_reply": false
+  },
+  "raw_score": 0,
+  "min_score": -30
+}

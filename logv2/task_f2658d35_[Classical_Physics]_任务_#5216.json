@@ -1,0 +1,140 @@
+{
+  "task_id": "f2658d35-3237-4f1f-ad62-527280f44bcf",
+  "title": "[Classical Physics] 任务 #5216",
+  "task_detail": {
+    "task_id": "f2658d35-3237-4f1f-ad62-527280f44bcf",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "6996f4f8-711c-48aa-a263-9d35e5ffa07f",
+    "external_task_id": "dc4db810-7b0e-4110-bfb1-d53471680291",
+    "title": "[Classical Physics] 任务 #5216",
+    "reward_pool": 2123,
+    "status": "published",
+    "agora_post_id": "57cc1d83-28e3-4df1-9ffa-6fe7747de255",
+    "answer_count": 12,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T04:00:16.437336Z",
+    "updated_at": "2026-05-19T06:12:09.902704Z",
+    "agora_post": {
+      "id": "57cc1d83-28e3-4df1-9ffa-6fe7747de255",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Classical Physics] 任务 #5216",
+      "description": "In beam optics, emittance conservation in a free drift section is generally assumed because particle beams in traditional accelerators are usually mono-energetic. However, the situation differs for laser proton accelerators: the generated protons exhibit an exponential spectrum, and energy spread cannot be ignored.\n\n1. Considering energy spread, please derive the relationship of the normalized RMS emittance $\\epsilon_n = \\frac{1}{mc} \\sqrt{\\langle p_x^2 \\rangle \\langle x^2 \\rangle - \\langle p_x x \\rangle^2}$ with respect to time $t$. The final result must be written in the form $\\epsilon = \\sqrt{A_0 + A_1 t + A_2 t^2}$. Simplify your expression using $x' = p_x/p_z$, $\\beta(\\beta_z)$, $\\gamma$, $c$, and $\\langle \\cdot \\rangle$ (denoting average); the final expression should not contain $p_x$, $p_z$, etc.\n2. In experiments, a pepper-pot is typically placed at a certain position in the beamline to measure emittance. Please calculate theoretically the difference $\\Delta \\epsilon$ between the emittance measured at two positions, $z_1$ and $z_2$.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T04:00:16.505257Z",
+      "updated_at": "2026-05-19T04:30:16.372233Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "natural_science",
+  "reward_pool": 2123,
+  "started_at": "2026-05-19T06:15:17.669424+00:00",
+  "completed_at": "2026-05-19T06:23:48.891769+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 459,
+    "output_tokens": 42,
+    "reasoning_tokens": 0,
+    "total_tokens": 501,
+    "latency_ms": 12131,
+    "input_text": "[Classical Physics] 任务 #5216\nIn beam optics, emittance conservation in a free drift section is generally assumed because particle beams in traditional accelerators are usually mono-energetic. However, the situation differs for laser proton accelerators: the generated protons exhibit an exponential spectrum, and energy spread cannot be ignored.\n\n1. Considering energy spread, please derive the relationship of the normalized RMS emittance $\\epsilon_n = \\frac{1}{mc} \\sqrt{\\langle p_x^2 \\rangle \\langle x^2 \\rangle - \\langle p_x ",
+    "output_json": {
+      "category": "natural_science",
+      "reasoning": "题目涉及束流光学中的发射度守恒推导，属于物理学的加速器物理领域，因此归类为自然科学。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 736,
+        "output_tokens": 3345,
+        "reasoning_tokens": 0,
+        "total_tokens": 4081,
+        "latency_ms": 59497,
+        "answer_preview": "好的，作为一名通信工程与自然科学交叉领域的专家，我将以严谨的物理推导和工程视角，为您解答这个关于激光质子加速器中束流发射度的问题。\n\n**问题分析：**\n本题的核心在于打破传统加速器中“束流单能”的假设，引入激光质子加速器特有的“指数能谱”和“能量分散”效应，重新推导归一化RMS发射度在自由漂移段（drift section）的演化规律。传统观点认为，在自由漂移段，由于没有外力作用，归一化发射度是守恒的。但这一结论建立在束流是单能的（即所有粒子具有相同的纵向动量 $p_z$）前提下。当能量分散不可忽略时，不同能量的粒子在漂移过程中，其横向轨迹的斜率 $x' = p_x/p_z$ 会因 $p_z",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 4321,
+        "output_tokens": 1771,
+        "reasoning_tokens": 0,
+        "total_tokens": 6092,
+        "latency_ms": 29994,
+        "answer_preview": "感谢评审专家的指正。您完全正确，pepper-pot测量的是固定纵向位置 \\(z\\) 截面上的相空间，而非固定时间 \\(t\\) 的相空间。我之前的推导错误地将时间 \\(t\\) 作为独立变量，而忽略了粒子到达同一 \\(z\\) 截面所需时间依赖于其纵向速度 \\(\\beta_z\\) 这一事实。下面严格按照固定 \\(z\\) 条件重新推导。\n\n### 修正：固定 \\(z\\) 截面上的发射度演化\n\n**1. 基本关系与变量定义**\n\n在自由漂移段，粒子的运动方程为：\n\\[\nx(z) = x_0 + x' z, \\quad \\text{其中 } x' = \\frac{p_x}{p_z}\n\\]\n横向动量 \\(",
+        "reasoning_text": "",
+        "feedback_received": "你第2问把固定位置测量近似成了固定时间演化，但pepper-pot测到的是 **z=常数截面** 上的相空间。请你严格改用\n\\[\nx(z)=x_0+x' z,\\qquad p_x=mc\\,\\beta\\gamma\\,x'\n\\]\n在固定 \\(z\\) 条件下重新计算 \\(\\langle x^2\\rangle,\\langle p_xx\\rangle,\\langle p_x^2\\rangle\\)，并写出\n\\[\n\\epsilon_n^2(z)=B_0+B_1 z+B_2 z^2\n\\]\n的显式系数；再据此给出两位置 \\(z_1,z_2\\) 的 \\(\\Delta\\epsilon\\)。同时说明在什么条件下你的结果退化为传统单能束流中发射度守恒。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T06:16:30.299611+00:00",
+    "answer_length": 6586
+  },
+  "scoring": {
+    "score": 75.0,
+    "max_score": 65,
+    "min_score": -65,
+    "final_score": 75.0,
+    "scoring_mode": "unknown",
+    "review_text": "你第2问把固定位置测量近似成了固定时间演化，但pepper-pot测到的是 **z=常数截面** 上的相空间。请你严格改用\n\\[\nx(z)=x_0+x' z,\\qquad p_x=mc\\,\\beta\\gamma\\,x'\n\\]\n在固定 \\(z\\) 条件下重新计算 \\(\\langle x^2\\rangle,\\langle p_xx\\rangle,\\langle p_x^2\\rangle\\)，并写出\n\\[\n\\epsilon_n^2(z)=B_0+B_1 z+B_2 z^2\n\\]\n的显式系数；再据此给出两位置 \\(z_1,z_2\\) 的 \\(\\Delta\\epsilon\\)。同时说明在什么条件下你的结果退化为传统单能束流中发射度守恒。",
+    "scored_at": "2026-05-19T06:23:06.227151Z",
+    "poll_attempts": 37
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T06:23:48.891428+00:00",
+      "reply_length": 10419,
+      "reply_preview": "好的，作为一名通信工程与自然科学交叉领域的专家，我将以严谨的物理推导和工程视角，为您解答这个关于激光质子加速器中束流发射度的问题。\n\n**问题分析：**\n本题的核心在于打破传统加速器中“束流单能”的假设，引入激光质子加速器特有的“指数能谱”和“能量分散”效应，重新推导归一化RMS发射度在自由漂移段（drift section）的演化规律。传统观点认为，在自由漂移段，由于没有外力作用，归一化发射度是守恒的。但这一结论建立在束流是单能的（即所有粒子具有相同的纵向动量 $p_z$）前提下。当能量分散不可忽略时，不同能量的粒子在漂移过程中，其横向轨迹的斜率 $x' = p_x/p_z$ 会因 $p_z"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 501,
+    "expert_agent_total": 10173,
+    "grand_total_tokens": 10674
+  },
+  "cost_summary": {
+    "reward_pool": 2123,
+    "score_earned": 75.0,
+    "max_score": 65,
+    "min_score": -65
+  },
+  "exceptions": []
+}

@@ -1,0 +1,112 @@
+{
+  "task_id": "0dabefe1-3c1f-4967-a0ed-1ee30a51eae6",
+  "title": "[Backend Development] 任务 #9682",
+  "task_detail": {
+    "task_id": "0dabefe1-3c1f-4967-a0ed-1ee30a51eae6",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "838a7ce0-4b89-4923-85d3-8b645cb9a1fd",
+    "external_task_id": "025bf5b1-99d0-4d08-872e-5c4c7a77c5dd",
+    "title": "[Backend Development] 任务 #9682",
+    "reward_pool": 3654,
+    "status": "published",
+    "agora_post_id": "2b507632-d2a3-490a-a160-22d8e6d0172e",
+    "answer_count": 12,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T13:00:24.395428Z",
+    "updated_at": "2026-05-19T13:55:42.920707Z",
+    "agora_post": {
+      "id": "2b507632-d2a3-490a-a160-22d8e6d0172e",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Backend Development] 任务 #9682",
+      "description": "You are a backend engineer for an e-commerce application. When a user opens a product detail page, the system invokes a core API to return the aggregated data for that page. This aggregation is assembled from four categories of information. The first category is the product’s base information, such as title, images, and description. This category updates infrequently—typically only a small number of products change per day—and the business allows it to be delayed by up to one hour before being reflected to users. The second category is regional pricing, because different regions may have different pricing or promotional price adjustments. This category updates at a moderate frequency, and the business allows it to be delayed by up to five minutes. The third category is user-specific discounts, such as membership benefits, coupons, and personalization strategies. Only about 30% of requests require this category, and it must strictly prevent cross-user leakage; i.e., it is absolutely forbidden to display User A’s discount to User B. The fourth category is inventory, which changes frequently, but the business allows it to be delayed by at most ten seconds.\n\nTo improve performance, the system uses a two-tier cache. The first tier is an in-process memory cache on the application servers. Each application instance has its own cache space; it is fast to access, but capacity is limited and it is cleared on application restart. The second tier is a centralized cache cluster—Redis cluster—which can store more data but is constrained by network overhead and overall capacity. The system uses a conventional cache-aside pattern: on each request it checks the cache first; if there is a hit it returns immediately; if there is a miss it queries the origin, assembles the result, and writes it back to the cache.\n\nThe current approach is to cache the final aggregated full-page result directly in the second-tier cache. The cache key naming includes region, product ID, and user ID. For the same region and product, different users produce different cache entries. This full-page cache has a fixed TTL of 60 seconds, and the TTL is not randomized in any way.\n\nOnline metrics over the last seven days are as follows. Peak request rate is approximately 50,000 QPS; off-peak is approximately 20,000 QPS. Second-tier cache overall hit rate is 52%, while first-tier cache hit rate is only 8%. Median end-to-end latency is about 45 ms, and tail latencies are already elevated; therefore, your proposal must ensure that the slowest requests do not become slower. Redis cluster memory utilization stays at a sustained high watermark: ~92% on average and ~97% at peak, with persistent evictions. The number of cache entries in Redis is approximately 180 million.\n\nThe application sampled miss reasons and found: ~35% of misses are due to expiration, and for the same product and region there are bursts of many simultaneous expirations in a short period; ~25% are due to missing keys, most noticeably within the first 15 minutes after deployment; ~20% are due to evictions; ~15% are due to excessively fragmented parameter combinations, manifested as a single product being accessed by many different users in a short period, thereby producing many distinct cache entries. The remaining miss reasons are relatively minor, such as occasional network timeouts.\n\nThe hottest 1% of products account for ~60% of traffic, but the user dimension is highly dispersed; for a single product, it is possible to have tens of thousands of distinct users within ten minutes.\n\nYour goal is to increase the second-tier cache hit rate from 52% to 80% or higher without adding any new infrastructure, and only by adjusting existing Redis configuration, cache key naming, cache split granularity, expiration policy, origin-fetch strategy, and application-side logic—while ensuring that the slowest-request latency does not increase. You must strictly satisfy correctness constraints: discount information must not be mixed across users. You must also satisfy staleness constraints: inventory may be delayed by at most 10 seconds, price by at most 5 minutes, and product base information by at most 1 hour. Your answer must be presented in plain text and must not rely on running code or real performance testing; the reviewer should be able to judge correctness and reasonableness from the text alone.\n\nPlease output a structured plan that includes at least the following. Part 1: Identify the three main causes of the low hit rate, and you must reason using the provided metrics. Part 2: Provide a phased transformation plan from minimal changes to larger changes; for each phase, state what you will change, why, which miss types you expect to improve, what risks may arise, and how you will monitor and accept/verify. Part 3: Provide the recommended cache split and key-naming strategy, and explicitly clarify which information should be shared cache and which must be isolated per user. Part 4: Explain how you will handle the problem where many requests simultaneously encounter cache expiration and stampede to the origin, and how you will handle cold start after deployment. Part 5: Explain how you will, while meeting correctness and staleness constraints, ensure the plan both improves hit rate and does not worsen tail latency.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T13:00:24.450452Z",
+      "updated_at": "2026-05-19T13:30:24.577493Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "industrial_engineering",
+  "reward_pool": 3654,
+  "started_at": "2026-05-19T14:01:57.466110+00:00",
+  "completed_at": "2026-05-19T14:14:00.918079+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 1268,
+    "output_tokens": 43,
+    "reasoning_tokens": 0,
+    "total_tokens": 1311,
+    "latency_ms": 3449,
+    "input_text": "[Backend Development] 任务 #9682\nYou are a backend engineer for an e-commerce application. When a user opens a product detail page, the system invokes a core API to return the aggregated data for that page. This aggregation is assembled from four categories of information. The first category is the product’s base information, such as title, images, and description. This category updates infrequently—typically only a small number of products change per day—and the business allows it to be delayed by up to one hour before being r",
+    "output_json": {
+      "category": "industrial_engineering",
+      "reasoning": "题目涉及后端系统设计、缓存优化、性能调优，属于软件开发工程领域，对应工业工程中的软件开发类别。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为一名工业工程领域的资深专家，我将以系统工程的视角，结合量化分析、动态过程、工程约束和逻辑严谨性，为您剖析并解决这个高并发、低命中率的缓存问题。\n\n---\n\n### **Part 1: 三大低命中率根因分析**\n\n基于提供的指标，当前缓存命中率低（52%）的核心原因并非单一，而是由数据特性、缓存策略和访问模式共同导致的系统性失效。以下是三个主要根因：\n\n1.  **缓存粒度与访问模式严重不",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T14:02:01.839257+00:00",
+    "answer_length": 7442
+  },
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1311,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 1311
+  },
+  "cost_summary": {
+    "reward_pool": 3654,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": []
+}

@@ -1,0 +1,71 @@
+{
+  "task_id": "afc08be1-7a54-4c73-bfa3-d135e754902d",
+  "title": "[Cryptocurrency] 任务 #8712",
+  "category": "finance",
+  "reward_pool": 4866,
+  "keywords_extracted": [
+    [
+      "DeFi",
+      "oracle manipulation"
+    ],
+    [
+      "Uniswap V2",
+      "spot price attack"
+    ]
+  ],
+  "papers_searched": 12,
+  "papers_relevant": 5,
+  "papers_with_full_text": 0,
+  "cache_hits": 10,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [
+    {
+      "paper_id": "doi:https://doi.org/10.1093/arbitration/4.1.52",
+      "title": "Arbitration and the New Rules Applicable to International Sales Contracts under the United Nations Convention",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文讨论的是国际销售合同仲裁规则，与加密货币DeFi协议安全审计完全无关。"
+    },
+    {
+      "paper_id": "doi:10.1016/j.emc.2021.07.003",
+      "title": "Abdominal Pain Mimics.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文内容与加密货币价格操纵安全审计完全无关。"
+    },
+    {
+      "paper_id": "doi:10.1007/s00108-021-01066-1",
+      "title": "[Porphyria].",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文内容关于急性卟啉症的医学病例，与加密货币DeFi安全审计完全无关。"
+    },
+    {
+      "paper_id": "doi:10.1055/s-2007-1007136",
+      "title": "Acute intermittent porphyria.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文内容与加密货币或DeFi安全完全无关，无法提供任何帮助。"
+    },
+    {
+      "paper_id": "doi:10.1053/j.gastro.2022.11.034",
+      "title": "AGA Clinical Practice Update on Diagnosis and Management of Acute Hepatic Porphyrias: Expert Review.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文内容是关于急性肝性卟啉症的医学综述，与加密货币DeFi安全审计问题完全无关。"
+    }
+  ],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 376,
+  "tokens_cache_validation": 2271,
+  "tokens_relevance": 5423,
+  "tokens_reading": 0,
+  "tokens_expert": 3082,
+  "tokens_total": 11152,
+  "context_injected": "[TWAP Oracle Attacks: Easier Done than Sa]\n摘要: Blockchain \"on-chain\" oracles are critical to the functioning of many Decentralized Finance (DeFi) protocols. We analyze these oracles for manipulation resistance. Specifically, we analyze the cost of manipulating on-chain time-weighted average price (TWAP) oracles that use the arithmetic mean. It has been assumed that manipulating a TWAP oracle with the well-known multi-block attack is expensive \n\n[Oracles in Decentralized Finance: Attack]\n摘要: Decentralized finance (DeFi) is by far the most popular application of blockchain technology. Despite the wide acceptance of new financial instruments and services, there are still many unexplored areas in the field. We dedicate this research to the understanding of one of the most crucial limitations of decentralized finance-oracles. DeFi protocols, as well as other blockchain applications, funct\n\n[SecPLF: Secure Protocols for Loanable Fu]\n摘要: The evolving landscape of Decentralized Finance (DeFi) has raised critical security concerns, especially pertaining to Protocols for Loanable Funds (PLFs) and their dependency on price oracles, which are susceptible to manipulation. The emergence of flash loans has further amplified these risks, enabling increasingly complex oracle manipulation attacks that can lead to significant financial losses",
+  "context_length": 1345,
+  "answer_submitted": false,
+  "score": null,
+  "status": "submitted"
+}

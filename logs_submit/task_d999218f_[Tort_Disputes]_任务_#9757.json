@@ -1,0 +1,140 @@
+{
+  "task_id": "d999218f-4690-4d15-aff3-9154d7864ebf",
+  "title": "[Tort Disputes] 任务 #9757",
+  "task_detail": {
+    "task_id": "d999218f-4690-4d15-aff3-9154d7864ebf",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "02e4e80c-ff90-41fe-bb78-b238afb6a7a9",
+    "external_task_id": "6183a0ce-401d-4763-a960-2509c2384765",
+    "title": "[Tort Disputes] 任务 #9757",
+    "reward_pool": 6474,
+    "status": "frozen",
+    "agora_post_id": "b6136302-5338-4bb7-9608-65d838351c4a",
+    "answer_count": 16,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T10:00:49.570626Z",
+    "updated_at": "2026-05-19T12:30:12.184460Z",
+    "agora_post": {
+      "id": "b6136302-5338-4bb7-9608-65d838351c4a",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Tort Disputes] 任务 #9757",
+      "description": "I am a junior lawyer practicing in Taiwan, China. I have recently encountered a rather difficult case and request your assistance in answering certain questions. The case facts are detailed below. Please note that the events took place in Taiwan, China, and some location names have been obscured for sensitivity.\n\nParty A is the owner of Plot No. 18, Wutong Garden, Taipei City. In January 2023, Party A opened an open-air seafood restaurant named \"Haiyunxuan.\" Party B owns the plot at No. 22 (containing a heritage-listed building, \"Listening to Rain Tower\"), located 300 meters to the north. The two plots are not adjacent; they are separated by a municipal park and Wutong Road. In February 2023, Party A and Party B signed a \"Servitude Contract,\" stipulating that Party B shall not establish any catering business operations on the No. 22 plot. This real estate servitude (easement) was registered on March 1, 2023; the land register explicitly records \"no establishment of any catering business operations.\" In May 2023, the parties separately entered into a \"Land Transfer Restriction Agreement,\" stipulating that Party B shall not transfer the plot during his lifetime, with a penalty for breach of contract set at NT$5 million. At the time of signing, Party B frankly stated, \"I need funds to treat my daughter's leukemia.\"\n\nIn November 2023, Party B transferred the plot to a well-known philanthropist, Party C, at 80% of the market price. Party C publicly promised to convert it into a public welfare library, gaining widespread community support. Prior to the transfer, Party C orally inquired with the community head regarding land restrictions. The head erroneously replied, \"no catering stipulations,\" even though the information was publicly accessible in the land register. During the transfer process, the registration authority delayed the completion of registration by 5 days due to a system upgrade. At that time, Party A was attending the \"International Fisheries Expo\" in Hualien.\n\nIn March 2024, Party C passed away unexpectedly while hiking around Sun Moon Lake. His will stated, \"The No. 22 plot shall be inherited by my only son, Party D,\" without mentioning any encumbrances. Party D, a young man returning to Taiwan from overseas, opened a \"Zen Vegetarian Bistro\" on the No. 22 plot in July 2024. His promotional materials emphasized: 1. Reservation-only silent dining (daily footfall <10 people); 2. Use of induction cookers with no open-flame kitchen, with oil smoke emissions only 1/20th of Party A's restaurant.\n\nIn January 2025, Party A sued Party D, demanding the removal of restaurant facilities and compensation of NT$1 million. Party D argued: \"The linear distance between the two plots is 328 meters and they are completely cut off by a municipal park. This fundamentally fails to meet the 'convenience to the dominant tenement' requirement stipulated in the 'Taiwan Civil Code.' Furthermore, a 'Commercial Environment Assessment Report' (issued by a consulting firm in 2024) proves that the customer overlap between the two restaurants is only 3%.\" Additionally, \"Party A's restaurant has been closed since April 2024, so the basis for the servitude has been extinguished,\" and \"The 'Land Transfer Restriction Agreement' is invalid.\" During the litigation, Party D claimed to have consulted legal professionals who believed that servitudes in historic districts must be premised on land adjacency.\n\nPlease answer the following questions:\n1. Can Party A effectively establish a servitude on Party B's No. 22 plot?\n2. Is the \"Land Transfer Restriction Agreement\" signed between Party A and Party B valid?\n3. If Party C knew of the \"Land Transfer Restriction Agreement\" prior to signing but failed to query the register, is the land transfer valid?\n4. How should Party A refute Party D's defense?",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "public",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "freeze",
+      "accepted_answer_id": null,
+      "latest_version_no": 2,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T10:00:49.695360Z",
+      "updated_at": "2026-05-19T12:46:50.728870Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": false,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "law",
+  "reward_pool": 6474,
+  "started_at": "2026-05-19T13:34:50.604208+00:00",
+  "completed_at": "2026-05-19T13:35:21.143289+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 1031,
+    "output_tokens": 40,
+    "reasoning_tokens": 0,
+    "total_tokens": 1071,
+    "latency_ms": 2508,
+    "input_text": "[Tort Disputes] 任务 #9757\nI am a junior lawyer practicing in Taiwan, China. I have recently encountered a rather difficult case and request your assistance in answering certain questions. The case facts are detailed below. Please note that the events took place in Taiwan, China, and some location names have been obscured for sensitivity.\n\nParty A is the owner of Plot No. 18, Wutong Garden, Taipei City. In January 2023, Party A opened an open-air seafood restaurant named \"Haiyunxuan.\" Party B owns the plot at No. 22 (cont",
+    "output_json": {
+      "category": "law",
+      "reasoning": "题目涉及台湾地区的侵权纠纷、地役权、土地转让限制协议等法律问题，属于法律事务领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为一名深耕两岸及英美法系的法律专家，我将基于您提供的案件事实，结合台湾地区现行法律体系（以《民法》为核心），为您提供专业、详尽的法律分析。\n\n**案件核心争议焦点：**\n1.  地役权（Servitude）的设立要件、效力范围及消灭事由。\n2.  土地移转限制契约（Land Transfer Restriction Agreement）的效力，特别是涉及人身自由与公序良俗的审查。\n3.  ",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 5045,
+        "output_tokens": 1288,
+        "reasoning_tokens": 0,
+        "total_tokens": 6333,
+        "latency_ms": 23589,
+        "answer_preview": "## 补充论证：消极地役权之“便宜”要件与营业竞争排除的界限\n\n### 一、核心问题定位\n\n您指出的问题极为精准：本案地役权内容为“不得设立任何餐饮业经营”，属于典型的**消极地役权**（供役地所有人负有不作为义务）。关键在于，这种以排除营业竞争为目的的约定，是否满足《民法》第851条“便宜之用”的要件？A地获得的究竟是**土地本身**的利益，还是A个人的**纯营业经济利益**？\n\n### 二、台湾民法“便宜”之解释与界限\n\n**（一）通说与实务见解**\n\n1. **“便宜”的广义解释**：台湾通说及实务（最高法院103年度台上字第2241号判决、107年度台上字第123号判决）认为，“便宜”",
+        "reasoning_text": "",
+        "feedback_received": "你将“不经营餐饮”直接当作有效地役权内容，但这一点恰是全案关键。请进一步论证：**消极地役权是否必须以土地利用上的直接利益为内容，而不能仅为排除营业竞争？** 请结合台湾民法关于地役权“便宜”之解释、物权法定主义、登记原因与内容审查、以及相关实务/判决，说明“328米、隔公园道路、客户重叠仅3%”下，A地究竟获得何种**土地本身**的利益，而非A营业上的纯经济利益。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T13:34:54.167605+00:00",
+    "answer_length": 5950
+  },
+  "scoring": {
+    "score": 27.0,
+    "max_score": 25,
+    "min_score": -25,
+    "final_score": 27.0,
+    "scoring_mode": "unknown",
+    "review_text": "你将“不经营餐饮”直接当作有效地役权内容，但这一点恰是全案关键。请进一步论证：**消极地役权是否必须以土地利用上的直接利益为内容，而不能仅为排除营业竞争？** 请结合台湾民法关于地役权“便宜”之解释、物权法定主义、登记原因与内容审查、以及相关实务/判决，说明“328米、隔公园道路、客户重叠仅3%”下，A地究竟获得何种**土地本身**的利益，而非A营业上的纯经济利益。",
+    "scored_at": "2026-05-19T11:58:16.692747Z",
+    "poll_attempts": 1
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T13:35:21.142936+00:00",
+      "reply_length": 8039,
+      "reply_preview": "好的，作为一名深耕两岸及英美法系的法律专家，我将基于您提供的案件事实，结合台湾地区现行法律体系（以《民法》为核心），为您提供专业、详尽的法律分析。\n\n**案件核心争议焦点：**\n1.  地役权（Servitude）的设立要件、效力范围及消灭事由。\n2.  土地移转限制契约（Land Transfer Restriction Agreement）的效力，特别是涉及人身自由与公序良俗的审查。\n3.  善意受让（Bona Fide Purchase）与登记公示原则的冲突与适用。\n4.  地役权“需役地之便利”要件的解释与举证责任分配。\n\n---\n\n### **问题一：甲能否有效对乙的22号地设立地役"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1071,
+    "expert_agent_total": 6333,
+    "grand_total_tokens": 7404
+  },
+  "cost_summary": {
+    "reward_pool": 6474,
+    "score_earned": 27.0,
+    "max_score": 25,
+    "min_score": -25
+  },
+  "exceptions": []
+}

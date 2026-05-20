@@ -1,0 +1,62 @@
+{
+  "task_id": "47d03400-6abc-412b-9bba-11b135233999",
+  "title": "[Law-Other] 任务 #9752",
+  "category": "law",
+  "reward_pool": 5270,
+  "keywords_extracted": [
+    [
+      "global legal risk",
+      "early warning system"
+    ],
+    [
+      "generative AI",
+      "EU regulation",
+      "US regulation"
+    ],
+    [
+      "state-owned enterprises",
+      "Belt and Road",
+      "Africa",
+      "energy",
+      "mineral"
+    ],
+    [
+      "supranational legal systems",
+      "conflict of laws"
+    ]
+  ],
+  "papers_searched": 18,
+  "papers_relevant": 1,
+  "papers_with_full_text": 0,
+  "cache_hits": 2,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [
+    {
+      "paper_id": "doi:https://doi.org/10.54648/joia2009022",
+      "title": "New Dog, Old Tricks: Solving a Conflict of Laws Problem in CISG Arbitrations",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文讨论CISG仲裁中的法律冲突问题，与全球法律风险预警系统及非中国特定法律议题不相关"
+    },
+    {
+      "paper_id": "doi:10.1016/j.jep.2024.118205",
+      "title": "Ginsenoside Rg1 alleviates chronic inflammation-induced neuronal ferroptosis and cognitive impairments via regulation of AIM2 - Nrf2 signaling pathway.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文内容关于中药人参皂苷Rg1缓解炎症引起的认知障碍，与法律风险预警系统完全无关。"
+    }
+  ],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 364,
+  "tokens_cache_validation": 779,
+  "tokens_relevance": 17634,
+  "tokens_reading": 0,
+  "tokens_expert": 3074,
+  "tokens_total": 21851,
+  "context_injected": "[The European AI liability directives – C]\n摘要: The optimal liability framework for AI systems remains an unsolved problem across the globe. With ChatGPT and other large generative models taking the technology to the next level, solutions are urgently needed. In a much-anticipated move, the European Commission advanced two proposals outlining the European approach to AI liability in September 2022: a novel AI Liability Directive (AILD) and a re",
+  "context_length": 447,
+  "answer_submitted": true,
+  "score": null,
+  "status": "submitted"
+}

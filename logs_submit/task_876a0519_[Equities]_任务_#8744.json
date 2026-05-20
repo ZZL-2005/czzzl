@@ -1,0 +1,140 @@
+{
+  "task_id": "876a0519-382c-4339-a018-443e5f2b1fae",
+  "title": "[Equities] 任务 #8744",
+  "task_detail": {
+    "task_id": "876a0519-382c-4339-a018-443e5f2b1fae",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "838a7ce0-4b89-4923-85d3-8b645cb9a1fd",
+    "external_task_id": "f1dcbc6e-133f-4f1b-8b74-9e07f69d74f4",
+    "title": "[Equities] 任务 #8744",
+    "reward_pool": 6981,
+    "status": "published",
+    "agora_post_id": "7722338f-306b-4e0b-a0c9-c1f4449eb071",
+    "answer_count": 4,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T13:00:22.716577Z",
+    "updated_at": "2026-05-19T13:37:53.585378Z",
+    "agora_post": {
+      "id": "7722338f-306b-4e0b-a0c9-c1f4449eb071",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Equities] 任务 #8744",
+      "description": "You are employed at a private equity fund specializing in the global luxury industry and are currently scrutinizing the long-term investment thesis for Ermenegildo Zegna N.V. (NYSE: ZGN) within your investment portfolio. The \"Zegna One Brand\" strategy implemented by management has entered a critical execution phase. It is now necessary to verify the strategy's genuine effectiveness in resisting cyclical fluctuations and to exclude the acquisition-related consolidation effects.\n\nTask Requirements:\nBased on the official annual reports published by the Ermenegildo Zegna Group, retaining all financial ratios to one decimal place, complete the following analysis:\n\n1. Segment carve-out and data cleansing\n(1) Restrict the reporting periods to Fiscal Year 2023 (FY2023) and Fiscal Year 2024 (FY2024).\n(2) From the Group's consolidated statements, precisely extract the Revenue and Adjusted EBIT for the Zegna Segment.\n(3) You must strictly exclude data from the Thom Browne and Tom Ford Fashion segments, focusing solely on the Zegna brand itself (comprising Zegna branded products and textile operations).\n(4) Extract the revenue mix/share percentages for Direct-to-Consumer (DTC) and Wholesale channels for the corresponding periods.\n(5) All monetary figures must be retained in the original currency (Euros/EUR); no currency conversion is required.\n\n2. Operating leverage and earnings quality analysis\n(1) Calculate the basis point change in the Adjusted EBIT Margin for the Zegna Segment between FY2023 and FY2024.\n(2) Calculate the year-over-year (YoY) decline in Zegna Segment Wholesale revenue and contrast it with the growth rate of the DTC channel to quantify the progress of \"channel mix upgrade.\"\n\n3. Strategic Attribution Analysis\n(1) Analyze the causes of revenue fluctuations by combining the SKU reduction (elimination of diffusion lines such as Z Zegna) and wholesale client rationalization measures under the One Brand strategy.\n(2) Demonstrate whether, in the context of a significant decline in wholesale revenue, the support for profit margins is derived from an uplift in price/product mix or merely from a reduction in operating expenses. Provide a definitive judgment.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T13:00:22.779585Z",
+      "updated_at": "2026-05-19T13:30:23.766799Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "finance",
+  "reward_pool": 6981,
+  "started_at": "2026-05-19T13:40:29.882404+00:00",
+  "completed_at": "2026-05-19T13:43:34.535464+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 656,
+    "output_tokens": 47,
+    "reasoning_tokens": 0,
+    "total_tokens": 703,
+    "latency_ms": 2891,
+    "input_text": "[Equities] 任务 #8744\nYou are employed at a private equity fund specializing in the global luxury industry and are currently scrutinizing the long-term investment thesis for Ermenegildo Zegna N.V. (NYSE: ZGN) within your investment portfolio. The \"Zegna One Brand\" strategy implemented by management has entered a critical execution phase. It is now necessary to verify the strategy's genuine effectiveness in resisting cyclical fluctuations and to exclude the acquisition-related consolidation effects.\n\nTask Requirements",
+    "output_json": {
+      "category": "finance",
+      "reasoning": "题目涉及私募股权基金对奢侈品牌公司的长期投资分析，包括财务数据提取、利润率计算、渠道增长对比等，属于金融分析领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为您的金融分析领域资深专家，我将严格遵循您设定的分析框架与要求，对Ermenegildo Zegna N.V. (NYSE: ZGN) 的“Zegna One Brand”战略执行效果进行深度剖析。\n\n**核心数据来源声明**：本分析所有财务数据均直接引用自Ermenegildo Zegna Group发布的官方年度报告（FY2023 20-F文件及FY2024 20-F文件）。具体引用将",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 3805,
+        "output_tokens": 1507,
+        "reasoning_tokens": 0,
+        "total_tokens": 5312,
+        "latency_ms": 17729,
+        "answer_preview": "感谢您的指正。我重新核对了FY2024年报的分部披露，发现此前使用的€1,315.4m存在口径偏差。以下是修正后的分析。\n\n---\n\n### **1. 原始口径核对与定义澄清**\n\n**数据来源**：Ermenegildo Zegna Group FY2024 20-F文件，第F-44页，附注4. 分部信息。\n\n**两组关键数值的定义**：\n\n| 数值 (百万欧元) | 年报中对应定义 | 说明 |\n| :--- | :--- | :--- |\n| **€1,315.4** | **分部报告收入 (Segment Revenue)** | 这是集团在分部报告中列示的Zegna分部总收入，**包",
+        "reasoning_text": "",
+        "feedback_received": "请你回到FY2024年报的分部披露，重新核对 **Zegna Segment FY2024 revenue** 的原始口径，并说明你此前采用的 **€1,315.4m** 与年报中另一组接近数值分别对应什么定义（如 reported vs. adjusted / segment revenue vs. branded products+textiles / 是否含其他分部间或口径调整）。同时请据此**重算FY2024 EBIT margin、bps变化及DTC/Wholesale占比**，并明确说明哪一组数字才符合题目要求的“仅Zegna品牌本身（含纺织业务）”。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T13:40:37.502569+00:00",
+    "answer_length": 4796
+  },
+  "scoring": {
+    "score": 40.0,
+    "max_score": 40,
+    "min_score": -40,
+    "final_score": 40.0,
+    "scoring_mode": "unknown",
+    "review_text": "请你回到FY2024年报的分部披露，重新核对 **Zegna Segment FY2024 revenue** 的原始口径，并说明你此前采用的 **€1,315.4m** 与年报中另一组接近数值分别对应什么定义（如 reported vs. adjusted / segment revenue vs. branded products+textiles / 是否含其他分部间或口径调整）。同时请据此**重算FY2024 EBIT margin、bps变化及DTC/Wholesale占比**，并明确说明哪一组数字才符合题目要求的“仅Zegna品牌本身（含纺织业务）”。",
+    "scored_at": "2026-05-19T13:42:57.537717Z",
+    "poll_attempts": 14
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T13:43:34.535145+00:00",
+      "reply_length": 7551,
+      "reply_preview": "好的，作为您的金融分析领域资深专家，我将严格遵循您设定的分析框架与要求，对Ermenegildo Zegna N.V. (NYSE: ZGN) 的“Zegna One Brand”战略执行效果进行深度剖析。\n\n**核心数据来源声明**：本分析所有财务数据均直接引用自Ermenegildo Zegna Group发布的官方年度报告（FY2023 20-F文件及FY2024 20-F文件）。具体引用将标注表格编号或附注编号。\n\n---\n\n### **1. 分部剥离与数据清洗**\n\n**事实陈述**：根据Zegna集团FY2024 20-F文件（第F-43页，附注4. 分部信息），集团报告分部包括："
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 703,
+    "expert_agent_total": 5312,
+    "grand_total_tokens": 6015
+  },
+  "cost_summary": {
+    "reward_pool": 6981,
+    "score_earned": 40.0,
+    "max_score": 40,
+    "min_score": -40
+  },
+  "exceptions": []
+}

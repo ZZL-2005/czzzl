@@ -1,0 +1,95 @@
+{
+  "task_id": "2ea8275b-dfda-4e56-970b-a15b6376875e",
+  "title": "[Telecommunications] 任务 #1650",
+  "category": "natural_science",
+  "reward_pool": 3479,
+  "keywords_extracted": [
+    [
+      "HetNet",
+      "interference management"
+    ],
+    [
+      "LTE Band 7",
+      "NR Band n78"
+    ],
+    [
+      "ICIC",
+      "eICIC"
+    ],
+    [
+      "CoMP",
+      "TPC"
+    ],
+    [
+      "Rate Matching",
+      "Beamforming"
+    ],
+    [
+      "X2",
+      "Xn interface"
+    ],
+    [
+      "SCG",
+      "MCG"
+    ],
+    [
+      "urban hotspot",
+      "downlink interference"
+    ]
+  ],
+  "papers_searched": 18,
+  "papers_relevant": 2,
+  "papers_with_full_text": 0,
+  "cache_hits": 10,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [
+    {
+      "paper_id": "doi:10.1186/s12876-025-03993-x",
+      "title": "Diagnosis model for gastric submucosal tumor based on multiple decision trees comprising endoscopic and endoscopic ultrasonography features.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文内容关于胃黏膜下肿瘤诊断，与电信网络干扰管理完全无关。"
+    },
+    {
+      "paper_id": "doi:10.5935/1518-0557.20190067",
+      "title": "Recurrent Spontaneous Abortion (RSA) and Maternal KIR Genes: A Comprehensive Meta-Analysis.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文内容关于复发性流产与KIR基因，与电信网络干扰管理完全无关。"
+    },
+    {
+      "paper_id": "doi:https://doi.org/10.1016/j.jbc.2023.105215",
+      "title": "SUMOylation of the ubiquitin ligase component KEAP1 at K39 upregulates NRF2 and its target function in lung cancer cell proliferation",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文内容关于KEAP1 SUMOylation与肺癌细胞增殖，与电信网络干扰管理完全无关。"
+    },
+    {
+      "paper_id": "doi:10.1016/j.cpcardiol.2024.102521",
+      "title": "A multidisciplinary approach of a patient with pheochromocytoma presenting as recurrent acute fulminant myocarditis: A rare case report and comprehensive review of literature.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文内容关于嗜铬细胞瘤导致的心肌炎，与电信网络干扰管理完全无关。"
+    },
+    {
+      "paper_id": "doi:https://doi.org/10.1163/ej.9781571051585.i-334.24",
+      "title": "Chapter III. International Criminal Law Defenses Originating From Comparative Criminal Law",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文内容关于国际刑法中的自卫辩护，与电信网络干扰管理完全无关。"
+    }
+  ],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 442,
+  "tokens_cache_validation": 2116,
+  "tokens_relevance": 6196,
+  "tokens_reading": 0,
+  "tokens_expert": 3341,
+  "tokens_total": 12095,
+  "context_injected": "[Scalable HetNet interference management ]\n摘要: Interference management is important in wireless cellular networks such as long-term evolution (LTE) and LTE-A, where orthogonal frequency division multiple access (OFDMA), dense frequency reuse and heterogeneous cell sizes and capabilities provide great performance at the cost of increased network complexity. The layered structures of emerging cellular networks and their dynamic environments limi\n\n[Interference Management in 5G and Beyond]\n摘要: In the modern technological world, wireless communication has taken a massive leap from the conventional communication system to a new radio communication network. The novel concept of Fifth Generation (5G) cellular networks brings a combination of a diversified set of devices and machines with great improvement in a unique way compared to previous technologies. To broaden the user’s experience, 5",
+  "context_length": 896,
+  "answer_submitted": false,
+  "score": null,
+  "status": "submitted"
+}

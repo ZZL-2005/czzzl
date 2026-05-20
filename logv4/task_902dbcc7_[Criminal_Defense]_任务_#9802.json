@@ -1,0 +1,39 @@
+{
+  "task_id": "902dbcc7-6c4c-4536-8e97-c517050896be",
+  "title": "[Criminal Defense] 任务 #9802",
+  "category": "law",
+  "reward_pool": 5448,
+  "keywords_extracted": [
+    [
+      "Criminal Defense",
+      "International Criminal Law"
+    ],
+    [
+      "Social Media",
+      "Genocide"
+    ],
+    [
+      "Corporate Liability",
+      "Human Rights"
+    ]
+  ],
+  "papers_searched": 18,
+  "papers_relevant": 3,
+  "papers_with_full_text": 0,
+  "cache_hits": 0,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 337,
+  "tokens_cache_validation": 0,
+  "tokens_relevance": 5117,
+  "tokens_reading": 0,
+  "tokens_expert": 4135,
+  "tokens_total": 9589,
+  "context_injected": "[Defenses in Contemporary International C]\n摘要: The Second Edition of Defenses in Contemporary International Criminal Law ventures farther into this uneasy territory than any previous work, offering a meticulous analysis of the case law in the post World War II Military Tribunals and the ad hoc tribunals for Rwanda and the Former Yugoslavia, with particular attention to the defenses developed, their rationales, and their origins in various muni\n\n[Defense Perspectives on Law and Politics]\n摘要: As international criminal trials become more prominent, a fundamental question persists about their purposes: Are the goals of international criminal trials primarily legal, similar to the objectives of domestic trials, or are they primarily political, such as helping communities heal and compiling an accurate record of the past? Courts and commentators often acknowledge both legal and political p\n\n[Chapter III. International Criminal Law ]\n摘要: In substance, all domestic laws in both civil and common law systems governing the law of crimes provide for an exclusion of criminal responsibility of individuals in the event of self-defense. This chapter examines two defenses that are in fact special exponents of the defenses of duress and self-defense, namely the defenses of necessity and of crime. The defense of consent to sexual assault is r",
+  "context_length": 1345,
+  "answer_submitted": true,
+  "score": null,
+  "status": "submitted"
+}

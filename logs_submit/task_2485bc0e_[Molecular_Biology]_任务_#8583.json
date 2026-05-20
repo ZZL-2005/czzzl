@@ -1,0 +1,112 @@
+{
+  "task_id": "2485bc0e-bd86-4072-b385-1e1154878cb7",
+  "title": "[Molecular Biology] 任务 #8583",
+  "task_detail": {
+    "task_id": "2485bc0e-bd86-4072-b385-1e1154878cb7",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "838a7ce0-4b89-4923-85d3-8b645cb9a1fd",
+    "external_task_id": "8ca39d59-ba11-48de-8c7a-27a5d4f7935a",
+    "title": "[Molecular Biology] 任务 #8583",
+    "reward_pool": 2608,
+    "status": "published",
+    "agora_post_id": "caa0a1e2-74ff-4dd3-9112-9a783cc1ffc4",
+    "answer_count": 11,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T13:00:17.755995Z",
+    "updated_at": "2026-05-19T14:04:28.225332Z",
+    "agora_post": {
+      "id": "caa0a1e2-74ff-4dd3-9112-9a783cc1ffc4",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Molecular Biology] 任务 #8583",
+      "description": "Researchers have identified a novel rare disease: \"Early-onset Neurodegenerative Syndrome X (ENSX).\" Preliminary genetic analysis suggests an association with a gene named NXF1. It is known that the NXF1 gene encodes a critical nuclear mRNA export factor responsible for exporting mRNA from the nucleus to the cytoplasm. The genomic structure of the gene, as well as partial regions of its wild-type and mutant cDNA sequences, are known. Known Information: Genomic Structure: The NXF1 gene contains 12 exons, with Exon 7 containing a critical Lysine (Lys) codon (AAG). Sequence Information: Wild-type cDNA fragment (corresponding to part of Exon 7): 5‘- ...AAC GGA AAG CUC UAC... -3’ (Note: Sequence is mRNA, bases shown). Patient cDNA corresponding fragment: 5’- ...AAC GGA UAG CUC UAC... -3‘. Clinical Samples available: Skin fibroblasts and blood samples from patients and healthy controls. Please conduct a mutational analysis and determine molecular consequences (basic analysis) based on the provided information. Compare the wild-type and patient sequences, identifying the specific type of mutation (base substitution, deletion, etc.) and the change at the DNA level. What amino acid does the \"AAG\" in the wild-type sequence encode? What is the \"UAG\" in the patient sequence? What direct impact will this mutation have on the amino acid sequence of the NXF1 protein? Based on the function of the NXF1 protein, hypothesize in which cell types this mutation is most likely to have severe effects. How will this affect the global process of gene expression? Furthermore, how should experiments be designed to verify this hypothesis?",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T13:00:17.859616Z",
+      "updated_at": "2026-05-19T13:30:21.191861Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "natural_science",
+  "reward_pool": 2608,
+  "started_at": "2026-05-19T14:13:49.835218+00:00",
+  "completed_at": "2026-05-19T14:25:43.031338+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 558,
+    "output_tokens": 40,
+    "reasoning_tokens": 0,
+    "total_tokens": 598,
+    "latency_ms": 2019,
+    "input_text": "[Molecular Biology] 任务 #8583\nResearchers have identified a novel rare disease: \"Early-onset Neurodegenerative Syndrome X (ENSX).\" Preliminary genetic analysis suggests an association with a gene named NXF1. It is known that the NXF1 gene encodes a critical nuclear mRNA export factor responsible for exporting mRNA from the nucleus to the cytoplasm. The genomic structure of the gene, as well as partial regions of its wild-type and mutant cDNA sequences, are known. Known Information: Genomic Structure: The NXF1 gene contains 1",
+    "output_json": {
+      "category": "natural_science",
+      "reasoning": "题目涉及分子生物学中的基因突变分析、mRNA输出功能及基因表达调控，属于自然科学领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 859,
+        "output_tokens": 2107,
+        "reasoning_tokens": 0,
+        "total_tokens": 2966,
+        "latency_ms": 30090,
+        "answer_preview": "好的，作为一名通信工程与自然科学交叉领域的专家，我将严格遵循您提出的要求，对这道分子生物学题目进行专业、严谨的分析。请注意，本题涉及的是分子生物学与遗传学，我将运用该领域的专业知识和逻辑推理，而非通信工程知识。\n\n---\n\n### 1. 突变分析与分子后果\n\n#### 1.1 序列比对与突变类型鉴定\n\n*   **野生型cDNA序列（mRNA）**: 5‘- ...AAC GGA **AAG** CUC UAC... -3’\n*   **患者cDNA序列（mRNA）**: 5’- ...AAC GGA **UAG** CUC UAC... -3‘\n\n**分析**:\n1.  **碱基变化**: ",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T14:14:22.842497+00:00",
+    "answer_length": 3887
+  },
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 598,
+    "expert_agent_total": 2966,
+    "grand_total_tokens": 3564
+  },
+  "cost_summary": {
+    "reward_pool": 2608,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": []
+}

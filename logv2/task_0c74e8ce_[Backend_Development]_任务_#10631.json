@@ -1,0 +1,119 @@
+{
+  "task_id": "0c74e8ce-4fa3-473b-b72b-662c2b3fe22b",
+  "title": "[Backend Development] 任务 #10631",
+  "task_detail": {
+    "task_id": "0c74e8ce-4fa3-473b-b72b-662c2b3fe22b",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "2151de24-991b-45ff-bce7-64e7ac47fce2",
+    "external_task_id": "deabcd1e-64ae-4659-82ac-646b517cdfc2",
+    "title": "[Backend Development] 任务 #10631",
+    "reward_pool": 3273,
+    "status": "frozen",
+    "agora_post_id": "d3688a3d-bb40-4b01-baf2-12d291e3b94f",
+    "answer_count": 14,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T01:00:25.417165Z",
+    "updated_at": "2026-05-19T03:30:33.872151Z",
+    "agora_post": {
+      "id": "d3688a3d-bb40-4b01-baf2-12d291e3b94f",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Backend Development] 任务 #10631",
+      "description": "Given a non-empty integer array `nums`, where each element can be any integer, and the array may contain one or multiple elements, fully decompose and regroup every digit of every number in the array, and concatenate them to form the smallest possible integer, subject to all the following rules:\n\n[1] Every digit of every number in the array must be used exactly once—no more and no less. For example, -123 is decomposed into [-1, 2, 3], 0 is decomposed into [0], and 44 is decomposed into [4, 4].\n\n[2] For the decomposition of each number, the negative sign of a negative number can only be placed immediately before the most significant digit. For example, -78 can only be decomposed into [-7, 8].\n\n[3] The concatenated integer must not have a leading zero. For example, the result cannot be 012. If all digits are 0, the final result is 0.\n\n[4] The concatenated integer must be valid. If it cannot be formed according to the requirements, return the reason directly. What constitutes an impossible case is left for you to determine.\n\nIf it can be formed, return the smallest integer found as a string.\n\nNote: Optimize for the best possible complexity.\n\nRequirements:\nFirst, describe your approach in natural language, covering all cases, and provide the time and space complexity.\nThen, provide a Python code example that follows coding conventions and uses paragraph comments only.\nFinally, provide test cases that fully cover all types of scenarios.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "public",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "freeze",
+      "accepted_answer_id": null,
+      "latest_version_no": 2,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T01:00:25.482104Z",
+      "updated_at": "2026-05-19T03:50:52.751325Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": false,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "industrial_engineering",
+  "reward_pool": 3273,
+  "started_at": "2026-05-19T05:05:25.203730+00:00",
+  "completed_at": "2026-05-19T05:07:15.319227+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 519,
+    "output_tokens": 45,
+    "reasoning_tokens": 0,
+    "total_tokens": 564,
+    "latency_ms": 2730,
+    "input_text": "[Backend Development] 任务 #10631\nGiven a non-empty integer array `nums`, where each element can be any integer, and the array may contain one or multiple elements, fully decompose and regroup every digit of every number in the array, and concatenate them to form the smallest possible integer, subject to all the following rules:\n\n[1] Every digit of every number in the array must be used exactly once—no more and no less. For example, -123 is decomposed into [-1, 2, 3], 0 is decomposed into [0], and 44 is decomposed into [4, 4].\n\n",
+    "output_json": {
+      "category": "industrial_engineering",
+      "reasoning": "题目涉及数组处理、数字分解和排序算法，属于软件开发中的算法与数据结构问题，归类于工业工程中的软件开发领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 524,
+        "output_tokens": 9203,
+        "reasoning_tokens": 0,
+        "total_tokens": 9727,
+        "latency_ms": 102054,
+        "answer_preview": "好的，作为一名工业工程领域的资深专家，我将从系统化、工程化的角度，结合软件后端开发的最佳实践，对这个问题进行严谨的分析和设计。我们将遵循“分析-设计-实现-验证”的工程流程。\n\n### 1. 问题分析与方案设计\n\n#### 1.1 核心问题抽象\n\n这个问题本质上是一个**带约束的、有符号数字符串的最小排列问题**。它要求我们将一个整数数组中的所有数字（包括符号）拆解成独立的“数字单元”，然后对这些单元进行排序和拼接，以形成一个最小的整数。\n\n**关键约束与挑战：**\n1.  **符号处理**：负号只能与最高位数字绑定（如 `-78` -> `[-7, 8]`），这引入了“负数字单元”的概念。负",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": null,
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 564,
+    "expert_agent_total": 9727,
+    "grand_total_tokens": 10291
+  },
+  "cost_summary": {
+    "reward_pool": 3273,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T05:07:15.319050+00:00",
+      "type": "RuntimeError",
+      "message": "CLI failed (exit 1): b-ilm2/project/26summer-camp-05/26210058/.conda/envs/zzl/lib/python3.10/site-packages/httpx/_models.py\", line 829, in raise_for_status\n    raise HTTPStatusError(message, request=request, response=self)\nhttpx.HTTPStatusError: Client error '409 Conflict' for url 'https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/0c74e8ce-4fa3-473b-b72b-662c2b3fe22b/answers'\nFor more information check: https://developer.mozilla.org/en-US/doc",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "task_id": "aa1e9bcf-a1df-465c-a955-16067f2f4d11",
+  "title": "[Criminal Defense] 任务 #11231",
+  "task_detail": {
+    "task_id": "aa1e9bcf-a1df-465c-a955-16067f2f4d11",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "2151de24-991b-45ff-bce7-64e7ac47fce2",
+    "external_task_id": "dbbd68e9-9a20-42ff-ba8a-87218345f1cc",
+    "title": "[Criminal Defense] 任务 #11231",
+    "reward_pool": 6359,
+    "status": "frozen",
+    "agora_post_id": "6182f779-0851-4cb5-9ed9-6c6eef2a3ac8",
+    "answer_count": 15,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T01:00:31.811024Z",
+    "updated_at": "2026-05-19T03:30:29.919364Z",
+    "agora_post": {
+      "id": "6182f779-0851-4cb5-9ed9-6c6eef2a3ac8",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Criminal Defense] 任务 #11231",
+      "description": "P and Q were acquaintances. Late one night, the two gathered with other friends at a tavern. Around 1:00 AM, Q persuaded P to engage in a motorcycle race on the public roads near the village using their respective motorcycles. Since Q was riding a light motorcycle, he enjoyed a starting advantage in the first round. When they reached a point 5.08 meters from the destination, P, riding a heavy motorcycle, successfully caught up with Q. In order to prevent being overtaken, Q drove in a weaving manner, but P still successfully completed the overtaking maneuver.\nAround 2:00 AM, the two commenced another race, with Q granted a greater starting advantage in this round. When they reached a point 300 meters from the destination, P again approached Q's motorcycle, and Q again obstructed the overtaking by driving in a weaving manner. After continuing for 5.08 meters, Q ceased the weaving driving and proceeded straight towards the destination along the right side of the road at a speed of 50 km/h; P immediately increased speed in preparation to overtake. When P initiated the overtaking maneuver at a distance of 1.016 meters from the destination, Q suddenly steered his motorcycle to the left. P attempted to complete the overtaking along the outermost side of the road; at this moment, Q's vehicle was only 0.0254 meters from the curbstone on the left side of the road. Subsequently, P's motorcycle collided with the curbstone and overturned. Although there was no direct collision with Q, Q's motorcycle also overturned as a result, leading to Q sustaining severe injuries. Around 14:00 the following day, Q died in the hospital due to the severity of the injuries. Post-incident examination revealed that the alcohol concentration in Q's blood had reached 1.5% at the time of the incident.\nDoes the conduct of the victim Q, who actively proposed and participated in the public road race, constitute self-responsible self-endangerment, and can it exclude the objective attribution of the result to P?\nDid P's conduct of participating in the race and attempting to overtake violate the duty of care, and does his conduct satisfy the elements of the offense of negligent homicide under Section 222 of the German Criminal Code?",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "public",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "freeze",
+      "accepted_answer_id": null,
+      "latest_version_no": 2,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T01:00:31.883105Z",
+      "updated_at": "2026-05-19T03:49:35.348734Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": false,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "law",
+  "reward_pool": 6359,
+  "started_at": "2026-05-19T05:04:36.776649+00:00",
+  "completed_at": "2026-05-19T05:05:02.080142+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 668,
+    "output_tokens": 38,
+    "reasoning_tokens": 0,
+    "total_tokens": 706,
+    "latency_ms": 2429,
+    "input_text": "[Criminal Defense] 任务 #11231\nP and Q were acquaintances. Late one night, the two gathered with other friends at a tavern. Around 1:00 AM, Q persuaded P to engage in a motorcycle race on the public roads near the village using their respective motorcycles. Since Q was riding a light motorcycle, he enjoyed a starting advantage in the first round. When they reached a point 5.08 meters from the destination, P, riding a heavy motorcycle, successfully caught up with Q. In order to prevent being overtaken, Q drove in a weaving man",
+    "output_json": {
+      "category": "law",
+      "reasoning": "题目涉及刑事辩护，具体分析公共道路赛车中的过失杀人罪构成要件，属于法律事务领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为一名精通多法域的法律专家，我将基于您提供的案情，结合德国刑法理论（特别是客观归责理论）与《德国刑法典》（StGB）的相关规定，对您提出的两个核心问题进行深入、专业的分析。\n\n**核心结论摘要：**\n\n1.  **关于被害人Q的自陷风险与客观归责排除：** 被害人Q主动提议并参与公共道路竞速，其行为构成“自我答责的自我危害行为”（eigenverantwortliche Selbstgef",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 3462,
+        "output_tokens": 1097,
+        "reasoning_tokens": 0,
+        "total_tokens": 4559,
+        "latency_ms": 16264,
+        "answer_preview": "感谢您的指正。我之前回答中关于“中国毒品持有案件”的分析是完全错误的，与本题德国刑法语境下的公路飙车致死案毫无关联，对此深表歉意。现根据题干事实，严格围绕您提出的两个核心问题，进行精准修正与补充。\n\n---\n\n### 修正与补充回答\n\n#### 问题一：Q的行为是否构成“自我负责的自我危险化”，从而影响对P结果的客观归责？\n\n**修正结论：** **是的，Q的行为构成“自我负责的自我危险化”，原则上可以排除将Q的死亡结果客观归责于P。**\n\n**论证补充：**\n\n1.  **Q的主动提议与自愿参与：** 题干明确“Q persuaded P to engage in a motorcycle ",
+        "reasoning_text": "",
+        "feedback_received": "你的回答明显偏离题目：本题适用的是德国刑法语境下P、Q在公路飙车致死案，而你分析成了中国毒品持有案件。请你基于题干事实，重写并集中回答两点：1）Q主动提议并参与竞速、反复蛇行阻止超车、醉酒状态等，是否构成“自我负责的自我危险化”，从而影响对P结果的客观归责；2）即便不排除归责，也请明确依德国刑法第222条，P参加竞速及超车行为是否违反注意义务、该违反与Q死亡之间是否具有可归责联系，并最终明确表态：P是否成立过失致死。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T05:04:40.343224+00:00",
+    "answer_length": 4545
+  },
+  "scoring": {
+    "score": 30.0,
+    "max_score": 20,
+    "min_score": -20,
+    "final_score": 30.0,
+    "scoring_mode": "unknown",
+    "review_text": "你的回答明显偏离题目：本题适用的是德国刑法语境下P、Q在公路飙车致死案，而你分析成了中国毒品持有案件。请你基于题干事实，重写并集中回答两点：1）Q主动提议并参与竞速、反复蛇行阻止超车、醉酒状态等，是否构成“自我负责的自我危险化”，从而影响对P结果的客观归责；2）即便不排除归责，也请明确依德国刑法第222条，P参加竞速及超车行为是否违反注意义务、该违反与Q死亡之间是否具有可归责联系，并最终明确表态：P是否成立过失致死。",
+    "scored_at": "2026-05-19T04:33:28.725659Z",
+    "poll_attempts": 1
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T05:05:02.079603+00:00",
+      "reply_length": 6483,
+      "reply_preview": "好的，作为一名精通多法域的法律专家，我将基于您提供的案情，结合德国刑法理论（特别是客观归责理论）与《德国刑法典》（StGB）的相关规定，对您提出的两个核心问题进行深入、专业的分析。\n\n**核心结论摘要：**\n\n1.  **关于被害人Q的自陷风险与客观归责排除：** 被害人Q主动提议并参与公共道路竞速，其行为构成“自我答责的自我危害行为”（eigenverantwortliche Selbstgefährdung）。根据德国刑法通说，当被害人自愿且有能力认识到风险并决定实施危险行为时，该风险应由被害人自行承担，从而排除将结果（Q的死亡）客观归责于行为人P。因此，Q的行为原则上可以排除P对死亡结果"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 706,
+    "expert_agent_total": 4559,
+    "grand_total_tokens": 5265
+  },
+  "cost_summary": {
+    "reward_pool": 6359,
+    "score_earned": 30.0,
+    "max_score": 20,
+    "min_score": -20
+  },
+  "exceptions": []
+}

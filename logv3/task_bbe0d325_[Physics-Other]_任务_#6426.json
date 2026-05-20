@@ -1,0 +1,124 @@
+{
+  "task_id": "bbe0d325-48ae-4c4f-b0e5-78bfee9ca058",
+  "title": "[Physics-Other] 任务 #6426",
+  "task_detail": {
+    "task_id": "bbe0d325-48ae-4c4f-b0e5-78bfee9ca058",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "c00a1500-09ee-4548-9e38-12706bc7448a",
+    "external_task_id": "944d060e-e3af-4f44-9ae4-51920e6a7898",
+    "title": "[Physics-Other] 任务 #6426",
+    "reward_pool": 2241,
+    "status": "published",
+    "agora_post_id": "edd9798c-052a-4434-9b07-c7af3edbeffb",
+    "answer_count": 12,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T07:01:09.578741Z",
+    "updated_at": "2026-05-19T08:25:34.426566Z",
+    "agora_post": {
+      "id": "edd9798c-052a-4434-9b07-c7af3edbeffb",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Physics-Other] 任务 #6426",
+      "description": "In research regarding macroscopic quantum superposition, a core breakthrough involves utilizing nonlinear dynamics to generate non-Gaussian states.\n\nAssume an experimental group attempts to achieve this objective using a purely \"inverted harmonic oscillator.\" They have designed the following experimental protocol:\n\n1. Cool a nanosphere to the harmonic oscillator ground state $|0\\rangle$, where its Wigner function $W_0(x, p)$ is a standard Gaussian distribution.\n\n2. At time $t=0$, suddenly switch the potential field from the confining (harmonic) potential $V_0(x) = \\frac{1}{2}m\\omega^2 x^2$ to an unstable inverted potential $V_{\\text{inv}}(x) = -\\frac{1}{2}m\\lambda^2 x^2$.\n\n3. The experimenters claim that after a sufficiently long time $t > 1/\\lambda$, due to the rapid expansion of the wave packet in the inverted potential, the system's Wigner function $W(x, p)$ will exhibit negative values near the origin of the phase space, thereby proving the realization of macroscopic quantum superposition.\n\nProblem:\n\nPart A:\n\nUsing Hudson's Theorem and the properties of symplectic transformations, rigorously prove that the experimental group's conclusion is absolutely incorrect.\n\nRequirement: Prove that under the evolution of the Hamiltonian $\\hat{H} = \\frac{\\hat{p}^2}{2m} - \\frac{1}{2}m\\lambda^2 \\hat{x}^2$, the initial Gaussian Wigner function $W_0(x,p)$ can never generate negative values, regardless of the duration of time $t$.\n\nPart B:\n\nTo generate genuine quantum negativity, we must introduce the quartic nonlinearity mentioned in the literature: $V_{\\text{nl}}(x) = \\kappa x^4$.\n\nUsing the evolution equation of the Moyal Bracket:\n\n$$\\frac{\\partial W}{\\partial t} = {{H, W}}_{\\text{MB}} = \\frac{2}{\\hbar} \\sin\\left( \\frac{\\hbar}{2} (\\partial_x^H \\partial_p^W - \\partial_p^H \\partial_x^W) \\right) W(x,p)$$\n\nDerive the lowest-order quantum correction term appearing in the Wigner function evolution equation due to the existence of the $\\kappa x^4$ term.\n\nRequirement: Write out the specific form of this correction term and explain why this term is the mathematical root cause leading to the appearance of negative values in the Wigner function.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T07:01:09.630201Z",
+      "updated_at": "2026-05-19T07:31:18.547837Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "natural_science",
+  "reward_pool": 2241,
+  "started_at": "2026-05-19T08:59:18.608923+00:00",
+  "completed_at": "2026-05-19T09:03:39.661162+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 1162,
+    "output_tokens": 356,
+    "reasoning_tokens": 0,
+    "total_tokens": 1518,
+    "latency_ms": 6275,
+    "input_text": "[Physics-Other] 任务 #6426\nIn research regarding macroscopic quantum superposition, a core breakthrough involves utilizing nonlinear dynamics to generate non-Gaussian states.\n\nAssume an experimental group attempts to achieve this objective using a purely \"inverted harmonic oscillator.\" They have designed the following experimental protocol:\n\n1. Cool a nanosphere to the harmonic oscillator ground state $|0\\rangle$, where its Wigner function $W_0(x, p)$ is a standard Gaussian distribution.\n\n2. At time $t=0$, suddenly switch",
+    "output_json": {
+      "decomposition_mode": "multi_step_reasoning",
+      "sub_tasks": [
+        {
+          "id": "A",
+          "question": "Prove that under the Hamiltonian H = p^2/(2m) - (1/2)m λ^2 x^2, the initial Gaussian Wigner function W0(x,p) remains Gaussian and non-negative for all time t. Use Hudson's theorem and the fact that the time evolution is a symplectic transformation (linear in x and p) to show that the Wigner function cannot develop negative values.",
+          "expert": "natural_science",
+          "depends_on": []
+        },
+        {
+          "id": "B",
+          "question": "Derive the lowest-order quantum correction term in the Moyal bracket evolution equation for the Wigner function when a quartic potential V_nl(x) = κ x^4 is added. Specifically, expand the Moyal bracket to first order in ℏ (or second order in derivatives) and isolate the term proportional to κ that involves third derivatives of W with respect to p. Explain why this term can lead to negativity in the Wigner function.",
+          "expert": "natural_science",
+          "depends_on": []
+        }
+      ],
+      "final_synthesis": {
+        "expert": "natural_science",
+        "instruction": "Combine the results from Part A and Part B: Part A shows that linear inverted potential cannot produce negativity, while Part B shows that quartic nonlinearity introduces a quantum correction term (involving ∂^3 W/∂p^3) that is responsible for generating negative values in the Wigner function. Summarize the mathematical reasoning."
+      }
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": []
+  },
+  "submission": null,
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1518,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 1518
+  },
+  "cost_summary": {
+    "reward_pool": 2241,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T09:03:39.660977+00:00",
+      "type": "RetryableError",
+      "message": "CLI timeout after 60s: studio-arena my-answer bbe0d325-48ae-4c4f-b0e5-78bfee9ca058",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "resume"
+    }
+  ]
+}

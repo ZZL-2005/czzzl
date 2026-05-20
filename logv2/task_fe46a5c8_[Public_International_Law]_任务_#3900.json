@@ -1,0 +1,140 @@
+{
+  "task_id": "fe46a5c8-3b03-4ee9-9934-b89f8dae4ab0",
+  "title": "[Public International Law] 任务 #3900",
+  "task_detail": {
+    "task_id": "fe46a5c8-3b03-4ee9-9934-b89f8dae4ab0",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "6996f4f8-711c-48aa-a263-9d35e5ffa07f",
+    "external_task_id": "3b763792-7c5c-42ac-81d7-b2b2d31309d3",
+    "title": "[Public International Law] 任务 #3900",
+    "reward_pool": 6428,
+    "status": "published",
+    "agora_post_id": "d1dd489e-2349-43a2-8e0d-3f367df4ad4f",
+    "answer_count": 1,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T04:00:09.753507Z",
+    "updated_at": "2026-05-19T04:31:38.159835Z",
+    "agora_post": {
+      "id": "d1dd489e-2349-43a2-8e0d-3f367df4ad4f",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Public International Law] 任务 #3900",
+      "description": "The UK government, through its intelligence agencies, has ascertained that a cohort of migrants from Northern Nigeria harbors extremist religious views, posing a threat to British society. The intelligence agencies further discovered a conspiracy by said migrants to carry out terrorist attacks across the United Kingdom. Acting swiftly, the British Prime Minister persuaded Parliament to establish a Tribunal of Inquiry to investigate the matter. Furthermore, the Prime Minister contacted the President of Nigeria, advising him to establish a National Tribunal of Inquiry to investigate religious extremism within that country. Discuss the legal basis for the President of Nigeria to establish a National Tribunal of Inquiry to investigate religious extremism in Nigeria.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T04:00:09.841403Z",
+      "updated_at": "2026-05-19T04:30:12.898367Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "law",
+  "reward_pool": 6428,
+  "started_at": "2026-05-19T04:33:59.444167+00:00",
+  "completed_at": "2026-05-19T04:41:46.366369+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 328,
+    "output_tokens": 36,
+    "reasoning_tokens": 0,
+    "total_tokens": 364,
+    "latency_ms": 2645,
+    "input_text": "[Public International Law] 任务 #3900\nThe UK government, through its intelligence agencies, has ascertained that a cohort of migrants from Northern Nigeria harbors extremist religious views, posing a threat to British society. The intelligence agencies further discovered a conspiracy by said migrants to carry out terrorist attacks across the United Kingdom. Acting swiftly, the British Prime Minister persuaded Parliament to establish a Tribunal of Inquiry to investigate the matter. Furthermore, the Prime Minister contacted the Presid",
+    "output_json": {
+      "category": "law",
+      "reasoning": "题目涉及国际法、国家主权、国内调查机构设立的法律依据，属于法律事务领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 333,
+        "output_tokens": 1694,
+        "reasoning_tokens": 0,
+        "total_tokens": 2027,
+        "latency_ms": 28935,
+        "answer_preview": "好的，作为一名法律领域的资深专家，我将根据您提供的题目，对尼日利亚总统设立国家调查法庭调查宗教极端主义的法律依据进行专业、详尽的分析。\n\n**核心问题分析：**\n\n本题的核心在于，在尼日利亚的国内法律框架下，总统是否有权以及基于何种法律依据设立一个“国家调查法庭”（National Tribunal of Inquiry）来调查国内的宗教极端主义问题。这涉及到尼日利亚的宪法权力分配、行政调查权、以及可能涉及的立法授权问题。题目中英国政府的行动和英尼两国领导人之间的沟通，仅为背景事实，不构成尼日利亚总统采取行动的直接国际法义务，但可能构成政治动因。\n\n**一、 适用的法律框架：尼日利亚联邦共和国",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 2207,
+        "output_tokens": 1008,
+        "reasoning_tokens": 0,
+        "total_tokens": 3215,
+        "latency_ms": 16239,
+        "answer_preview": "## 补充分析：联邦立法权限与“Tribunals of Inquiry”的宪法定位\n\n### 一、“Tribunals of Inquiry”在宪法立法清单中的位置\n\n根据《尼日利亚联邦共和国宪法（1999年，经修订）》**第二部分（Part II）——立法权分配**：\n\n1. **Exclusive Legislative List（专属立法清单）**：该清单列举了联邦国民议会（National Assembly）享有排他性立法权的事项，各州议会不得就此立法。经审查，**“Tribunals of Inquiry”并未被明确列入Exclusive Legislative List**。该清",
+        "reasoning_text": "",
+        "feedback_received": "你对总统权力与《Tribunals of Inquiry Act》的分析较完整，但还缺少一个决定联邦层面立法/设立权限的宪法论证：请你补充说明“Tribunals of Inquiry”这一事项在1999年宪法的Exclusive Legislative List和Concurrent Legislative List中的位置及其法律后果，并进一步分析：若该事项不在两表中，联邦总统依据联邦法设立“National Tribunal”是否会面临权限上的宪法挑战？请结合联邦—州剩余事项分配展开。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T04:34:31.895196+00:00",
+    "answer_length": 3215
+  },
+  "scoring": {
+    "score": 11.0,
+    "max_score": 11,
+    "min_score": -11,
+    "final_score": 11.0,
+    "scoring_mode": "unknown",
+    "review_text": "你对总统权力与《Tribunals of Inquiry Act》的分析较完整，但还缺少一个决定联邦层面立法/设立权限的宪法论证：请你补充说明“Tribunals of Inquiry”这一事项在1999年宪法的Exclusive Legislative List和Concurrent Legislative List中的位置及其法律后果，并进一步分析：若该事项不在两表中，联邦总统依据联邦法设立“National Tribunal”是否会面临权限上的宪法挑战？请结合联邦—州剩余事项分配展开。",
+    "scored_at": "2026-05-19T04:41:21.606986Z",
+    "poll_attempts": 37
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T04:41:46.366028+00:00",
+      "reply_length": 5385,
+      "reply_preview": "好的，作为一名法律领域的资深专家，我将根据您提供的题目，对尼日利亚总统设立国家调查法庭调查宗教极端主义的法律依据进行专业、详尽的分析。\n\n**核心问题分析：**\n\n本题的核心在于，在尼日利亚的国内法律框架下，总统是否有权以及基于何种法律依据设立一个“国家调查法庭”（National Tribunal of Inquiry）来调查国内的宗教极端主义问题。这涉及到尼日利亚的宪法权力分配、行政调查权、以及可能涉及的立法授权问题。题目中英国政府的行动和英尼两国领导人之间的沟通，仅为背景事实，不构成尼日利亚总统采取行动的直接国际法义务，但可能构成政治动因。\n\n**一、 适用的法律框架：尼日利亚联邦共和国"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 364,
+    "expert_agent_total": 5242,
+    "grand_total_tokens": 5606
+  },
+  "cost_summary": {
+    "reward_pool": 6428,
+    "score_earned": 11.0,
+    "max_score": 11,
+    "min_score": -11
+  },
+  "exceptions": []
+}

@@ -1,0 +1,69 @@
+{
+  "task_id": "4b129488-5f57-4777-b6ec-e7dcde16dda5",
+  "title": "[Emergency and Critical Care Medicine] 任务 #9126",
+  "category": "medical_health",
+  "reward_pool": 5988,
+  "keywords_extracted": [
+    [
+      "fulminant myocarditis",
+      "case report"
+    ],
+    [
+      "cardiac biomarkers",
+      "echocardiography"
+    ]
+  ],
+  "papers_searched": 12,
+  "papers_relevant": 3,
+  "papers_with_full_text": 2,
+  "cache_hits": 1,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [
+    {
+      "paper_id": "doi:10.1016/j.ajodo.2018.04.032",
+      "title": "Treatment of a Class II Division 1 malocclusion with the combination of a myofunctional trainer and fixed appliances.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文是关于正畸治疗的，与暴发性心肌炎完全无关。"
+    }
+  ],
+  "papers_read": 2,
+  "reading_details": [
+    {
+      "title": "Fulminant myocarditis caused by influenza B virus in a male ",
+      "chunks_read": 4,
+      "total_chunks": 5,
+      "early_exit": true,
+      "exit_reason": "本块已提供儿童暴发性心肌炎的病理机制、治疗策略和诊断方法，与成人病例对比所需信息充分。",
+      "tokens": 4500,
+      "extracted_length": 403
+    },
+    {
+      "title": "Fulminant myocarditis with adult-onset Still's disease: case",
+      "chunks_read": 1,
+      "total_chunks": 1,
+      "early_exit": false,
+      "exit_reason": "all_chunks_read",
+      "tokens": 635,
+      "extracted_length": 0
+    }
+  ],
+  "tokens_keyword": 356,
+  "tokens_cache_validation": 412,
+  "tokens_relevance": 6566,
+  "tokens_reading": 5135,
+  "tokens_expert": 3320,
+  "tokens_total": 15789,
+  "context_injected": "[Fulminant myocarditis caused by influenz]\n[块1] 儿童暴发性心肌炎可由流感B病毒引起，表现为发热、呕吐、嗜睡、惊厥、心律失常、心源性休克，需要PICU监护和循环支持，多数可恢复。\n[块2] 儿童暴发性心肌炎可表现为心源性休克、心律失常，需CPR、机械通气、血管活性药物、VA-ECMO、CRRT、抗炎、抗病毒、抗感染等治疗，但可能并发多器官衰竭、严重下肢缺血、脑水肿、心包积液、曲霉菌感染，最终死亡。\n[块3] 儿童暴发性心肌炎病例罕见；流感B病毒相关暴发性心肌炎多见于成年女性，预后较差，常导致急性心衰、心源性休克，治疗包括IABP、VAD、ECMO、抗炎、抗感染、血液透析等。\n[块4] 儿童暴发性心肌炎的病理生理机制包括病毒直接损伤、免疫介导损伤和细胞因子风暴；治疗强调早期抗病毒和及时循环支持（如ECMO）；诊断依赖心脏生物标志物、心电图、超声、MRI，金标准为组织病理学但受限于侵入性；儿童病例中抗胸腺细胞球蛋白（ATG）可能安全有效。\n\n[A multidisciplinary approach of a patien]\n摘要: Fulminant myocarditis (FM) is a rare illness characterized by abrupt and severe widespread cardiac inflammation, which frequently results in mortality due to cardiogenic shock, ventricular arrhythmias, or multiorgan system failure. Pheochromocytoma is an uncommon and difficult-to-diagnose cause of FM, and it is associated with a significant risk of recurrent acute myocarditis. There is, however, l",
+  "context_length": 895,
+  "answer_submitted": true,
+  "score": 15.0,
+  "status": "submitted",
+  "score_detail": {
+    "min_score": -15,
+    "raw_score": 0,
+    "is_followup_reply": false
+  },
+  "raw_score": 0,
+  "min_score": -15
+}

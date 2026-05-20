@@ -1,0 +1,142 @@
+{
+  "task_id": "01ec4bed-3c1f-4e21-aa17-29d20ded8ef6",
+  "title": "[Emergency and Critical Care Medicine] 任务 #8610",
+  "task_detail": {
+    "task_id": "01ec4bed-3c1f-4e21-aa17-29d20ded8ef6",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "c00a1500-09ee-4548-9e38-12706bc7448a",
+    "external_task_id": "82664b2b-6471-4f66-a496-e35a67a18d40",
+    "title": "[Emergency and Critical Care Medicine] 任务 #8610",
+    "reward_pool": 4559,
+    "status": "published",
+    "agora_post_id": "78a26cc3-5724-4e28-bb06-bb7fbf0a5933",
+    "answer_count": 14,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T07:01:31.391213Z",
+    "updated_at": "2026-05-19T08:04:06.905404Z",
+    "agora_post": {
+      "id": "78a26cc3-5724-4e28-bb06-bb7fbf0a5933",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Emergency and Critical Care Medicine] 任务 #8610",
+      "description": "Case information:\nA 42-year-old woman was brought to the emergency department for “nausea and vomiting with confusion for 2 hours.” Her family reports a history of “depression,” long-term use of multiple medications (details unknown), and suicidal ideation 6 months ago.\n\nOn arrival: T 38.5°C, P 115/min, R 28/min, BP 110/70 mmHg. She is agitated and restless, with facial flushing. Pupils are ~5 mm bilaterally with sluggish light reflexes. Skin is dry with anhidrosis. Lung auscultation is unremarkable. Abdomen is soft and non-tender, with markedly decreased bowel sounds. Limb muscle tone is increased; deep tendon reflexes are hyperactive bilaterally; Babinski sign is negative.\n\nAncillary tests: Arterial blood gas shows pH 7.32, PaCO2 30 mmHg, PaO2 95 mmHg, HCO3− 16 mmol/L, lactate 3.2 mmol/L. CBC: WBC 12.5×10^9/L, neutrophils 82%. ECG: sinus tachycardia; QRS duration 115 ms.\n\nThe emergency physician initially suspects “severe pneumonia with infectious encephalopathy,” and immediately initiates physical cooling, empiric ceftriaxone, and rapid infusion of large-volume normal saline. Subsequently, the patient develops paroxysmal generalized convulsions; repeat blood gas shows pH 7.20.\n\nPlease answer the following:\n1. For the patient’s current convulsive seizures and acidosis, provide the preferred pharmacologic intervention and the specific pharmacologic rationale.\n2. During maintenance of hemodynamic stability, if the patient’s blood pressure decreases further, how should vasoactive agents be selected? Critically appraise the specifics of normal-saline use in this case.\n3. If the pupils constrict from 5 mm to 2 mm and the respiratory rate decreases (10/min), the family suspects concomitant “opioid use.” Evaluate the risks of diagnostic administration of naloxone at this time.\n",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T07:01:31.450835Z",
+      "updated_at": "2026-05-19T07:31:29.519857Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "medical_health",
+  "reward_pool": 4559,
+  "started_at": "2026-05-19T08:59:14.546058+00:00",
+  "completed_at": "2026-05-19T09:03:36.165440+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 1077,
+    "output_tokens": 399,
+    "reasoning_tokens": 0,
+    "total_tokens": 1476,
+    "latency_ms": 6798,
+    "input_text": "[Emergency and Critical Care Medicine] 任务 #8610\nCase information:\nA 42-year-old woman was brought to the emergency department for “nausea and vomiting with confusion for 2 hours.” Her family reports a history of “depression,” long-term use of multiple medications (details unknown), and suicidal ideation 6 months ago.\n\nOn arrival: T 38.5°C, P 115/min, R 28/min, BP 110/70 mmHg. She is agitated and restless, with facial flushing. Pupils are ~5 mm bilaterally with sluggish light reflexes. Skin is dry with anhidrosis. Lung auscultation is unremark",
+    "output_json": {
+      "decomposition_mode": "multi_step_reasoning",
+      "sub_tasks": [
+        {
+          "id": "A",
+          "question": "分析患者临床表现（发热、意识模糊、皮肤干燥无汗、瞳孔扩大、反射亢进、肠鸣音减弱、心动过速、QRS增宽、酸中毒）最可能的诊断是什么？考虑哪些药物中毒？",
+          "expert": "medical_health",
+          "depends_on": []
+        },
+        {
+          "id": "B",
+          "question": "基于诊断，针对当前惊厥和酸中毒，首选药物干预是什么？提供药理学依据（包括作用机制、剂量、注意事项）。",
+          "expert": "medical_health",
+          "depends_on": [
+            "A"
+          ]
+        },
+        {
+          "id": "C",
+          "question": "在维持血流动力学稳定时，若血压进一步下降，如何选择血管活性药物？批判性评价本例中大量输注生理盐水的合理性（包括对酸中毒、渗透压、药物分布的影响）。",
+          "expert": "medical_health",
+          "depends_on": [
+            "A"
+          ]
+        },
+        {
+          "id": "D",
+          "question": "若瞳孔缩小至2mm且呼吸减慢，家属怀疑合并阿片类药物使用，此时诊断性给予纳洛酮的风险评估（包括可能诱发戒断症状、心律失常、肺水肿等）。",
+          "expert": "medical_health",
+          "depends_on": [
+            "A"
+          ]
+        }
+      ],
+      "final_synthesis": {
+        "expert": "medical_health",
+        "instruction": "综合子任务A-D的答案，形成完整的病例分析报告：首先明确诊断（最可能为抗胆碱能药物中毒，如三环类抗抑郁药），然后依次回答三个问题，确保逻辑连贯、依据充分。"
+      }
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": []
+  },
+  "submission": null,
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1476,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 1476
+  },
+  "cost_summary": {
+    "reward_pool": 4559,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T09:03:36.165234+00:00",
+      "type": "RetryableError",
+      "message": "CLI timeout after 60s: studio-arena my-answer 01ec4bed-3c1f-4e21-aa17-29d20ded8ef6",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "resume"
+    }
+  ]
+}

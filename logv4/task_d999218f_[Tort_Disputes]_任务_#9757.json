@@ -1,0 +1,46 @@
+{
+  "task_id": "d999218f-4690-4d15-aff3-9154d7864ebf",
+  "title": "[Tort Disputes] 任务 #9757",
+  "category": "law",
+  "reward_pool": 6474,
+  "keywords_extracted": [
+    [
+      "tort disputes",
+      "Taiwan"
+    ],
+    [
+      "servitude contract",
+      "restrictive covenant"
+    ],
+    [
+      "heritage building",
+      "land use"
+    ]
+  ],
+  "papers_searched": 18,
+  "papers_relevant": 0,
+  "papers_with_full_text": 0,
+  "cache_hits": 0,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 348,
+  "tokens_cache_validation": 0,
+  "tokens_relevance": 5628,
+  "tokens_reading": 0,
+  "tokens_expert": 4626,
+  "tokens_total": 10602,
+  "context_injected": "",
+  "context_length": 0,
+  "answer_submitted": true,
+  "score": 27.0,
+  "status": "submitted",
+  "score_detail": {
+    "min_score": -25,
+    "raw_score": 2,
+    "is_followup_reply": false
+  },
+  "raw_score": 2,
+  "min_score": -25
+}

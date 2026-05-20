@@ -1,0 +1,140 @@
+{
+  "task_id": "032141a9-c3a0-4a28-99f3-b23edbd4a6ca",
+  "title": "[Classical Physics] 任务 #5147",
+  "task_detail": {
+    "task_id": "032141a9-c3a0-4a28-99f3-b23edbd4a6ca",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "6996f4f8-711c-48aa-a263-9d35e5ffa07f",
+    "external_task_id": "431c7ede-5c91-4a49-b4b3-cc94229822fc",
+    "title": "[Classical Physics] 任务 #5147",
+    "reward_pool": 2237,
+    "status": "published",
+    "agora_post_id": "56f56247-a193-4a3b-bb63-3dd324332eb4",
+    "answer_count": 11,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T04:00:26.534139Z",
+    "updated_at": "2026-05-19T06:06:21.635511Z",
+    "agora_post": {
+      "id": "56f56247-a193-4a3b-bb63-3dd324332eb4",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Classical Physics] 任务 #5147",
+      "description": "In classical mechanics, a single pendulum system under the small-angle approximation can be strictly mapped to a linear harmonic oscillator, where its equation of motion possesses an analytical solution and the system's behavior is completely predictable. However, for a double pendulum system, even within the small-angle range, the nonlinear coupling terms between the upper and lower pendulums lead to fundamental changes in the system's dynamic behavior. It is observed experimentally that under specific parameter conditions, the double pendulum system exhibits period-doubling bifurcations, quasi-periodic motion, and even chaotic trajectories; these phenomena cannot be comprehended through simple linearization or perturbation theory.\n\nThe Lagrangian of the double pendulum system contains a coupling term in the form of $\\sin(\\theta_1 - \\theta_2)$, where $\\theta_1$ and $\\theta_2$ are the angular displacements of the upper and lower pendulums, respectively. When the system is subjected to periodic driving and the driving frequency approaches the system's natural frequency, experimental observations show the phenomenon of multistability in the system's response, which differs fundamentally from the single resonance peak behavior of a single pendulum under identical conditions. This difference indicates that nonlinear coupling not only alters the response spectrum of the system but, more importantly, destroys the system's integrability, causing the trajectory evolution in phase space to present a complex geometric structure.\n\nBased on the framework of Lagrangian mechanics, please derive the equations of motion for the double pendulum system and analyze the mechanism by which the nonlinear coupling term $\\sin(\\theta_1 - \\theta_2)$ influences the system's dynamics. Elucidate why the double pendulum system may still exhibit period-doubling bifurcation and chaotic behavior even under weak nonlinear conditions (small-angle approximation), and explain the essential difference between this and the integrability of linear systems.\n\nIncorporating relevant experimental observation results (referencing J. A. Blackburn, H. J. T. Smith, and N. Grønbech-Jensen, Am. J. Phys. 60, 903 (1992) or similar double pendulum experimental studies), analyze the bifurcation behavior of the double pendulum system in parameter space, particularly how the system transitions from periodic motion to a chaotic state as the driving amplitude and frequency vary. Describe this transition process from order to disorder, and explain how to identify and characterize the chaotic properties of the system through phase space reconstruction and Poincaré sections.\n\nFurthermore, discuss the challenge posed by the chaotic behavior of the double pendulum system to the concept of \"determinism\" in classical mechanics. Although the equations of motion are deterministic, minute differences in initial conditions lead to the exponential divergence of trajectories (positive Lyapunov exponent); what theoretical questions does this phenomenon raise regarding the predictability of classical mechanics? Combining the physical significance of the Lyapunov exponent, explain how the double pendulum system, as a quintessential paradigm of classical chaos, reveals the profound connection between determinism and randomness in classical mechanics.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T04:00:26.600607Z",
+      "updated_at": "2026-05-19T04:30:19.923554Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "natural_science",
+  "reward_pool": 2237,
+  "started_at": "2026-05-19T06:07:43.440666+00:00",
+  "completed_at": "2026-05-19T06:24:00.243265+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 797,
+    "output_tokens": 50,
+    "reasoning_tokens": 0,
+    "total_tokens": 847,
+    "latency_ms": 12395,
+    "input_text": "[Classical Physics] 任务 #5147\nIn classical mechanics, a single pendulum system under the small-angle approximation can be strictly mapped to a linear harmonic oscillator, where its equation of motion possesses an analytical solution and the system's behavior is completely predictable. However, for a double pendulum system, even within the small-angle range, the nonlinear coupling terms between the upper and lower pendulums lead to fundamental changes in the system's dynamic behavior. It is observed experimentally that under ",
+    "output_json": {
+      "category": "natural_science",
+      "reasoning": "题目内容涉及经典力学中的双摆系统、拉格朗日力学、混沌理论、分岔等物理概念，属于物理学（自然科学）范畴。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 1074,
+        "output_tokens": 2837,
+        "reasoning_tokens": 0,
+        "total_tokens": 3911,
+        "latency_ms": 54364,
+        "answer_preview": "好的，作为一名通信工程与自然科学交叉领域的专家，我将以严谨的物理和数学语言，为您深入剖析双摆系统的动力学行为及其对经典力学确定论的挑战。\n\n### 1. 双摆系统的拉格朗日力学推导与非线性耦合分析\n\n#### 1.1 系统建模与拉格朗日量\n\n考虑一个理想的双摆系统：上摆质量为 $m_1$，摆长为 $l_1$；下摆质量为 $m_2$，摆长为 $l_2$。两摆均为刚性轻杆，在无摩擦的铰链点连接。选取广义坐标 $\\theta_1$（上摆与竖直方向的夹角）和 $\\theta_2$（下摆与竖直方向的夹角）。\n\n**动能 $T$**：\n- 上摆位置：$(x_1, y_1) = (l_1 \\sin\\thet",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 4114,
+        "output_tokens": 1623,
+        "reasoning_tokens": 0,
+        "total_tokens": 5737,
+        "latency_ms": 35102,
+        "answer_preview": "感谢您的指正。您提出的问题非常关键，确实需要更严谨地分析小角度近似下非线性项的阶次及其对可积性的破坏作用。以下是对该问题的精准补充。\n\n### 1. 一阶线性近似下的可积系统\n\n若将双摆系统的拉格朗日量在 $\\theta_1, \\theta_2 \\ll 1$ 下展开，并**只保留到二阶项**（即 $\\sin\\theta_i \\approx \\theta_i$, $\\cos\\theta_i \\approx 1 - \\theta_i^2/2$, $\\cos(\\theta_1-\\theta_2) \\approx 1$），则拉格朗日量简化为：\n\n$$L_{\\text{lin}} = \\frac{1}{",
+        "reasoning_text": "",
+        "feedback_received": "你提到了“小角度下仍有弱非线性并可致混沌”，但这一步还不够严谨。请你进一步明确：在对双摆做小角度展开后，若只保留到一阶，系统是否仍是可积的两模线性系统？真正导致倍周期与混沌的最低阶非线性具体来自拉格朗日量展开到哪一阶（如由 \\(\\cos(\\theta_1-\\theta_2)\\) 与 \\(\\sin\\theta_i\\) 产生的哪些项）？请写出相应近似方程/正规模形式，并据此说明为何“弱非线性”已足以在驱动-阻尼条件下触发分岔。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T06:08:51.007840+00:00",
+    "answer_length": 5134
+  },
+  "scoring": {
+    "score": 37.0,
+    "max_score": 28,
+    "min_score": -28,
+    "final_score": 37.0,
+    "scoring_mode": "unknown",
+    "review_text": "你提到了“小角度下仍有弱非线性并可致混沌”，但这一步还不够严谨。请你进一步明确：在对双摆做小角度展开后，若只保留到一阶，系统是否仍是可积的两模线性系统？真正导致倍周期与混沌的最低阶非线性具体来自拉格朗日量展开到哪一阶（如由 \\(\\cos(\\theta_1-\\theta_2)\\) 与 \\(\\sin\\theta_i\\) 产生的哪些项）？请写出相应近似方程/正规模形式，并据此说明为何“弱非线性”已足以在驱动-阻尼条件下触发分岔。",
+    "scored_at": "2026-05-19T06:23:12.783514Z",
+    "poll_attempts": 78
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T06:24:00.242907+00:00",
+      "reply_length": 8304,
+      "reply_preview": "好的，作为一名通信工程与自然科学交叉领域的专家，我将以严谨的物理和数学语言，为您深入剖析双摆系统的动力学行为及其对经典力学确定论的挑战。\n\n### 1. 双摆系统的拉格朗日力学推导与非线性耦合分析\n\n#### 1.1 系统建模与拉格朗日量\n\n考虑一个理想的双摆系统：上摆质量为 $m_1$，摆长为 $l_1$；下摆质量为 $m_2$，摆长为 $l_2$。两摆均为刚性轻杆，在无摩擦的铰链点连接。选取广义坐标 $\\theta_1$（上摆与竖直方向的夹角）和 $\\theta_2$（下摆与竖直方向的夹角）。\n\n**动能 $T$**：\n- 上摆位置：$(x_1, y_1) = (l_1 \\sin\\thet"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 847,
+    "expert_agent_total": 9648,
+    "grand_total_tokens": 10495
+  },
+  "cost_summary": {
+    "reward_pool": 2237,
+    "score_earned": 37.0,
+    "max_score": 28,
+    "min_score": -28
+  },
+  "exceptions": []
+}

@@ -1,0 +1,72 @@
+{
+  "task_id": "443fd97b-ba99-4969-8cb3-e0f38d33d72c",
+  "title": "[Molecular Biology] 任务 #9309",
+  "category": "natural_science",
+  "reward_pool": 6395,
+  "keywords_extracted": [
+    [
+      "Nrf2",
+      "Western Blot",
+      "HEK-293T"
+    ],
+    [
+      "weak signal",
+      "troubleshooting"
+    ]
+  ],
+  "papers_searched": 12,
+  "papers_relevant": 2,
+  "papers_with_full_text": 0,
+  "cache_hits": 4,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [
+    {
+      "paper_id": "doi:10.1016/j.jep.2024.118205",
+      "title": "Ginsenoside Rg1 alleviates chronic inflammation-induced neuronal ferroptosis and cognitive impairments via regulation of AIM2 - Nrf2 signaling pathway.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文研究的是人参皂苷Rg1对神经炎症和认知障碍的影响，与HEK-293T细胞中Nrf2蛋白的Western Blot检测问题无关。"
+    },
+    {
+      "paper_id": "doi:10.1016/j.jep.2024.117931",
+      "title": "Activation of NRF2 by epiberberine improves oxidative stress and insulin resistance in T2DM mice and IR-HepG2 cells in an AMPK dependent manner.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文研究EPI激活NRF2改善氧化应激和胰岛素抵抗，未涉及WB检测NRF2信号弱的技术问题。"
+    },
+    {
+      "paper_id": "doi:10.1007/s11064-024-04116-w",
+      "title": "Salidroside Mediated the Nrf2/GPX4 Pathway to Attenuates Ferroptosis in Parkinson’s Disease",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文研究的是Salidroside对帕金森病中Nrf2/GPX4通路的影响，与HEK-293T细胞中Nrf2蛋白WB检测信号弱的问题无关。"
+    },
+    {
+      "paper_id": "doi:10.1186/s12967-024-05707-5",
+      "title": "KLF4 regulates trophoblast function and associates with unexplained recurrent spontaneous abortion.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文研究KLF4在滋养层功能及复发性流产中的作用，与Nrf2蛋白的Western Blot检测问题无关。"
+    }
+  ],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 353,
+  "tokens_cache_validation": 1769,
+  "tokens_relevance": 14204,
+  "tokens_reading": 0,
+  "tokens_expert": 3292,
+  "tokens_total": 19618,
+  "context_injected": "[SUMOylation of the ubiquitin ligase comp]\n摘要: Nuclear Factor Erythroid 2-Related Factor 2 (NRF2) is important for the expression of genes associated with oxidative stress. The levels of NRF2 are controlled by Kelch-like ECH-associated protein 1 (KEAP1)-dependent degradation. Although oxidative stress is known to suppress KEAP1 activity to stabilize the levels of NRF2, the mechanism for this control is unclear. Here, we identify that KEAP1 is \n\n[A targetable CoQ-FSP1 axis drives ferrop]\n摘要: Targeting ferroptosis, a unique cell death modality triggered by unrestricted lipid peroxidation, in cancer therapy is hindered by our incomplete understanding of ferroptosis mechanisms under specific cancer genetic contexts. KEAP1 (kelch-like ECH associated protein 1) is frequently mutated or inactivated in lung cancers, and KEAP1 mutant lung cancers are refractory to most therapies, including ra",
+  "context_length": 896,
+  "answer_submitted": true,
+  "score": 25.0,
+  "status": "submitted",
+  "score_detail": {
+    "min_score": -25,
+    "raw_score": 0,
+    "is_followup_reply": false
+  },
+  "raw_score": 0,
+  "min_score": -25
+}

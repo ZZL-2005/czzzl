@@ -1,0 +1,113 @@
+2026-05-19 12:11:27,298 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:11:27,321 [INFO] __main__: [bdee97c3] [Gastrointestinal Surgery] 任务 #9257 (category=medical_health, reward=5834)
+2026-05-19 12:11:39,688 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:11:39,690 [INFO] __main__:   Keywords: [['upper abdominal distension', 'pain'], ['gastritis', 'nausea', 'vomiting']]
+2026-05-19 12:11:39,692 [INFO] __main__:   Cache hits: 6
+2026-05-19 12:11:51,899 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:11:51,901 [INFO] __main__:     ❌ Abdominal Pain Mimics. (score=1, 论文讨论的是28岁女性腹痛，与60岁女性上腹胀痛症状不符，且未涉及胃肠手术相关鉴别。)
+2026-05-19 12:12:04,653 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:12:04,655 [INFO] __main__:     ❌ Givosiran: a targeted treatment for acut (score=1, 论文讨论的是急性间歇性卟啉症的治疗，与患者描述的胃部症状和可能的胃炎诊断无关。)
+2026-05-19 12:12:16,868 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:12:16,870 [INFO] __main__:     ❌ Acute intermittent porphyria. (score=1, 论文讨论的是急性间歇性卟啉病，与患者描述的胃部症状和诊断不符，不相关。)
+2026-05-19 12:12:28,439 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:12:28,440 [INFO] __main__:     ❌ AGA Clinical Practice Update on Diagnosi (score=1, 论文讨论急性肝性卟啉症，与患者上腹胀痛、恶心呕吐等症状及胃炎诊断无关。)
+2026-05-19 12:12:41,239 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:12:41,241 [INFO] __main__:     ❌ Acute Porphyrias. (score=1, 论文讨论急性卟啉症，与患者上腹胀痛、恶心呕吐等症状及胃炎诊断无关。)
+2026-05-19 12:12:42,876 [INFO] httpx: HTTP Request: GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=upper+abdominal+distension+pain&retmax=10&retmode=json&sort=relevance "HTTP/1.1 200 OK"
+2026-05-19 12:12:43,233 [INFO] httpx: HTTP Request: GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=18441863%2C22327302%2C29083722%2C7760972%2C28722866%2C26361504%2C32809723%2C1452790%2C24716560%2C39695807&retmode=xml "HTTP/1.1 200 OK"
+2026-05-19 12:12:44,611 [INFO] httpx: HTTP Request: GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=gastritis+nausea+vomiting&retmax=10&retmode=json&sort=relevance "HTTP/1.1 200 OK"
+2026-05-19 12:12:44,919 [INFO] httpx: HTTP Request: GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=36568085%2C30903439%2C25925921%2C40563646%2C32921764%2C30272600%2C39851933%2C40900775%2C14649515%2C33956280&retmode=xml "HTTP/1.1 200 OK"
+2026-05-19 12:12:46,099 [INFO] __main__:   API search: 12 papers
+2026-05-19 12:12:57,730 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:12:57,732 [INFO] src.paper_reader: Relevance check: 'Evaluation of acute abdominal pain in ad' → NOT RELEVANT (论文关注急性腹痛的评估，而研究问题描述的是慢性上腹胀痛（超过2年），且已诊断为胃炎，与急性腹痛的紧急评估不匹配。)
+2026-05-19 12:13:09,768 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:13:09,769 [INFO] src.paper_reader: Relevance check: 'Dyspepsia: organic versus functional.' → RELEVANT (论文讨论消化不良的器质性与功能性病因，与患者上腹胀痛、恶心呕吐症状及既往诊断相符。)
+2026-05-19 12:13:21,776 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:13:21,778 [INFO] src.paper_reader: Relevance check: 'Functional dyspepsia.' → RELEVANT (论文涉及功能性消化不良，与患者症状（上腹胀痛、恶心呕吐）高度相关，且患者检查未发现器质性病变。)
+2026-05-19 12:13:34,188 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:13:34,190 [INFO] src.paper_reader: Relevance check: 'Hepatic hemangioma -review-.' → NOT RELEVANT (论文讨论肝血管瘤，而研究问题描述的是上腹胀痛、恶心呕吐等胃部症状，诊断为胃炎，与肝血管瘤无关。)
+2026-05-19 12:13:46,866 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:13:46,868 [INFO] src.paper_reader: Relevance check: 'Gastric giardiasis.' → NOT RELEVANT (论文研究胃贾第鞭毛虫病，而患者症状（上腹胀痛、恶心呕吐）更符合胃部疾病，但摘要未提及手术或外科治疗，与研究问题中的胃肠道手术无关。)
+2026-05-19 12:13:58,491 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:13:58,493 [INFO] src.paper_reader: Relevance check: 'Functional dyspepsia in children.' → NOT RELEVANT (论文关注儿童功能性消化不良，而研究问题是60岁女性患者的胃肠道手术相关症状，人群和疾病背景不匹配。)
+2026-05-19 12:14:11,173 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:14:11,175 [INFO] src.paper_reader: Relevance check: 'Association between different GLP-1 rece' → RELEVANT (论文研究GLP-1受体激动剂的胃肠道不良反应，与患者上腹胀痛、恶心呕吐等症状相关。)
+2026-05-19 12:14:25,392 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:14:25,394 [INFO] src.paper_reader: Relevance check: 'Eosinophilic Gastrointestinal Disorders.' → RELEVANT (研究问题描述患者有上腹胀痛、恶心呕吐等胃肠道症状，与嗜酸性粒细胞性胃肠病的常见症状相符。)
+2026-05-19 12:14:38,105 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:14:38,107 [INFO] src.paper_reader: Relevance check: 'Eosinophilic enteritis.' → RELEVANT (论文讨论的嗜酸性粒细胞性肠炎症状包括腹痛、腹胀、恶心呕吐，与患者表现相符。)
+2026-05-19 12:14:54,792 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:14:54,794 [INFO] src.paper_reader: Relevance check: 'Practical Management of Zolbetuximab Adm' → NOT RELEVANT (论文关注zolbetuximab治疗晚期胃癌的管理，而研究问题描述的是非肿瘤性上腹胀痛、恶心呕吐的老年女性患者，可能为胃炎或功能性消化不良，与胃癌靶向治疗无关。)
+2026-05-19 12:14:55,094 [INFO] __main__:   Relevant: 5/10
+2026-05-19 12:14:57,152 [INFO] httpx: HTTP Request: GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC9770009&retmode=xml "HTTP/1.1 200 OK"
+2026-05-19 12:15:10,217 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:15:10,219 [INFO] src.paper_reader:   Early exit at chunk 1/8: 已获取不同GLP-1受体激动剂导致胃肠道不良反应的风险差异，足以评估患者症状是否与用药相关。
+2026-05-19 12:15:10,941 [INFO] __main__:     ✓ Read Association between different GLP-1 rece (1/8 chunks)
+2026-05-19 12:15:11,449 [INFO] __main__:   Context: 1022 chars (3 sources)
+2026-05-19 12:15:57,397 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:15:57,400 [INFO] __main__:   Expert answer: 4995 chars, tokens=3689
+2026-05-19 12:15:58,361 [INFO] __main__:   ✓ Answer submitted
+2026-05-19 12:15:58,837 [INFO] __main__:   Result saved: logv4/task_bdee97c3_[Gastrointestinal_Surgery]_任务_#9257.json
+2026-05-19 12:16:12,836 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:16:12,838 [INFO] __main__: [21ecdeeb] [Bonds] 任务 #8013 (category=finance, reward=5552)
+2026-05-19 12:16:25,015 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:16:25,017 [INFO] __main__:   Keywords: [['Wolfspeed', 'high-yield bonds'], ['Mohawk Valley Fab', 'capacity ramp-up'], ['liquidity risk', 'underutilization costs'], ['GAAP gross margin', 'start-up costs']]
+2026-05-19 12:16:26,961 [INFO] httpx: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=Wolfspeed+high-yield+bonds&limit=10&fields=title%2Cabstract%2Cauthors%2Cyear%2CexternalIds%2Ctldr%2Curl "HTTP/1.1 429 "
+2026-05-19 12:16:26,962 [WARNING] src.retriever: Semantic Scholar rate limited, waiting 5s...
+2026-05-19 12:16:33,171 [INFO] httpx: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=Wolfspeed+high-yield+bonds&limit=10&fields=title%2Cabstract%2Cauthors%2Cyear%2CexternalIds%2Ctldr%2Curl "HTTP/1.1 429 "
+2026-05-19 12:16:33,171 [WARNING] src.retriever: Semantic Scholar returned 429
+2026-05-19 12:16:34,359 [INFO] httpx: HTTP Request: GET https://api.openalex.org/works?search=Wolfspeed+high-yield+bonds&per_page=10&select=title%2Cauthorships%2Cpublication_year%2Cdoi%2Cabstract_inverted_index%2Cid "HTTP/1.1 200 OK"
+2026-05-19 12:16:35,724 [INFO] httpx: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=Mohawk+Valley+Fab+capacity+ramp-up&limit=10&fields=title%2Cabstract%2Cauthors%2Cyear%2CexternalIds%2Ctldr%2Curl "HTTP/1.1 429 "
+2026-05-19 12:16:35,724 [WARNING] src.retriever: Semantic Scholar rate limited, waiting 5s...
+2026-05-19 12:16:41,551 [INFO] httpx: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=Mohawk+Valley+Fab+capacity+ramp-up&limit=10&fields=title%2Cabstract%2Cauthors%2Cyear%2CexternalIds%2Ctldr%2Curl "HTTP/1.1 429 "
+2026-05-19 12:16:41,552 [WARNING] src.retriever: Semantic Scholar returned 429
+2026-05-19 12:16:42,318 [INFO] httpx: HTTP Request: GET https://api.openalex.org/works?search=Mohawk+Valley+Fab+capacity+ramp-up&per_page=10&select=title%2Cauthorships%2Cpublication_year%2Cdoi%2Cabstract_inverted_index%2Cid "HTTP/1.1 200 OK"
+2026-05-19 12:16:43,391 [INFO] httpx: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=liquidity+risk+underutilization+costs&limit=10&fields=title%2Cabstract%2Cauthors%2Cyear%2CexternalIds%2Ctldr%2Curl "HTTP/1.1 429 "
+2026-05-19 12:16:43,392 [WARNING] src.retriever: Semantic Scholar rate limited, waiting 5s...
+2026-05-19 12:16:49,134 [INFO] httpx: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=liquidity+risk+underutilization+costs&limit=10&fields=title%2Cabstract%2Cauthors%2Cyear%2CexternalIds%2Ctldr%2Curl "HTTP/1.1 429 "
+2026-05-19 12:16:49,135 [WARNING] src.retriever: Semantic Scholar returned 429
+2026-05-19 12:16:49,883 [INFO] httpx: HTTP Request: GET https://api.openalex.org/works?search=liquidity+risk+underutilization+costs&per_page=10&select=title%2Cauthorships%2Cpublication_year%2Cdoi%2Cabstract_inverted_index%2Cid "HTTP/1.1 200 OK"
+2026-05-19 12:16:50,642 [INFO] __main__:   API search: 14 papers
+2026-05-19 12:17:01,863 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:17:01,865 [INFO] src.paper_reader: Relevance check: 'A Review of SiC Power Module Packaging: ' → NOT RELEVANT (论文关注SiC功率模块封装技术，而非Wolfspeed的财务指标或流动性风险。)
+2026-05-19 12:17:14,163 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:17:14,166 [INFO] src.paper_reader: Relevance check: 'Gallium Nitride Versus Silicon Carbide: ' → NOT RELEVANT (论文比较GaN和SiC在开关电源中的应用，不涉及Wolfspeed的财务或流动性分析。)
+2026-05-19 12:17:26,323 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:17:26,325 [INFO] src.paper_reader: Relevance check: 'A Wire-bond-less 10 kV SiC MOSFET Power ' → NOT RELEVANT (论文关注SiC MOSFET功率模块的封装设计，与Wolfspeed的财务流动性风险分析无关。)
+2026-05-19 12:17:38,405 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:17:38,407 [INFO] src.paper_reader: Relevance check: 'A Review of Ku-Band GaN HEMT Power Ampli' → NOT RELEVANT (论文关注Ku波段GaN HEMT功放技术，与Wolfspeed的财务流动性分析无关。)
+2026-05-19 12:17:50,022 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:17:50,024 [INFO] src.paper_reader: Relevance check: 'Radiation-Induced Effects in SiC Vertica' → NOT RELEVANT (论文研究SiC功率MOSFET的辐射效应，与Wolfspeed的财务流动性分析无关。)
+2026-05-19 12:18:02,132 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:18:02,134 [INFO] src.paper_reader: Relevance check: 'Prospects and Challenges of 4H-SiC Thyri' → NOT RELEVANT (论文研究SiC晶闸管在HVDC转换器保护中的应用，与Wolfspeed的财务流动性分析无关。)
+2026-05-19 12:18:14,020 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:18:14,022 [INFO] src.paper_reader: Relevance check: 'The electronic silk road: how the Web bi' → NOT RELEVANT (论文讨论的是全球互联网贸易的法律框架，与Wolfspeed的财务分析和流动性风险无关。)
+2026-05-19 12:18:25,968 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:18:25,971 [INFO] src.paper_reader: Relevance check: 'The Distance from Necessity: A Bourdieus' → NOT RELEVANT (论文研究的是野生植物和真菌的采集实践，与Wolfspeed公司的财务分析和债券风险无关。)
+2026-05-19 12:18:38,128 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:18:38,129 [INFO] src.paper_reader: Relevance check: 'Household Debt and Business Cycles World' → NOT RELEVANT (论文研究家庭债务与商业周期，与Wolfspeed公司流动性风险及运营成本分析无关。)
+2026-05-19 12:18:50,014 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:18:50,017 [INFO] src.paper_reader: Relevance check: 'Will COVID-19 fiscal recovery packages a' → NOT RELEVANT (论文讨论的是COVID-19财政复苏政策对气候变化的影响，与Wolfspeed公司的高收益债券信用分析和流动性风险无关。)
+2026-05-19 12:18:50,318 [INFO] __main__:   Relevant: 0/10
+2026-05-19 12:18:50,318 [INFO] __main__:   Context: 0 chars (0 sources)
+2026-05-19 12:19:32,952 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:19:32,954 [INFO] __main__:   Expert answer: 4371 chars, tokens=2983
+2026-05-19 12:19:33,813 [INFO] __main__:   ✓ Answer submitted
+2026-05-19 12:19:33,815 [INFO] __main__:   Result saved: logv4/task_21ecdeeb_[Bonds]_任务_#8013.json
+2026-05-19 12:19:47,996 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:19:47,998 [INFO] __main__: [b91b51ba] [Equities] 任务 #8191 (category=finance, reward=5542)
+2026-05-19 12:19:59,998 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:20:00,000 [INFO] __main__:   Keywords: [['Nitto Boseki', 'inventory management'], ['AI server supply chain', 'operating cash flow']]
+2026-05-19 12:20:00,955 [INFO] httpx: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=Nitto+Boseki+inventory+management&limit=10&fields=title%2Cabstract%2Cauthors%2Cyear%2CexternalIds%2Ctldr%2Curl "HTTP/1.1 429 "
+2026-05-19 12:20:00,958 [WARNING] src.retriever: Semantic Scholar rate limited, waiting 5s...
+2026-05-19 12:20:06,777 [INFO] httpx: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=Nitto+Boseki+inventory+management&limit=10&fields=title%2Cabstract%2Cauthors%2Cyear%2CexternalIds%2Ctldr%2Curl "HTTP/1.1 429 "
+2026-05-19 12:20:06,778 [WARNING] src.retriever: Semantic Scholar returned 429
+2026-05-19 12:20:07,313 [INFO] httpx: HTTP Request: GET https://api.openalex.org/works?search=Nitto+Boseki+inventory+management&per_page=10&select=title%2Cauthorships%2Cpublication_year%2Cdoi%2Cabstract_inverted_index%2Cid "HTTP/1.1 200 OK"
+2026-05-19 12:20:08,352 [INFO] httpx: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=AI+server+supply+chain+operating+cash+flow&limit=10&fields=title%2Cabstract%2Cauthors%2Cyear%2CexternalIds%2Ctldr%2Curl "HTTP/1.1 429 "
+2026-05-19 12:20:08,353 [WARNING] src.retriever: Semantic Scholar rate limited, waiting 5s...
+2026-05-19 12:20:14,106 [INFO] httpx: HTTP Request: GET https://api.semanticscholar.org/graph/v1/paper/search?query=AI+server+supply+chain+operating+cash+flow&limit=10&fields=title%2Cabstract%2Cauthors%2Cyear%2CexternalIds%2Ctldr%2Curl "HTTP/1.1 429 "
+2026-05-19 12:20:14,107 [WARNING] src.retriever: Semantic Scholar returned 429
+2026-05-19 12:20:15,435 [INFO] httpx: HTTP Request: GET https://api.openalex.org/works?search=AI+server+supply+chain+operating+cash+flow&per_page=10&select=title%2Cauthorships%2Cpublication_year%2Cdoi%2Cabstract_inverted_index%2Cid "HTTP/1.1 200 OK"
+2026-05-19 12:20:16,390 [INFO] __main__:   API search: 6 papers
+2026-05-19 12:20:27,527 [INFO] httpx: HTTP Request: POST http://10.246.241.177:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-19 12:20:27,529 [INFO] src.paper_reader: Relevance check: 'Blockchain for AI: Review and Open Resea' → NOT RELEVANT (论文研究区块链与AI的结合，与Nitto Boseki的库存和现金流问题无关。)

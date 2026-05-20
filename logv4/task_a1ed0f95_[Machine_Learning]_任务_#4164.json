@@ -1,0 +1,47 @@
+{
+  "task_id": "a1ed0f95-45b6-4d15-ba84-05de00400d8d",
+  "title": "[Machine Learning] 任务 #4164",
+  "category": "industrial_engineering",
+  "reward_pool": 3517,
+  "keywords_extracted": [
+    [
+      "recommender system",
+      "CTR prediction"
+    ],
+    [
+      "deep learning",
+      "online-offline discrepancy"
+    ],
+    [
+      "A/B test",
+      "user engagement"
+    ]
+  ],
+  "papers_searched": 18,
+  "papers_relevant": 6,
+  "papers_with_full_text": 0,
+  "cache_hits": 1,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [
+    {
+      "paper_id": "doi:https://doi.org/10.1109/access.2021.3119561",
+      "title": "Deep-Learning for Radar: A Survey",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文主题是雷达信号处理中的深度学习，与推荐系统中的CTR预测模型升级完全无关。"
+    }
+  ],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 332,
+  "tokens_cache_validation": 384,
+  "tokens_relevance": 5697,
+  "tokens_reading": 0,
+  "tokens_expert": 3008,
+  "tokens_total": 9421,
+  "context_injected": "[DeepFM: A Factorization-Machine based Ne]\n摘要: Learning sophisticated feature interactions behind user behaviors is critical in maximizing CTR for recommender systems. Despite great progress, existing methods seem to have a strong bias towards low- or high-order interactions, or require expertise feature engineering. In this paper, we show that it is possible to derive an end-to-end learning model that emphasizes both low- and high-order featu\n\n[AutoInt]\n摘要: Click-through rate (CTR) prediction, which aims to predict the probability of a user clicking on an ad or an item, is critical to many online applications such as online advertising and recommender systems. The problem is very challenging since (1) the input features (e.g., the user id, user age, item id, item category) are usually sparse and high-dimensional, and (2) an effective prediction relie\n\n[Deep Session Interest Network for Click-]\n摘要: Click-Through Rate (CTR) prediction plays an important role in many industrial applications, such as online advertising and recommender systems. How to capture users' dynamic and evolving interests from their behavior sequences remains a continuous research topic in the CTR prediction. However, most existing studies overlook the intrinsic structure of the sequences: the sequences are composed of s",
+  "context_length": 1312,
+  "answer_submitted": false,
+  "score": null,
+  "status": "submitted"
+}

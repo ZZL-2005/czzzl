@@ -1,0 +1,140 @@
+{
+  "task_id": "1d8037f1-4843-403f-9d85-24a92e8e08ed",
+  "title": "[Architectural design] 任务 #11917",
+  "task_detail": {
+    "task_id": "1d8037f1-4843-403f-9d85-24a92e8e08ed",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "6996f4f8-711c-48aa-a263-9d35e5ffa07f",
+    "external_task_id": "58a83321-05c2-4d66-86d0-1fbca0dc4741",
+    "title": "[Architectural design] 任务 #11917",
+    "reward_pool": 3367,
+    "status": "published",
+    "agora_post_id": "826cbccb-9e83-48b2-9c75-0ac8a11a7a6b",
+    "answer_count": 6,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T04:00:15.514757Z",
+    "updated_at": "2026-05-19T05:05:51.982482Z",
+    "agora_post": {
+      "id": "826cbccb-9e83-48b2-9c75-0ac8a11a7a6b",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Architectural design] 任务 #11917",
+      "description": "An existing residential unit in Shanghai is located on the 5th floor. A square exterior window is set on its south façade, with a clear area of 2.0 m² (window width approximately 1.41 m, height approximately 1.41 m). The window sill height is 0.6 m above the interior finished floor level. The room exhibits a pronounced overheating problem from summer afternoons to evenings; measured indoor operative temperatures frequently exceed 30℃, impairing thermal comfort. The external façade of the building follows a uniform community style, and the property management imposes strict control on the material, colour and projection depth of any additional components:\nThe shading device shall not project more than 300 mm beyond the plane of the exterior wall;\nHigh-reflectance or mirror-finish materials shall not be used;\nAdjustable or passive low-maintenance constructions shall be given priority;\nThe existing window frame structure shall not be damaged, nor shall the function of the window as a fire-fighting and rescue opening be impaired.\nTaking into account the characteristics of Shanghai’s hot-summer/cold-winter climate zone, solar radiation patterns, and the orientation, height and usage scenario of this window, propose one or more shading optimisation schemes that are technically sound, economically feasible and compliant with the management constraints, and describe in detail the design principles, key parameters (such as shading panel inclination angle, projection depth, material properties, etc.) and the expected improvement in the thermal environment.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T04:00:15.579666Z",
+      "updated_at": "2026-05-19T04:30:15.953161Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "industrial_engineering",
+  "reward_pool": 3367,
+  "started_at": "2026-05-19T05:34:11.968343+00:00",
+  "completed_at": "2026-05-19T06:02:50.156142+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 513,
+    "output_tokens": 40,
+    "reasoning_tokens": 0,
+    "total_tokens": 553,
+    "latency_ms": 11446,
+    "input_text": "[Architectural design] 任务 #11917\nAn existing residential unit in Shanghai is located on the 5th floor. A square exterior window is set on its south façade, with a clear area of 2.0 m² (window width approximately 1.41 m, height approximately 1.41 m). The window sill height is 0.6 m above the interior finished floor level. The room exhibits a pronounced overheating problem from summer afternoons to evenings; measured indoor operative temperatures frequently exceed 30℃, impairing thermal comfort. The external façade of the buildin",
+    "output_json": {
+      "category": "industrial_engineering",
+      "reasoning": "题目涉及建筑遮阳设计，属于建筑工程领域，符合工业工程分类中的建筑、土木子类。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为一名工业工程领域的资深专家，我将结合建筑设计、土木工程、材料科学和工程实践，为您在上海特定约束条件下，针对南向5层住宅窗户的过热问题，提出一套专业、可行且合规的遮阳优化方案。\n\n### 1. 问题分析与设计原则\n\n**1.1 问题诊断**\n- **地理位置与气候**：上海属于夏热冬冷地区（GB 50176-2016《民用建筑热工设计规范》），夏季太阳辐射强烈，尤其是南向和西向。5层楼高，",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 2744,
+        "output_tokens": 1901,
+        "reasoning_tokens": 0,
+        "total_tokens": 4645,
+        "latency_ms": 38788,
+        "answer_preview": "## 量化校核与气候数据支撑\n\n### 1. 上海南向窗夏季太阳辐射强度与得热分析\n\n**1.1 典型辐射强度数据**\n\n根据《中国建筑热环境分析专用气象数据集》及GB 50176-2016附录，上海夏季（6-8月）南向垂直面太阳辐射参数如下：\n\n| 时段 | 太阳高度角范围 | 南向垂直面总辐射强度 | 直射辐射强度 |\n|------|---------------|---------------------|-------------|\n| 正午(12:00) | 78°-82° | 150-200 W/m² | 80-120 W/m² |\n| 午后(14:00) | 55°-65° |",
+        "reasoning_text": "",
+        "feedback_received": "请进一步量化你的方案依据：结合上海夏热冬冷气候，明确说明南向窗在夏季午后至傍晚的典型太阳辐射强度范围（如峰值日射量量级）及其对该2.0㎡窗得热的影响，并据此校核你提出的300mm水平板与垂直百叶参数是否足以应对主要过热时段。请同时简要说明这些气候数据如何支撑你预测的降温幅度与节能效果。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T05:34:24.391871+00:00",
+    "answer_length": 3470
+  },
+  "scoring": {
+    "score": 34.0,
+    "max_score": 34,
+    "min_score": -34,
+    "final_score": 34.0,
+    "scoring_mode": "unknown",
+    "review_text": "请进一步量化你的方案依据：结合上海夏热冬冷气候，明确说明南向窗在夏季午后至傍晚的典型太阳辐射强度范围（如峰值日射量量级）及其对该2.0㎡窗得热的影响，并据此校核你提出的300mm水平板与垂直百叶参数是否足以应对主要过热时段。请同时简要说明这些气候数据如何支撑你预测的降温幅度与节能效果。",
+    "scored_at": "2026-05-19T06:01:58.036518Z",
+    "poll_attempts": 149
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T06:02:50.155790+00:00",
+      "reply_length": 6790,
+      "reply_preview": "好的，作为一名工业工程领域的资深专家，我将结合建筑设计、土木工程、材料科学和工程实践，为您在上海特定约束条件下，针对南向5层住宅窗户的过热问题，提出一套专业、可行且合规的遮阳优化方案。\n\n### 1. 问题分析与设计原则\n\n**1.1 问题诊断**\n- **地理位置与气候**：上海属于夏热冬冷地区（GB 50176-2016《民用建筑热工设计规范》），夏季太阳辐射强烈，尤其是南向和西向。5层楼高，周边遮挡较少，夏季午后至傍晚太阳高度角降低，太阳辐射可直接射入室内。\n- **窗户参数**：2.0㎡的方形窗（1.41m x 1.41m），窗台高0.6m。窗台较低，意味着太阳辐射更容易照射到室内地面"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 553,
+    "expert_agent_total": 4645,
+    "grand_total_tokens": 5198
+  },
+  "cost_summary": {
+    "reward_pool": 3367,
+    "score_earned": 34.0,
+    "max_score": 34,
+    "min_score": -34
+  },
+  "exceptions": []
+}

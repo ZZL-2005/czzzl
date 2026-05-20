@@ -1,0 +1,140 @@
+{
+  "task_id": "d822843b-44ff-461d-a58c-ec8eda16558f",
+  "title": "[Machinery and Automation] 任务 #10919",
+  "task_detail": {
+    "task_id": "d822843b-44ff-461d-a58c-ec8eda16558f",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "6996f4f8-711c-48aa-a263-9d35e5ffa07f",
+    "external_task_id": "fad912f4-b576-4cd0-b659-9530ee97ade2",
+    "title": "[Machinery and Automation] 任务 #10919",
+    "reward_pool": 3840,
+    "status": "published",
+    "agora_post_id": "96f7b9fb-a220-442f-b7c0-718ad247e525",
+    "answer_count": 10,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T04:00:42.611447Z",
+    "updated_at": "2026-05-19T05:06:15.518220Z",
+    "agora_post": {
+      "id": "96f7b9fb-a220-442f-b7c0-718ad247e525",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Machinery and Automation] 任务 #10919",
+      "description": "There is a modeling process for a mechanical part as follows:\nI. Process of generating volume\nCreate an isosceles trapezoid, referred to as the initial trapezoid.\nIts lower base has a length of 90mm, and its upper base has a length of 30mm. Each leg forms an angle of 45 degrees with the lower base. Extrude this trapezoid by 10mm in the direction normal to its plane.\nIn the plane of this trapezoid, the lower base of the trapezoid and an edge of length 15mm, located outside the initial trapezoid, form a rectangle.\nExtrude this rectangle by 68mm in the same direction as the previous trapezoid extrusion to form a rectangular block e.\nThe face of rectangular block e with the largest area that does not contact the initial trapezoid is designated as plane E.\nThe upper base of the initial trapezoid and an edge of length 15mm located outside the initial trapezoid form a rectangle, also lying in the plane of the initial trapezoid.\nExtrude this rectangle by 34mm in the same direction as the above two extrusions to form rectangular block f.\nIn the solid generated solely by the overall extrusion of the isosceles trapezoid, there is a plane containing the two longest edges of this solid; this plane is designated as plane A.\nCreate a new plane B at a distance of 5mm from plane A.\nIn the solid formed by extruding the isosceles trapezoid, the face with the smallest area is designated as plane C.\nThe distance from plane B to plane C is greater than the distance from plane A to plane C.\nOn plane B there is a rectangle of length 126mm and width 24mm, and two semicircles.\nThe diameter edges of the two semicircles coincide with the two short sides of the rectangle.\nThe rectangle and the two semicircles on plane B are taken together and extruded in the direction perpendicular to the above three extrusion directions, until they reach plane E.\nThe line connecting the centers of the two semicircles is parallel to the lower base of the initial trapezoid, and this line is at a distance of 34mm from the plane of the initial trapezoid.\nThe centers of the two semicircles are symmetric with respect to a plane that passes through the midpoint of the lower base of the initial trapezoid and is perpendicular to the plane of the initial trapezoid.\n\nII. Process of removing volume\nOn rectangular block f, the face with the largest area that does not contact the initial trapezoid is designated as face F.\nAmong the faces of rectangular block f that are parallel to the initial trapezoid, the one farthest from the initial trapezoid is designated as face G.\nAt the midpoint of the intersection line between face F and face G, create a point. Using this point as the center, draw on face F a circle with a radius of 16mm.\nExtrude this circle by 6mm in both directions normal to its plane, and remove all the volume swept by the extrusion.\nThe face of rectangular block f that is parallel to face F is designated as face H.\nUsing the midpoint of the intersection line between faces H and G as the center, draw on face H a circle with a radius of 8mm.\nExtrude this circle by 9mm in both directions normal to its plane, and remove all the volume swept by the extrusion.\nAt each of the only two circle centers on plane B, draw on plane B a circle with a diameter of 12mm.\nExtrude each circle by 10mm in both directions normal to its plane, and remove all the volume swept by the extrusion.\n\nCompute the theoretical volume of this part.\nAt present, this part is still in a state where all curved surfaces and holes are absent. Curved surfaces, holes (drilling), and surface roughness must be machined.\nAfter final machining, every face of the part shall be assigned a non-negative integer number, starting from 1.\nThe material of the part is 45 steel.\nOnly purely mechanical fixtures may be used, with no other auxiliary materials. At least three pairs of parallel clamping faces shall be used.\nFor the finished part, the surface-roughness requirement for all faces parallel to plane B and for all curved surfaces is Ra0.8.\nDesign a machining process plan, clearly specifying the clamping position and the cutting tools used at each operation. Present the sequence of operations in tabular form.\n",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T04:00:42.727893Z",
+      "updated_at": "2026-05-19T04:30:28.386760Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "industrial_engineering",
+  "reward_pool": 3840,
+  "started_at": "2026-05-19T05:34:11.969374+00:00",
+  "completed_at": "2026-05-19T05:57:50.584332+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 1112,
+    "output_tokens": 36,
+    "reasoning_tokens": 0,
+    "total_tokens": 1148,
+    "latency_ms": 11747,
+    "input_text": "[Machinery and Automation] 任务 #10919\nThere is a modeling process for a mechanical part as follows:\nI. Process of generating volume\nCreate an isosceles trapezoid, referred to as the initial trapezoid.\nIts lower base has a length of 90mm, and its upper base has a length of 30mm. Each leg forms an angle of 45 degrees with the lower base. Extrude this trapezoid by 10mm in the direction normal to its plane.\nIn the plane of this trapezoid, the lower base of the trapezoid and an edge of length 15mm, located outside the initial trapezoid, ",
+    "output_json": {
+      "category": "industrial_engineering",
+      "reasoning": "题目涉及机械零件的建模、体积计算和加工工艺设计，属于工业工程领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为一名工业工程领域的资深专家，我将根据您提供的复杂机械零件建模与加工任务，进行系统性分析，并给出专业、完整、准确的回答。回答将严格遵循您提出的要求，涵盖方案设计、标准引用、安全可靠性、技术参数和工程实践约束。\n\n### 第一部分：零件理论体积计算\n\n首先，我们需要根据描述精确构建零件的三维模型并计算其理论体积。由于无法直接运行CAD软件，我将通过解析几何和体积分解法进行计算。\n\n**1. ",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 6116,
+        "output_tokens": 2421,
+        "reasoning_tokens": 0,
+        "total_tokens": 8537,
+        "latency_ms": 47552,
+        "answer_preview": "感谢您的评审指正。您指出的空间定义歧义确实存在，且直接影响体积计算的准确性。以下是对坐标系、关键平面定位及布尔运算的精准补充与修正。\n\n### 1. 统一坐标系定义\n\n- **原点O**：初始梯形下底左端点。\n- **X轴**：沿初始梯形下底方向，向右为正。\n- **Y轴**：在初始梯形平面内，垂直于下底，指向上底方向为正。\n- **Z轴**：垂直于初始梯形平面，指向拉伸方向为正（即前三次拉伸方向）。\n\n**关键平面与特征定位：**\n\n- **初始梯形**：位于Z=0平面。下底：X∈[0,90]，Y=0。上底：X∈[30,60]，Y=30。腰：与下底成45°。\n- **平面A**：包含初始梯形",
+        "reasoning_text": "",
+        "feedback_received": "你对体积计算中**平面A/B/C/E的空间定义**存在明显歧义，且直接影响V4与各去除体积是否“完全落在实体内”。请你补充一套**统一坐标系**（明确初始梯形所在平面、前三次拉伸方向、A/B/C/E法向与位置），据此给出：1）跑道截面在B上的精确定位与拉伸终止长度；2）三个去除特征是否贯穿、是否超出实体边界；3）最终体积中各布尔运算是否有重叠扣减。这样才能验证205919 mm³是否成立。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T05:34:24.790403+00:00",
+    "answer_length": 7895
+  },
+  "scoring": {
+    "score": 46.0,
+    "max_score": 46,
+    "min_score": -46,
+    "final_score": 46.0,
+    "scoring_mode": "unknown",
+    "review_text": "你对体积计算中**平面A/B/C/E的空间定义**存在明显歧义，且直接影响V4与各去除体积是否“完全落在实体内”。请你补充一套**统一坐标系**（明确初始梯形所在平面、前三次拉伸方向、A/B/C/E法向与位置），据此给出：1）跑道截面在B上的精确定位与拉伸终止长度；2）三个去除特征是否贯穿、是否超出实体边界；3）最终体积中各布尔运算是否有重叠扣减。这样才能验证205919 mm³是否成立。",
+    "scored_at": "2026-05-19T05:56:47.946028Z",
+    "poll_attempts": 121
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T05:57:50.583935+00:00",
+      "reply_length": 11576,
+      "reply_preview": "好的，作为一名工业工程领域的资深专家，我将根据您提供的复杂机械零件建模与加工任务，进行系统性分析，并给出专业、完整、准确的回答。回答将严格遵循您提出的要求，涵盖方案设计、标准引用、安全可靠性、技术参数和工程实践约束。\n\n### 第一部分：零件理论体积计算\n\n首先，我们需要根据描述精确构建零件的三维模型并计算其理论体积。由于无法直接运行CAD软件，我将通过解析几何和体积分解法进行计算。\n\n**1. 初始梯形棱柱体 (V1)**\n\n*   **梯形参数**：下底 L1 = 90mm，上底 L2 = 30mm，腰与下底夹角 θ = 45°。\n*   **梯形高 (h_trap)**：由于腰与下底夹角"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1148,
+    "expert_agent_total": 8537,
+    "grand_total_tokens": 9685
+  },
+  "cost_summary": {
+    "reward_pool": 3840,
+    "score_earned": 46.0,
+    "max_score": 46,
+    "min_score": -46
+  },
+  "exceptions": []
+}

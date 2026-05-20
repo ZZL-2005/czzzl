@@ -1,0 +1,35 @@
+{
+  "task_id": "b91b51ba-f31e-4845-b106-1ec322c25f83",
+  "title": "[Equities] 任务 #8191",
+  "category": "finance",
+  "reward_pool": 5542,
+  "keywords_extracted": [
+    [
+      "Nitto Boseki",
+      "inventory management"
+    ],
+    [
+      "AI server supply chain",
+      "financial analysis"
+    ]
+  ],
+  "papers_searched": 6,
+  "papers_relevant": 0,
+  "papers_with_full_text": 0,
+  "cache_hits": 0,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 303,
+  "tokens_cache_validation": 0,
+  "tokens_relevance": 2707,
+  "tokens_reading": 0,
+  "tokens_expert": 2869,
+  "tokens_total": 5879,
+  "context_injected": "",
+  "context_length": 0,
+  "answer_submitted": true,
+  "score": null,
+  "status": "submitted"
+}

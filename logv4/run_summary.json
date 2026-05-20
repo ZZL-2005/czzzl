@@ -1,0 +1,151 @@
+{
+  "report_generated": "2026-05-19",
+  "version": "v4",
+  "total_tasks_processed": 11,
+  "tasks_with_scores": 10,
+  "average_score": 28.7,
+  "min_score": 15.0,
+  "max_score": 60.0,
+  "total_tokens_used": 161405,
+  "avg_tokens_per_task": 14673,
+  "category_breakdown": {
+    "medical_health": {
+      "count": 4,
+      "avg_score": 31.2,
+      "scores": [
+        60.0,
+        15.0,
+        20.0,
+        30.0
+      ],
+      "avg_tokens": 21224
+    },
+    "natural_science": {
+      "count": 1,
+      "avg_score": 25.0,
+      "scores": [
+        25.0
+      ],
+      "avg_tokens": 19618
+    },
+    "law": {
+      "count": 3,
+      "avg_score": 26.3,
+      "scores": [
+        22.0,
+        27.0,
+        30.0
+      ],
+      "avg_tokens": 10580
+    },
+    "finance": {
+      "count": 2,
+      "avg_score": 29.0,
+      "scores": [
+        31.0,
+        27.0
+      ],
+      "avg_tokens": 9425
+    }
+  },
+  "retrieval_stats": {
+    "total_papers_searched": 167,
+    "total_papers_relevant": 28,
+    "total_papers_read": 8,
+    "cache_hits_total": 14,
+    "cache_hits_validated": 5,
+    "cache_precision": 35.7
+  },
+  "score_vs_retrieval_correlation": [
+    {
+      "task_id": "0bce4f1d",
+      "category": "medical_health",
+      "score": 60.0,
+      "papers_read": 2,
+      "cache_validated": 5,
+      "context_length": 3510,
+      "tokens_total": 26778
+    },
+    {
+      "task_id": "443fd97b",
+      "category": "natural_science",
+      "score": 25.0,
+      "papers_read": 0,
+      "cache_validated": 0,
+      "context_length": 896,
+      "tokens_total": 19618
+    },
+    {
+      "task_id": "4b129488",
+      "category": "medical_health",
+      "score": 15.0,
+      "papers_read": 2,
+      "cache_validated": 0,
+      "context_length": 895,
+      "tokens_total": 15789
+    },
+    {
+      "task_id": "85595fe4",
+      "category": "medical_health",
+      "score": 20.0,
+      "papers_read": 3,
+      "cache_validated": 0,
+      "context_length": 1014,
+      "tokens_total": 27470
+    },
+    {
+      "task_id": "a0d3d8fb",
+      "category": "law",
+      "score": 22.0,
+      "papers_read": 0,
+      "cache_validated": 0,
+      "context_length": 447,
+      "tokens_total": 13161
+    },
+    {
+      "task_id": "d5aee286",
+      "category": "medical_health",
+      "score": 30.0,
+      "papers_read": 1,
+      "cache_validated": 0,
+      "context_length": 1158,
+      "tokens_total": 14860
+    },
+    {
+      "task_id": "d5b893a5",
+      "category": "finance",
+      "score": 31.0,
+      "papers_read": 0,
+      "cache_validated": 0,
+      "context_length": 1345,
+      "tokens_total": 9755
+    },
+    {
+      "task_id": "d999218f",
+      "category": "law",
+      "score": 27.0,
+      "papers_read": 0,
+      "cache_validated": 0,
+      "context_length": 0,
+      "tokens_total": 10602
+    },
+    {
+      "task_id": "e8ee5665",
+      "category": "law",
+      "score": 30.0,
+      "papers_read": 0,
+      "cache_validated": 0,
+      "context_length": 0,
+      "tokens_total": 7977
+    },
+    {
+      "task_id": "f9692915",
+      "category": "finance",
+      "score": 27.0,
+      "papers_read": 0,
+      "cache_validated": 0,
+      "context_length": 0,
+      "tokens_total": 9096
+    }
+  ]
+}

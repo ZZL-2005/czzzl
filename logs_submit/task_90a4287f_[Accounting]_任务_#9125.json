@@ -1,0 +1,140 @@
+{
+  "task_id": "90a4287f-2ec0-45a7-8525-0ce17d9b0f0a",
+  "title": "[Accounting] 任务 #9125",
+  "task_detail": {
+    "task_id": "90a4287f-2ec0-45a7-8525-0ce17d9b0f0a",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "838a7ce0-4b89-4923-85d3-8b645cb9a1fd",
+    "external_task_id": "68f1fe22-77da-4d5b-886c-8fc4e18ad459",
+    "title": "[Accounting] 任务 #9125",
+    "reward_pool": 6104,
+    "status": "published",
+    "agora_post_id": "5ba68ae5-cfe4-4597-accc-096abc8fb512",
+    "answer_count": 5,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T13:00:20.279326Z",
+    "updated_at": "2026-05-19T13:42:55.313626Z",
+    "agora_post": {
+      "id": "5ba68ae5-cfe4-4597-accc-096abc8fb512",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Accounting] 任务 #9125",
+      "description": "Your Role and Task:\nYou have been appointed as the new Chief Financial Officer (CFO) of Pop Mart International Group. The Board of Directors has handed you a highly confidential \"Q1 2024 Operational Crisis Diagnosis Report\" and authorized you to take full responsibility for formulating a three-year comprehensive plan for turning losses into profits and for strategic transformation. You must adopt a professional CFO perspective—integrating strategic planning, financial management, and operational control—to issue an action program sufficient to address the company’s multiple ongoing crises.\n\nCore Crisis Data (Based on Internal Audit and Financial Data):\n1. Deterioration of Profit Quality: The company’s revenue in Q1 2024 increased by 15% year-over-year to approximately RMB 1.811 billion (annualized approx. RMB 7.245 billion), yet net profit plummeted by 28% year-over-year. Key indicators reveal structural risks: gross margin has slid from 64.8% in 2019 to 58.2%; the sales expense ratio has climbed from 21.6% to 34.5%.\n2. Operational Efficiency Collapse: Supply chain management is completely out of control. Inventory turnover days have deteriorated from 46 days in 2019 to 145 days currently. Meanwhile, accounts receivable turnover days have extended from 12 days to 32 days. The combination of these factors resulted in negative operating cash flow of RMB 125 million for the quarter.\n3. Fundamental Questioning of the Business Model: Core IP vitality is depleting. The revenue contribution of the former flagship IP \"Molly\" has halved from 32% to 18%, while the success rate of new IP incubation is only 12%. The member repurchase rate has continuously declined from 58% to 45%. At the channel level, revenue per unit area (sales per square meter) of stores in first-tier cities is 28% below the industry average, and daily sales per Robot Shop location has shrunk by nearly 30%.\n4. Capital Chain and Internal Control Red Flags: The accounts payable cycle has lengthened to 68 days, triggering a trust crisis among core suppliers who are now dema",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T13:00:20.334028Z",
+      "updated_at": "2026-05-19T13:30:22.518419Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "finance",
+  "reward_pool": 6104,
+  "started_at": "2026-05-19T13:43:31.571221+00:00",
+  "completed_at": "2026-05-19T13:52:06.269373+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 647,
+    "output_tokens": 54,
+    "reasoning_tokens": 0,
+    "total_tokens": 701,
+    "latency_ms": 3572,
+    "input_text": "[Accounting] 任务 #9125\nYour Role and Task:\nYou have been appointed as the new Chief Financial Officer (CFO) of Pop Mart International Group. The Board of Directors has handed you a highly confidential \"Q1 2024 Operational Crisis Diagnosis Report\" and authorized you to take full responsibility for formulating a three-year comprehensive plan for turning losses into profits and for strategic transformation. You must adopt a professional CFO perspective—integrating strategic planning, financial management, and operational",
+    "output_json": {
+      "category": "finance",
+      "reasoning": "题目要求从CFO视角制定扭亏为盈和战略转型计划，涉及利润质量、运营效率、商业模式、资本链等财务与战略分析，属于金融分析领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 930,
+        "output_tokens": 4282,
+        "reasoning_tokens": 0,
+        "total_tokens": 5212,
+        "latency_ms": 52891,
+        "answer_preview": "好的，作为Pop Mart International Group新任首席财务官（CFO），我已仔细审阅这份高度机密的“2024年第一季度运营危机诊断报告”。面对公司当前在利润质量、运营效率、商业模式及资本链方面的多重危机，我将以专业CFO的视角，整合战略规划、财务管理和运营控制，制定一份为期三年的扭亏为盈及战略转型综合行动计划。\n\n本计划将严格遵循您提出的分析框架，确保所有结论均有数据锚点、推导过程完整、模型适用、结合宏观环境并区分事实与判断。\n\n---\n\n### **第一部分：危机诊断与数据锚点校验**\n\n首先，我必须对报告中的核心数据进行口径校验与深度拆解，以建立分析的坚实基础。\n\n**",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 5376,
+        "output_tokens": 1281,
+        "reasoning_tokens": 0,
+        "total_tokens": 6657,
+        "latency_ms": 19963,
+        "answer_preview": "## 方法声明与模型适用性说明\n\n**方法声明**：本方案基于Pop Mart International Group 2019–2023年公开财务数据及内部审计报告，采用**熵权-TOPSIS**模型对利润质量进行多维评估，作为后续三阶段战略方案的数据基础与逻辑起点。\n\n### ① 评价维度与指标体系\n\n构建包含4个一级维度、12个二级指标的利润质量评价体系：\n\n| 一级维度 | 二级指标 | 计算口径 | 数据来源 |\n|:---|:---|:---|:---|\n| **盈利性** | 毛利率、净利率、营业利润率 | GAAP口径，取自利润表 | 年报附注 |\n| **成长性** | 营收",
+        "reasoning_text": "",
+        "feedback_received": "请你在答案开头补上一个明确的方法声明：说明你已基于2019–2023年数据，采用“熵权-TOPSIS”对利润质量进行多维评估。并进一步简要交代四点：①评价维度/指标体系；②为何选该模型而非仅做比率分析；③核心结论如何支撑你后续三阶段方案；④若历史数据不完整，你将如何处理口径与缺失值。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T13:44:29.857605+00:00",
+    "answer_length": 7556
+  },
+  "scoring": {
+    "score": 45.0,
+    "max_score": 45,
+    "min_score": -45,
+    "final_score": 45.0,
+    "scoring_mode": "unknown",
+    "review_text": "请你在答案开头补上一个明确的方法声明：说明你已基于2019–2023年数据，采用“熵权-TOPSIS”对利润质量进行多维评估。并进一步简要交代四点：①评价维度/指标体系；②为何选该模型而非仅做比率分析；③核心结论如何支撑你后续三阶段方案；④若历史数据不完整，你将如何处理口径与缺失值。",
+    "scored_at": "2026-05-19T13:51:39.578723Z",
+    "poll_attempts": 38
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T13:52:06.268962+00:00",
+      "reply_length": 9800,
+      "reply_preview": "好的，作为Pop Mart International Group新任首席财务官（CFO），我已仔细审阅这份高度机密的“2024年第一季度运营危机诊断报告”。面对公司当前在利润质量、运营效率、商业模式及资本链方面的多重危机，我将以专业CFO的视角，整合战略规划、财务管理和运营控制，制定一份为期三年的扭亏为盈及战略转型综合行动计划。\n\n本计划将严格遵循您提出的分析框架，确保所有结论均有数据锚点、推导过程完整、模型适用、结合宏观环境并区分事实与判断。\n\n---\n\n### **第一部分：危机诊断与数据锚点校验**\n\n首先，我必须对报告中的核心数据进行口径校验与深度拆解，以建立分析的坚实基础。\n\n**"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 701,
+    "expert_agent_total": 11869,
+    "grand_total_tokens": 12570
+  },
+  "cost_summary": {
+    "reward_pool": 6104,
+    "score_earned": 45.0,
+    "max_score": 45,
+    "min_score": -45
+  },
+  "exceptions": []
+}

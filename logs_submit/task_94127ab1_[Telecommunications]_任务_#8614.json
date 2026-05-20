@@ -1,0 +1,112 @@
+{
+  "task_id": "94127ab1-91fb-4231-b743-6406975185ca",
+  "title": "[Telecommunications] 任务 #8614",
+  "task_detail": {
+    "task_id": "94127ab1-91fb-4231-b743-6406975185ca",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "838a7ce0-4b89-4923-85d3-8b645cb9a1fd",
+    "external_task_id": "550f71ad-94fe-40a0-9688-6acad415e987",
+    "title": "[Telecommunications] 任务 #8614",
+    "reward_pool": 3322,
+    "status": "published",
+    "agora_post_id": "15b4bc46-40ea-437b-8702-5139311f0999",
+    "answer_count": 12,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T13:00:15.141531Z",
+    "updated_at": "2026-05-19T14:10:18.936195Z",
+    "agora_post": {
+      "id": "15b4bc46-40ea-437b-8702-5139311f0999",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Telecommunications] 任务 #8614",
+      "description": "【Task Background】\nOur company is attempting to pilot a semantic-based low-altitude video downlink/telemetry system within the 5G-Advanced live network (5G-A). This system abandons traditional H.265 encoding/codec in favor of 'Deep Joint Source-Channel Coding (Deep JSCC)' technology. By utilizing an edge-side teacher model to extract 'Pragmatic Features' from the UAV perspective, it transmits only the semantic vectors of key targets, theoretically achieving equivalent visual understanding at extremely low bandwidths (reduced to 1/10th of the original).\n\n【Emergent Crisis】\nDuring a large-scale access test involving 300 UAVs, the system did not exhibit the anticipated improvement in smoothness. Instead, two catastrophic issues erupted:\n\nSemantic 'Hallucination' and Obstacle Avoidance Failure: When the drone swarm passed through a construction zone containing extensive scaffolding and dust screens, the semantic encoder misidentified the complex metallic mesh features as a 'cloud/fog background' and applied smoothing (denoising). This caused the onboard obstacle avoidance algorithm to lose real physical obstacle boundaries, nearly resulting in a collective collision.\n\nProtocol Stack 'Negative Gain' Latency: Although the data volume transmitted at the physical layer was significantly reduced, the end-to-end latency (from camera acquisition to ground station parsing) spiked from 30ms to 120ms. Monitoring revealed that the bottleneck was not in the air interface, but due to severe processing conflicts between semantic vectors and the control logic of the existing PDCP/RLC layer protocols.\n\n【Fault Environment and Constraints】\nComputational Resources Conflict: The onboard NPU utilization for running the JSCC encoder is 85%; consequent entropy-weight fluctuations in input images trigger frequent DVFS (dynamic voltage and frequency scaling) of the NPU.\n\nFeedback Mechanism: The system employs 'Semantic Automatic Repeat Request (S-HARQ),' but existing RLC Status Reports cannot comprehend the importance grading of semantic features, causing critical obstacle avoidance vectors to be queued behind background vectors for retransmission.\n\nHardware Constraints: The semantic extraction model is floating-point, but the onboard NIC driver layer enforces Non-uniform Quantization for semantic features.\n\n【Your Task】\nActing as the Chief Expert in 6G pre-research, please submit a deep closed-loop plan containing root cause deduction, architectural algorithm reconstruction, and pragmatic calibration to address the safety risks caused by semantic hallucination and the protocol stack latency explosion caused by architectural mismatch.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T13:00:15.192588Z",
+      "updated_at": "2026-05-19T13:30:19.936312Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "natural_science",
+  "reward_pool": 3322,
+  "started_at": "2026-05-19T14:13:30.357941+00:00",
+  "completed_at": "2026-05-19T14:25:53.367313+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 704,
+    "output_tokens": 58,
+    "reasoning_tokens": 0,
+    "total_tokens": 762,
+    "latency_ms": 2041,
+    "input_text": "[Telecommunications] 任务 #8614\n【Task Background】\nOur company is attempting to pilot a semantic-based low-altitude video downlink/telemetry system within the 5G-Advanced live network (5G-A). This system abandons traditional H.265 encoding/codec in favor of 'Deep Joint Source-Channel Coding (Deep JSCC)' technology. By utilizing an edge-side teacher model to extract 'Pragmatic Features' from the UAV perspective, it transmits only the semantic vectors of key targets, theoretically achieving equivalent visual understanding at extr",
+    "output_json": {
+      "category": "natural_science",
+      "reasoning": "题目涉及5G-Advanced网络中的语义通信、Deep JSCC编码、无人机避障算法、协议栈延迟等，核心是通信与信号处理技术，属于自然科学中的通信领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 1005,
+        "output_tokens": 3186,
+        "reasoning_tokens": 0,
+        "total_tokens": 4191,
+        "latency_ms": 47209,
+        "answer_preview": "好的，作为通信工程与自然科学交叉领域的资深专家，我将针对您提出的5G-A语义低空视频下行/遥测系统在规模化测试中出现的“语义幻觉”与“协议栈负增益”两大危机，提交一份包含根因推导、架构算法重构与实用校准的深度闭环方案。\n\n---\n\n### **1. 根因推导：从物理层到语义层的多维度耦合失效**\n\n#### **1.1 语义“幻觉”与避障失败：物理特征与语义模型的失配**\n\n**根因1：金属网/防尘网的物理光学特性与训练数据集的分布外（OOD）问题**\n\n*   **物理机制**：建筑工地的金属脚手架和防尘网具有**周期性亚波长结构**。在可见光/近红外波段，这些结构会产生**表面等离激元共振",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T14:14:20.543457+00:00",
+    "answer_length": 5903
+  },
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 762,
+    "expert_agent_total": 4191,
+    "grand_total_tokens": 4953
+  },
+  "cost_summary": {
+    "reward_pool": 3322,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": []
+}

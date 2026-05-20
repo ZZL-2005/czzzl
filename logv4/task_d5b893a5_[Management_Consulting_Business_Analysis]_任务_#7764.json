@@ -1,0 +1,46 @@
+{
+  "task_id": "d5b893a5-e1e6-4051-a246-af69b708eb81",
+  "title": "[Management/Consulting/Business Analysis] 任务 #7764",
+  "category": "finance",
+  "reward_pool": 6560,
+  "keywords_extracted": [
+    [
+      "Apple Inc.",
+      "operational efficiency"
+    ],
+    [
+      "inventory turnover",
+      "Days Inventory Outstanding"
+    ],
+    [
+      "market share",
+      "smartphone market"
+    ]
+  ],
+  "papers_searched": 18,
+  "papers_relevant": 3,
+  "papers_with_full_text": 0,
+  "cache_hits": 0,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 333,
+  "tokens_cache_validation": 0,
+  "tokens_relevance": 5851,
+  "tokens_reading": 0,
+  "tokens_expert": 3571,
+  "tokens_total": 9755,
+  "context_injected": "[Financial Data Analysis and Forecast Rep]\n摘要: This study applies the 3D-IDPT model from the field of Information Resource Management to construct a three-dimensional analytical framework for evaluating the financial performance of Apple Inc. from 2021 to 2023, while forecasting key financial trends for the years 2024 to 2026. By calculating and analyzing core indicators—including liquidity ratios, efficiency ratios, payables ratios, and the o\n\n[Strategic Innovations in Apple's Supply ]\n摘要: This study looks at global supply chain risks and remedies in the context of Apple Inc.'s supply chain, which is renowned for being efficient and complicated. Apple's supply chain management strategy (SCM) optimizes costs and efficiency by integrating the planning and control of manufacturing, distribution, and sales. Efficient worldwide product delivery and very high operational standards are gua\n\n[The Impact of Supply Chain Management on]\n摘要: This paper conducts an in-depth exploration of the impact of supply chain management (SCM) on enterprise management. In the context of globalization and increasingly fierce market competition, efficient SCM has become indispensable for enterprises' survival and development. Through a comprehensive literature analysis and case study method, this study investigates how SCM affects enterprises in ter",
+  "context_length": 1345,
+  "answer_submitted": true,
+  "score": 31.0,
+  "status": "submitted",
+  "score_detail": {
+    "min_score": -24,
+    "raw_score": 7,
+    "is_followup_reply": false
+  },
+  "raw_score": 7,
+  "min_score": -24
+}

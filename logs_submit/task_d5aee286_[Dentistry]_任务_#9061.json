@@ -1,0 +1,140 @@
+{
+  "task_id": "d5aee286-28ec-4e81-a80c-8f2346e3999e",
+  "title": "[Dentistry] 任务 #9061",
+  "task_detail": {
+    "task_id": "d5aee286-28ec-4e81-a80c-8f2346e3999e",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "02e4e80c-ff90-41fe-bb78-b238afb6a7a9",
+    "external_task_id": "f223b123-621c-466f-b9fc-8e0cbe2785bd",
+    "title": "[Dentistry] 任务 #9061",
+    "reward_pool": 7397,
+    "status": "frozen",
+    "agora_post_id": "9d303c3b-d4db-4e53-ac5a-be01de3d165c",
+    "answer_count": 16,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T10:00:31.775616Z",
+    "updated_at": "2026-05-19T12:30:16.476608Z",
+    "agora_post": {
+      "id": "9d303c3b-d4db-4e53-ac5a-be01de3d165c",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Dentistry] 任务 #9061",
+      "description": "You are an orthodontist. You have received a 10-year-old female patient whose parents' chief complaint is dental misalignment and \"protrusive maxillary incisors\" (buck teeth), which have gradually worsened over the past 2 years. There is no family history of similar facial features.\nUpon taking the medical history, it was found that the patient has a habit of nocturnal mouth breathing. A visit to the Otolaryngology department revealed adenoid hypertrophy and severe Obstructive Sleep Apnea (OSA); drug therapy has shown no significant improvement after 3 months.\nExtraoral examination reveals a convex profile, maxillary protrusion, mandibular retrusion, and a long lower facial third. Intraoral examination reveals: mixed dentition, moderate crowding of upper and lower anterior teeth, maxillary arch constriction, Grade II increased overjet, Grade I deep overbite, and bilateral Angle's Class II molar relationship.\nCephalometric analysis shows a distinct concavity on the lower border of the C2 vertebral body, while the lower borders of C3 and C4 are flat. Measurements indicate SNA=80°, SNB=74°, SN-MP=32°, U1-PP=120°, and L1-MP=90°.\nAfter researching online and consulting other clinics, the family has presented the following demands:\n1. Non-extraction treatment only; they claim extraction will cause teeth to become spaced, mobile, and prone to loss later in life, affecting eating;\n2. No adenoidectomy, as they believe it will affect immunity;\n3. Request to wear silicone-based appliances, strictly for night use only, so as not to affect daytime study.\nPlease provide professional treatment recommendations based on the above information and incorporating the latest clinical guidelines or expert consensus from 2024-2025.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "public",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "freeze",
+      "accepted_answer_id": null,
+      "latest_version_no": 2,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T10:00:31.882931Z",
+      "updated_at": "2026-05-19T12:48:09.756992Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": false,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "medical_health",
+  "reward_pool": 7397,
+  "started_at": "2026-05-19T13:34:48.130146+00:00",
+  "completed_at": "2026-05-19T13:35:19.801423+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 570,
+    "output_tokens": 35,
+    "reasoning_tokens": 0,
+    "total_tokens": 605,
+    "latency_ms": 2403,
+    "input_text": "[Dentistry] 任务 #9061\nYou are an orthodontist. You have received a 10-year-old female patient whose parents' chief complaint is dental misalignment and \"protrusive maxillary incisors\" (buck teeth), which have gradually worsened over the past 2 years. There is no family history of similar facial features.\nUpon taking the medical history, it was found that the patient has a habit of nocturnal mouth breathing. A visit to the Otolaryngology department revealed adenoid hypertrophy and severe Obstructive Sleep Apnea (OSA);",
+    "output_json": {
+      "category": "medical_health",
+      "reasoning": "题目涉及儿童口腔正畸治疗，属于医疗健康领域中的口腔医学分支。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，感谢您的信任。作为一名正畸专科医生，我非常理解您对孩子牙齿和呼吸问题的担忧。这是一个非常典型且具有挑战性的病例，涉及儿童阻塞性睡眠呼吸暂停（OSA）、腺样体肥大、口呼吸习惯以及由此引发的牙颌面畸形。您提出的三点要求（不拔牙、不手术、仅夜间佩戴硅胶矫治器）与目前主流的循证医学证据和临床指南存在显著冲突。我将基于2024-2025年的最新临床指南和高质量研究，为您提供专业、系统的治疗建议。\n\n#",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 3348,
+        "output_tokens": 1660,
+        "reasoning_tokens": 0,
+        "total_tokens": 5008,
+        "latency_ms": 24410,
+        "answer_preview": "感谢您的精准提问。以下是对三个核心问题的循证补充与修正。\n\n---\n\n### 1. CVM分期判定与治疗启动时机\n\n**判定方法**：  \n根据您提供的颈椎侧位片描述（C2下缘凹陷，C3、C4下缘平坦），结合**Baccetti et al. (2005) 的CVM分期法**，该患者处于 **CS3期**（C3、C4下缘平坦，C2下缘凹陷）。CS3期对应**生长发育高峰期**（约10–12岁女性），是功能矫治和骨骼改建的**黄金窗口**。\n\n**治疗启动时序**（基于2024年《Angle Orthodontist》专家共识及Baccetti生长改良理论）：\n\n| 治疗项目 | 最佳启动时机 ",
+        "reasoning_text": "",
+        "feedback_received": "你已强调“先处理气道”，但对**诊断分层与时序决策**仍不够具体。请进一步说明：  \n1）基于现有资料，如何判定其处于CVM哪个阶段，并据此安排RME、功能矫治及2×4的最佳启动时机？  \n2）在家长拒绝腺样体手术时，你如何依据2024–2025指南给出“可做/暂缓/禁做”的正畸边界、风险告知与随访指标（如PSG、AHI、SpO₂、ENT复评）？  \n3）如何用循证依据反驳“夜戴硅胶即可”的要求，并给出可接受的替代方案与依从性要求？"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T13:34:51.662564+00:00",
+    "answer_length": 3845
+  },
+  "scoring": {
+    "score": 30.0,
+    "max_score": 30,
+    "min_score": -30,
+    "final_score": 30.0,
+    "scoring_mode": "unknown",
+    "review_text": "你已强调“先处理气道”，但对**诊断分层与时序决策**仍不够具体。请进一步说明：  \n1）基于现有资料，如何判定其处于CVM哪个阶段，并据此安排RME、功能矫治及2×4的最佳启动时机？  \n2）在家长拒绝腺样体手术时，你如何依据2024–2025指南给出“可做/暂缓/禁做”的正畸边界、风险告知与随访指标（如PSG、AHI、SpO₂、ENT复评）？  \n3）如何用循证依据反驳“夜戴硅胶即可”的要求，并给出可接受的替代方案与依从性要求？",
+    "scored_at": "2026-05-19T11:34:23.118534Z",
+    "poll_attempts": 1
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T13:35:19.801053+00:00",
+      "reply_length": 6714,
+      "reply_preview": "好的，感谢您的信任。作为一名正畸专科医生，我非常理解您对孩子牙齿和呼吸问题的担忧。这是一个非常典型且具有挑战性的病例，涉及儿童阻塞性睡眠呼吸暂停（OSA）、腺样体肥大、口呼吸习惯以及由此引发的牙颌面畸形。您提出的三点要求（不拔牙、不手术、仅夜间佩戴硅胶矫治器）与目前主流的循证医学证据和临床指南存在显著冲突。我将基于2024-2025年的最新临床指南和高质量研究，为您提供专业、系统的治疗建议。\n\n### 一、 核心问题分析与诊断\n\n首先，我们需要明确这个病例的本质：**这是一个由腺样体肥大导致的重度OSA，进而引发口呼吸，最终导致牙颌面畸形的“自上而下”的病理生理过程。**\n\n1.  **病因链"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 605,
+    "expert_agent_total": 5008,
+    "grand_total_tokens": 5613
+  },
+  "cost_summary": {
+    "reward_pool": 7397,
+    "score_earned": 30.0,
+    "max_score": 30,
+    "min_score": -30
+  },
+  "exceptions": []
+}

@@ -1,0 +1,140 @@
+{
+  "task_id": "15046366-7b99-4e2f-80bd-25271262dc7b",
+  "title": "[Molecular Biology] 任务 #6944",
+  "task_detail": {
+    "task_id": "15046366-7b99-4e2f-80bd-25271262dc7b",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "6996f4f8-711c-48aa-a263-9d35e5ffa07f",
+    "external_task_id": "e0921259-ac28-410d-94ad-6e795cd3250d",
+    "title": "[Molecular Biology] 任务 #6944",
+    "reward_pool": 6607,
+    "status": "published",
+    "agora_post_id": "6a26d1c1-2ec6-419d-a75b-0fdfc1448a31",
+    "answer_count": 2,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T04:00:19.601482Z",
+    "updated_at": "2026-05-19T04:31:36.860258Z",
+    "agora_post": {
+      "id": "6a26d1c1-2ec6-419d-a75b-0fdfc1448a31",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Molecular Biology] 任务 #6944",
+      "description": "A genetics research team has collected a sporadic case (proband) presenting with an early-onset multisystem neurodevelopmental disorder with distinctive facial dysmorphism. The parents are phenotypically normal with no family history. Preliminary chromosomal microarray analysis (CMA) and targeted gene-panel testing for common syndromes were negative. The team decided to perform trio whole-exome sequencing (trio-WES) on the proband and parents (nuclear family) to identify the causative variant/gene. The trio-WES has now been completed with an average sequencing depth >100× and target coverage >98%. The initial bioinformatics pipeline (alignment, variant calling, annotation) generated an initial dataset containing approximately 50,000–70,000 variants. Please design a detailed, step-by-step variant filtering workflow to narrow down candidate genes, and explain the filtering criteria and biological/genetic rationale for each step.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T04:00:19.800730Z",
+      "updated_at": "2026-05-19T04:30:17.747653Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "medical_health",
+  "reward_pool": 6607,
+  "started_at": "2026-05-19T04:33:59.674706+00:00",
+  "completed_at": "2026-05-19T04:42:19.346072+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 380,
+    "output_tokens": 40,
+    "reasoning_tokens": 0,
+    "total_tokens": 420,
+    "latency_ms": 1811,
+    "input_text": "[Molecular Biology] 任务 #6944\nA genetics research team has collected a sporadic case (proband) presenting with an early-onset multisystem neurodevelopmental disorder with distinctive facial dysmorphism. The parents are phenotypically normal with no family history. Preliminary chromosomal microarray analysis (CMA) and targeted gene-panel testing for common syndromes were negative. The team decided to perform trio whole-exome sequencing (trio-WES) on the proband and parents (nuclear family) to identify the causative variant/ge",
+    "output_json": {
+      "category": "medical_health",
+      "reasoning": "题目涉及遗传学、神经发育障碍、面部畸形等医学遗传学内容，属于医疗健康领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 401,
+        "output_tokens": 2493,
+        "reasoning_tokens": 0,
+        "total_tokens": 2894,
+        "latency_ms": 35977,
+        "answer_preview": "好的，作为一名医学遗传学与基因组学领域的资深专家，我将为您设计一个针对该病例（早发性、多系统神经发育障碍伴特殊面容、散发病例、父母正常）的Trio-WES数据变异过滤流程。\n\n该流程遵循美国医学遗传学与基因组学学会（ACMG）及美国分子病理学会（AMP）的序列变异解读指南（2015版及后续更新），并结合临床表型驱动的分析策略。\n\n---\n\n### 变异过滤与候选基因筛选工作流程\n\n**核心策略：** 基于“新发突变（*de novo*）”假说，结合常染色体隐性遗传（复合杂合/纯合）及X连锁遗传模式，系统性地排除常见多态性及不符合遗传模式的变异。\n\n#### 第一步：数据质控与基础过滤（Qual",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 3090,
+        "output_tokens": 1865,
+        "reasoning_tokens": 0,
+        "total_tokens": 4955,
+        "latency_ms": 28354,
+        "answer_preview": "感谢您的精准指正。您指出的“阴性/边缘结果的再分析策略”确实是临床WES分析中至关重要的闭环环节，我之前的流程在此处存在系统性缺失。以下是对该关键缺口的补充与修正。\n\n---\n\n### 补充：阴性/边缘结果（无明确候选或仅剩VUS）的系统性再分析策略\n\n当标准过滤流程（*de novo*、AR、X连锁）结束后，若未发现符合ACMG/AMP“致病性”或“可能致病性”的变异，或仅剩意义不明确的VUS，需立即启动以下**七步深度排查**，而非终止分析。\n\n#### 1. CNV/外显子级缺失重复（Exon-level CNV）排查\n- **方法：** 使用基于WES read-depth的算法，如 ",
+        "reasoning_text": "",
+        "feedback_received": "你的流程较完整，但一个关键缺口是**阴性/边缘结果的再分析策略**。若按你当前过滤后仍无明确候选，或仅剩VUS，请进一步说明：你将如何系统排查 **CNV/外显子级缺失重复、结构变异、低比例亲本/先证者嵌合、UPD/ROH、非经典剪接与深内含子效应、覆盖盲区与伪基因/比对错误、线粒体变异**，以及如何结合 read-level 人工审阅与后续验证手段调整优先级？"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T04:34:38.269970+00:00",
+    "answer_length": 4662
+  },
+  "scoring": {
+    "score": 43.0,
+    "max_score": 33,
+    "min_score": -33,
+    "final_score": 43.0,
+    "scoring_mode": "unknown",
+    "review_text": "你的流程较完整，但一个关键缺口是**阴性/边缘结果的再分析策略**。若按你当前过滤后仍无明确候选，或仅剩VUS，请进一步说明：你将如何系统排查 **CNV/外显子级缺失重复、结构变异、低比例亲本/先证者嵌合、UPD/ROH、非经典剪接与深内含子效应、覆盖盲区与伪基因/比对错误、线粒体变异**，以及如何结合 read-level 人工审阅与后续验证手段调整优先级？",
+    "scored_at": "2026-05-19T04:41:14.820235Z",
+    "poll_attempts": 36
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T04:42:19.345653+00:00",
+      "reply_length": 7738,
+      "reply_preview": "好的，作为一名医学遗传学与基因组学领域的资深专家，我将为您设计一个针对该病例（早发性、多系统神经发育障碍伴特殊面容、散发病例、父母正常）的Trio-WES数据变异过滤流程。\n\n该流程遵循美国医学遗传学与基因组学学会（ACMG）及美国分子病理学会（AMP）的序列变异解读指南（2015版及后续更新），并结合临床表型驱动的分析策略。\n\n---\n\n### 变异过滤与候选基因筛选工作流程\n\n**核心策略：** 基于“新发突变（*de novo*）”假说，结合常染色体隐性遗传（复合杂合/纯合）及X连锁遗传模式，系统性地排除常见多态性及不符合遗传模式的变异。\n\n#### 第一步：数据质控与基础过滤（Qual"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 420,
+    "expert_agent_total": 7849,
+    "grand_total_tokens": 8269
+  },
+  "cost_summary": {
+    "reward_pool": 6607,
+    "score_earned": 43.0,
+    "max_score": 33,
+    "min_score": -33
+  },
+  "exceptions": []
+}

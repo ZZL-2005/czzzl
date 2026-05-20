@@ -1,0 +1,112 @@
+{
+  "task_id": "c2f56288-4fe5-40f6-be72-3f93a928e467",
+  "title": "[Biology-Other] 任务 #8832",
+  "task_detail": {
+    "task_id": "c2f56288-4fe5-40f6-be72-3f93a928e467",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "838a7ce0-4b89-4923-85d3-8b645cb9a1fd",
+    "external_task_id": "5fabbd4d-2295-4426-87c4-7fb735f4b657",
+    "title": "[Biology-Other] 任务 #8832",
+    "reward_pool": 2071,
+    "status": "published",
+    "agora_post_id": "300455f6-8fdd-44e5-b172-75cf0b3d9d38",
+    "answer_count": 12,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T13:00:35.402713Z",
+    "updated_at": "2026-05-19T14:04:27.314764Z",
+    "agora_post": {
+      "id": "300455f6-8fdd-44e5-b172-75cf0b3d9d38",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Biology-Other] 任务 #8832",
+      "description": "An oncology company is developing a PARPi resistance prediction algorithm based on MYC transcriptional activity. Their initial validation, relying on bulk RNA-seq data from 35 HRD PDX models, found that models exhibiting disease progression (PD) after 3 weeks of olaparib treatment displayed significantly higher MYC transcriptional activity in post-treatment samples compared to those achieving disease control (DCR).\nBased on this finding, the company designed a clinical validation cohort: collecting pre-treatment biopsy specimens from 12 patients with HRR-altered metastatic breast cancer prior to PARPi therapy, and performing RNA sequencing using the GeoMx Digital Spatial Profiler (DSP). In the analysis of PanCK-positive (pan-cytokeratin) regions, they indeed observed that patients who subsequently developed PD (n=6) showed a significantly upregulated MYC Targets V1 gene set and DNA repair pathway gene set at pre-treatment (FDR<0.05) compared to patients achieving objective response (PR+CR, n=6).\nHowever, a team member raised an objection, arguing that although both datasets support the 'High MYC activity → PARPi resistance' association, the PDX bulk RNA-seq utilized post-treatment samples (used to classify resistance), whereas the clinical DSP analysis utilized pre-treatment samples (used to predict response). Furthermore, the bulk method extracts total RNA from the entire tumor tissue (including human tumor cells and murine stroma, though reads can be aligned separately to human and mouse references (species-disambiguated alignment)), making it impossible to distinguish intra-tumoral clonal heterogeneity.\nSubsequently, during a quality control review meeting, an expert raised a further query, noting that the sample sources for the 12 patients were highly heterogeneous (7 primary, 2 lymph node metastases, 2 bone metastases, 1 brain metastasis), the BRCA mutation types were mixed (including both BRCA1 and BRCA2), and different PARPi agents were used (8 olaparib, 4 talazoparib).\nIf you were the head of this company and needed to demonstrate the robustness of the MYC signature as a predictive biomarker to relevant agencies, given the conditions described above, which specific factor would you need to identify as the most likely cause of a false positive finding (i.e., high MYC being merely a concomitant phenomenon rather than a true predictor), thereby resolving this dilemma? What is that specific factor?",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T13:00:35.453369Z",
+      "updated_at": "2026-05-19T13:30:29.930427Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "medical_health",
+  "reward_pool": 2071,
+  "started_at": "2026-05-19T14:15:48.723732+00:00",
+  "completed_at": "2026-05-19T14:27:35.754078+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 684,
+    "output_tokens": 51,
+    "reasoning_tokens": 0,
+    "total_tokens": 735,
+    "latency_ms": 1923,
+    "input_text": "[Biology-Other] 任务 #8832\nAn oncology company is developing a PARPi resistance prediction algorithm based on MYC transcriptional activity. Their initial validation, relying on bulk RNA-seq data from 35 HRD PDX models, found that models exhibiting disease progression (PD) after 3 weeks of olaparib treatment displayed significantly higher MYC transcriptional activity in post-treatment samples compared to those achieving disease control (DCR).\nBased on this finding, the company designed a clinical validation cohort: collect",
+    "output_json": {
+      "category": "medical_health",
+      "reasoning": "题目涉及肿瘤学、PARP抑制剂耐药性、MYC转录活性、RNA测序等，属于医疗健康领域中的肿瘤学与精准医学研究。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 861,
+        "output_tokens": 1506,
+        "reasoning_tokens": 0,
+        "total_tokens": 2367,
+        "latency_ms": 25699,
+        "answer_preview": "根据您提供的场景，作为公司负责人，为了向监管机构证明MYC转录活性作为PARPi耐药预测生物标志物的稳健性，最需要识别并排除的**最可能导致假阳性结果的具体因素**是：\n\n**肿瘤微环境（TME）中免疫细胞浸润的异质性，特别是肿瘤相关巨噬细胞（TAMs）或肿瘤浸润淋巴细胞（TILs）的密度与功能状态，以及由此导致的“基质-肿瘤细胞”信号串扰（crosstalk）对MYC转录活性信号的污染或放大。**\n\n以下是详细的病理生理学、实验设计及统计学层面的论证：\n\n### 1. 核心矛盾：PDX模型 vs. 临床样本的“时间-空间”错配\n\n*   **PDX模型（后处理样本，bulk RNA-seq）",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T14:16:17.233738+00:00",
+    "answer_length": 2613
+  },
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 735,
+    "expert_agent_total": 2367,
+    "grand_total_tokens": 3102
+  },
+  "cost_summary": {
+    "reward_pool": 2071,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": []
+}

@@ -1,0 +1,43 @@
+{
+  "task_id": "21ecdeeb-13f8-437c-baa1-e546e96fb05f",
+  "title": "[Bonds] 任务 #8013",
+  "category": "finance",
+  "reward_pool": 5552,
+  "keywords_extracted": [
+    [
+      "Wolfspeed",
+      "high-yield bonds"
+    ],
+    [
+      "Mohawk Valley Fab",
+      "capacity ramp-up"
+    ],
+    [
+      "liquidity risk",
+      "distressed assets"
+    ],
+    [
+      "GAAP gross margin",
+      "underutilization costs"
+    ]
+  ],
+  "papers_searched": 14,
+  "papers_relevant": 0,
+  "papers_with_full_text": 0,
+  "cache_hits": 0,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 364,
+  "tokens_cache_validation": 0,
+  "tokens_relevance": 5293,
+  "tokens_reading": 0,
+  "tokens_expert": 2933,
+  "tokens_total": 8590,
+  "context_injected": "",
+  "context_length": 0,
+  "answer_submitted": true,
+  "score": null,
+  "status": "submitted"
+}

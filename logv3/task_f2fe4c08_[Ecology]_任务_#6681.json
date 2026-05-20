@@ -1,0 +1,134 @@
+{
+  "task_id": "f2fe4c08-535d-4a80-8333-7bc6bda6d062",
+  "title": "[Ecology] 任务 #6681",
+  "task_detail": {
+    "task_id": "f2fe4c08-535d-4a80-8333-7bc6bda6d062",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "c00a1500-09ee-4548-9e38-12706bc7448a",
+    "external_task_id": "dd20f5a3-670b-4fef-96f4-15d5a4186492",
+    "title": "[Ecology] 任务 #6681",
+    "reward_pool": 2596,
+    "status": "published",
+    "agora_post_id": "724b2910-a5cf-432a-b3fa-f566ba016afa",
+    "answer_count": 12,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T07:01:12.802050Z",
+    "updated_at": "2026-05-19T08:54:52.446332Z",
+    "agora_post": {
+      "id": "724b2910-a5cf-432a-b3fa-f566ba016afa",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Ecology] 任务 #6681",
+      "description": "An international research team conducted synchronous ten-year CO₂ flux monitoring in a Southeast Asian tropical rainforest (Hot-humid climate) and a Northern European temperate coniferous forest (Cold-humid). Observations revealed that during years of extreme heat and drought, the peak productivity temperature ($T_p$) in the Northern European forest shifted significantly to the left (decreased) as expected, exhibiting obvious structural loss.\n\nHowever, in the Southeast Asian tropical rainforest observation zone, researchers recorded a highly anomalous phenomenon: during a high-temperature event accompanied by localized abnormal drought (daily mean temperature exceeding 33°C, precipitation reduced by approximately 15% compared to the same period in previous years), the GPP of this ecosystem did not collapse like in other regions. Instead, its apparent optimal temperature ($T_p$) shifted to the right (increased) by approximately 1.2°C.\n\nTechnicians compared predictions from four Earth System Models (ESMs). The ACCESS and CNRM models predicted that GPP in the region would decrease by approximately 20% due to the surge in VPD, with $T_{opt}^{eco}$ remaining unchanged; while IPSL and NORESM simulated a slight rise in $T_{opt}^{eco}$, the magnitude was far below the observed values.\n\nIn situ chemical analysis showed an abnormal increase in Foliar Nitrogen Concentration during this period.\n\nKnown Conditions:\nCondition 1: The region belongs to a typical Hot-humid ecosystem zone.\nCondition 2: Simulations by Earth System Models in hot-humid regions typically slightly underestimate the mean $T_{opt}^{eco}$, standing in sharp contrast to the significant overestimation seen in arid regions.\nCondition 3: In this habitat, a slight reduction in soil moisture does not necessarily induce stress; instead, it may trigger a positive fluctuation in the concentration of certain substances.\nCondition 4: The CNRM and ACCESS models rely primarily on light and stomatal drive functions when simulating $T_p$ trends, lacking a direct module for leaf photosynthetic thermal acclimation.\nCondition 5: The IPSL model utilizes an offset equation based on multi-year average temperatures for calculating $T_{opt}$:\n$$\nT_{opt} = 27.5 + 0.25 \\cdot TI\n$$\n\nPlease combine physical transport laws and biogeochemical cycles to determine the core physicochemical mechanism causing the anomalous rightward shift of $T_p$ in this hot-humid ecosystem under drought and heat conditions. Explain why this mechanism is inapplicable in arid regions, and audit why existing ESMs (especially ACCESS / CNRM) exhibit systematic prediction failure in this scenario.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T07:01:12.853794Z",
+      "updated_at": "2026-05-19T07:31:20.141907Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "natural_science",
+  "reward_pool": 2596,
+  "started_at": "2026-05-19T08:59:18.774601+00:00",
+  "completed_at": "2026-05-19T09:03:42.395206+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 1181,
+    "output_tokens": 484,
+    "reasoning_tokens": 0,
+    "total_tokens": 1665,
+    "latency_ms": 8685,
+    "input_text": "[Ecology] 任务 #6681\nAn international research team conducted synchronous ten-year CO₂ flux monitoring in a Southeast Asian tropical rainforest (Hot-humid climate) and a Northern European temperate coniferous forest (Cold-humid). Observations revealed that during years of extreme heat and drought, the peak productivity temperature ($T_p$) in the Northern European forest shifted significantly to the left (decreased) as expected, exhibiting obvious structural loss.\n\nHowever, in the Southeast Asian tropical rainforest ",
+    "output_json": {
+      "decomposition_mode": "cross_domain_synthesis",
+      "sub_tasks": [
+        {
+          "id": "A",
+          "question": "Analyze the biogeochemical mechanism: In a hot-humid tropical rainforest, how does a moderate drought (15% precipitation reduction) combined with high temperature (>33°C) lead to increased foliar nitrogen concentration, and how does this shift the optimal temperature for photosynthesis (Tp) to the right? Consider the role of soil moisture reduction, nutrient cycling, and leaf thermal acclimation.",
+          "expert": "natural_science",
+          "depends_on": []
+        },
+        {
+          "id": "B",
+          "question": "Explain why the mechanism identified in A (e.g., nitrogen-mediated thermal acclimation) is not applicable in arid regions. Contrast the hydrological and nutrient constraints between hot-humid and arid ecosystems, focusing on soil moisture thresholds, nutrient availability, and plant stress responses.",
+          "expert": "natural_science",
+          "depends_on": [
+            "A"
+          ]
+        },
+        {
+          "id": "C",
+          "question": "Audit the Earth System Models (ACCESS, CNRM, IPSL, NORESM) for their failure to predict the observed Tp shift. Specifically, evaluate why ACCESS and CNRM (light/stomatal-driven, no leaf thermal acclimation module) systematically underestimate Tp shift, and why IPSL (using a fixed offset equation based on multi-year average temperature) also fails to capture the observed magnitude. Identify missing processes in these models.",
+          "expert": "natural_science",
+          "depends_on": [
+            "A"
+          ]
+        }
+      ],
+      "final_synthesis": {
+        "expert": "natural_science",
+        "instruction": "Integrate the findings from sub-tasks A, B, and C to produce a coherent explanation: (1) the core physicochemical mechanism (nitrogen-mediated thermal acclimation via enhanced foliar N under moderate drought) causing the rightward Tp shift in hot-humid ecosystems; (2) why this mechanism is absent in arid regions due to different soil moisture and nutrient dynamics; (3) the systematic prediction failure of ESMs, particularly ACCESS/CNRM, due to missing leaf thermal acclimation and nitrogen feedbacks. Provide a unified conclusion."
+      }
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": []
+  },
+  "submission": null,
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1665,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 1665
+  },
+  "cost_summary": {
+    "reward_pool": 2596,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T09:03:42.395021+00:00",
+      "type": "RetryableError",
+      "message": "CLI timeout after 60s: studio-arena my-answer f2fe4c08-535d-4a80-8333-7bc6bda6d062",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "resume"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "task_id": "e3f918a6-98fa-4648-9cd4-b013779b1e72",
+  "title": "[Equities] 任务 #8553",
+  "category": "finance",
+  "reward_pool": 4854,
+  "keywords_extracted": [
+    [
+      "Siemens Energy",
+      "Gas Services"
+    ],
+    [
+      "stress test",
+      "profit coverage",
+      "marginal efficiency",
+      "business asymmetry"
+    ]
+  ],
+  "papers_searched": 12,
+  "papers_relevant": 0,
+  "papers_with_full_text": 0,
+  "cache_hits": 0,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 312,
+  "tokens_cache_validation": 0,
+  "tokens_relevance": 5440,
+  "tokens_reading": 0,
+  "tokens_expert": 2818,
+  "tokens_total": 8570,
+  "context_injected": "",
+  "context_length": 0,
+  "answer_submitted": false,
+  "score": null,
+  "status": "submitted"
+}

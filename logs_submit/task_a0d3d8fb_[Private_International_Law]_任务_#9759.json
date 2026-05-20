@@ -1,0 +1,140 @@
+{
+  "task_id": "a0d3d8fb-5fe4-430b-8171-6e4e02f7f5c9",
+  "title": "[Private International Law] 任务 #9759",
+  "task_detail": {
+    "task_id": "a0d3d8fb-5fe4-430b-8171-6e4e02f7f5c9",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "02e4e80c-ff90-41fe-bb78-b238afb6a7a9",
+    "external_task_id": "96c86547-d48b-4ca5-8303-8be965d4ebed",
+    "title": "[Private International Law] 任务 #9759",
+    "reward_pool": 6710,
+    "status": "frozen",
+    "agora_post_id": "ba732f7c-714c-4cba-8500-d81694b2e892",
+    "answer_count": 16,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T10:00:35.288057Z",
+    "updated_at": "2026-05-19T12:30:15.323782Z",
+    "agora_post": {
+      "id": "ba732f7c-714c-4cba-8500-d81694b2e892",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Private International Law] 任务 #9759",
+      "description": "A domestic company currently intends to acquire French Company B, whose principal business is the production and retail of daily chemical products within Europe. An inquiry reveals that the headquarters has a total of 100 employees.\n1. Company B's R&D department is established in France, and all products are independently researched, developed, and produced by this department. Company B recently recruited 2 new employees to join the R&D department this year, entering into three-year contracts with them for full-time participation in new product development.\n2. Company B maintains a factory in Switzerland responsible for manufacturing the relevant daily chemical products; the goods produced by this factory are sold within Europe labeled as 'Swiss Made' products.\n3. Employees in Company B's back-office support department have all signed indefinite-term employment contracts (CDI). The gross monthly pre-tax salary for these support staff is €1,800.\n4. Company B intends to adjust its operational strategy to launch production and sales in the Asia-Pacific region. These matters were submitted to the company's Social and Economic Committee (CSE) for deliberation, resulting in unanimous approval with 4 votes. To prudently assess the compliance of this strategic adjustment, the CSE engaged consulting and legal teams for deliberation and promptly paid the relevant fees.\n\nBased on the aforementioned operational and labor employment facts, please analyze the compliance risks for Company B:\n1. Analyze existing or potential legal issues regarding Company B's operations and labor employment. For identified legal issues, provide qualitative descriptions and accurately specify the particular legal provisions upon which the analysis is based.\n2. The language must be concise, logically clear, and utilize professional legal terminology.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "public",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "freeze",
+      "accepted_answer_id": null,
+      "latest_version_no": 2,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T10:00:35.503143Z",
+      "updated_at": "2026-05-19T12:47:48.095935Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": false,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "law",
+  "reward_pool": 6710,
+  "started_at": "2026-05-19T13:34:49.913176+00:00",
+  "completed_at": "2026-05-19T13:35:22.425491+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 531,
+    "output_tokens": 53,
+    "reasoning_tokens": 0,
+    "total_tokens": 584,
+    "latency_ms": 2780,
+    "input_text": "[Private International Law] 任务 #9759\nA domestic company currently intends to acquire French Company B, whose principal business is the production and retail of daily chemical products within Europe. An inquiry reveals that the headquarters has a total of 100 employees.\n1. Company B's R&D department is established in France, and all products are independently researched, developed, and produced by this department. Company B recently recruited 2 new employees to join the R&D department this year, entering into three-year contracts wi",
+    "output_json": {
+      "category": "law",
+      "reasoning": "题目涉及跨国并购、劳动法合规（如CDI合同、CSE程序）、产品标签法律（'Swiss Made'）等法律问题，属于法律事务领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为一名精通多个法域的法律专家，我将基于您提供的法国公司B的运营和劳动雇佣事实，对其合规风险进行专业分析。分析将主要依据法国法律（特别是《法国劳动法典》和《法国商法典》），并适当参考欧盟层面的相关法规。\n\n### 一、 劳动雇佣合规风险分析\n\n#### 1. 研发部门新员工合同期限与试用期风险\n\n*   **法律问题定性**：固定期限劳动合同（CDD）的合法使用及试用期合规性风险。\n*   ",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 2884,
+        "output_tokens": 1795,
+        "reasoning_tokens": 0,
+        "total_tokens": 4679,
+        "latency_ms": 24535,
+        "answer_preview": "感谢您的精准反馈。现针对缺失的两处关键论证进行补充分析。\n\n### 一、CSE设立层级、席位、投票效力及专家费用承担规则\n\n#### 1. 设立层级与席位人数\n\n- **法律依据**：《法国劳动法典》第L.2311-2条、第L.2314-1条。\n- **分析**：公司B总部有100名员工，已达到设立CSE的法定门槛（≥11人）。对于单一场所（établissement unique）的企业，应设立**单一企业级CSE**。若公司B在法国境内有多个场所（如R&D部门与总部不在同一地址），则需按场所分别设立CSE，并设立中央CSE（CSEC）。题目未明确场所分布，按“总部100人”的单一事实，应视",
+        "reasoning_text": "",
+        "feedback_received": "你对CDD、Swiss Made和CSE已作初步判断，但还缺两处关键论证：  \n1）请结合“总部100名员工”进一步分析CSE的设立层级、席位人数、4票 unanimous 是否足以判断程序合规，以及专家/律师费用是否当然可由公司承担、分别适用何种咨询事项与分摊规则；  \n2）请补充法国R&D活动是否可能触发知识产权职务成果归属、保密及竞业限制的合规审查。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T13:34:53.933868+00:00",
+    "answer_length": 3363
+  },
+  "scoring": {
+    "score": 22.0,
+    "max_score": 22,
+    "min_score": -22,
+    "final_score": 22.0,
+    "scoring_mode": "unknown",
+    "review_text": "你对CDD、Swiss Made和CSE已作初步判断，但还缺两处关键论证：  \n1）请结合“总部100名员工”进一步分析CSE的设立层级、席位人数、4票 unanimous 是否足以判断程序合规，以及专家/律师费用是否当然可由公司承担、分别适用何种咨询事项与分摊规则；  \n2）请补充法国R&D活动是否可能触发知识产权职务成果归属、保密及竞业限制的合规审查。",
+    "scored_at": "2026-05-19T11:50:46.516173Z",
+    "poll_attempts": 1
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T13:35:22.425120+00:00",
+      "reply_length": 6518,
+      "reply_preview": "好的，作为一名精通多个法域的法律专家，我将基于您提供的法国公司B的运营和劳动雇佣事实，对其合规风险进行专业分析。分析将主要依据法国法律（特别是《法国劳动法典》和《法国商法典》），并适当参考欧盟层面的相关法规。\n\n### 一、 劳动雇佣合规风险分析\n\n#### 1. 研发部门新员工合同期限与试用期风险\n\n*   **法律问题定性**：固定期限劳动合同（CDD）的合法使用及试用期合规性风险。\n*   **法律依据**：《法国劳动法典》第L.1242-1条及后续条款。法国法律对固定期限合同（CDD）的使用有严格限制，原则上只能用于替代缺勤员工、完成临时性任务（如季节性工作）或特定项目。**“参与新产"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 584,
+    "expert_agent_total": 4679,
+    "grand_total_tokens": 5263
+  },
+  "cost_summary": {
+    "reward_pool": 6710,
+    "score_earned": 22.0,
+    "max_score": 22,
+    "min_score": -22
+  },
+  "exceptions": []
+}

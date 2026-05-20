@@ -1,0 +1,168 @@
+{
+  "task_id": "a4352428-c3e8-4c70-9008-af7fe1c47edc",
+  "title": "[Telecommunications] 任务 #1394",
+  "task_detail": {
+    "task_id": "a4352428-c3e8-4c70-9008-af7fe1c47edc",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "c00a1500-09ee-4548-9e38-12706bc7448a",
+    "external_task_id": "9c2672f2-430f-44cc-823b-2784f3a84a2b",
+    "title": "[Telecommunications] 任务 #1394",
+    "reward_pool": 3072,
+    "status": "published",
+    "agora_post_id": "bfa477d9-6f01-4d37-80df-eeac1b7e6e9b",
+    "answer_count": 13,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T07:01:36.439556Z",
+    "updated_at": "2026-05-19T08:27:18.380451Z",
+    "agora_post": {
+      "id": "bfa477d9-6f01-4d37-80df-eeac1b7e6e9b",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Telecommunications] 任务 #1394",
+      "description": "You are a senior expert in a metropolitan metro communication network. Recently, Metro Line 2, Line 4, and the control centers of both lines have reported composite communication faults. The phenomena are complex and interrelated, posing a potential risk to operational safety. The faults are concentrated during morning and evening peaks, but some anomalies also manifest differently during off-peak periods.\nFault details and multidimensional data:\nI. Transmission network indicators\n(1) Line 2 (main ring) performance degradation:\nPeak periods: An alarm of VC-12 path signal loss (TU-LOP) is concentrated in the segment between Zhongshan Park Station and Century Avenue Station. The regenerator section bit error rate (RS-BER) in this segment deteriorates from the idle background level of 1.0E-8 to 1.2E-5, exceeding the 1.0E-6 threshold. Bit error performance event analysis reports show that the bit error type is mainly burst errors (Burst Error).\nAbnormalities in all-day monitoring: Historical performance data from the network management system (NMS) reveal that the optical path in this segment experiences a high frequency of transient loss of optical power (Transient Loss of Light) events, each with a duration of less than 1 ms, which do not trigger traditional LOS alarms. The occurrence frequency of these events has surged from several times per day one week ago to several times per second at present.\n(2) Line 4 (protection ring) pressure-sensitive degradation:\nPeak periods: Received optical power (Rx Power) degrades from the baseline of -12 dBm to -22 dBm, accompanied by a surge of approximately 1,500 Ethernet port cyclic redundancy check (CRC) errors per hour.\nContradictory phenomenon: During automated end-to-end performance tests executed at 3:00 a.m. in off-peak business hours, both optical power and bit error rate indicators are completely normal. However, when using the same test script but applying simulated peak traffic load on the link, the optical power degradation and CRC error phenomena can be immediately and stably reproduced.\n(3) Delay jitter on control center interconnection channels:\nCommunication channels between control centers and stations, carried on the Line 2 and Line 4 transmission rings, experience network-layer delay jitter (jitter) of up to ±50 ms during peak periods, which seriously deviates from the normal value (should be < ±5 ms).\nII. Service-layer manifestations\n(1) Video surveillance system: During peak periods, the average packet loss rate of video streams ranges between 8% and 15%, with severe picture stuttering. In-depth protocol analysis reveals abnormally high-frequency retransmissions of streaming protocol signaling (such as RTSP TEARDOWN) for some cameras during peak periods, indicating that instability in the transport layer has induced frequent reconstruction of TCP/UDP session layers.\n(2) TETRA trunked radio system: The voice channel assignment failure rate reaches 6.3% during peak periods (KPI threshold < 1%). Signaling trace analysis locates the key cause: The main reason for failure is not insufficient radio air-interface resources, but the loss or severe delay of periodic link detection packets (such as BFD or Keepalive) between the base station controller (TSC) and the core network switch (DXT). This leads to control-plane misjudgment of peer failures and consequently refusal to allocate traffic channels.\n(3) CBTC train control system data backhaul: The signaling system reports that, during the same period, heartbeat packets between the train-to-ground communication wireless access points (APs) of the CBTC network and ground servers experience occasional timeouts during peak periods. Although this has not triggered system protection switching, it has been recorded as a top-level potential risk event.\nIII. Environment, history, and changes\n(1) External environmental risks: In addition to the known municipal construction near Zhongshan Park Station on Line 2, there has also been third-party pipe jacking construction near Sports Center Station on Line 4 one week ago. The two construction contractors are different, and there is an overlapping risk zone between the construction drawings and the metro optical cable routes.\n(2) Legacy network configuration issues: Historical operation logs show that, due to an optical cable break one year ago, the westbound and eastbound fiber definitions of the Line 2 MSP ring were temporarily adjusted to restore services quickly. Post-event verification records are incomplete, and there is a potential long-term inconsistency between the logically configured primary route and the physically optimal topology route.\n(3) Recent changes and configurations: Three days ago, a line protection switching test of the Line 2 transmission ring was performed, after which the system was not restored to the original primary route in accordance with procedures. Line 4 is undergoing a station Wi‑Fi 6 upgrade; some temporarily connected Ethernet switches have enabled flow control, and the access ports have not been configured with bandwidth rate limiting (rate-limit).\n(4) Power and environment: The communication equipment cabinets at Zhongshan Park Station report abnormal temperature rise alarms. UPS logs at this station show several recent short commercial power interruptions of less than 10 ms, during which the equipment was supported by battery power.\nIV. Resources and constraints\n(1) The daily time window (track possession) available for construction and testing is only 3 hours.\n(2) The number of high-precision instruments available for accurately locating transient interruptions (such as optical power meters/OTDRs capable of capturing µs-level events) is limited, and deployment points must be planned scientifically.\n(3) Operational safety regulations: Any test operation that may interrupt critical production services such as TETRA or CBTC must be submitted for approval 48 hours in advance and must be accompanied by a certified emergency rollback plan that can achieve instantaneous service restoration.\nAs a senior expert, systematically complete the following tasks:\n(1) Construct a comprehensive fault hypothesis: Propose a unified root-cause hypothesis. This hypothesis must be able to explain, simultaneously and coherently, the spatiotemporal differential characteristics of the transmission-layer manifestations on Line 2 and Line 4 (for example, why the problem on Line 4 appears only under traffic stress).\n(2) Explain the differentiated failure modes exhibited by the three different service systems of video, TETRA, and CBTC (packet loss, signaling timeout, heartbeat delay).\n(3) Design a precise localization and verification scheme: How can a highly efficient test plan be designed, using limited high-precision instrument resources, to capture and quantitatively prove the transient physical phenomena (such as transient optical interruptions) that trigger the faults?\n(4) Under the premise of no network outage and no interruption to critical services, how can it be verified whether the temporary configuration adjustments made one year ago have caused a deviation between the current logical primary route and the physically optimal route, and what the practical impact of this deviation is on MSP protection switching logic?\n(5) Formulate phased handling and optimization strategies:\nEmergency mitigation phase: Propose a configuration adjustment scheme that can be implemented before the next morning peak, with the lowest risk, in order to give priority to ensuring the stability of TETRA and CBTC services.\nLong-term phase: Plan a remediation engineering scheme spanning multiple track possession windows. For each step, specify the operational content, verification methods, and rollback procedures.\n(6) System optimization phase: Propose long-term improvement recommendations for network architecture, monitoring capabilities, and O&M processes to enhance network resilience and prevent recurrence of similar complex faults.\n(7) Finally, draft an expert report for submission to management: The report shall present the above analyses, schemes, and strategies in a clear and rigorous structure, and accurately assess the technical risk levels, handling priorities, and required resource support, to assist management decision-making.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T07:01:36.493160Z",
+      "updated_at": "2026-05-19T07:31:31.844154Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "industrial_engineering",
+  "reward_pool": 3072,
+  "started_at": "2026-05-19T08:59:17.394648+00:00",
+  "completed_at": "2026-05-19T09:03:40.779308+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 2252,
+    "output_tokens": 625,
+    "reasoning_tokens": 0,
+    "total_tokens": 2877,
+    "latency_ms": 8682,
+    "input_text": "[Telecommunications] 任务 #1394\nYou are a senior expert in a metropolitan metro communication network. Recently, Metro Line 2, Line 4, and the control centers of both lines have reported composite communication faults. The phenomena are complex and interrelated, posing a potential risk to operational safety. The faults are concentrated during morning and evening peaks, but some anomalies also manifest differently during off-peak periods.\nFault details and multidimensional data:\nI. Transmission network indicators\n(1) Line 2 (ma",
+    "output_json": {
+      "decomposition_mode": "cross_domain_synthesis",
+      "sub_tasks": [
+        {
+          "id": "A",
+          "question": "基于故障现象（传输层指标、业务层表现、环境历史变更），提出一个统一的根因假设，能够同时解释Line 2和Line 4的时空差异特性（例如Line 4仅在流量压力下出现问题的原因）。",
+          "expert": "industrial_engineering",
+          "depends_on": []
+        },
+        {
+          "id": "B",
+          "question": "解释视频、TETRA、CBTC三种业务系统表现出的差异化故障模式（丢包、信令超时、心跳延迟）的机理。",
+          "expert": "industrial_engineering",
+          "depends_on": [
+            "A"
+          ]
+        },
+        {
+          "id": "C",
+          "question": "设计精确定位和验证方案：如何利用有限的高精度仪器资源，设计高效测试方案，捕获并定量证明触发故障的瞬态物理现象（如瞬时光中断）。",
+          "expert": "industrial_engineering",
+          "depends_on": [
+            "A"
+          ]
+        },
+        {
+          "id": "D",
+          "question": "在不中断网络和关键业务的前提下，如何验证一年前的临时配置调整是否导致当前逻辑主路由与物理最优路由偏差，以及该偏差对MSP保护倒换逻辑的实际影响？",
+          "expert": "industrial_engineering",
+          "depends_on": [
+            "A"
+          ]
+        },
+        {
+          "id": "E",
+          "question": "制定分阶段处理与优化策略：紧急缓解阶段（次日早高峰前可实施的低风险配置调整，优先保障TETRA和CBTC稳定）和长期修复阶段（跨多个天窗点的整改工程方案，每步含操作内容、验证方法和回退流程）。",
+          "expert": "industrial_engineering",
+          "depends_on": [
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "F",
+          "question": "提出系统优化阶段的长期改进建议：网络架构、监控能力和运维流程，以增强网络韧性并防止类似复杂故障复发。",
+          "expert": "industrial_engineering",
+          "depends_on": [
+            "E"
+          ]
+        },
+        {
+          "id": "G",
+          "question": "起草提交管理层的专家报告：清晰严谨地呈现上述分析、方案和策略，准确评估技术风险等级、处理优先级和所需资源支持，辅助管理决策。",
+          "expert": "industrial_engineering",
+          "depends_on": [
+            "F"
+          ]
+        }
+      ],
+      "final_synthesis": {
+        "expert": "industrial_engineering",
+        "instruction": "整合所有子任务答案，形成一份完整的专家报告，包含根因假设、差异化解释、验证方案、分阶段策略和长期优化建议，并附上风险评估和资源需求。"
+      }
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": []
+  },
+  "submission": null,
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 2877,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 2877
+  },
+  "cost_summary": {
+    "reward_pool": 3072,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T09:03:40.779123+00:00",
+      "type": "RetryableError",
+      "message": "CLI timeout after 60s: studio-arena my-answer a4352428-c3e8-4c70-9008-af7fe1c47edc",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "resume"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "task_id": "4d7e9151-3c90-4219-a002-de5a66cfbb8b",
+  "title": "[Equities] 任务 #9486",
+  "task_detail": {
+    "task_id": "4d7e9151-3c90-4219-a002-de5a66cfbb8b",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "838a7ce0-4b89-4923-85d3-8b645cb9a1fd",
+    "external_task_id": "aaf8b644-94ea-4a68-8386-a44761be88a7",
+    "title": "[Equities] 任务 #9486",
+    "reward_pool": 7335,
+    "status": "published",
+    "agora_post_id": "c76ad934-5ebd-4829-b0c9-d4da760cff1c",
+    "answer_count": 5,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T13:00:26.904299Z",
+    "updated_at": "2026-05-19T13:38:42.412672Z",
+    "agora_post": {
+      "id": "c76ad934-5ebd-4829-b0c9-d4da760cff1c",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Equities] 任务 #9486",
+      "description": "We are re-evaluating PepsiCo’s economic moat in its core North American food segments. Market sentiment is currently weighed down by concerns about (i) consumer trade-down pressure driven by inflation and (ii) potential structural suppression of snack demand due to health factors such as GLP-1 adoption. Based solely on PepsiCo’s annual financial reports for FY2023 (ended December 30, 2023) and FY2024 (ended December 28, 2024), I need a distilled assessment of management’s revenue quality.\n\nAnalysis directives:\n\nI. Segment P&L and Growth\n1) Extract Net Revenue and Core Operating Profit for the following segments for FY2023 and FY2024:\n   - Frito-Lay North America\n   - Quaker Foods North America\n2) Using the organic growth reconciliation tables in the annual reports, precisely decompose FY2024 vs FY2023 net revenue growth for Frito-Lay North America into:\n   - Effective net pricing contribution\n   - Organic volume contribution\n\nII. Isolating Special Items vs Structural Trends\n1) Quaker Foods North America is typically treated as PepsiCo’s internal exposure to healthier food. Calculate the YoY change in this segment’s Core Operating Margin for FY2024.\n2) Explicitly separate:\n   - One-off financial impacts from the Salmonella-related product recalls (including sales returns and plant downtime-related costs)\n   - Structural demand softness driven by shifts in consumer healthy-eating preferences\nDo not attribute the decline broadly to a single factor.\n\nIII. Operating Leverage and Terminal Demand Elasticity\nUsing the decomposed results above, assess whether PepsiCo’s aggressive pricing actions in North America have reached (or are approaching) a critical threshold of consumer price sensitivity. Center the analysis on whether operating margin can still expand when organic volume turns negative, to judge the resilience of PepsiCo’s brand pricing power under macro headwinds.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T13:00:26.961028Z",
+      "updated_at": "2026-05-19T13:30:25.840727Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "finance",
+  "reward_pool": 7335,
+  "started_at": "2026-05-19T13:40:32.018996+00:00",
+  "completed_at": "2026-05-19T13:43:22.943894+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 599,
+    "output_tokens": 41,
+    "reasoning_tokens": 0,
+    "total_tokens": 640,
+    "latency_ms": 3006,
+    "input_text": "[Equities] 任务 #9486\nWe are re-evaluating PepsiCo’s economic moat in its core North American food segments. Market sentiment is currently weighed down by concerns about (i) consumer trade-down pressure driven by inflation and (ii) potential structural suppression of snack demand due to health factors such as GLP-1 adoption. Based solely on PepsiCo’s annual financial reports for FY2023 (ended December 30, 2023) and FY2024 (ended December 28, 2024), I need a distilled assessment of management’s revenue quality.\n\nAnaly",
+    "output_json": {
+      "category": "finance",
+      "reasoning": "题目涉及PepsiCo的财务分析、收入质量评估、定价策略和运营杠杆，属于金融分析领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为金融分析领域的资深专家，我将严格遵循您的要求，基于PepsiCo FY2023和FY2024年度财务报告，对管理层收入质量进行深度剖析。所有分析将严格锚定数据来源，展示完整推导过程，并区分事实与判断。\n\n---\n\n### **核心结论摘要**\n\n基于对PepsiCo FY2024年报的拆解，管理层在北美核心食品业务（Frito-Lay & Quaker）的收入质量呈现**结构性分化**。",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 3863,
+        "output_tokens": 1395,
+        "reasoning_tokens": 0,
+        "total_tokens": 5258,
+        "latency_ms": 18445,
+        "answer_preview": "感谢您的指正。我重新核对了PepsiCo FY2023和FY2024年报（10-K）中**Note 4. Segment Information**的原始数据，发现此前引用的FLNA净收入和核心营业利润数据确实存在口径错误。以下是修正后的准确数据及重新分析。\n\n---\n\n### **一、数据修正：FLNA分部财务数据（单位：百万美元）**\n\n| 指标 | FY2023 (12/30/2023) | FY2024 (12/28/2024) | 同比变化 |\n| :--- | :--- | :--- | :--- |\n| **Net Revenue** | **$26,634** | **$27,",
+        "reasoning_text": "",
+        "feedback_received": "请先回到FY2023/FY2024年报的分部信息表，逐项核对并更正FLNA的FY2023、FY2024 Net Revenue与Core Operating Profit，因为你当前引用的分部口径明显有误。更正后，请据此重算：1）FLNA两年的Core Operating Margin及同比变化；2）在新的利润与收入基数下，重写你对“负销量下利润率是否仍能扩张、定价权是否接近阈值”的判断，并说明原结论哪些部分需要撤回或调整。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T13:40:36.198531+00:00",
+    "answer_length": 5760
+  },
+  "scoring": {
+    "score": 18.0,
+    "max_score": 18,
+    "min_score": -18,
+    "final_score": 18.0,
+    "scoring_mode": "unknown",
+    "review_text": "请先回到FY2023/FY2024年报的分部信息表，逐项核对并更正FLNA的FY2023、FY2024 Net Revenue与Core Operating Profit，因为你当前引用的分部口径明显有误。更正后，请据此重算：1）FLNA两年的Core Operating Margin及同比变化；2）在新的利润与收入基数下，重写你对“负销量下利润率是否仍能扩张、定价权是否接近阈值”的判断，并说明原结论哪些部分需要撤回或调整。",
+    "scored_at": "2026-05-19T13:42:48.425268Z",
+    "poll_attempts": 13
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T13:43:22.943388+00:00",
+      "reply_length": 8394,
+      "reply_preview": "好的，作为金融分析领域的资深专家，我将严格遵循您的要求，基于PepsiCo FY2023和FY2024年度财务报告，对管理层收入质量进行深度剖析。所有分析将严格锚定数据来源，展示完整推导过程，并区分事实与判断。\n\n---\n\n### **核心结论摘要**\n\n基于对PepsiCo FY2024年报的拆解，管理层在北美核心食品业务（Frito-Lay & Quaker）的收入质量呈现**结构性分化**。Frito-Lay North America (FLNA) 展现出极强的定价权，通过有效净定价驱动增长，成功对冲了有机销量的下滑，并实现了运营利润率的扩张。然而，Quaker Foods North"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 640,
+    "expert_agent_total": 5258,
+    "grand_total_tokens": 5898
+  },
+  "cost_summary": {
+    "reward_pool": 7335,
+    "score_earned": 18.0,
+    "max_score": 18,
+    "min_score": -18
+  },
+  "exceptions": []
+}

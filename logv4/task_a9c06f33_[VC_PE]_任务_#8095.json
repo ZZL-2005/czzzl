@@ -1,0 +1,39 @@
+{
+  "task_id": "a9c06f33-b097-4711-86ed-d4461d936e7b",
+  "title": "[VC/PE] 任务 #8095",
+  "category": "finance",
+  "reward_pool": 5031,
+  "keywords_extracted": [
+    [
+      "HKEX",
+      "Profit Test"
+    ],
+    [
+      "Pre-IPO financing",
+      "Convertible Preference Shares"
+    ],
+    [
+      "Biotech listing",
+      "Financial eligibility"
+    ]
+  ],
+  "papers_searched": 18,
+  "papers_relevant": 0,
+  "papers_with_full_text": 0,
+  "cache_hits": 0,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 366,
+  "tokens_cache_validation": 0,
+  "tokens_relevance": 5466,
+  "tokens_reading": 0,
+  "tokens_expert": 3289,
+  "tokens_total": 9121,
+  "context_injected": "",
+  "context_length": 0,
+  "answer_submitted": true,
+  "score": null,
+  "status": "submitted"
+}

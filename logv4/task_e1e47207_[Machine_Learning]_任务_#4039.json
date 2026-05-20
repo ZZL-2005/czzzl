@@ -1,0 +1,51 @@
+{
+  "task_id": "e1e47207-6924-470d-9577-b8203b46b431",
+  "title": "[Machine Learning] 任务 #4039",
+  "category": "natural_science",
+  "reward_pool": 3090,
+  "keywords_extracted": [
+    [
+      "underwater image enhancement",
+      "encoder-decoder architecture"
+    ],
+    [
+      "mean squared error",
+      "loss function"
+    ],
+    [
+      "perceptual quality",
+      "smoothness"
+    ],
+    [
+      "PSNR",
+      "SSIM"
+    ]
+  ],
+  "papers_searched": 18,
+  "papers_relevant": 6,
+  "papers_with_full_text": 0,
+  "cache_hits": 1,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [
+    {
+      "paper_id": "doi:https://doi.org/10.1145/3386901.3388911",
+      "title": "PERCEIVE",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文内容关于视频直播中的上行链路吞吐量波动，与水下图像增强的MSE损失函数和视觉质量下降问题无关。"
+    }
+  ],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 328,
+  "tokens_cache_validation": 372,
+  "tokens_relevance": 7588,
+  "tokens_reading": 0,
+  "tokens_expert": 2300,
+  "tokens_total": 10588,
+  "context_injected": "[Underwater Image Co-Enhancement With Cor]\n摘要: In underwater scenes, degraded underwater images caused by wavelength-dependent light absorption and scattering present huge challenges to vision tasks. Underwater image enhancement has attracted much attention due to the significance of vision-based applications in marine engineering and underwater robotics. Numerous underwater image enhancement algorithms have been proposed in the last few years\n\n[Multiscale Underwater Image Enhancement ]\n摘要: Clear underwater images serve to explore and measure ocean resources. However, underwater images suffer from color deviations and hazy effects due to wavelength-dependent light attenuation and scattering. To address this problem, we propose a multiscale dual-color space underwater image enhancement network (MSDC-Net) comprising a color correction block and a deep learning-based network. Concretely\n\n[UIEGAN: Adversarial Learning-Based Photo]\n摘要: Underwater image enhancement (UIE) is an essential task for intelligent environment perception in underwater remote visual sensing scenarios. However, the computing power of mobile platforms limits the usage of larger-scale models. In this paper, we propose a lightweight encoder-decoder architecture (UIENet) to enhance underwater images from visual sensors. We also involve the architecture into a ",
+  "context_length": 1345,
+  "answer_submitted": false,
+  "score": null,
+  "status": "submitted"
+}

@@ -1,0 +1,58 @@
+{
+  "task_id": "a0d3d8fb-5fe4-430b-8171-6e4e02f7f5c9",
+  "title": "[Private International Law] 任务 #9759",
+  "category": "law",
+  "reward_pool": 6710,
+  "keywords_extracted": [
+    [
+      "cross-border acquisition",
+      "France"
+    ],
+    [
+      "R&D employees",
+      "fixed-term contract"
+    ],
+    [
+      "Swiss Made",
+      "origin labeling"
+    ],
+    [
+      "employee transfer",
+      "labor law"
+    ]
+  ],
+  "papers_searched": 18,
+  "papers_relevant": 1,
+  "papers_with_full_text": 0,
+  "cache_hits": 1,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [
+    {
+      "paper_id": "doi:https://doi.org/10.1093/oso/9780198259596.001.0001",
+      "title": "Declining Jurisdiction In Private International Law",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文讨论的是管辖权放弃问题，与跨境并购中的员工合同、研发部门等具体事实无关。"
+    }
+  ],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 318,
+  "tokens_cache_validation": 363,
+  "tokens_relevance": 9889,
+  "tokens_reading": 0,
+  "tokens_expert": 2591,
+  "tokens_total": 13161,
+  "context_injected": "[Does the origin matter? The effects of c]\n摘要: Purpose The present article analyses the effects of cross-border mergers and acquisitions (CBM&amp;As) on targets' total factor productivity (TFP), employment, wages and intangible-asset investment. The author investigates whether the impact of CBM&amp;As differs depending on the origin of the investing multinational (MNE). The author distinguishes between CBM&amp;As from European countries, other",
+  "context_length": 447,
+  "answer_submitted": true,
+  "score": 22.0,
+  "status": "submitted",
+  "score_detail": {
+    "min_score": -22,
+    "raw_score": 0,
+    "is_followup_reply": false
+  },
+  "raw_score": 0,
+  "min_score": -22
+}

@@ -1,0 +1,119 @@
+{
+  "task_id": "3c07358a-1e54-40b8-ae0f-3112c5eab14a",
+  "title": "[Telecommunications] 任务 #1749",
+  "task_detail": {
+    "task_id": "3c07358a-1e54-40b8-ae0f-3112c5eab14a",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "02e4e80c-ff90-41fe-bb78-b238afb6a7a9",
+    "external_task_id": "36d1050a-72a1-4210-94c8-cd654bc25132",
+    "title": "[Telecommunications] 任务 #1749",
+    "reward_pool": 3751,
+    "status": "frozen",
+    "agora_post_id": "73256722-cdf9-4b3d-903d-ec7f98a2623d",
+    "answer_count": 15,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T10:00:50.638808Z",
+    "updated_at": "2026-05-19T12:30:11.802291Z",
+    "agora_post": {
+      "id": "73256722-cdf9-4b3d-903d-ec7f98a2623d",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Telecommunications] 任务 #1749",
+      "description": "Technological Breakthrough in Blind Adaptive Processing of LFM Radar Signals in Complex Electromagnetic Environments\n\nI. Project Background and Challenges\nYou are developing a new generation long-range surveillance radar system. Its core mission is to achieve reliable detection and tracking of high-dynamic, low-observability targets over a wide area. The system intends to use a mature LFM waveform regime (12 MHz bandwidth, 110 μs pulse width, 1.5 GHz carrier frequency) as a foundation to ensure sufficient detection range and range resolution. However, according to the latest intelligence assessments and battlefield environment simulations, this system will face unprecedented severe challenges in future deployments. We anticipate that the signal propagation path will no longer be an ideal free space, but rather replete with 3 to 5 dynamically changing strong clutter paths. These paths will introduce significant and rapidly changing time delays (distributed between 0.1-2 μs), attenuation (signal intensity may drop to 30% of the original intensity), and complex Doppler effects (±2 kHz) caused by target or clutter micro-motion. Even more problematic is that the channel consistency is very short, potentially undergoing significant changes within dozens of pulse repetition intervals (approximately 50-100 PRIs). Simultaneously, you must assume the adversary will deploy advanced Electronic Countermeasures (ECM). This includes \"Deception Jamming\" capable of precisely mimicking your signal's frequency modulation rate (the difference in FM slope from our real signal may be as low as 5%), and \"Smart Noise Jamming\" capable of rapidly tracking our signal spectrum for blocking. To make matters worse, this technological breakthrough must be based on an existing, finalized hardware platform. The digital backend of this platform is equipped with only a single 16-bit fixed-point DSP, and its onboard memory can buffer a maximum of 20 pulse cycles of raw sampling data. The front-end 12-bit ADC has a Total Harmonic Distortion (THD) of approximately -60 dB, and the phase noise performance of the local oscillator (-80 dBc/Hz @ 1 kHz offset) is not top-tier. These \"inherent hardware deficiencies\" will directly constrain the upper limit of algorithmic performance and implementation complexity.\n\nII. Core Technological Breakthrough Objectives\nTo address the aforementioned challenges, the team needs to design and verify a set of blind signal processing algorithms capable of stable operation under these constraints. Usually, the specific breakthrough objectives are decomposed as follows:\n\n1. Blind Perception and Separation of Dynamic Channels and Threat Environments\nThe primary task is to \"dissect\" the received mixed signals without any a priori information, depicting the full picture of the channel and threats in real-time.\n\nRobust Decoupling of Channel Parameters: A theoretical problem that has long plagued you is the intrinsic coupling effect of time delay and Doppler in LFM signals—within a single pulse, a minute time delay is sufficient to generate an equivalent frequency shift much larger than the target's true Doppler. Your solution must fundamentally break this ambiguity, utilizing those precious 20 pulse buffers to simultaneously provide precise estimates of time delay, attenuation, and Doppler for all paths before the channel changes. The required final accuracy metrics are: Time delay estimation Root Mean Square Error (RMSE) below 0.05 μs, and Doppler estimation RMSE below 50 Hz.\n\nMicro-Fingerprint Identification of True and False Targets: When real target echoes coexist with high-fidelity deception jamming (e.g., at a -5 dB Signal-to-Interference Ratio), traditional pulse compression will completely fail. A deeper identification mechanism is required. Can you excavate the higher-order \"micro-features\" in the LFM signal phase structure that are ignored by traditional second-order analysis? Please design a method to utilize these features to stamp unique \"fingerprints\" on true and false targets, and provide a quantifiable confidence assessment to judge the reliability of the separation results. At the same time, you must analyze how that non-ideal ADC will distort these fine phase features and assess the potential impact on identification performance.\n\n2. Modeling and Adaptive Compensation of Endogenous Hardware Defects\nIf an algorithm cannot run stably on our 16-bit fixed-point platform, it has no engineering value. Therefore, the solution design must be closely integrated with hardware implementation.\n\nSystemic Damage Assessment of Pulse Compression Performance: How will the local oscillator's phase noise and the ADC's quantization errors jointly \"poison\" the pulse compression performance? You need a theoretical model capable of quantitatively predicting the deterioration of the Peak Sidelobe Ratio (PSLR), which must directly correlate with hardware parameters such as phase noise power spectrum and quantization bits, rather than simple simulation fitting. This model will be the theoretical cornerstone of the entire compensation strategy.\n\nAdaptive Compensation and Convergence Guarantee in Fixed-Point Environments: The core challenge lies in designing a compensation algorithm that can be implemented with 16-bit fixed-point precision, aiming to restore the deteriorated PSLR to better than -30 dB. However, any iteration-based compensation algorithm (such as adaptive filtering) risks error accumulation and divergence in fixed-point arithmetic. Your solution must theoretically demonstrate how the algorithm ensures convergence rather than collapse under finite word length. Does the rounding error introduced by fixed-point arithmetic imply the existence of a performance compensation lower bound that can never be breached?\n\nIII. Deliverables and Evaluation Points\nPlease submit a detailed solution in the form of a technical report (approximately 800-1000 words). The evaluation of the report will focus on the following aspects, rather than just a description of the algorithmic flow:\n\nDepth of Insight into Core Physical/Mathematical Problems: e.g., Explanation of the essential nature of LFM signal parameter coupling, and why your decoupling algorithm holds theoretically.\nBalance of Innovation and Feasibility: What is the theoretical limit of high-order phase analysis? To what extent can your method approach this limit under low Signal-to-Noise Ratio (SNR)?\nIntegration of Systemic Thinking and Engineering Practice: How to theoretically resolve the contradiction between \"compensation precision\" and \"fixed-point arithmetic error\"? Is there a clear understanding of the numerical stability and performance boundaries of the algorithm on restricted hardware?",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "public",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "freeze",
+      "accepted_answer_id": null,
+      "latest_version_no": 2,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T10:00:50.765402Z",
+      "updated_at": "2026-05-19T12:46:43.465524Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": false,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "natural_science",
+  "reward_pool": 3751,
+  "started_at": "2026-05-19T14:13:21.183431+00:00",
+  "completed_at": "2026-05-19T14:14:15.443751+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 1439,
+    "output_tokens": 59,
+    "reasoning_tokens": 0,
+    "total_tokens": 1498,
+    "latency_ms": 1963,
+    "input_text": "[Telecommunications] 任务 #1749\nTechnological Breakthrough in Blind Adaptive Processing of LFM Radar Signals in Complex Electromagnetic Environments\n\nI. Project Background and Challenges\nYou are developing a new generation long-range surveillance radar system. Its core mission is to achieve reliable detection and tracking of high-dynamic, low-observability targets over a wide area. The system intends to use a mature LFM waveform regime (12 MHz bandwidth, 110 μs pulse width, 1.5 GHz carrier frequency) as a foundation to ensure ",
+    "output_json": {
+      "category": "natural_science",
+      "reasoning": "题目涉及雷达信号处理中的LFM信号盲自适应处理、信道参数解耦、脉冲压缩性能建模与补偿等，核心属于通信与信号处理领域，归属于自然科学下的通信子领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 1740,
+        "output_tokens": 3563,
+        "reasoning_tokens": 0,
+        "total_tokens": 5303,
+        "latency_ms": 46880,
+        "answer_preview": "好的，作为一名通信工程与自然科学交叉领域的资深专家，我将针对您提出的“复杂电磁环境下LFM雷达信号盲自适应处理”这一技术挑战，提供一份专业、严谨、定量化的技术报告。\n\n---\n\n### **技术报告：复杂电磁环境下LFM雷达信号的盲自适应处理方案**\n\n**报告编号：** TR-1749-Rev1\n**作者：** [您的专家姓名]\n**日期：** [当前日期]\n\n#### **摘要**\n\n本报告针对新一代远程监视雷达在强杂波、高动态目标及先进电子对抗（ECM）环境下的核心挑战，提出一套基于有限硬件资源（单16-bit定点DSP，20脉冲缓冲）的盲自适应处理方案。方案核心包括：1）基于**分数阶",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": null,
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1498,
+    "expert_agent_total": 5303,
+    "grand_total_tokens": 6801
+  },
+  "cost_summary": {
+    "reward_pool": 3751,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T14:14:15.443548+00:00",
+      "type": "RuntimeError",
+      "message": "CLI failed (exit 1): b-ilm2/project/26summer-camp-05/26210058/.conda/envs/zzl/lib/python3.10/site-packages/httpx/_models.py\", line 829, in raise_for_status\n    raise HTTPStatusError(message, request=request, response=self)\nhttpx.HTTPStatusError: Client error '409 Conflict' for url 'https://api.holosai.io/api/v1/holos/arena/agent/competitions/67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3/tasks/3c07358a-1e54-40b8-ae0f-3112c5eab14a/answers'\nFor more information check: https://developer.mozilla.org/en-US/doc",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "unknown"
+    }
+  ]
+}

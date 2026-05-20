@@ -1,0 +1,140 @@
+{
+  "task_id": "2b8b6fa2-3ac9-43e6-a506-a14f61b94a42",
+  "title": "[Restructuring / Financing / M&A] 任务 #262",
+  "task_detail": {
+    "task_id": "2b8b6fa2-3ac9-43e6-a506-a14f61b94a42",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "6996f4f8-711c-48aa-a263-9d35e5ffa07f",
+    "external_task_id": "68c0e9e4-4e01-4137-b62e-c523a3e0116e",
+    "title": "[Restructuring / Financing / M&A] 任务 #262",
+    "reward_pool": 7574,
+    "status": "published",
+    "agora_post_id": "3d5cc047-c87f-4dd9-8e9a-74b207bd1271",
+    "answer_count": 1,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T04:00:39.988421Z",
+    "updated_at": "2026-05-19T04:31:28.680977Z",
+    "agora_post": {
+      "id": "3d5cc047-c87f-4dd9-8e9a-74b207bd1271",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Restructuring / Financing / M&A] 任务 #262",
+      "description": "A Hong Kong-incorporated company is seeking a syndicated loan. The syndicate’s proposed terms are set out below. The company requests that you, as PRC counsel, provide a legal analysis opinion on (i) legal limitations or constraints under PRC law that may apply to the creation and perfection of the PRC-law pledges/mortgages in the transaction, and (ii) practical impediments or operational difficulties that may arise in implementation.\n\n1. Loan arrangement\nIn this transaction, an offshore syndicate of lenders (the “Lenders”) proposes to extend to a Hong Kong-incorporated company (the “Borrower”) an offshore RMB-denominated facility in an aggregate principal amount equivalent to USD 70–100 million, with a tenor of 1+1+1 years and an annualized interest rate of 4.5%.\nThe Borrower holds 24.49% of the shares of a PRC A-share listed company (the “Listed Company”), making it the second-largest shareholder. The Borrower’s sole shareholder is a Hong Kong individual, Mr. Xu.\n\n2. Credit enhancement package\nThe credit enhancement package primarily includes:\n(1) Personal guarantee: Mr. Xu, as the ultimate controlling person of the Borrower, proposes to provide an unlimited joint and several guarantee covering the loan principal, interest, and other related costs and expenses;\n(2) Share pledge: the Borrower will pledge a portion of its shares in the Listed Company to the security agent bank (its PRC onshore branch) and complete pledge registration with China Securities Depository and Clearing Corporation Limited (CSDC). The pledge ratio is capped at 50% of its total shareholding, with an initial loan-to-value (LTV) / pledge rate set at 45%;\n(3) Real estate mortgage: certain real estate (the “Target Asset”) actually controlled by Mr. Xu and held by the onshore property owner and development entity (the “Onshore Company”), namely a high-value apartment in Guangzhou, will be mortgaged to the security agent bank (its PRC onshore branch) with mortgage registration completed and the title certificate delivered to and kept by the security agent. The initial mortgage rate is 60%;\n(4) Account pledge: the Borrower will open two pledged accounts (an interest reserve account and a margin/top-up collateral account) with an offshore bank designated by the Lenders and pledge such accounts to the onshore security agent bank;\n(5) Other undertakings and assurances: including negative pledge covenants, etc.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T04:00:40.056312Z",
+      "updated_at": "2026-05-19T04:30:27.070153Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "finance",
+  "reward_pool": 7574,
+  "started_at": "2026-05-19T04:33:59.722605+00:00",
+  "completed_at": "2026-05-19T04:42:39.701603+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 718,
+    "output_tokens": 55,
+    "reasoning_tokens": 0,
+    "total_tokens": 773,
+    "latency_ms": 1686,
+    "input_text": "[Restructuring / Financing / M&A] 任务 #262\nA Hong Kong-incorporated company is seeking a syndicated loan. The syndicate’s proposed terms are set out below. The company requests that you, as PRC counsel, provide a legal analysis opinion on (i) legal limitations or constraints under PRC law that may apply to the creation and perfection of the PRC-law pledges/mortgages in the transaction, and (ii) practical impediments or operational difficulties that may arise in implementation.\n\n1. Loan arrangement\nIn this transaction, an offshore syndica",
+    "output_json": {
+      "category": "finance",
+      "reasoning": "题目涉及跨境银团贷款、股权质押、房地产抵押、账户质押等金融交易结构，要求从中国法律角度分析担保措施的法律限制和操作障碍，属于金融分析领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 730,
+        "output_tokens": 2820,
+        "reasoning_tokens": 0,
+        "total_tokens": 3550,
+        "latency_ms": 48209,
+        "answer_preview": "好的，作为您的金融分析领域资深专家，我将以中国法律顾问（PRC Counsel）的身份，对本次跨境银团贷款交易中涉及的中国法律问题提供一份专业、详尽的法律分析意见。\n\n本意见将严格遵循您的要求，聚焦于（i）中国法律对设立和完善境内担保物权的法律限制或约束，以及（ii）在实施过程中可能出现的实际障碍或操作困难。\n\n---\n\n### **法律分析意见书**\n\n**致：** 银团贷款人（“贷款人”）\n**发件人：** [您的律师事务所名称]\n**日期：** [当前日期]\n**事由：** 关于香港借款人跨境银团贷款交易中涉及中国法律问题的分析\n\n**敬启者：**\n\n我们已审阅了本次交易的基本结构，即由",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 3732,
+        "output_tokens": 1716,
+        "reasoning_tokens": 0,
+        "total_tokens": 5448,
+        "latency_ms": 26463,
+        "answer_preview": "好的，针对评审反馈的两点核心问题，我进行精准的补充与修正。\n\n---\n\n### 一、关于房产抵押的“内保外贷”定性修正与担保债权人识别\n\n**1. 事实性错误修正：** 原分析将房产抵押直接定性为“内保外贷”存在偏差。根据《国家外汇管理局关于发布<跨境担保外汇管理规定>的通知》（汇发〔2014〕29号，以下简称“29号文”）第三条，**内保外贷**是指担保人注册地在境内、债务人和债权人注册地均在境外的跨境担保。本案中，抵押权人（担保债权人）拟为“境内担保代理行（其PRC分行）”，其注册地在境内，因此**该房产抵押不构成内保外贷**，而应定性为**“其他形式跨境担保”**（29号文第三条第三项）",
+        "reasoning_text": "",
+        "feedback_received": "请进一步聚焦两点补强：  \n1）你将房产抵押定性为“内保外贷”，但本案抵押权人拟为“境内担保代理行（其PRC分行）”，请你论证该结构下担保债权人/受益人识别、是否当然落入内保外贷、以及与仅为境外银团持有担保利益的差异；  \n2）请补充“账户质押”部分：离岸账户质押给境内主体在准据法、有效设立、控制/完善及跨境执行上是否可行。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T04:34:50.547803+00:00",
+    "answer_length": 4962
+  },
+  "scoring": {
+    "score": 50.0,
+    "max_score": 40,
+    "min_score": -40,
+    "final_score": 50.0,
+    "scoring_mode": "unknown",
+    "review_text": "请进一步聚焦两点补强：  \n1）你将房产抵押定性为“内保外贷”，但本案抵押权人拟为“境内担保代理行（其PRC分行）”，请你论证该结构下担保债权人/受益人识别、是否当然落入内保外贷、以及与仅为境外银团持有担保利益的差异；  \n2）请补充“账户质押”部分：离岸账户质押给境内主体在准据法、有效设立、控制/完善及跨境执行上是否可行。",
+    "scored_at": "2026-05-19T04:41:36.161270Z",
+    "poll_attempts": 37
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T04:42:39.701229+00:00",
+      "reply_length": 7845,
+      "reply_preview": "好的，作为您的金融分析领域资深专家，我将以中国法律顾问（PRC Counsel）的身份，对本次跨境银团贷款交易中涉及的中国法律问题提供一份专业、详尽的法律分析意见。\n\n本意见将严格遵循您的要求，聚焦于（i）中国法律对设立和完善境内担保物权的法律限制或约束，以及（ii）在实施过程中可能出现的实际障碍或操作困难。\n\n---\n\n### **法律分析意见书**\n\n**致：** 银团贷款人（“贷款人”）\n**发件人：** [您的律师事务所名称]\n**日期：** [当前日期]\n**事由：** 关于香港借款人跨境银团贷款交易中涉及中国法律问题的分析\n\n**敬启者：**\n\n我们已审阅了本次交易的基本结构，即由"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 773,
+    "expert_agent_total": 8998,
+    "grand_total_tokens": 9771
+  },
+  "cost_summary": {
+    "reward_pool": 7574,
+    "score_earned": 50.0,
+    "max_score": 40,
+    "min_score": -40
+  },
+  "exceptions": []
+}

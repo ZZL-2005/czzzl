@@ -1,0 +1,82 @@
+{
+  "task_id": "85595fe4-1301-45e0-a69b-3fa3b84aab21",
+  "title": "[Obstetrics and Gynecology] 任务 #9287",
+  "category": "medical_health",
+  "reward_pool": 8174,
+  "keywords_extracted": [
+    [
+      "recurrent spontaneous abortion",
+      "RSA"
+    ],
+    [
+      "diagnostic criteria",
+      "Chinese expert consensus"
+    ],
+    [
+      "etiology-graded screening",
+      "clinical practice"
+    ]
+  ],
+  "papers_searched": 18,
+  "papers_relevant": 6,
+  "papers_with_full_text": 3,
+  "cache_hits": 1,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [
+    {
+      "paper_id": "doi:10.1053/j.gastro.2022.11.034",
+      "title": "AGA Clinical Practice Update on Diagnosis and Management of Acute Hepatic Porphyrias: Expert Review.",
+      "helpful": false,
+      "usefulness_score": 1,
+      "reason": "论文讨论的是急性肝性卟啉症，与复发性流产的病因筛查完全无关。"
+    }
+  ],
+  "papers_read": 3,
+  "reading_details": [
+    {
+      "title": "Decidual macrophages in recurrent spontaneous abortion.",
+      "chunks_read": 3,
+      "total_chunks": 8,
+      "early_exit": true,
+      "exit_reason": "本块已详细阐述蜕膜巨噬细胞亚型及其在免疫耐受中的机制，与RSA的关联已在前块提及，信息充分。",
+      "tokens": 3183,
+      "extracted_length": 246
+    },
+    {
+      "title": "Recurrent Spontaneous Abortion (RSA) and Maternal KIR Genes:",
+      "chunks_read": 4,
+      "total_chunks": 7,
+      "early_exit": true,
+      "exit_reason": "当前块已包含所需KIR基因多态性与RSA关联的meta分析结果，且与已提取信息一致，无需继续。",
+      "tokens": 4530,
+      "extracted_length": 209
+    },
+    {
+      "title": "Recent Advances in Treatment of Recurrent Spontaneous Aborti",
+      "chunks_read": 8,
+      "total_chunks": 8,
+      "early_exit": true,
+      "exit_reason": "当前块主要讨论男性因素（精索静脉曲张、氧化损伤）与复发性流产的关系，未涉及2025年中国专家共识关于病因分级筛查的具体内",
+      "tokens": 8928,
+      "extracted_length": 426
+    }
+  ],
+  "tokens_keyword": 352,
+  "tokens_cache_validation": 423,
+  "tokens_relevance": 6618,
+  "tokens_reading": 16641,
+  "tokens_expert": 3436,
+  "tokens_total": 27470,
+  "context_injected": "[Decidual macrophages in recurrent sponta]\n[块1] 蜕膜巨噬细胞在免疫耐受中起重要作用，其表型和功能异常与复发性流产（RSA）相关。\n[块2] 蜕膜巨噬细胞在妊娠中不可或缺，其功能障碍会导致妊娠丢失。M2型巨噬细胞通过释放促血管生成因子（如IL-8、VEGF-A、VEGF-C）作为“桥接细胞”，促进胎盘微环境中的血管化和免疫抑制。\n[块3] 蜕膜巨噬细胞可分为M1和M2亚型，M1促进胚胎植入和抗感染，M2提供免疫耐受环境；M1/M2平衡对胚胎正常发育至关重要。CD11c高/低亚群及CCR2亚群具有不同功能，维持母胎界面免疫稳态。\n\n[Recurrent Spontaneous Abortion (RSA) and]\n[块1] KIR3DL1是RSA的保护因素（p=0.044; OR=0.833），KIR2DS2（p=0.034; OR=1.195）和KIR2DS3（p=0.013; OR=1.246）是RSA的风险因素。\n[块4] KIR3DL1是RSA的保护因素（p=0.044; OR=0.833），KIR2DS2（p=0.034; OR=1.195）和KIR2DS3（p=0.013; OR=1.246）是RSA的风险因素。\n\n[Recent Advances in Treatment of Recurren]\n根据《2025中国专家共识》及文献《Recent Advances in Treatment of Recurrent Spontaneous Abortion》，32岁女性患者李女士，9周停经且超声未见胚胎心管搏动，结合其近3年内3次自然流产史（6周生化妊娠、9周空孕囊及本次），符合复发性流产（RSA）诊断标准。文献指出，RSA传统定义为与同一伴侣在妊娠28周内发生≥3次连续流产，但当前共识认为2次连续流产者风险与3次相似；欧洲人类生殖与胚胎学会建议≥2次即应考虑诊断，美国生殖医学会定义为20周前≥2次。已知重要病因包括母体免疫因素、血栓前状态、子宫解剖异常（如纵隔子宫、宫腔粘连）及内分泌异常。针对李女士的病因筛查，应优先进行病因分级筛查，涵盖解剖（宫腔镜）、遗传（夫妻及胚胎染色体）、免疫、凝血及内分泌等模块。文献强调，约50%的RSA夫妇无明确病因，且许多治疗选项（如宫腔镜手术、宫颈环扎术、PGT-A等）的有效性仍存争议，需个体化评估。",
+  "context_length": 1014,
+  "answer_submitted": true,
+  "score": 20.0,
+  "status": "submitted",
+  "score_detail": {
+    "min_score": -20,
+    "raw_score": 0,
+    "is_followup_reply": false
+  },
+  "raw_score": 0,
+  "min_score": -20
+}

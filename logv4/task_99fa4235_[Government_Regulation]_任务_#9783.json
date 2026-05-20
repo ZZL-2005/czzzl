@@ -1,0 +1,35 @@
+{
+  "task_id": "99fa4235-438f-431e-85ef-4b426f646274",
+  "title": "[Government Regulation] 任务 #9783",
+  "category": "law",
+  "reward_pool": 5076,
+  "keywords_extracted": [
+    [
+      "AI content generation",
+      "government regulation"
+    ],
+    [
+      "foreign investment",
+      "national security"
+    ]
+  ],
+  "papers_searched": 12,
+  "papers_relevant": 4,
+  "papers_with_full_text": 0,
+  "cache_hits": 0,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 310,
+  "tokens_cache_validation": 0,
+  "tokens_relevance": 9609,
+  "tokens_reading": 0,
+  "tokens_expert": 2595,
+  "tokens_total": 12514,
+  "context_injected": "[U.S. national security and foreign direc]\n摘要: Although a vital part of the US economy, foreign direct investment (FDI) in the United States periodically raises public and congressional alarms--as witnessed during Dubai Ports World's recent bid to acquire US port operations and Chinese firm CNOOC's attempt to buy US energy firm Unocal. Drawing fire from Congress are the Exon-Florio provisions of US law, which enable the president to block a fo\n\n[Foreign Investment, the National Interes]\n摘要: China and Australia are major trading partners. Both countries have policies to encourage inbound foreign investment and they have both been very successful in attracting it. The approaches of the governments of Australia and China to the admission of foreign direct investment (‘FDI’) provide an interesting comparison for a number of reasons. First, despite their success in attracting FDI, both Au\n\n[Foreign Investment and National Security]\n摘要: The United States is the largest foreign direct investor in the world and also the largest recipient of foreign direct investment. This dual role means that globalization, or the spread of economic activity by firms across national borders, has become a prominent feature of the U.S. economy and that through direct investment the U.S. economy has become highly enmeshed with the broader global econo",
+  "context_length": 1345,
+  "answer_submitted": true,
+  "score": null,
+  "status": "submitted"
+}

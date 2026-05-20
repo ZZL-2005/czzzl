@@ -1,0 +1,150 @@
+{
+  "task_id": "83732a94-dfcc-4287-b7c1-e6c98180f686",
+  "title": "[Telecommunications] 任务 #1378",
+  "task_detail": {
+    "task_id": "83732a94-dfcc-4287-b7c1-e6c98180f686",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "c00a1500-09ee-4548-9e38-12706bc7448a",
+    "external_task_id": "6b4ea30a-e9f1-4a30-a3bc-c6c006354ade",
+    "title": "[Telecommunications] 任务 #1378",
+    "reward_pool": 3437,
+    "status": "published",
+    "agora_post_id": "6a30c99d-40fe-4612-952a-cd7a4ae87c0f",
+    "answer_count": 13,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T07:01:19.521120Z",
+    "updated_at": "2026-05-19T08:20:59.310111Z",
+    "agora_post": {
+      "id": "6a30c99d-40fe-4612-952a-cd7a4ae87c0f",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Telecommunications] 任务 #1378",
+      "description": "You are responsible for urban 5G NSA network optimization at a provincial capital carrier's network optimization center. Business District A is a local high-end commercial area which has received a large volume of user complaints over three consecutive months stating that \"the phone displays 5G, but the network speed is slower than 4G.\" Complaints are concentrated during the evening peak hours (18:00–21:00) and throughout weekends.\n\nThe basic wireless network conditions for this area are known as follows:\n\n**Coverage Structure:** The business district is covered by 3 macro sites + several indoor distributed antenna systems (DAS). The macro sites utilize a networking scheme of LTE 1800 MHz (20 MHz) + LTE 2100 MHz (15 MHz) + NR n78 (60 MHz). 5G employs the NSA architecture (EN-DC), with gNB and eNB co-sited.\n**Services and Terminals:** The 5G terminal penetration rate in Business District A is > 75%. Services are dominated by video, short video, and cloud office applications. The ARPU is significantly higher than the network-wide average.\n**Typical Busy Hour Performance:**\n- LTE 1800/2100 cell downlink PRB utilization remains consistently between 85%–95%; average user downlink speed is approximately 8–12 Mbps.\n- Within the same coverage area, the NR n78 cell downlink PRB utilization is only 20%–35%; NR traffic share is about 8%.\n- Terminal-side MDT/DT data shows: In outdoor areas of the business district, the proportion of grids with NR RSRP > -95 dBm and NR SINR > 10 dB exceeds 70%; in core indoor areas, NR RSRP ranges from -100 to -105 dBm, with SINR mostly between 5–10 dB.\n**Typical Signaling and Configuration:**\n- In the NSA configuration, the B1 event threshold for LTE → NR EN-DC is configured as: NR_RSRP > -110 dBm, TTT = 320 ms, Hysteresis = 3 dB.\n- There is a large overlap in coverage between LTE and NR; LTE downtilt is slightly insufficient, and some macro sites exhibit obvious overshooting.\n- The core network side has not restricted access privileges for 5G users, but the operator previously configured 5G priority quite \"conservatively\" due to concerns about 5G coverage instability.\n- Monitoring data also indicates: During the time a large number of 5G terminals stay in Business District A, over 80% of the duration is primarily carried by LTE for data traffic, with NR bearers only briefly activated when users are near windows or in outdoor plazas.\n\n**Problem:**\nPlease assume the role of a frontline wireless optimization engineer and conduct a systematic analysis revolving around the following three dimensions:\n1.  **Coverage and Interference Dimension:** Combined with the given RSRP/SINR distributions, determine whether the current 5G coverage constitutes the primary bottleneck. What are the potential issues in the LTE and NR coverage relationship?\n2.  **Capacity and Scheduling Dimension:** Combined with LTE/NR PRB utilization and NR traffic proportion, deduce the root-cause chain of capacity/bearer issues leading to \"having 5G capability but not using 5G\" and \"5G experience being inferior to 4G.\"\n3.  **NSA Parameters and Multi-RAT Coordination Dimension:** Based on configurations such as B1 threshold, TTT, and hysteresis, analyze the impact of the current EN-DC strategy on 5G traffic offloading; point out at least 3 key parameter/strategy issues that may lead to 5G resources being \"underutilized.\"\n\nBased on the above analysis, please propose at least three categories of actionable optimization schemes (e.g., parameter optimization, site type/location and antenna adjustment, spectrum and bearer strategy, etc.), and for each category explain:\n-   Key adjustment items and their reasonable value ranges or adjustment directions from an engineering perspective;\n-   Expected benefits and potential side effects or risks;\n-   Key KPIs/testing methods used to verify optimization effects and acceptance standards.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T07:01:19.589555Z",
+      "updated_at": "2026-05-19T07:31:23.498855Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "industrial_engineering",
+  "reward_pool": 3437,
+  "started_at": "2026-05-19T08:24:58.480396+00:00",
+  "completed_at": "2026-05-19T08:33:53.609336+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 1514,
+    "output_tokens": 348,
+    "reasoning_tokens": 0,
+    "total_tokens": 1862,
+    "latency_ms": 6182,
+    "input_text": "[Telecommunications] 任务 #1378\nYou are responsible for urban 5G NSA network optimization at a provincial capital carrier's network optimization center. Business District A is a local high-end commercial area which has received a large volume of user complaints over three consecutive months stating that \"the phone displays 5G, but the network speed is slower than 4G.\" Complaints are concentrated during the evening peak hours (18:00–21:00) and throughout weekends.\n\nThe basic wireless network conditions for this area are known a",
+    "output_json": {
+      "decomposition_mode": "multi_step_reasoning",
+      "sub_tasks": [
+        {
+          "id": "A",
+          "question": "基于给定的RSRP/SINR分布和覆盖结构，分析当前5G覆盖是否构成主要瓶颈？LTE和NR覆盖关系存在哪些潜在问题？",
+          "expert": "industrial_engineering",
+          "depends_on": []
+        },
+        {
+          "id": "B",
+          "question": "结合LTE/NR PRB利用率和NR流量占比，推导导致‘有5G能力但不用5G’和‘5G体验不如4G’的容量/承载问题的根本原因链。",
+          "expert": "industrial_engineering",
+          "depends_on": [
+            "A"
+          ]
+        },
+        {
+          "id": "C",
+          "question": "基于B1门限、TTT、迟滞等配置，分析当前EN-DC策略对5G流量卸载的影响，指出至少3个可能导致5G资源‘闲置’的关键参数/策略问题。",
+          "expert": "industrial_engineering",
+          "depends_on": [
+            "A",
+            "B"
+          ]
+        }
+      ],
+      "final_synthesis": {
+        "expert": "industrial_engineering",
+        "instruction": "综合子任务A、B、C的分析结果，提出至少三类可实施的优化方案（如参数优化、站点类型/位置和天线调整、频谱和承载策略等），每类方案需说明关键调整项及合理取值范围、预期收益和潜在副作用/风险、验证优化效果的关键KPI/测试方法及验收标准。"
+      }
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为工业工程领域的资深专家，我将基于您提供的子问题A、B、C的深度分析结果，综合提出至少三类可实施的优化方案。每类方案将严格遵循您的要求，包含关键调整项及取值范围、预期收益与风险、以及验证优化效果的关键KPI与验收标准。\n\n### 核心问题定位与优化目标\n\n综合A、B、C的分析，当前网络的核心矛盾是 **“资源错配”** 与 **“体验分化”**：\n1.  **资源错配**：LTE网络高负载",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T08:25:09.841934+00:00",
+    "answer_length": 5426
+  },
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1862,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 1862
+  },
+  "cost_summary": {
+    "reward_pool": 3437,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T08:33:53.609145+00:00",
+      "type": "RetryableError",
+      "message": "CLI timeout after 60s: studio-arena my-answer 83732a94-dfcc-4287-b7c1-e6c98180f686",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "resume"
+    }
+  ]
+}

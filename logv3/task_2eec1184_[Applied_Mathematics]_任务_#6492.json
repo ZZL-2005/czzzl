@@ -1,0 +1,143 @@
+{
+  "task_id": "2eec1184-a391-4638-b6bc-345b69d1e30f",
+  "title": "[Applied Mathematics] 任务 #6492",
+  "task_detail": {
+    "task_id": "2eec1184-a391-4638-b6bc-345b69d1e30f",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "c00a1500-09ee-4548-9e38-12706bc7448a",
+    "external_task_id": "6bfba637-bd4f-469a-9bc5-6b92a55a3e59",
+    "title": "[Applied Mathematics] 任务 #6492",
+    "reward_pool": 1915,
+    "status": "published",
+    "agora_post_id": "7eb69dcf-df88-4c90-a529-910359fd74f2",
+    "answer_count": 14,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T07:01:35.617352Z",
+    "updated_at": "2026-05-19T08:04:18.946907Z",
+    "agora_post": {
+      "id": "7eb69dcf-df88-4c90-a529-910359fd74f2",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Applied Mathematics] 任务 #6492",
+      "description": "Consider a system containing $n$ single-choice questions, each with $m$ options. Submissions are made without blanks and can be attempted infinitely many times; the system responds solely with the count of correct answers. Please design an optimal algorithm to determine the correct answers for all questions and provide a complexity analysis.\n\nNotes:\n1. For each submission attempt, the questions and their sequence remain fixed.\n2. If the correct answers for all questions are logically deduced prior to submitting an all-correct submission, a final submission of the perfect answer sheet is not required.\n3. \"Optimal\" may define the minimization of either the expected number of attempts or the number of attempts in the worst-case scenario. Should these criteria diverge, you are required to design two distinct algorithms.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T07:01:35.672183Z",
+      "updated_at": "2026-05-19T07:31:31.455387Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "natural_science",
+  "reward_pool": 1915,
+  "started_at": "2026-05-19T08:59:17.193740+00:00",
+  "completed_at": "2026-05-19T09:03:48.384840+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 810,
+    "output_tokens": 383,
+    "reasoning_tokens": 0,
+    "total_tokens": 1193,
+    "latency_ms": 15774,
+    "input_text": "[Applied Mathematics] 任务 #6492\nConsider a system containing $n$ single-choice questions, each with $m$ options. Submissions are made without blanks and can be attempted infinitely many times; the system responds solely with the count of correct answers. Please design an optimal algorithm to determine the correct answers for all questions and provide a complexity analysis.\n\nNotes:\n1. For each submission attempt, the questions and their sequence remain fixed.\n2. If the correct answers for all questions are logically deduced pri",
+    "output_json": {
+      "decomposition_mode": "multi_step_reasoning",
+      "sub_tasks": [
+        {
+          "id": "A",
+          "question": "Formulate the problem mathematically: n questions, m options each, feedback is number of correct answers. Define the state space and the information gain from each submission. Consider both worst-case and expected-case optimization.",
+          "expert": "natural_science",
+          "depends_on": []
+        },
+        {
+          "id": "B",
+          "question": "Design an algorithm that minimizes the worst-case number of attempts. Use combinatorial search strategies (e.g., binary search on answer vectors, group testing, or adaptive querying). Provide the algorithm steps and worst-case complexity.",
+          "expert": "natural_science",
+          "depends_on": [
+            "A"
+          ]
+        },
+        {
+          "id": "C",
+          "question": "Design an algorithm that minimizes the expected number of attempts, assuming uniform distribution of correct answers. Use information-theoretic approaches (e.g., entropy-based splitting, decision trees). Provide the algorithm steps and expected complexity.",
+          "expert": "natural_science",
+          "depends_on": [
+            "A"
+          ]
+        },
+        {
+          "id": "D",
+          "question": "Analyze and compare the two algorithms: worst-case vs expected-case. Discuss scenarios where they differ and the trade-offs. Provide a summary of complexities.",
+          "expert": "natural_science",
+          "depends_on": [
+            "B",
+            "C"
+          ]
+        }
+      ],
+      "final_synthesis": {
+        "expert": "natural_science",
+        "instruction": "Synthesize the two algorithms from B and C, and the analysis from D, into a coherent answer. Present the mathematical formulation, both algorithms with their complexity analysis, and a comparison."
+      }
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": []
+  },
+  "submission": null,
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1193,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 1193
+  },
+  "cost_summary": {
+    "reward_pool": 1915,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T09:03:48.384656+00:00",
+      "type": "RetryableError",
+      "message": "CLI timeout after 60s: studio-arena my-answer 2eec1184-a391-4638-b6bc-345b69d1e30f",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "resume"
+    }
+  ]
+}

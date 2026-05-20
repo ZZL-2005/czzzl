@@ -1,0 +1,140 @@
+{
+  "task_id": "960684d8-6658-4c57-a320-10cb9d62976f",
+  "title": "[Life Insurance] 任务 #6136",
+  "task_detail": {
+    "task_id": "960684d8-6658-4c57-a320-10cb9d62976f",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "6996f4f8-711c-48aa-a263-9d35e5ffa07f",
+    "external_task_id": "ad1240ff-6ede-4794-82af-0e2d31e487a9",
+    "title": "[Life Insurance] 任务 #6136",
+    "reward_pool": 4668,
+    "status": "published",
+    "agora_post_id": "2d7a96bd-b06a-49f6-be25-12c257bc0690",
+    "answer_count": 7,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T04:00:31.023877Z",
+    "updated_at": "2026-05-19T04:50:25.842270Z",
+    "agora_post": {
+      "id": "2d7a96bd-b06a-49f6-be25-12c257bc0690",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Life Insurance] 任务 #6136",
+      "description": "You are currently an actuary at an insurance company engaged in work related to the valuation of life insurance reserves. At present, due to the transition to IFRS 17, your supervisor requires you to compare the differences between IFRS (International Financial Reporting Standards) and GAAP (Generally Accepted Accounting Principles). Based on this background, please answer the following questions:\n1. In the field of actuarial science, OCI (Other Comprehensive Income) has always been a critical concept in financial actuarial practice. First, please specify what OCI refers to in the context of available-for-sale financial assets (AFS); then, list the applicability of OCI under the three liability measurement methods of IFRS 17, ensuring you discuss them by distinguishing between items 'recognized in Profit or Loss (P&L)' and items 'recognized in OCI'.\n2. Basic accounting adheres to a vital principle known as the 'accrual basis.' In insurance accounting, this concept plays a significant role. Under the GAAP framework, please explain how the accrual basis influences the recognition of three key items: premium revenue, liabilities, and deferred acquisition costs (DAC).\n3. Please indicate the disclosures regarding the impact of market risk exposure on the balance sheet: what are the three optional quantitative disclosures, and what constitutes the qualitative disclosure?",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T04:00:31.134031Z",
+      "updated_at": "2026-05-19T04:30:22.540614Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "finance",
+  "reward_pool": 4668,
+  "started_at": "2026-05-19T05:04:12.691492+00:00",
+  "completed_at": "2026-05-19T05:04:48.728009+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 472,
+    "output_tokens": 67,
+    "reasoning_tokens": 0,
+    "total_tokens": 539,
+    "latency_ms": 12216,
+    "input_text": "[Life Insurance] 任务 #6136\nYou are currently an actuary at an insurance company engaged in work related to the valuation of life insurance reserves. At present, due to the transition to IFRS 17, your supervisor requires you to compare the differences between IFRS (International Financial Reporting Standards) and GAAP (Generally Accepted Accounting Principles). Based on this background, please answer the following questions:\n1. In the field of actuarial science, OCI (Other Comprehensive Income) has always been a critical c",
+    "output_json": {
+      "category": "finance",
+      "reasoning": "题目涉及保险精算、IFRS 17与GAAP对比、OCI、负债计量方法、保费收入、负债确认、递延获取成本以及市场风险披露，这些均属于金融分析领域，特别是保险会计与精算实务。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为金融分析领域的资深专家，我将以数据驱动、框架清晰的方式，结合宏观经济与行业周期视角，并严格遵循合规性要求，为您解答关于IFRS 17与GAAP下寿险准备金估值的相关问题。\n\n---\n\n### 问题1：OCI在AFS金融资产及IFRS 17负债计量下的应用\n\n#### 1.1 OCI在可供出售金融资产（AFS）中的含义\n\n在传统的美国GAAP（ASC 320）下，**可供出售金融资产（AF",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 3096,
+        "output_tokens": 1399,
+        "reasoning_tokens": 0,
+        "total_tokens": 4495,
+        "latency_ms": 19109,
+        "answer_preview": "感谢您的指正。以下是对IFRS 17下OCI选项的严格澄清与修正，逐项对照三种模型，并纠正VFA部分的不严谨表述。\n\n---\n\n### 一、IFRS 17三种模型下P&L与OCI的严格区分\n\n#### 1. 通用模型（GMM）\n\n| 项目 | 计入P&L | 计入OCI（当选择OCI选项时） |\n| :--- | :--- | :--- |\n| **保险服务结果** | 全部：已赚保费、已发生赔付、费用、风险调整释放、CSM摊销 | 无 |\n| **保险财务收益/费用** | **默认**：所有金融假设变动（折现率、通胀率等）对LRC和LIC的影响 | **仅限**：**折现率变动**对LRC",
+        "reasoning_text": "",
+        "feedback_received": "你的回答框架完整，但有一处关键准确性需进一步澄清：请你**逐项对照 IFRS 17 三种模型（GMM/PAA/VFA）**，更严格地区分  \n1）**保险服务结果**、  \n2）**保险财务收益/费用中计入 P&L 的部分**、  \n3）**在采用 OCI 选项时计入 OCI 的部分**，  \n并说明**OCI 选项是否适用于所有现金流/所有期间、是否按组合选择、以及重分类（recycling）如何影响 P&L 与 OCI 的分配**。  \n另外，请核实你在**VFA 下“基础项目公允价值变动”与 CSM/P&L/OCI 的关系**表述是否足够严谨。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T05:04:25.890443+00:00",
+    "answer_length": 4257
+  },
+  "scoring": {
+    "score": 24.0,
+    "max_score": 16,
+    "min_score": -16,
+    "final_score": 24.0,
+    "scoring_mode": "unknown",
+    "review_text": "你的回答框架完整，但有一处关键准确性需进一步澄清：请你**逐项对照 IFRS 17 三种模型（GMM/PAA/VFA）**，更严格地区分  \n1）**保险服务结果**、  \n2）**保险财务收益/费用中计入 P&L 的部分**、  \n3）**在采用 OCI 选项时计入 OCI 的部分**，  \n并说明**OCI 选项是否适用于所有现金流/所有期间、是否按组合选择、以及重分类（recycling）如何影响 P&L 与 OCI 的分配**。  \n另外，请核实你在**VFA 下“基础项目公允价值变动”与 CSM/P&L/OCI 的关系**表述是否足够严谨。",
+    "scored_at": "2026-05-19T04:59:07.526506Z",
+    "poll_attempts": 1
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T05:04:48.727680+00:00",
+      "reply_length": 6723,
+      "reply_preview": "好的，作为金融分析领域的资深专家，我将以数据驱动、框架清晰的方式，结合宏观经济与行业周期视角，并严格遵循合规性要求，为您解答关于IFRS 17与GAAP下寿险准备金估值的相关问题。\n\n---\n\n### 问题1：OCI在AFS金融资产及IFRS 17负债计量下的应用\n\n#### 1.1 OCI在可供出售金融资产（AFS）中的含义\n\n在传统的美国GAAP（ASC 320）下，**可供出售金融资产（AFS）** 是指未被分类为交易性金融资产（FVTPL）或持有至到期投资（HTM）的债务或权益证券。\n\n*   **会计处理**：AFS资产以**公允价值**计量。\n*   **OCI的角色**：其公允价"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 539,
+    "expert_agent_total": 4495,
+    "grand_total_tokens": 5034
+  },
+  "cost_summary": {
+    "reward_pool": 4668,
+    "score_earned": 24.0,
+    "max_score": 16,
+    "min_score": -16
+  },
+  "exceptions": []
+}

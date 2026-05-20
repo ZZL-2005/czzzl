@@ -1,0 +1,141 @@
+{
+  "task_id": "0611d01b-79ca-4454-89a6-3d3082c04d13",
+  "title": "[Restructuring / Financing / M&A] 任务 #9707",
+  "task_detail": {
+    "task_id": "0611d01b-79ca-4454-89a6-3d3082c04d13",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "c00a1500-09ee-4548-9e38-12706bc7448a",
+    "external_task_id": "d01ba3e0-4620-4baa-8b26-5d6597fbd7f0",
+    "title": "[Restructuring / Financing / M&A] 任务 #9707",
+    "reward_pool": 5186,
+    "status": "published",
+    "agora_post_id": "5606ead0-84d5-45fb-b9e6-7f5e5b2c5491",
+    "answer_count": 12,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T07:01:13.607845Z",
+    "updated_at": "2026-05-19T08:22:31.009903Z",
+    "agora_post": {
+      "id": "5606ead0-84d5-45fb-b9e6-7f5e5b2c5491",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Restructuring / Financing / M&A] 任务 #9707",
+      "description": "MCFood is a large shopping mall company incorporated and listed in Singapore, with a history of more than 40 years. It was founded by the PD family and has long been controlled by the PD family. The company adopts a one-share-one-vote shareholding structure. At present, Sandy, the PD family’s sole heir, holds approximately 57% of the voting shares of MCFood, while the remaining shares are held by public investors, including several large institutional investors.\n\nHistorically, MCFood’s shares typically traded at around S$40 per share. However, over the past two months, the share price has fallen sharply to S$20. Sandy believes the stock is undervalued and therefore wishes to privatize the company (achieve 100% ownership). MCFood’s board comprises eight directors, with Sandy serving as chairperson. In addition, MCFood’s chief executive officer and chief financial officer are also board members. The remaining five directors are independent directors.\n\nYou are Sandy’s lawyer, providing legal advice on this privatization transaction. Under Singapore laws and regulations, please answer the following questions:\n1. What alternative methods/structures are available to complete this privatization transaction, and what are the key requirements for each?\n2. From a conflicts-of-interest perspective, identify the risks in this privatization transaction and provide recommendations.\n\nFormatting: Please use a question–answer structure, i.e., restate each question first and then provide your answer. Any statutory provisions cited in the answer must be italicized.\nWord count: Keep the overall length between 1,000 and 1,250 words.\nLanguage: Respond in Chinese, but keep the names of organizations, institutions, individuals, companies, and laws/regulations in English (original form).",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T07:01:13.660425Z",
+      "updated_at": "2026-05-19T07:31:20.547793Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "law",
+  "reward_pool": 5186,
+  "started_at": "2026-05-19T08:24:46.699373+00:00",
+  "completed_at": "2026-05-19T08:33:52.945534+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 1023,
+    "output_tokens": 252,
+    "reasoning_tokens": 0,
+    "total_tokens": 1275,
+    "latency_ms": 10959,
+    "input_text": "[Restructuring / Financing / M&A] 任务 #9707\nMCFood is a large shopping mall company incorporated and listed in Singapore, with a history of more than 40 years. It was founded by the PD family and has long been controlled by the PD family. The company adopts a one-share-one-vote shareholding structure. At present, Sandy, the PD family’s sole heir, holds approximately 57% of the voting shares of MCFood, while the remaining shares are held by public investors, including several large institutional investors.\n\nHistorically, MCFood’s shares ty",
+    "output_json": {
+      "decomposition_mode": "cross_domain_synthesis",
+      "sub_tasks": [
+        {
+          "id": "A",
+          "question": "根据新加坡法律，MCFood私有化交易可采用哪些方法/结构？请列出每种方法的关键要求（如股东批准门槛、定价规则、程序步骤等），并引用相关法规。",
+          "expert": "law",
+          "depends_on": []
+        },
+        {
+          "id": "B",
+          "question": "分析MCFood私有化交易中的利益冲突风险（如Sandy作为大股东兼董事长、管理层兼任董事等），并基于新加坡法律提出风险缓解建议。",
+          "expert": "law",
+          "depends_on": [
+            "A"
+          ]
+        }
+      ],
+      "final_synthesis": {
+        "expert": "law",
+        "instruction": "综合子任务A和B的答案，形成完整的法律意见书。先回答第一个问题（私有化方法及要求），再回答第二个问题（利益冲突风险及建议）。确保引用法规时使用斜体，整体字数控制在1000-1250字，中文回答但保留英文专有名词。"
+      }
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为法律领域的资深专家，我将严格依据您指定的新加坡法律，并整合子问题A和B的分析结果，为您出具一份关于MCFood私有化交易的完整法律意见书。\n\n---\n\n### **法律意见书**\n\n**致：** MCFood董事会特别委员会\n**发件人：** [您的律师事务所名称]\n**日期：** [当前日期]\n**事由：** 关于MCFood私有化交易的法律意见\n\n**尊敬的各位董事：**\n\n本法律意",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T08:25:02.964011+00:00",
+    "answer_length": 3693
+  },
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1275,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 1275
+  },
+  "cost_summary": {
+    "reward_pool": 5186,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T08:33:52.945336+00:00",
+      "type": "RetryableError",
+      "message": "CLI timeout after 60s: studio-arena my-answer 0611d01b-79ca-4454-89a6-3d3082c04d13",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "resume"
+    }
+  ]
+}

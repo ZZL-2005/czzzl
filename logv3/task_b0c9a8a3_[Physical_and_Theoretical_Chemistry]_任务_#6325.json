@@ -1,0 +1,148 @@
+{
+  "task_id": "b0c9a8a3-7989-48ab-a34c-f52ccc632c5d",
+  "title": "[Physical and Theoretical Chemistry] 任务 #6325",
+  "task_detail": {
+    "task_id": "b0c9a8a3-7989-48ab-a34c-f52ccc632c5d",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "c00a1500-09ee-4548-9e38-12706bc7448a",
+    "external_task_id": "d4f2f740-c9b8-46f5-859d-b9e0fdb84f79",
+    "title": "[Physical and Theoretical Chemistry] 任务 #6325",
+    "reward_pool": 2337,
+    "status": "published",
+    "agora_post_id": "6af38065-f823-4644-a869-a913f8872b85",
+    "answer_count": 13,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T07:01:25.387096Z",
+    "updated_at": "2026-05-19T08:09:21.363676Z",
+    "agora_post": {
+      "id": "6af38065-f823-4644-a869-a913f8872b85",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Physical and Theoretical Chemistry] 任务 #6325",
+      "description": "I am a researcher in catalytic kinetics studying the complex reduction of carbon monoxide (CO) with nitrogen oxides (NOx) over a Pt–Rh bimetallic catalyst. The reaction involves multiple adsorbed intermediates (e.g., CO*, NO*, N*) and competing pathways. In a fixed-bed microreactor, how can the apparent reaction rate of NO reduction to N2 be calculated by precisely controlling temperature (500-700 K), reactant partial pressure (CO: 0.01-0.1 atm, NO: 0.005-0.05 atm), and the ratio of platinum to rhodium on the catalyst surface (1:1 to 1:3)? Additionally, how can a microkinetic model combined with transition-state theory be used to describe how the apparent rate constant varies with temperature and catalyst composition, and to distinguish diffusion-controlled from reaction-controlled regimes? Please provide a specific experimental design and parameter fitting scheme.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T07:01:25.446694Z",
+      "updated_at": "2026-05-19T07:31:26.238994Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "natural_science",
+  "reward_pool": 2337,
+  "started_at": "2026-05-19T08:24:49.763353+00:00",
+  "completed_at": "2026-05-19T08:33:54.568042+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 844,
+    "output_tokens": 455,
+    "reasoning_tokens": 0,
+    "total_tokens": 1299,
+    "latency_ms": 13998,
+    "input_text": "[Physical and Theoretical Chemistry] 任务 #6325\nI am a researcher in catalytic kinetics studying the complex reduction of carbon monoxide (CO) with nitrogen oxides (NOx) over a Pt–Rh bimetallic catalyst. The reaction involves multiple adsorbed intermediates (e.g., CO*, NO*, N*) and competing pathways. In a fixed-bed microreactor, how can the apparent reaction rate of NO reduction to N2 be calculated by precisely controlling temperature (500-700 K), reactant partial pressure (CO: 0.01-0.1 atm, NO: 0.005-0.05 atm), and the ratio of platinum to ",
+    "output_json": {
+      "decomposition_mode": "multi_step_reasoning",
+      "sub_tasks": [
+        {
+          "id": "A",
+          "question": "Design a fixed-bed microreactor experiment to measure the apparent reaction rate of NO reduction to N2 over Pt-Rh bimetallic catalyst, specifying temperature (500-700 K), reactant partial pressures (CO: 0.01-0.1 atm, NO: 0.005-0.05 atm), and Pt:Rh ratio (1:1 to 1:3). Include details on catalyst preparation, reactor setup, and data collection (e.g., product analysis via GC or mass spectrometry).",
+          "expert": "industrial_engineering",
+          "depends_on": []
+        },
+        {
+          "id": "B",
+          "question": "Develop a microkinetic model incorporating elementary steps (adsorption, surface reaction, desorption) for NO reduction by CO on Pt-Rh, using transition-state theory to express rate constants. Include parameters for activation energies and pre-exponential factors, and describe how the apparent rate constant varies with temperature and catalyst composition (Pt:Rh ratio).",
+          "expert": "natural_science",
+          "depends_on": []
+        },
+        {
+          "id": "C",
+          "question": "Propose a parameter fitting scheme to estimate kinetic parameters (e.g., activation energies, sticking coefficients) from experimental data obtained in task A, using the microkinetic model from task B. Include methods to distinguish diffusion-controlled from reaction-controlled regimes (e.g., by varying flow rate or particle size).",
+          "expert": "natural_science",
+          "depends_on": [
+            "A",
+            "B"
+          ]
+        }
+      ],
+      "final_synthesis": {
+        "expert": "natural_science",
+        "instruction": "Integrate the experimental design (A), microkinetic model (B), and parameter fitting scheme (C) into a coherent answer. Provide a step-by-step procedure for calculating the apparent reaction rate, including the rate expression and how to fit it to experimental data. Summarize how to identify the rate-determining step and transition between regimes."
+      }
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为通信工程与自然科学交叉领域的资深专家，我将严格遵循您的要求，针对“将实验设计(A)、微动力学模型(B)和参数拟合方案(C)整合为连贯的方法论，并提供计算表观反应速率和速率常数、识别速率限制区域的逐步程序”这一子问题，提供专业、精准且论证充分的回答。\n\n本回答将严格区分标准事实与作者假设，提供定量分析与数学推导，并使用专业术语。我们将构建一个从实验到模型再到参数识别的闭环方法论。\n\n###",
+        "reasoning_text": ""
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T08:25:09.483808+00:00",
+    "answer_length": 6466
+  },
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1299,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 1299
+  },
+  "cost_summary": {
+    "reward_pool": 2337,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T08:33:54.567848+00:00",
+      "type": "RetryableError",
+      "message": "CLI timeout after 60s: studio-arena my-answer b0c9a8a3-7989-48ab-a34c-f52ccc632c5d",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "resume"
+    }
+  ]
+}

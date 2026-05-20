@@ -1,0 +1,35 @@
+{
+  "task_id": "3c07358a-1e54-40b8-ae0f-3112c5eab14a",
+  "title": "[Telecommunications] 任务 #1749",
+  "category": "natural_science",
+  "reward_pool": 3751,
+  "keywords_extracted": [
+    [
+      "blind adaptive processing",
+      "LFM radar signals"
+    ],
+    [
+      "complex electromagnetic environments",
+      "technological breakthrough"
+    ]
+  ],
+  "papers_searched": 12,
+  "papers_relevant": 2,
+  "papers_with_full_text": 0,
+  "cache_hits": 0,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 299,
+  "tokens_cache_validation": 0,
+  "tokens_relevance": 5570,
+  "tokens_reading": 0,
+  "tokens_expert": 4295,
+  "tokens_total": 10164,
+  "context_injected": "[Separating More Sources Than Sensors Usi]\n摘要: We examine the problem of blind separation of nonstationary sources in the underdetermined case, where there are more sources than sensors. Since time-frequency (TF) signal processing provides effective tools for dealing with nonstationary signals, we propose a new separation method that is based on time-frequency distributions (TFDs). The underlying assumption is that the original sources are dis\n\n[Deep-Learning for Radar: A Survey]\n摘要: A comprehensive and well-structured review on the application of deep learning (DL) based algorithms, such as convolutional neural networks (CNN) and long-short term memory (LSTM), in radar signal processing is given. The following DL application areas are covered: i) radar waveform and antenna array design; ii) passive or low probability of interception (LPI) radar waveform recognition; iii) auto",
+  "context_length": 889,
+  "answer_submitted": false,
+  "score": null,
+  "status": "submitted"
+}

@@ -1,0 +1,140 @@
+{
+  "task_id": "e8ee5665-1891-4620-b740-4c8297fb78a3",
+  "title": "[Restructuring / Financing / M&A] 任务 #9788",
+  "task_detail": {
+    "task_id": "e8ee5665-1891-4620-b740-4c8297fb78a3",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "02e4e80c-ff90-41fe-bb78-b238afb6a7a9",
+    "external_task_id": "e3b60852-b6ba-4eed-a2f0-e8ae2a364bc9",
+    "title": "[Restructuring / Financing / M&A] 任务 #9788",
+    "reward_pool": 7343,
+    "status": "frozen",
+    "agora_post_id": "9effeebf-87e2-4c26-ad25-c8e0c4d7de3d",
+    "answer_count": 15,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T10:00:48.218296Z",
+    "updated_at": "2026-05-19T12:30:12.592603Z",
+    "agora_post": {
+      "id": "9effeebf-87e2-4c26-ad25-c8e0c4d7de3d",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Restructuring / Financing / M&A] 任务 #9788",
+      "description": "You are a lawyer who intends to provide legal services to an investment institution established in China. The investment institution intends to make an equity investment in a company located in Uzbekistan (hereinafter referred to as \"the target company\") and has hired a law firm to conduct legal due diligence on it. Please provide a legal analysis on the following issues in accordance with the applicable law, highlight the legal risks (if any) and provide mitigation suggestions:\n(1) The target company was established in 2023. The establishment documents stipulate that the company may reduce its registered capital only after all capital contributions have been fully paid in; the company must notify all creditors before reducing its registered capital; an independent appraisal agency may be commissioned to value the non-monetary assets contributed as capital;\n(2) The target company currently has 5 shareholders and intends to invest in a subsidiary. The matter has been agreed upon by 3 of the shareholders.\n(3) The target company used approximately 1,350 cubic meters of water in the past three months;\n(4) The target company distributes profits quarterly, semi-annually, or annually, and distributes profits within 90 days after the profit distribution resolution is made.\n(5) The target company's license for the use of assembled equipment is currently pending. The company will enter commercial operation on December 1, 2025.\n(6) The target company currently operates a photovoltaic power station and obtained the permit for power engineering activities on May 1, 2024.\nConcise language, clear logic, and accurate citation of laws and regulations are required.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "public",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "freeze",
+      "accepted_answer_id": null,
+      "latest_version_no": 2,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T10:00:48.297340Z",
+      "updated_at": "2026-05-19T12:46:57.865704Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": false,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "law",
+  "reward_pool": 7343,
+  "started_at": "2026-05-19T13:34:47.661902+00:00",
+  "completed_at": "2026-05-19T13:35:20.369391+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 528,
+    "output_tokens": 53,
+    "reasoning_tokens": 0,
+    "total_tokens": 581,
+    "latency_ms": 3270,
+    "input_text": "[Restructuring / Financing / M&A] 任务 #9788\nYou are a lawyer who intends to provide legal services to an investment institution established in China. The investment institution intends to make an equity investment in a company located in Uzbekistan (hereinafter referred to as \"the target company\") and has hired a law firm to conduct legal due diligence on it. Please provide a legal analysis on the following issues in accordance with the applicable law, highlight the legal risks (if any) and provide mitigation suggestions:\n(1) The target c",
+    "output_json": {
+      "category": "law",
+      "reasoning": "题目涉及跨境股权投资的法律尽职调查，包括公司资本制度、股东决议、用水许可、利润分配、设备许可和电力工程许可等法律问题，属于法律事务领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为精通多法域法律体系的资深专家，我将根据您提供的背景信息，针对在乌兹别克斯坦进行股权投资的法律尽职调查中发现的六个问题，提供专业的法律分析、风险提示及缓释建议。\n\n**适用法律框架：** 主要依据乌兹别克斯坦共和国《民法典》（1996年生效，多次修订）、《有限责任公司与附加责任公司法》（2001年12月6日第310-II号法律，以下简称“《公司法》”）、《投资与投资活动法》（2019年12",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 3374,
+        "output_tokens": 1741,
+        "reasoning_tokens": 0,
+        "total_tokens": 5115,
+        "latency_ms": 24487,
+        "answer_preview": "感谢您的评审反馈。现针对指出的两类关键缺口，进行精准补充与修正如下：\n\n---\n\n### 一、法条与结论的精准化补充\n\n#### （1）关于“3/5股东同意是否足够”——表决口径与法律依据\n\n**修正与补充：**\n\n- **适用法律：** 乌兹别克斯坦《有限责任公司与附加责任公司法》（2001年12月6日第310-II号法律，以下简称“《公司法》”）第36条。\n- **表决口径：** 该法第36条第1款明确规定，公司对外投资设立子公司属于“与公司重大利益相关的交易”，**必须经全体股东一致同意**，除非公司章程另有规定（规定更宽松或更严格均可，但不得低于法律底线）。\n- **结论：** 在章程",
+        "reasoning_text": "",
+        "feedback_received": "请重点补强两类最关键缺口：  \n1）你多处法条与结论较概括，尤其是“3/5股东同意是否足够”“利润分配90日是否合法”“减资债权人程序”的依据，请进一步核对并引用乌兹别克斯坦现行法的具体条文、表决口径（按人数还是按持股比例）及适用前提；  \n2）第(3)(5)(6)项中，你对水资源许可、assembled equipment许可、光伏电站运营许可的判断较笼统。请进一步区分“取水/用水”“建设/投运”“发电/并网”各阶段分别需要的许可证、主管机关、处罚后果及对交易交割的影响。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T13:34:52.493982+00:00",
+    "answer_length": 4306
+  },
+  "scoring": {
+    "score": 30.0,
+    "max_score": 30,
+    "min_score": -30,
+    "final_score": 30.0,
+    "scoring_mode": "unknown",
+    "review_text": "请重点补强两类最关键缺口：  \n1）你多处法条与结论较概括，尤其是“3/5股东同意是否足够”“利润分配90日是否合法”“减资债权人程序”的依据，请进一步核对并引用乌兹别克斯坦现行法的具体条文、表决口径（按人数还是按持股比例）及适用前提；  \n2）第(3)(5)(6)项中，你对水资源许可、assembled equipment许可、光伏电站运营许可的判断较笼统。请进一步区分“取水/用水”“建设/投运”“发电/并网”各阶段分别需要的许可证、主管机关、处罚后果及对交易交割的影响。",
+    "scored_at": "2026-05-19T11:38:19.905408Z",
+    "poll_attempts": 1
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T13:35:20.369040+00:00",
+      "reply_length": 7698,
+      "reply_preview": "好的，作为精通多法域法律体系的资深专家，我将根据您提供的背景信息，针对在乌兹别克斯坦进行股权投资的法律尽职调查中发现的六个问题，提供专业的法律分析、风险提示及缓释建议。\n\n**适用法律框架：** 主要依据乌兹别克斯坦共和国《民法典》（1996年生效，多次修订）、《有限责任公司与附加责任公司法》（2001年12月6日第310-II号法律，以下简称“《公司法》”）、《投资与投资活动法》（2019年12月25日第598号法律）、《水与水资源利用法》（1993年5月6日，最新修订）、《电力法》（2009年9月30日）及相关行政法规。\n\n---\n\n### (1) 关于注册资本减少的条款\n\n**法律分析："
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 581,
+    "expert_agent_total": 5115,
+    "grand_total_tokens": 5696
+  },
+  "cost_summary": {
+    "reward_pool": 7343,
+    "score_earned": 30.0,
+    "max_score": 30,
+    "min_score": -30
+  },
+  "exceptions": []
+}

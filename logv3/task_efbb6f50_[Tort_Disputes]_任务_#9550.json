@@ -1,0 +1,133 @@
+{
+  "task_id": "efbb6f50-3c7d-41c0-9183-66b5e33be984",
+  "title": "[Tort Disputes] 任务 #9550",
+  "task_detail": {
+    "task_id": "efbb6f50-3c7d-41c0-9183-66b5e33be984",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "c00a1500-09ee-4548-9e38-12706bc7448a",
+    "external_task_id": "d78a6473-ab98-4cb4-bdfe-c46ed5b67a08",
+    "title": "[Tort Disputes] 任务 #9550",
+    "reward_pool": 7233,
+    "status": "published",
+    "agora_post_id": "e48dbf0a-ce39-4af9-99e0-cb1f97dfea17",
+    "answer_count": 15,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T07:01:32.221761Z",
+    "updated_at": "2026-05-19T08:20:27.575533Z",
+    "agora_post": {
+      "id": "e48dbf0a-ce39-4af9-99e0-cb1f97dfea17",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Tort Disputes] 任务 #9550",
+      "description": "Role: A junior attorney in Texas, USA. Case Background: Your client is Plaintiff Li, a resident of Los Angeles, California. In March 2025, Li purchased a portable electric heater through Company A, an e-commerce platform registered in Houston, Texas, from a third-party seller based in Texas. The heater was produced by a Chinese manufacturer and shipped to Li's residence from Company A's warehouse in Houston via the platform's \"Integrated Warehousing and Distribution Service.\" In April 2025, while Li was using the heater, a design defect in the internal circuitry caused a short circuit and fire, resulting in injury to Li's leg and damage to household furniture, totaling $70,000 in losses. During the product listing review, Company A's platform failed to substantively verify the safety certification documents of the heater, collecting only seller service fees and warehousing management fees. Li now intends to sue Company A. Please provide an analytical opinion on the following issue: In which court should Li file the lawsuit? Please explain by citing relevant legal provisions and precedents. Citation Requirements: You must accurately cite the statute numbers (e.g., \"Tex. Civ. Prac. & Rem. Code § 82.002(a) (2023)\"). Response Structure: Respond in point form using natural paragraphs.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T07:01:32.276893Z",
+      "updated_at": "2026-05-19T07:31:29.899934Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "law",
+  "reward_pool": 7233,
+  "started_at": "2026-05-19T08:59:15.909061+00:00",
+  "completed_at": "2026-05-19T09:03:38.747647+00:00",
+  "status": "failed",
+  "plan_agent": {
+    "input_tokens": 921,
+    "output_tokens": 480,
+    "reasoning_tokens": 0,
+    "total_tokens": 1401,
+    "latency_ms": 8074,
+    "input_text": "[Tort Disputes] 任务 #9550\nRole: A junior attorney in Texas, USA. Case Background: Your client is Plaintiff Li, a resident of Los Angeles, California. In March 2025, Li purchased a portable electric heater through Company A, an e-commerce platform registered in Houston, Texas, from a third-party seller based in Texas. The heater was produced by a Chinese manufacturer and shipped to Li's residence from Company A's warehouse in Houston via the platform's \"Integrated Warehousing and Distribution Service.\" In April 2025, whil",
+    "output_json": {
+      "decomposition_mode": "multi_step_reasoning",
+      "sub_tasks": [
+        {
+          "id": "A",
+          "question": "Identify the applicable personal jurisdiction statute and relevant case law in Texas for a non-resident plaintiff suing a Texas-based e-commerce platform. Specifically, determine whether Texas courts can exercise specific jurisdiction over Company A based on its contacts with California (where the injury occurred) or based on its operations in Texas.",
+          "expert": "law",
+          "depends_on": []
+        },
+        {
+          "id": "B",
+          "question": "Identify the applicable venue statute in Texas (e.g., Tex. Civ. Prac. & Rem. Code § 15.002) and determine the proper venue for a tort claim where the defendant resides in Texas but the plaintiff resides in California and the injury occurred in California. Consider whether venue is proper in Harris County (Houston) or another county.",
+          "expert": "law",
+          "depends_on": []
+        },
+        {
+          "id": "C",
+          "question": "Analyze whether federal diversity jurisdiction exists under 28 U.S.C. § 1332, considering the citizenship of Plaintiff Li (California), Company A (Texas), and the amount in controversy ($70,000). Determine if the case can be removed to federal court or if state court is the only option.",
+          "expert": "law",
+          "depends_on": [
+            "A",
+            "B"
+          ]
+        }
+      ],
+      "final_synthesis": {
+        "expert": "law",
+        "instruction": "Synthesize the findings from sub-tasks A, B, and C to provide a comprehensive opinion on the proper court(s) for Li to file the lawsuit. Include citations to relevant Texas statutes (e.g., Tex. Civ. Prac. & Rem. Code § 82.002(a) for product liability, § 15.002 for venue) and federal statutes (28 U.S.C. § 1332 for diversity jurisdiction), as well as key precedents such as Burger King Corp. v. Rudzewicz (1985) for personal jurisdiction. Conclude with a recommendation on whether to file in Texas state court (specify county) or federal court, and explain the reasoning."
+      }
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": []
+  },
+  "submission": null,
+  "scoring": null,
+  "reply": [],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 1401,
+    "expert_agent_total": 0,
+    "grand_total_tokens": 1401
+  },
+  "cost_summary": {
+    "reward_pool": 7233,
+    "score_earned": null,
+    "max_score": null,
+    "min_score": null
+  },
+  "exceptions": [
+    {
+      "timestamp": "2026-05-19T09:03:38.747455+00:00",
+      "type": "RetryableError",
+      "message": "CLI timeout after 60s: studio-arena my-answer efbb6f50-3c7d-41c0-9183-66b5e33be984",
+      "action": "abort",
+      "retry_count": 0,
+      "resolved": false,
+      "stage": "resume"
+    }
+  ]
+}

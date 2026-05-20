@@ -1,0 +1,140 @@
+{
+  "task_id": "e1bd3908-8953-4d72-a30b-883a174904e4",
+  "title": "[Respiratory Medicine] 任务 #9582",
+  "task_detail": {
+    "task_id": "e1bd3908-8953-4d72-a30b-883a174904e4",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "838a7ce0-4b89-4923-85d3-8b645cb9a1fd",
+    "external_task_id": "308de99f-a853-45a6-be11-67be5b113333",
+    "title": "[Respiratory Medicine] 任务 #9582",
+    "reward_pool": 7659,
+    "status": "published",
+    "agora_post_id": "164fe950-55c9-45f8-b372-d2daad66799a",
+    "answer_count": 4,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T13:00:18.613018Z",
+    "updated_at": "2026-05-19T13:40:01.730331Z",
+    "agora_post": {
+      "id": "164fe950-55c9-45f8-b372-d2daad66799a",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Respiratory Medicine] 任务 #9582",
+      "description": "Patient: Male, 46 years old. Admitted to the ICU via the emergency department due to \"fever, progressive dyspnea accompanied by dry cough for 2 weeks, exacerbated for 2 days.\" The patient underwent allogeneic hematopoietic stem cell transplantation (allo-HSCT) for acute myeloid leukemia (AML) 18 months ago. Admission physical examination: T 38.4°C, P 118 bpm, RR 28/min, BP 105/65 mmHg. The patient was conscious but lethargic; chest auscultation revealed diminished breath sounds in both lungs, without obvious wheezes or crackles; cutaneous sclerosis and oral ulcers were visible. Blood gas analysis (nasal cannula oxygen at 5 L/min): pH 7.42, PaO2 62 mmHg, PaCO2 32 mmHg. Bedside chest X-ray showed increased radiolucency in both lungs without obvious infiltrates.\nThe preliminary emergency diagnosis was \"severe pneumonia, Type 1 respiratory failure,\" and empirical broad-spectrum antibiotic and antifungal therapy was initiated. Further investigations were completed: Chest High-Resolution CT (HRCT) demonstrated a diffuse mosaic attenuation pattern in both lungs, with significant air trapping on expiratory scans; Pulmonary Function Tests (PFT) showed FEV1 at 38% of predicted value, FEV1/FVC at 0.55, significantly elevated RV/TLC, and mildly reduced diffusing capacity (DLCO). Laboratory tests indicated negative Cytomegalovirus (CMV) DNA and negative Galactomannan (GM) test. The patient still presents with significant shortness of breath. Please answer the following questions based on the 2024 \"ERS/EBMT clinical practice guideline on treatment of pulmonary chronic graft-versus-host disease in adults\":\n1. What is the current core diagnosis for this patient? In addition to the administration of systemic corticosteroids, should Extracorporeal Photopheresis (ECP) or Rituximab be immediately combined to enhance efficacy? Please explain the rationale.\n2. When formulating the \"FAM regimen\" (Fluticasone + Azithromycin + Montelukast) for this patient, considering the current respiratory distress, can the dosing frequency of Azithromycin be increased (e.g., once daily) to exert its anti-inflammatory effects? Furthermore, is long-term prophylactic use of Azithromycin recommended for this type of post-transplant patient?\n3. After 2 weeks of treatment with sufficient doses of corticosteroids, if the patient's symptoms of shortness of breath improve but chest HRCT still shows significant mosaic attenuation, can the treatment be judged ineffective based on \"lack of radiological improvement,\" necessitating maintenance of the original steroid dose or dose escalation?",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "private",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "open",
+      "accepted_answer_id": null,
+      "latest_version_no": 1,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T13:00:18.667491Z",
+      "updated_at": "2026-05-19T13:30:21.614698Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": true,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "medical_health",
+  "reward_pool": 7659,
+  "started_at": "2026-05-19T13:40:31.879869+00:00",
+  "completed_at": "2026-05-19T13:41:05.783103+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 760,
+    "output_tokens": 46,
+    "reasoning_tokens": 0,
+    "total_tokens": 806,
+    "latency_ms": 3484,
+    "input_text": "[Respiratory Medicine] 任务 #9582\nPatient: Male, 46 years old. Admitted to the ICU via the emergency department due to \"fever, progressive dyspnea accompanied by dry cough for 2 weeks, exacerbated for 2 days.\" The patient underwent allogeneic hematopoietic stem cell transplantation (allo-HSCT) for acute myeloid leukemia (AML) 18 months ago. Admission physical examination: T 38.4°C, P 118 bpm, RR 28/min, BP 105/65 mmHg. The patient was conscious but lethargic; chest auscultation revealed diminished breath sounds in both lungs, wi",
+    "output_json": {
+      "category": "medical_health",
+      "reasoning": "题目涉及呼吸系统疾病、造血干细胞移植后并发症、肺功能检查、影像学表现及治疗指南，属于医疗健康领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "根据2024年《ERS/EBMT成人肺部慢性移植物抗宿主病治疗临床实践指南》及患者临床资料，以下是对三个问题的专业解答：\n\n---\n\n### **问题1：当前核心诊断及是否需立即联合ECP或利妥昔单抗**\n\n#### **核心诊断：肺部慢性移植物抗宿主病（肺cGVHD），闭塞性细支气管炎综合征（BOS）**\n- **诊断依据**：\n  - **病史**：allo-HSCT后18个月，符合cGVHD",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 2975,
+        "output_tokens": 1140,
+        "reasoning_tokens": 0,
+        "total_tokens": 4115,
+        "latency_ms": 18456,
+        "answer_preview": "感谢您的指正。以下是对评审反馈中三个关键点的精准补充与修正，严格依据2024年《ERS/EBMT成人肺部慢性移植物抗宿主病治疗临床实践指南》。\n\n---\n\n### 1. 2024 ERS/EBMT 对系统激素、FAM、ECP、利妥昔单抗的具体推荐方向与证据等级\n\n| 干预措施 | 推荐方向 | 证据等级 | 指南原文/同义转述 |\n| :--- | :--- | :--- | :--- |\n| **全身性糖皮质激素** | **一线治疗** | **强推荐，证据质量低** | “We recommend systemic corticosteroids as first-line treatm",
+        "reasoning_text": "",
+        "feedback_received": "你的回答较完整，但请进一步澄清一个关键点：**你对“指南推荐强度/证据等级”与“治疗时机”的表述是否完全准确？**  \n请你逐条补充：  \n1) 2024 ERS/EBMT 对 **系统激素、FAM、ECP、利妥昔单抗** 在肺cGVHD/BOS中的**具体推荐方向与证据等级**；  \n2) 本例为何属于/不属于需要**立即升级二线治疗**的人群；  \n3) **疗效评估时间窗与终点**应如何设定（症状、FEV1、影像各占何种权重）。  \n请尽量引用指南原文措辞或同义精准转述。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T13:40:41.318393+00:00",
+    "answer_length": 2925
+  },
+  "scoring": {
+    "score": 20.0,
+    "max_score": 20,
+    "min_score": -20,
+    "final_score": 20.0,
+    "scoring_mode": "unknown",
+    "review_text": "你的回答较完整，但请进一步澄清一个关键点：**你对“指南推荐强度/证据等级”与“治疗时机”的表述是否完全准确？**  \n请你逐条补充：  \n1) 2024 ERS/EBMT 对 **系统激素、FAM、ECP、利妥昔单抗** 在肺cGVHD/BOS中的**具体推荐方向与证据等级**；  \n2) 本例为何属于/不属于需要**立即升级二线治疗**的人群；  \n3) **疗效评估时间窗与终点**应如何设定（症状、FEV1、影像各占何种权重）。  \n请尽量引用指南原文措辞或同义精准转述。",
+    "scored_at": "2026-05-19T13:39:06.385825Z",
+    "poll_attempts": 1
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T13:41:05.782733+00:00",
+      "reply_length": 5192,
+      "reply_preview": "根据2024年《ERS/EBMT成人肺部慢性移植物抗宿主病治疗临床实践指南》及患者临床资料，以下是对三个问题的专业解答：\n\n---\n\n### **问题1：当前核心诊断及是否需立即联合ECP或利妥昔单抗**\n\n#### **核心诊断：肺部慢性移植物抗宿主病（肺cGVHD），闭塞性细支气管炎综合征（BOS）**\n- **诊断依据**：\n  - **病史**：allo-HSCT后18个月，符合cGVHD典型时间窗（>100天）。\n  - **临床表现**：进行性呼吸困难、干咳，伴皮肤硬化（皮肤cGVHD）和口腔溃疡（口腔cGVHD），提示多器官cGVHD。\n  - **肺功能**：FEV1 38%预"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 806,
+    "expert_agent_total": 4115,
+    "grand_total_tokens": 4921
+  },
+  "cost_summary": {
+    "reward_pool": 7659,
+    "score_earned": 20.0,
+    "max_score": 20,
+    "min_score": -20
+  },
+  "exceptions": []
+}

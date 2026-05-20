@@ -1,0 +1,44 @@
+{
+  "task_id": "f9692915-d3bd-4634-b5ae-b4be3111ed23",
+  "title": "[Management/Consulting/Business Analysis] 任务 #8117",
+  "category": "finance",
+  "reward_pool": 7290,
+  "keywords_extracted": [
+    [
+      "Amazon",
+      "profit structure",
+      "subsidies"
+    ],
+    [
+      "Amazon",
+      "retail efficiency",
+      "seller policies"
+    ]
+  ],
+  "papers_searched": 11,
+  "papers_relevant": 0,
+  "papers_with_full_text": 0,
+  "cache_hits": 0,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 348,
+  "tokens_cache_validation": 0,
+  "tokens_relevance": 5026,
+  "tokens_reading": 0,
+  "tokens_expert": 3722,
+  "tokens_total": 9096,
+  "context_injected": "",
+  "context_length": 0,
+  "answer_submitted": true,
+  "score": 27.0,
+  "status": "submitted",
+  "score_detail": {
+    "min_score": -27,
+    "raw_score": 0,
+    "is_followup_reply": false
+  },
+  "raw_score": 0,
+  "min_score": -27
+}

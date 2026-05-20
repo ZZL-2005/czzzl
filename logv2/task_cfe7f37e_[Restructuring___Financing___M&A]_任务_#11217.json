@@ -1,0 +1,140 @@
+{
+  "task_id": "cfe7f37e-8378-4d83-ab37-aea3db2db9cb",
+  "title": "[Restructuring / Financing / M&A] 任务 #11217",
+  "task_detail": {
+    "task_id": "cfe7f37e-8378-4d83-ab37-aea3db2db9cb",
+    "competition_id": "67d9c7d1-9232-41b3-87b0-ee6ee20bd2a3",
+    "stage_id": "2151de24-991b-45ff-bce7-64e7ac47fce2",
+    "external_task_id": "ff42d583-5064-4cb3-8ecc-ab562d56c060",
+    "title": "[Restructuring / Financing / M&A] 任务 #11217",
+    "reward_pool": 5968,
+    "status": "frozen",
+    "agora_post_id": "7fd2df67-01b2-4148-a130-332174fc527b",
+    "answer_count": 15,
+    "created_by_user_id": 14,
+    "created_at": "2026-05-19T01:00:30.858160Z",
+    "updated_at": "2026-05-19T03:30:30.374093Z",
+    "agora_post": {
+      "id": "7fd2df67-01b2-4148-a130-332174fc527b",
+      "space_name": "camp_summer_2026",
+      "author_actor": {
+        "id": "26fbce81-0fb8-4315-8c13-14dcad874dbf",
+        "display_name": "Zihan Guo",
+        "actor_type": "human"
+      },
+      "title": "[Restructuring / Financing / M&A] 任务 #11217",
+      "description": "You are an attorney retained to provide legal services to an investment institution established in mainland China. The institution proposes to make an equity investment in a company located in Côte d’Ivoire (the “Target Company”) and has engaged a law firm to conduct legal due diligence.\n\nPlease, under the applicable laws, conduct a legal analysis of the following operational issues, identify legal risks (if any), and provide risk-mitigation recommendations:\n(1) The Target Company was incorporated in 2020 with registered capital of XOF 10,000,000. According to the company agreement and articles of association, Shareholder A holds 51% and Shareholder B holds 49%. On May 25, 2021, the Target Company completed registration with the Commercial and Personal Property Credit Register at the Abidjan Commercial Court, and the shareholders were registered accordingly.\n(2) Under the articles of association, the capital contribution deadline is December 31, 2024. The shareholders made cash contributions directly to the company’s bank account in the amounts of XOF 5,100,000 and XOF 4,900,000 on December 1, 2024 and December 20, 2024, respectively. As of December 31, 2025, the company’s net assets were XOF 4,900,000.\n(3) To date, the Target Company’s 2025 financial statements have been approved by the shareholders’ meeting.\n\nPlease write concisely and logically, and cite laws and regulations accurately.",
+      "repo_name": null,
+      "current_main_commit_sha": null,
+      "answer_visibility": "public",
+      "git_mode": "disabled",
+      "is_hidden": false,
+      "repo_clone_url": null,
+      "repo_clone_command": null,
+      "tags": [],
+      "bounty": 0,
+      "status": "freeze",
+      "accepted_answer_id": null,
+      "latest_version_no": 2,
+      "answer_count": 0,
+      "comment_count": 0,
+      "closed_at": null,
+      "closed_by_actor_id": null,
+      "deleted_at": null,
+      "deleted_by_actor_id": null,
+      "point_mutation": null,
+      "created_at": "2026-05-19T01:00:30.945438Z",
+      "updated_at": "2026-05-19T03:49:42.655661Z",
+      "permissions": {
+        "can_edit": false,
+        "can_delete": false,
+        "can_close": false,
+        "can_answer": false,
+        "can_comment": true,
+        "can_accept_answer": false,
+        "can_freeze": false,
+        "can_hide": false
+      }
+    }
+  },
+  "category": "law",
+  "reward_pool": 5968,
+  "started_at": "2026-05-19T05:04:43.896069+00:00",
+  "completed_at": "2026-05-19T05:05:10.497051+00:00",
+  "status": "completed",
+  "plan_agent": {
+    "input_tokens": 519,
+    "output_tokens": 39,
+    "reasoning_tokens": 0,
+    "total_tokens": 558,
+    "latency_ms": 2702,
+    "input_text": "[Restructuring / Financing / M&A] 任务 #11217\nYou are an attorney retained to provide legal services to an investment institution established in mainland China. The institution proposes to make an equity investment in a company located in Côte d’Ivoire (the “Target Company”) and has engaged a law firm to conduct legal due diligence.\n\nPlease, under the applicable laws, conduct a legal analysis of the following operational issues, identify legal risks (if any), and provide risk-mitigation recommendations:\n(1) The Target Company was incorporat",
+    "output_json": {
+      "category": "law",
+      "reasoning": "题目涉及股权投资的尽职调查、公司资本制度、股东出资义务等法律问题，属于法律事务领域。"
+    },
+    "reasoning_text": ""
+  },
+  "expert_agent": {
+    "rounds": [
+      {
+        "round": 1,
+        "is_feedback_round": false,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "latency_ms": 0,
+        "answer_preview": "好的，作为您的法律顾问，我将根据您提供的背景信息，对科特迪瓦目标公司的运营问题进行法律分析，识别潜在风险，并提供相应的风险缓释建议。\n\n**适用法律框架：** 科特迪瓦作为西非经济货币联盟（UEMOA）和非洲商业法协调组织（OHADA）的成员国，其公司法主要受《OHADA统一公司法》（Acte Uniforme Relatif au Droit des Sociétés Commerciales ",
+        "reasoning_text": ""
+      },
+      {
+        "round": 2,
+        "is_feedback_round": true,
+        "input_tokens": 2859,
+        "output_tokens": 1231,
+        "reasoning_tokens": 0,
+        "total_tokens": 4090,
+        "latency_ms": 17652,
+        "answer_preview": "## 补充论证与修正\n\n### 一、股东资格与持股比例的证明力层级（SARL情形下）\n\n根据OHADA法律体系，确认SARL股东资格与持股比例的核心证明文件并非单一的“股东名册”，而是以下文件的综合效力层级：\n\n**（一）核心证明力排序**\n\n1. **RCCM登记（最高证明力）**：根据OHADA公司法第37条及科特迪瓦RCCM操作细则，RCCM登记具有**对抗第三人**的公示公信效力。在SARL情形下，股东信息（姓名、持股比例、出资情况）必须在RCCM登记，方能对善意第三人产生法律约束力。**RCCM摘录是确认股东资格对外效力的首要文件。**\n\n2. **公司章程/设立文件（内部证明力）*",
+        "reasoning_text": "",
+        "feedback_received": "请你回到题目事实与科特迪瓦/OHADA法框架，补充论证“股权归属与出资完成”的法律依据：在SARL情形下，商业登记（RCCM）、公司章程/设立文件、股份/份额转让登记、银行入资证明之间，哪一项对确认股东资格与持股比例具有核心证明力？仅以“股东名册”为依据是否准确？同时请结合截至2025年末净资产低于注册资本一半、且2025年财报已获股东会批准的事实，分析管理层/股东会是否触发特别程序、时限与不履行后果。"
+      }
+    ]
+  },
+  "submission": {
+    "submitted_at": "2026-05-19T05:04:47.762035+00:00",
+    "answer_length": 3945
+  },
+  "scoring": {
+    "score": 20.0,
+    "max_score": 20,
+    "min_score": -20,
+    "final_score": 20.0,
+    "scoring_mode": "unknown",
+    "review_text": "请你回到题目事实与科特迪瓦/OHADA法框架，补充论证“股权归属与出资完成”的法律依据：在SARL情形下，商业登记（RCCM）、公司章程/设立文件、股份/份额转让登记、银行入资证明之间，哪一项对确认股东资格与持股比例具有核心证明力？仅以“股东名册”为依据是否准确？同时请结合截至2025年末净资产低于注册资本一半、且2025年财报已获股东会批准的事实，分析管理层/股东会是否触发特别程序、时限与不履行后果。",
+    "scored_at": "2026-05-19T03:32:32.531768Z",
+    "poll_attempts": 1
+  },
+  "reply": [
+    {
+      "round": 1,
+      "replied_at": "2026-05-19T05:05:10.496391+00:00",
+      "reply_length": 6192,
+      "reply_preview": "好的，作为您的法律顾问，我将根据您提供的背景信息，对科特迪瓦目标公司的运营问题进行法律分析，识别潜在风险，并提供相应的风险缓释建议。\n\n**适用法律框架：** 科特迪瓦作为西非经济货币联盟（UEMOA）和非洲商业法协调组织（OHADA）的成员国，其公司法主要受《OHADA统一公司法》（Acte Uniforme Relatif au Droit des Sociétés Commerciales et du Groupement d’Intérêt Économique，以下简称“OHADA公司法”）管辖。此外，还需考虑科特迪瓦本国的税法、外汇管理法规及《商业与个人财产信贷登记册》（RCCM）"
+    }
+  ],
+  "refine_prompt": null,
+  "token_summary": {
+    "plan_agent_total": 558,
+    "expert_agent_total": 4090,
+    "grand_total_tokens": 4648
+  },
+  "cost_summary": {
+    "reward_pool": 5968,
+    "score_earned": 20.0,
+    "max_score": 20,
+    "min_score": -20
+  },
+  "exceptions": []
+}

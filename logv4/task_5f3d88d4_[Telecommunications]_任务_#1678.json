@@ -1,0 +1,44 @@
+{
+  "task_id": "5f3d88d4-abbb-4862-b320-7cb605e3471a",
+  "title": "[Telecommunications] 任务 #1678",
+  "category": "natural_science",
+  "reward_pool": 3081,
+  "keywords_extracted": [
+    [
+      "unequal power divider",
+      "1-to-8"
+    ],
+    [
+      "9.3-9.5 GHz",
+      "microwave"
+    ],
+    [
+      "insertion loss",
+      "VSWR",
+      "isolation"
+    ],
+    [
+      "amplitude error",
+      "phase error"
+    ]
+  ],
+  "papers_searched": 18,
+  "papers_relevant": 0,
+  "papers_with_full_text": 0,
+  "cache_hits": 0,
+  "cache_hits_validated": 0,
+  "cache_hit_details": [],
+  "papers_read": 0,
+  "reading_details": [],
+  "tokens_keyword": 433,
+  "tokens_cache_validation": 0,
+  "tokens_relevance": 6812,
+  "tokens_reading": 0,
+  "tokens_expert": 5673,
+  "tokens_total": 12918,
+  "context_injected": "",
+  "context_length": 0,
+  "answer_submitted": false,
+  "score": null,
+  "status": "submitted"
+}
