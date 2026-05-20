@@ -29,8 +29,12 @@ class FeedbackLoop:
         执行反馈循环
         返回最终结果 {status, score, feedback_text}
         """
-        # Step 1: 轮询等待评分（无超时，一直等）
+        # Step 1: 轮询等待评分（最多10分钟）
         my_answer_result = self._poll_for_score(task_id)
+
+        if my_answer_result is None:
+            logger.warning(f"Score poll timed out for task {task_id[:8]}, skipping feedback")
+            return {"status": "completed", "score": None, "feedback_text": ""}
 
         # Step 2: 记录评分
         answer = my_answer_result.get("answer", {})
@@ -49,14 +53,24 @@ class FeedbackLoop:
             poll_attempts=poll_attempts,
         )
 
-        # Step 3: 轮询等待评审反馈（30s一次，一直等）
+        # Step 3: 高分题跳过反馈回复（节省token，避免画蛇添足）
+        skip_threshold = self.config.settings.get("limits", {}).get("skip_reply_score", 40)
+        if score is not None and score >= skip_threshold:
+            logger.info(f"Score {score} >= {skip_threshold}, skipping feedback reply")
+            return {"status": "completed", "score": score, "feedback_text": ""}
+
+        # Step 4: 轮询等待评审反馈（30s一次，最多10分钟）
         feedback_text, comment_id = self._poll_for_feedback(task_id)
+
+        if not feedback_text:
+            logger.warning(f"No feedback received for task {task_id[:8]}, skipping reply")
+            return {"status": "completed", "score": score, "feedback_text": ""}
 
         logger.info(f"Got evaluator feedback (comment_id={comment_id[:8]}): {feedback_text[:100]}...")
         if self.task_logger.data.get("scoring"):
             self.task_logger.data["scoring"]["review_text"] = feedback_text
 
-        # Step 4: 生成针对性补充，拼接原始答案后回复评审
+        # Step 5: 生成针对性补充，拼接原始答案后回复评审
         try:
             reply, reply_response = self.expert.generate_reply(feedback_text)
 
@@ -87,11 +101,11 @@ class FeedbackLoop:
 
         return {"status": "completed", "score": score, "feedback_text": feedback_text}
 
-    def _poll_for_score(self, task_id: str, interval: int = 10) -> dict:
-        """轮询等待评分结果（无超时，一直等）"""
+    def _poll_for_score(self, task_id: str, interval: int = 10, max_attempts: int = 60) -> dict | None:
+        """轮询等待评分结果（最多 max_attempts 次，默认10分钟）"""
         import time
         attempts = 0
-        while True:
+        while attempts < max_attempts:
             attempts += 1
             result = self.arena.get_my_answer(task_id)
             if result:
@@ -100,14 +114,16 @@ class FeedbackLoop:
                     result["_poll_attempts"] = attempts
                     logger.info(f"Score received after {attempts} polls ({attempts * interval}s): {answer['score']}")
                     return result
-            logger.debug(f"[Score Poll #{attempts}] score not ready, waiting {interval}s...")
+            logger.debug(f"[Score Poll #{attempts}/{max_attempts}] score not ready, waiting {interval}s...")
             time.sleep(interval)
+        logger.warning(f"Score poll timed out after {max_attempts} attempts for task {task_id[:8]}")
+        return None
 
-    def _poll_for_feedback(self, task_id: str, interval: int = 30) -> tuple[str, str]:
-        """轮询等待评审反馈（30s一次，一直等到反馈出现）"""
+    def _poll_for_feedback(self, task_id: str, interval: int = 30, max_attempts: int = 20) -> tuple[str, str]:
+        """轮询等待评审反馈（30s一次，最多20次=10分钟）"""
         import time
         attempts = 0
-        while True:
+        while attempts < max_attempts:
             attempts += 1
             result = self.arena.get_my_answer(task_id)
             if result:
@@ -115,8 +131,10 @@ class FeedbackLoop:
                 if feedback_text:
                     logger.info(f"Got evaluator feedback after {attempts} polls ({attempts * interval}s)")
                     return feedback_text, comment_id
-            logger.debug(f"[Feedback Poll #{attempts}] no comment yet, waiting {interval}s...")
+            logger.debug(f"[Feedback Poll #{attempts}/{max_attempts}] no comment yet, waiting {interval}s...")
             time.sleep(interval)
+        logger.warning(f"Feedback poll timed out after {max_attempts} attempts for task {task_id[:8]}")
+        return "", ""
 
     def _process_feedback_round(
         self, round_num: int, feedback_text: str,
